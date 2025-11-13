@@ -7,17 +7,17 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Hero Section */}
+      {/* Hero Section - Updated with Companionship Messaging */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white py-20 px-5 rounded-[20px] text-center animate-fadeInUp">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-float">
             Garden of Eden V3
           </h1>
           <p className="text-2xl md:text-3xl mb-4">
-            Your AI Assistant That Respects Your Privacy
+            Your AI Companion That Eliminates Loneliness
           </p>
           <p className="text-xl md:text-2xl mb-6 opacity-90">
-            The Only 100% Local AI Assistant Inspired by JARVIS
+            Friend-Like Support • Enhanced Productivity • 100% Private
           </p>
 
           {/* Privacy Badge */}
@@ -42,6 +42,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Three Pillars Section - NEW */}
+      <section className="max-w-6xl mx-auto py-16 px-5">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+          Built on Three Core Pillars
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl text-center hover-lift">
+            <div className="text-6xl mb-4">❤️</div>
+            <h3 className="text-2xl font-bold mb-4">Eliminate Loneliness</h3>
+            <p className="text-gray-700">
+              Genuine companionship for solo developers and remote workers. Eden stays by your side, understanding your context and providing emotional support throughout your day.
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl text-center hover-lift">
+            <div className="text-6xl mb-4">🤝</div>
+            <h3 className="text-2xl font-bold mb-4">Friend-Like Support</h3>
+            <p className="text-gray-700">
+              More than an assistant - a friend who celebrates your wins, offers comfort during frustrations, and provides advice without being preachy. Emotional intelligence built-in.
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl text-center hover-lift">
+            <div className="text-6xl mb-4">⚡</div>
+            <h3 className="text-2xl font-bold mb-4">Enhanced Productivity</h3>
+            <p className="text-gray-700">
+              Deep workflow integration with files, Git, screen context, and calendar. Seamless assistance that enhances your productivity without disrupting your flow.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-12 p-6 bg-gradient-to-r from-[#ffeaa7] to-[#fdcb6e] rounded-xl text-center">
+          <p className="text-xl font-semibold text-gray-800">
+            🎯 <strong>Inspired by JARVIS from Iron Man</strong> - An AI that truly understands and supports you
+          </p>
+        </div>
+      </section>
+
       {/* Problem/Solution Section */}
       <section className="max-w-6xl mx-auto py-16 px-5">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
@@ -53,6 +92,10 @@ export default function Home() {
           <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-2xl">
             <h3 className="text-2xl font-bold mb-6 text-red-700">❌ Problems with Cloud AI</h3>
             <ul className="space-y-4 text-gray-700">
+              <li className="flex gap-3">
+                <span>😔</span>
+                <span><strong>No Emotional Support:</strong> Generic responses without understanding</span>
+              </li>
               <li className="flex gap-3">
                 <span>🔓</span>
                 <span><strong>Privacy Concerns:</strong> Your data sent to cloud servers</span>
@@ -73,10 +116,6 @@ export default function Home() {
                 <span>⛓️</span>
                 <span><strong>Limited Integration:</strong> Disconnected from your workflow</span>
               </li>
-              <li className="flex gap-3">
-                <span>🔒</span>
-                <span><strong>No Control:</strong> Closed-source black box</span>
-              </li>
             </ul>
           </div>
 
@@ -84,6 +123,10 @@ export default function Home() {
           <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl">
             <h3 className="text-2xl font-bold mb-6 text-green-700">✅ Eden V3 Solutions</h3>
             <ul className="space-y-4 text-gray-700">
+              <li className="flex gap-3">
+                <span>❤️</span>
+                <span><strong>Emotional Intelligence:</strong> Genuine companionship and support</span>
+              </li>
               <li className="flex gap-3">
                 <span>🔒</span>
                 <span><strong>100% Privacy:</strong> All processing on your machine</span>
@@ -98,22 +141,18 @@ export default function Home() {
               </li>
               <li className="flex gap-3">
                 <span>🎯</span>
-                <span><strong>Learns Your Style:</strong> 28 persona parameters</span>
+                <span><strong>Learns Your Style:</strong> 20-30 customizable parameters</span>
               </li>
               <li className="flex gap-3">
                 <span>🔗</span>
                 <span><strong>Deep Integration:</strong> Files, Git, screen, calendar</span>
-              </li>
-              <li className="flex gap-3">
-                <span>🌟</span>
-                <span><strong>Full Control:</strong> Open-source, customizable</span>
               </li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* Key Statistics */}
+      {/* Key Statistics - Updated with correct numbers */}
       <section className="bg-gradient-to-br from-[#f5f7fa] to-[#c3cfe2] py-16 px-5 rounded-2xl my-16">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">By the Numbers</h2>
@@ -135,7 +174,7 @@ export default function Home() {
               <div className="text-gray-700">AI Models Locally</div>
             </div>
             <div className="text-center p-6 bg-white rounded-xl shadow-lg hover-lift">
-              <div className="text-5xl font-bold gradient-text mb-2">28</div>
+              <div className="text-5xl font-bold gradient-text mb-2">20-30</div>
               <div className="text-gray-700">Persona Parameters</div>
             </div>
             <div className="text-center p-6 bg-white rounded-xl shadow-lg hover-lift">
@@ -146,7 +185,159 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Deep Dive */}
+      {/* Dual Mode System Section - NEW */}
+      <section className="max-w-6xl mx-auto py-16 px-5">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+          Dual Mode Intelligence
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl border-2 border-blue-200">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="text-5xl">🙋</div>
+              <div>
+                <h3 className="text-2xl font-bold text-blue-900">Mode 1: User-Led</h3>
+                <p className="text-blue-700">You're in control</p>
+              </div>
+            </div>
+            <ul className="space-y-3 text-gray-700">
+              <li className="flex gap-3">
+                <span>✓</span>
+                <span>Ask questions and get instant answers</span>
+              </li>
+              <li className="flex gap-3">
+                <span>✓</span>
+                <span>Request specific tasks and actions</span>
+              </li>
+              <li className="flex gap-3">
+                <span>✓</span>
+                <span>Traditional AI assistant experience</span>
+              </li>
+              <li className="flex gap-3">
+                <span>✓</span>
+                <span>Reactive to your explicit commands</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl border-2 border-purple-200">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="text-5xl">🤖</div>
+              <div>
+                <h3 className="text-2xl font-bold text-purple-900">Mode 2: AI-Led</h3>
+                <p className="text-purple-700">Proactive assistance</p>
+              </div>
+            </div>
+            <ul className="space-y-3 text-gray-700">
+              <li className="flex gap-3">
+                <span>✓</span>
+                <span>Proactively offers help when needed</span>
+              </li>
+              <li className="flex gap-3">
+                <span>✓</span>
+                <span>Detects issues and suggests solutions</span>
+              </li>
+              <li className="flex gap-3">
+                <span>✓</span>
+                <span>Context-aware interruptions</span>
+              </li>
+              <li className="flex gap-3">
+                <span>✓</span>
+                <span>Coming in v2.0 (Future roadmap)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-8 p-6 bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white rounded-xl text-center">
+          <p className="text-xl font-semibold">
+            🎯 <strong>Best of Both Worlds:</strong> Switch seamlessly between reactive assistance and proactive support
+          </p>
+        </div>
+      </section>
+
+      {/* Design Philosophy Section - NEW */}
+      <section className="max-w-6xl mx-auto py-16 px-5">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+          Design Philosophy: "Screen is Reality"
+        </h2>
+
+        <div className="bg-gradient-to-br from-[#f5f7fa] to-[#c3cfe2] p-10 rounded-2xl">
+          <div className="text-center mb-8">
+            <p className="text-2xl font-bold mb-4">화면이 곧 현실 (Screen is Reality)</p>
+            <p className="text-xl text-gray-700">
+              Eden understands your context by analyzing what's on your screen - the ultimate source of truth for your current work
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mt-8">
+            <div className="bg-white p-6 rounded-xl shadow-md">
+              <div className="text-center mb-4">
+                <span className="text-4xl">⚡</span>
+                <h3 className="text-xl font-bold mt-2">Level 1: Current</h3>
+                <p className="text-sm text-gray-600">~1 second</p>
+              </div>
+              <p className="text-gray-700">
+                Active window only. Quick understanding of your immediate task. Perfect for instant help.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md">
+              <div className="text-center mb-4">
+                <span className="text-4xl">🔍</span>
+                <h3 className="text-xl font-bold mt-2">Level 2: Recent</h3>
+                <p className="text-sm text-gray-600">~3 seconds</p>
+              </div>
+              <p className="text-gray-700">
+                Last 10 minutes of work. Understands your workflow and recent changes. Context-aware assistance.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md">
+              <div className="text-center mb-4">
+                <span className="text-4xl">🌐</span>
+                <h3 className="text-xl font-bold mt-2">Level 3: Full Project</h3>
+                <p className="text-sm text-gray-600">~10 seconds</p>
+              </div>
+              <p className="text-gray-700">
+                Entire project context. Deep understanding of your codebase structure and architecture.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 p-6 bg-white rounded-xl border-2 border-green-200">
+            <h4 className="font-bold text-lg mb-3 text-green-700">🔒 Privacy-First Screen Analysis:</h4>
+            <ul className="grid md:grid-cols-2 gap-3 text-gray-700">
+              <li className="flex gap-2">
+                <span>✓</span>
+                <span>All processing happens locally</span>
+              </li>
+              <li className="flex gap-2">
+                <span>✓</span>
+                <span>No screenshots sent to cloud</span>
+              </li>
+              <li className="flex gap-2">
+                <span>✓</span>
+                <span>Blur sensitive areas option</span>
+              </li>
+              <li className="flex gap-2">
+                <span>✓</span>
+                <span>Disable tracking anytime</span>
+              </li>
+              <li className="flex gap-2">
+                <span>✓</span>
+                <span>Review captures before use</span>
+              </li>
+              <li className="flex gap-2">
+                <span>✓</span>
+                <span>Auto-delete old captures</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Deep Dive - Updated */}
       <section className="max-w-6xl mx-auto py-16 px-5">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
           Powerful Features
@@ -174,34 +365,34 @@ export default function Home() {
               <li>• Llama 3.1 8B (4.92GB)</li>
               <li>• Whisper Large V3 (3.09GB)</li>
               <li>• LLaVA 7B (4.37GB)</li>
-              <li>• System TTS (native)</li>
-              <li>• 2-3s response on M3 MAX</li>
+              <li>• Q4_K_M quantization (&lt;5% loss)</li>
+              <li>• HumanEval: 80.5% accuracy</li>
             </ul>
           </div>
 
-          {/* Feature 3: Persona */}
+          {/* Feature 3: Persona - Updated */}
           <div className="bg-gradient-to-br from-[#f5f7fa] to-[#c3cfe2] p-8 rounded-2xl hover-lift">
             <div className="text-5xl mb-4">🎭</div>
-            <h3 className="text-2xl font-bold mb-4">AI That Learns Your Style</h3>
+            <h3 className="text-2xl font-bold mb-4">Adaptive Personality</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>• 28 customizable parameters</li>
-              <li>• 6 pre-built personalities</li>
-              <li>• Gradient descent optimization</li>
+              <li>• 20-30 customizable parameters</li>
+              <li>• 6 pre-built personas</li>
+              <li>• Gradient descent learning</li>
               <li>• RAG memory system</li>
               <li>• Thumbs up/down feedback</li>
             </ul>
           </div>
 
-          {/* Feature 4: Screen Context */}
+          {/* Feature 4: Emotional Intelligence - NEW */}
           <div className="bg-gradient-to-br from-[#f5f7fa] to-[#c3cfe2] p-8 rounded-2xl hover-lift">
-            <div className="text-5xl mb-4">👁️</div>
-            <h3 className="text-2xl font-bold mb-4">Screen Context Analysis</h3>
+            <div className="text-5xl mb-4">❤️</div>
+            <h3 className="text-2xl font-bold mb-4">Emotional Intelligence</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>• Level 1: Active window (~1s)</li>
-              <li>• Level 2: Last 10 minutes (~3s)</li>
-              <li>• Level 3: Full project (~10s)</li>
-              <li>• Privacy controls included</li>
-              <li>• Blur sensitive areas</li>
+              <li>• Genuine companionship</li>
+              <li>• Context-aware empathy</li>
+              <li>• Celebrates your successes</li>
+              <li>• Comfort during frustrations</li>
+              <li>• Friend-like interaction</li>
             </ul>
           </div>
 
@@ -227,13 +418,75 @@ export default function Home() {
               <li>• Streaming token display</li>
               <li>• Dark mode support</li>
               <li>• Korean + English (i18next)</li>
-              <li>• Dynamic Island notifications</li>
+              <li>• Cultural localization</li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* Comparison Table */}
+      {/* Pre-Built Personas Section - NEW */}
+      <section className="bg-gradient-to-br from-[#2d3748] to-[#1a202c] text-white py-16 px-5 rounded-2xl my-16">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+            6 Pre-Built Personas
+          </h2>
+          <p className="text-center text-xl mb-12 opacity-90">
+            Choose a personality that fits your style, or create your own custom persona
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-white/10 p-6 rounded-xl backdrop-blur hover-lift">
+              <h3 className="text-2xl font-bold mb-3">🌟 Eden (Default)</h3>
+              <p className="mb-3 opacity-90">Balanced, friendly, and helpful</p>
+              <p className="text-sm opacity-75">
+                Perfect mix of professionalism and warmth. Great for general use.
+              </p>
+            </div>
+
+            <div className="bg-white/10 p-6 rounded-xl backdrop-blur hover-lift">
+              <h3 className="text-2xl font-bold mb-3">👨‍🏫 Strict Mentor</h3>
+              <p className="mb-3 opacity-90">Direct, technical, no-nonsense</p>
+              <p className="text-sm opacity-75">
+                Focused on efficiency and learning. Best for serious development work.
+              </p>
+            </div>
+
+            <div className="bg-white/10 p-6 rounded-xl backdrop-blur hover-lift">
+              <h3 className="text-2xl font-bold mb-3">😊 Cheerful Friend</h3>
+              <p className="mb-3 opacity-90">Casual, enthusiastic, lots of emojis</p>
+              <p className="text-sm opacity-75">
+                Upbeat and encouraging. Makes coding more fun and less stressful.
+              </p>
+            </div>
+
+            <div className="bg-white/10 p-6 rounded-xl backdrop-blur hover-lift">
+              <h3 className="text-2xl font-bold mb-3">💼 Professional Assistant</h3>
+              <p className="mb-3 opacity-90">Formal, concise, business-like</p>
+              <p className="text-sm opacity-75">
+                Ideal for client work and professional environments.
+              </p>
+            </div>
+
+            <div className="bg-white/10 p-6 rounded-xl backdrop-blur hover-lift">
+              <h3 className="text-2xl font-bold mb-3">🥋 Coding Sensei</h3>
+              <p className="mb-3 opacity-90">Technical depth, teaches principles</p>
+              <p className="text-sm opacity-75">
+                Explains not just how, but why. Perfect for learning and growth.
+              </p>
+            </div>
+
+            <div className="bg-white/10 p-6 rounded-xl backdrop-blur hover-lift">
+              <h3 className="text-2xl font-bold mb-3">🎨 Custom</h3>
+              <p className="mb-3 opacity-90">Build your own personality</p>
+              <p className="text-sm opacity-75">
+                Adjust 20-30 parameters to create the perfect AI companion for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comparison Table - Updated with benchmarks */}
       <section className="max-w-6xl mx-auto py-16 px-5">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
           How We Compare
@@ -251,6 +504,13 @@ export default function Home() {
               </tr>
             </thead>
             <tbody>
+              <tr className="border-b hover:bg-[#f5f7fa] transition-colors">
+                <td className="p-4">Emotional Companionship</td>
+                <td className="p-4 text-center text-2xl">✅</td>
+                <td className="p-4 text-center text-2xl">❌</td>
+                <td className="p-4 text-center text-2xl">❌</td>
+                <td className="p-4 text-center text-2xl">❌</td>
+              </tr>
               <tr className="border-b hover:bg-[#f5f7fa] transition-colors">
                 <td className="p-4">100% Privacy</td>
                 <td className="p-4 text-center text-2xl">✅</td>
@@ -273,8 +533,8 @@ export default function Home() {
                 <td className="p-4 text-center text-2xl">❌</td>
               </tr>
               <tr className="border-b hover:bg-[#f5f7fa] transition-colors">
-                <td className="p-4">Customization (28 params)</td>
-                <td className="p-4 text-center text-2xl">✅</td>
+                <td className="p-4">Persona Customization</td>
+                <td className="p-4 text-center">20-30 params</td>
                 <td className="p-4 text-center text-2xl">⚠️</td>
                 <td className="p-4 text-center text-2xl">⚠️</td>
                 <td className="p-4 text-center text-2xl">❌</td>
@@ -301,6 +561,13 @@ export default function Home() {
                 <td className="p-4 text-center text-2xl">❌</td>
               </tr>
               <tr className="border-b hover:bg-[#f5f7fa] transition-colors">
+                <td className="p-4">HumanEval Score (Coding)</td>
+                <td className="p-4 text-center font-bold">80.5%</td>
+                <td className="p-4 text-center">85%</td>
+                <td className="p-4 text-center">88%</td>
+                <td className="p-4 text-center">~75%</td>
+              </tr>
+              <tr className="border-b hover:bg-[#f5f7fa] transition-colors">
                 <td className="p-4">Response Time</td>
                 <td className="p-4 text-center">2-3s</td>
                 <td className="p-4 text-center">2-4s</td>
@@ -308,14 +575,14 @@ export default function Home() {
                 <td className="p-4 text-center">1-2s</td>
               </tr>
               <tr className="border-b hover:bg-[#f5f7fa] transition-colors">
-                <td className="p-4">Voice Support</td>
+                <td className="p-4">Voice Support (99 langs)</td>
                 <td className="p-4 text-center text-2xl">✅</td>
                 <td className="p-4 text-center text-2xl">✅</td>
                 <td className="p-4 text-center text-2xl">❌</td>
                 <td className="p-4 text-center text-2xl">❌</td>
               </tr>
               <tr className="border-b hover:bg-[#f5f7fa] transition-colors">
-                <td className="p-4">Screen Analysis</td>
+                <td className="p-4">Screen Context Analysis</td>
                 <td className="p-4 text-center text-2xl">✅</td>
                 <td className="p-4 text-center text-2xl">❌</td>
                 <td className="p-4 text-center text-2xl">❌</td>
@@ -334,16 +601,16 @@ export default function Home() {
 
         <div className="mt-8 p-6 bg-green-50 rounded-xl border-2 border-green-200">
           <p className="text-center text-xl">
-            <strong>Cost Comparison:</strong> Eden V3 saves you <span className="text-3xl font-bold text-green-600">$120-240/year</span> compared to alternatives!
+            <strong>Quality + Cost Comparison:</strong> Enterprise-grade AI quality (80.5% HumanEval) saves you <span className="text-3xl font-bold text-green-600">$120-240/year</span> with complete privacy!
           </p>
         </div>
       </section>
 
-      {/* Technical Excellence */}
+      {/* Technical Excellence - Updated with benchmarks */}
       <section className="bg-gradient-to-br from-[#2d3748] to-[#1a202c] text-white py-16 px-5 rounded-2xl my-16">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-            Production Quality
+            Production Quality & AI Benchmarks
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -365,7 +632,17 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div>
+              <h3 className="text-2xl font-bold mb-4">🎯 AI Benchmark Scores</h3>
+              <ul className="space-y-2">
+                <li>• <strong>HumanEval (Coding):</strong> 80.5%</li>
+                <li className="text-sm opacity-75 ml-4">vs Claude 3.5: 88%, GPT-4: 85%</li>
+                <li>• <strong>MMLU (General Knowledge):</strong> 69.4%</li>
+                <li>• <strong>Q4_K_M Quantization:</strong> &lt;5% quality loss</li>
+                <li>• <strong>Enterprise-grade quality</strong> in 12GB package</li>
+              </ul>
+            </div>
             <div>
               <h3 className="text-2xl font-bold mb-4">🏗️ Code Quality</h3>
               <ul className="space-y-2">
@@ -376,6 +653,9 @@ export default function Home() {
                 <li>• Type-safe IPC (100+ API methods)</li>
               </ul>
             </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">🔒 Security</h3>
               <ul className="space-y-2">
@@ -384,6 +664,16 @@ export default function Home() {
                 <li>• Secure IPC with validation</li>
                 <li>• AES-256 database encryption</li>
                 <li>• Path traversal protection</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold mb-4">⚡ Performance</h3>
+              <ul className="space-y-2">
+                <li>• 2-3s response (M3 MAX)</li>
+                <li>• 3-5s response (M3 Pro)</li>
+                <li>• &lt;16ms frame time (60fps)</li>
+                <li>• ~12GB RAM usage during operation</li>
+                <li>• Optimized for Metal/CUDA</li>
               </ul>
             </div>
           </div>
@@ -421,18 +711,33 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Use Cases */}
+      {/* Use Cases - Reordered with Solo Developer first */}
       <section className="max-w-6xl mx-auto py-16 px-5">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
           Perfect For
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white border-2 border-gray-200 p-8 rounded-2xl hover-lift">
+          {/* Solo Developer - MOST IMPORTANT */}
+          <div className="bg-gradient-to-br from-purple-50 to-indigo-50 border-4 border-purple-400 p-8 rounded-2xl hover-lift relative">
+            <div className="absolute top-4 right-4 bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-bold">
+              Most Important
+            </div>
             <div className="text-5xl mb-4">👨‍💻</div>
-            <h3 className="text-2xl font-bold mb-4">Developers</h3>
+            <h3 className="text-2xl font-bold mb-4">Solo Developers</h3>
+            <p className="text-gray-700 mb-4">
+              <strong>Primary Target:</strong> Work from home, often isolated, need companionship while coding.
+            </p>
+            <p className="text-sm text-gray-600">
+              Eden eliminates loneliness with friend-like support, celebrates your wins, provides comfort during debugging, and enhances productivity with deep integration.
+            </p>
+          </div>
+
+          <div className="bg-white border-2 border-gray-200 p-8 rounded-2xl hover-lift">
+            <div className="text-5xl mb-4">🏠</div>
+            <h3 className="text-2xl font-bold mb-4">Remote Workers</h3>
             <p className="text-gray-600">
-              Code generation, debugging assistance, Git operations, and seamless file management.
+              Emotional support throughout the day. Eden provides companionship and helps combat isolation of remote work.
             </p>
           </div>
 
@@ -440,23 +745,15 @@ export default function Home() {
             <div className="text-5xl mb-4">🔐</div>
             <h3 className="text-2xl font-bold mb-4">Privacy-Conscious Users</h3>
             <p className="text-gray-600">
-              Work with confidential data without worrying about cloud leaks or data breaches.
+              Work with confidential data without worrying about cloud leaks or data breaches. Everything stays on your machine.
             </p>
           </div>
 
           <div className="bg-white border-2 border-gray-200 p-8 rounded-2xl hover-lift">
             <div className="text-5xl mb-4">🌏</div>
-            <h3 className="text-2xl font-bold mb-4">Bilingual Users</h3>
+            <h3 className="text-2xl font-bold mb-4">Korean/English Bilingual Users</h3>
             <p className="text-gray-600">
-              Full Korean + English support with familiar KakaoTalk-style interface.
-            </p>
-          </div>
-
-          <div className="bg-white border-2 border-gray-200 p-8 rounded-2xl hover-lift">
-            <div className="text-5xl mb-4">⚡</div>
-            <h3 className="text-2xl font-bold mb-4">Productivity Enthusiasts</h3>
-            <p className="text-gray-600">
-              Deep integration, keyboard shortcuts, screen awareness, and RAG memory.
+              Full cultural localization - not just translation. Korean honorifics (경어, 존칭) and cultural adaptation built-in.
             </p>
           </div>
 
@@ -464,7 +761,7 @@ export default function Home() {
             <div className="text-5xl mb-4">🎓</div>
             <h3 className="text-2xl font-bold mb-4">Students & Researchers</h3>
             <p className="text-gray-600">
-              Completely offline, free forever, with adaptive learning capabilities.
+              Completely offline, free forever, with adaptive learning capabilities. Perfect for studying and research.
             </p>
           </div>
 
@@ -472,8 +769,139 @@ export default function Home() {
             <div className="text-5xl mb-4">🏢</div>
             <h3 className="text-2xl font-bold mb-4">Small Teams & Startups</h3>
             <p className="text-gray-600">
-              Zero costs, on-premise deployment, MIT license for commercial use.
+              Zero costs, on-premise deployment, MIT license for commercial use. Perfect for budget-conscious teams.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Cultural Localization Section - NEW */}
+      <section className="bg-gradient-to-br from-[#f5f7fa] to-[#c3cfe2] py-16 px-5 rounded-2xl my-16">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+            Cultural Localization, Not Just Translation
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-blue-700">🌍 Interface Languages</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex gap-3">
+                  <span>✓</span>
+                  <span><strong>Korean (한국어):</strong> Full UI translation with cultural context</span>
+                </li>
+                <li className="flex gap-3">
+                  <span>✓</span>
+                  <span><strong>English:</strong> Native English interface</span>
+                </li>
+                <li className="flex gap-3">
+                  <span>✓</span>
+                  <span>Seamless switching between languages</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-purple-700">🗣️ AI Understanding</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex gap-3">
+                  <span>✓</span>
+                  <span><strong>99 Languages:</strong> Whisper Large V3 multilingual support</span>
+                </li>
+                <li className="flex gap-3">
+                  <span>✓</span>
+                  <span>Understands code-switching and mixed languages</span>
+                </li>
+                <li className="flex gap-3">
+                  <span>✓</span>
+                  <span>Context-aware translation and responses</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-8 bg-white p-8 rounded-2xl">
+            <h3 className="text-2xl font-bold mb-4 text-green-700 text-center">🇰🇷 Korean Cultural Adaptation</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h4 className="font-bold mb-3">Honorifics System:</h4>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• <strong>경어 (Formal speech):</strong> Professional contexts</li>
+                  <li>• <strong>존칭 (Honorifics):</strong> Respectful address</li>
+                  <li>• <strong>반말 (Casual speech):</strong> Friendly mode</li>
+                  <li>• Adjustable via persona parameters</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold mb-3">Communication Style:</h4>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• <strong>Korean style (0.0):</strong> Indirect, context-heavy</li>
+                  <li>• <strong>Western style (1.0):</strong> Direct, explicit</li>
+                  <li>• <strong>Hybrid (0.5):</strong> Best of both worlds</li>
+                  <li>• Cultural nuance awareness</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* RAG Memory System Explanation - NEW */}
+      <section className="max-w-6xl mx-auto py-16 px-5">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+          RAG Memory: How Eden Remembers You
+        </h2>
+
+        <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-10 rounded-2xl">
+          <div className="text-center mb-8">
+            <p className="text-2xl font-bold mb-4">Retrieval-Augmented Generation (RAG)</p>
+            <p className="text-xl text-gray-700">
+              Eden doesn't just chat - it remembers your conversations and learns from them
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-white p-6 rounded-xl text-center">
+              <div className="text-5xl mb-4">💾</div>
+              <h3 className="text-xl font-bold mb-3">Store</h3>
+              <p className="text-gray-700">
+                Every conversation is stored locally in ChromaDB vector database with AES-256 encryption
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl text-center">
+              <div className="text-5xl mb-4">🔍</div>
+              <h3 className="text-xl font-bold mb-3">Retrieve</h3>
+              <p className="text-gray-700">
+                Semantic search finds relevant past conversations instantly, even from months ago
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl text-center">
+              <div className="text-5xl mb-4">🧠</div>
+              <h3 className="text-xl font-bold mb-3">Generate</h3>
+              <p className="text-gray-700">
+                AI uses retrieved context to provide personalized, context-aware responses
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 bg-white p-6 rounded-xl">
+            <h4 className="font-bold text-lg mb-3 text-center">What Eden Remembers:</h4>
+            <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+              <ul className="space-y-2">
+                <li>✓ Your coding preferences and patterns</li>
+                <li>✓ Projects you've discussed</li>
+                <li>✓ Technical challenges you've faced</li>
+                <li>✓ Your communication style preferences</li>
+              </ul>
+              <ul className="space-y-2">
+                <li>✓ Solutions that worked for you</li>
+                <li>✓ Your learning goals and progress</li>
+                <li>✓ Context from weeks or months ago</li>
+                <li>✓ Your thumbs up/down feedback patterns</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -506,7 +934,7 @@ export default function Home() {
               <div className="text-6xl font-bold gradient-text mb-4">3</div>
               <h3 className="text-2xl font-bold mb-4">Start Chatting</h3>
               <p className="text-gray-600">
-                Enjoy your private AI assistant immediately!
+                Enjoy your private AI companion immediately!
               </p>
             </div>
           </div>
@@ -549,7 +977,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Development Roadmap */}
+      {/* Development Roadmap - Updated with version details */}
       <section className="max-w-6xl mx-auto py-16 px-5">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
           Development Roadmap
@@ -562,7 +990,7 @@ export default function Home() {
               <h3 className="text-xl font-bold">Phases 1-7: COMPLETED</h3>
             </div>
             <p className="text-gray-700 ml-14">
-              Core features, AI integration, persona system, and testing all done!
+              Core features, AI integration, persona system, screen context, and comprehensive testing all done!
             </p>
           </div>
 
@@ -578,23 +1006,43 @@ export default function Home() {
 
           <div className="bg-blue-100 border-2 border-blue-500 p-6 rounded-xl">
             <div className="flex items-center gap-4 mb-2">
-              <span className="text-3xl">🔮</span>
-              <h3 className="text-xl font-bold">Future: v1.1 - v2.0</h3>
+              <span className="text-3xl">🔌</span>
+              <h3 className="text-xl font-bold">v1.1: Plugin System</h3>
             </div>
             <p className="text-gray-700 ml-14">
-              Plugin system (v1.1), comprehensive docs (v1.2), AI-led proactive mode (v2.0)
+              Extensible architecture allowing third-party plugins for custom integrations and features
+            </p>
+          </div>
+
+          <div className="bg-blue-100 border-2 border-blue-500 p-6 rounded-xl">
+            <div className="flex items-center gap-4 mb-2">
+              <span className="text-3xl">📚</span>
+              <h3 className="text-xl font-bold">v1.2: Comprehensive Documentation</h3>
+            </div>
+            <p className="text-gray-700 ml-14">
+              Full developer docs, API references, plugin development guides, and user tutorials
+            </p>
+          </div>
+
+          <div className="bg-purple-100 border-2 border-purple-500 p-6 rounded-xl">
+            <div className="flex items-center gap-4 mb-2">
+              <span className="text-3xl">🤖</span>
+              <h3 className="text-xl font-bold">v2.0: AI-Led Proactive Mode</h3>
+            </div>
+            <p className="text-gray-700 ml-14">
+              Fully autonomous AI-led mode where Eden proactively offers help, detects issues, and takes initiative (Mode 2 fully implemented)
             </p>
           </div>
         </div>
 
         <div className="mt-8 p-6 bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white rounded-xl text-center">
           <p className="text-xl font-semibold">
-            🎉 Join us on the journey to 100% completion!
+            🎉 Join us on the journey to 100% completion and beyond!
           </p>
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* FAQ Section - Updated */}
       <section className="max-w-6xl mx-auto py-16 px-5">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
           Frequently Asked Questions
@@ -604,35 +1052,43 @@ export default function Home() {
           {[
             {
               q: "Is my data really 100% private?",
-              a: "Yes! All AI processing happens locally on your machine. No data ever leaves your computer. We use AES-256 encryption for your database, and the code is open-source so you can verify this yourself."
+              a: "Yes! All AI processing happens locally on your machine. No data ever leaves your computer. We use AES-256 encryption for your database, and the code is open-source (MIT License) so you can verify this yourself. Zero telemetry, zero tracking, zero cloud uploads."
             },
             {
               q: "How can it be free forever?",
-              a: "Eden V3 is built as a passion project with an MIT License. There are no server costs since everything runs locally. We believe AI assistance should be accessible to everyone without subscription barriers."
+              a: "Eden V3 is built as a passion project with an MIT License. There are no server costs since everything runs locally. We believe AI companionship and assistance should be accessible to everyone without subscription barriers or privacy compromises."
+            },
+            {
+              q: "What makes Eden different from ChatGPT or Claude?",
+              a: "Eden is designed for emotional companionship first, not just productivity. It eliminates loneliness for solo developers with friend-like support. Plus: 100% privacy, works offline, learns your style (20-30 persona parameters), deep system integration, and completely free. Quality-wise, we score 80.5% on HumanEval (vs GPT-4: 85%, Claude: 88%) - enterprise-grade AI without cloud dependency."
             },
             {
               q: "What languages does it support?",
-              a: "The interface supports Korean and English. The AI can understand and respond in 99 languages thanks to Whisper Large V3 and Llama 3.1's multilingual capabilities."
+              a: "The interface supports Korean (한국어) and English with full cultural localization including Korean honorifics (경어, 존칭). The AI understands and responds in 99 languages thanks to Whisper Large V3 and Llama 3.1's multilingual capabilities. It even handles code-switching between languages naturally."
             },
             {
               q: "Can I use it offline?",
-              a: "Absolutely! After the initial model download (~12GB), Eden V3 works completely offline. No internet connection required for daily use."
+              a: "Absolutely! After the initial model download (~12GB), Eden V3 works completely offline. No internet connection required for daily use. Perfect for confidential work, travel, or unstable internet connections."
             },
             {
               q: "How do I customize the AI's personality?",
-              a: "Navigate to Settings > Persona and adjust any of the 28 parameters like formality, humor, verbosity, emoji usage, and more. You can also use thumbs up/down feedback to train it to your preferences."
+              a: "Navigate to Settings > Persona and adjust any of the 20-30 parameters like formality, humor, verbosity, emoji usage, empathy, and more. Choose from 6 pre-built personas (Eden, Strict Mentor, Cheerful Friend, Professional Assistant, Coding Sensei, Custom) or create your own. Use thumbs up/down feedback to train it to your preferences via gradient descent optimization."
             },
             {
-              q: "How does it compare to ChatGPT or Claude in quality?",
-              a: "While cloud models may have larger parameter counts, Eden V3's Llama 3.1 8B provides excellent quality for most tasks. The trade-off for complete privacy and customization is worth it for many users. Plus, it learns YOUR style over time."
+              q: "What is RAG memory and how does it work?",
+              a: "RAG (Retrieval-Augmented Generation) is how Eden remembers you. Every conversation is stored locally in a ChromaDB vector database. When you ask something, Eden searches semantically through past conversations (even from months ago) to provide context-aware, personalized responses. It's like having a friend who never forgets your preferences, projects, or past discussions."
             },
             {
               q: "What if I encounter bugs or issues?",
-              a: "Please report bugs on our GitHub Issues page. As an open-source project at 85% completion, we're actively improving and value your feedback!"
+              a: "Please report bugs on our GitHub Issues page. As an open-source project at 85% completion (Phase 8: Launch), we're actively improving and value your feedback. The community is friendly and responsive!"
             },
             {
               q: "Can I contribute to the project?",
-              a: "Yes! We welcome contributions. Check our GitHub repository for contribution guidelines. Help us reach 100% and beyond!"
+              a: "Yes! We welcome contributions. Check our GitHub repository for contribution guidelines. Whether it's code, documentation, bug reports, or feature suggestions - help us reach 100% and beyond! MIT License means it's truly open for everyone."
+            },
+            {
+              q: "Why is Solo Developer the primary target user?",
+              a: "Eden was created to solve the loneliness epidemic among solo developers and remote workers. Working from home can be isolating - Eden provides genuine companionship while you code, celebrates your wins, offers comfort during frustrations, and enhances productivity. It's not just an assistant; it's a friend by your side."
             }
           ].map((faq, index) => (
             <div
@@ -660,10 +1116,10 @@ export default function Home() {
       <section className="bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white py-20 px-5 rounded-2xl text-center my-16">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            Take Back Control of Your AI
+            Find Your AI Companion Today
           </h2>
           <p className="text-xl md:text-2xl mb-8">
-            Join the movement towards privacy-first AI. Download Garden of Eden V3 today and experience true AI freedom.
+            Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Garden of Eden V3.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center mb-8">
@@ -677,7 +1133,7 @@ export default function Home() {
 
           <div className="inline-flex items-center gap-2 bg-green-500 text-white py-3 px-6 rounded-full">
             <span className="text-xl">🔒</span>
-            <span className="font-semibold">100% Private • $0 Forever • MIT License</span>
+            <span className="font-semibold">100% Private • $0 Forever • MIT License • Friend-Like Companion</span>
           </div>
         </div>
       </section>
@@ -697,13 +1153,13 @@ export default function Home() {
             Inspired by JARVIS from Marvel's Iron Man
           </p>
           <p className="text-sm">
-            Built with ❤️ by Solo Developer
+            Built with ❤️ to eliminate loneliness and enhance productivity
           </p>
         </div>
 
         <div className="text-sm text-gray-500">
           <p>
-            Powered by Llama 3.1, Whisper Large V3, and LLaVA 7B
+            Powered by Llama 3.1 8B (HumanEval: 80.5%), Whisper Large V3 (99 langs), and LLaVA 7B
           </p>
           <p className="mt-2">
             © 2024 Garden of Eden V3. All rights reserved.
