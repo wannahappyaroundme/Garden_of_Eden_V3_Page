@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import { locales } from '@/i18n';
 
 export const metadata: Metadata = {
   title: "Garden of Eden V3 - Your AI Companion That Eliminates Loneliness | 외로움을 없애주는 AI 동반자",
@@ -27,21 +27,14 @@ export const metadata: Metadata = {
   },
 };
 
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="alternate" hrefLang="en" href="https://garden-of-eden-v3.vercel.app" />
-        <link rel="alternate" hrefLang="ko" href="https://garden-of-eden-v3.vercel.app" />
-      </head>
-      <body className="antialiased">
-        {children}
-      </body>
-    </html>
-  );
+}) {
+  return children;
 }
