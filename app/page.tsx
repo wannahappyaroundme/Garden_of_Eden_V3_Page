@@ -4,39 +4,64 @@ import { useState } from "react";
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [language, setLanguage] = useState<'en' | 'ko'>('en');
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Hero Section - Updated with Companionship Messaging */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white py-20 px-5 rounded-[20px] text-center animate-fadeInUp">
+      {/* Language Switcher - Fixed Top Right */}
+      <div className="fixed top-4 right-4 z-50 flex gap-2 bg-white/95 backdrop-blur-sm p-2 rounded-full shadow-lg border-2 border-gray-200">
+        <button
+          onClick={() => setLanguage('en')}
+          className={`px-4 py-2 rounded-full font-bold text-sm transition-all ${
+            language === 'en'
+              ? 'bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white shadow-md'
+              : 'text-gray-700 hover:bg-gray-100'
+          }`}
+        >
+          EN
+        </button>
+        <button
+          onClick={() => setLanguage('ko')}
+          className={`px-4 py-2 rounded-full font-bold text-sm transition-all ${
+            language === 'ko'
+              ? 'bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white shadow-md'
+              : 'text-gray-700 hover:bg-gray-100'
+          }`}
+        >
+          한국어
+        </button>
+      </div>
+
+      {/* Hero Section - Improved Contrast & Translation */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white py-16 md:py-20 px-4 md:px-5 rounded-[20px] text-center animate-fadeInUp">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-float">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 animate-float text-white-shadow">
             Garden of Eden V3
           </h1>
-          <p className="text-2xl md:text-3xl mb-4">
-            Your AI Companion That Eliminates Loneliness
+          <p className="text-xl sm:text-2xl md:text-3xl mb-3 md:mb-4 font-semibold text-white-shadow">
+            {language === 'ko' ? '외로움을 없애주는 AI 동반자' : 'Your AI Companion That Eliminates Loneliness'}
           </p>
-          <p className="text-xl md:text-2xl mb-6 opacity-90">
-            Friend-Like Support • Enhanced Productivity • 100% Private
+          <p className="text-lg sm:text-xl md:text-2xl mb-4 md:mb-6 font-medium text-white-shadow">
+            {language === 'ko' ? '친구 같은 지원 • 생산성 향상 • 100% 프라이버시' : 'Friend-Like Support • Enhanced Productivity • 100% Private'}
           </p>
 
           {/* Privacy Badge */}
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#10b981] to-[#059669] text-white py-3 px-8 rounded-full mb-8 shadow-lg">
-            <span className="text-2xl">🔒</span>
-            <span className="font-semibold">100% Private - Zero Data Leaves Your Machine</span>
+          <div className="inline-flex flex-wrap items-center justify-center gap-2 bg-white text-gray-900 py-3 px-6 md:px-8 rounded-full mb-6 md:mb-8 shadow-lg font-semibold text-sm sm:text-base">
+            <span className="text-xl md:text-2xl">🔒</span>
+            <span>{language === 'ko' ? '100% 프라이빗 - 데이터가 기기를 벗어나지 않습니다' : '100% Private - Zero Data Leaves Your Machine'}</span>
           </div>
 
-          <p className="text-xl mb-8">
-            <strong>No Cloud • No Subscriptions • No Compromises</strong>
+          <p className="text-base sm:text-lg md:text-xl mb-6 md:mb-8 font-bold">
+            <strong>{language === 'ko' ? '클라우드 없음 • 구독료 없음 • 타협 없음' : 'No Cloud • No Subscriptions • No Compromises'}</strong>
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <button className="bg-white text-[#667eea] font-bold text-lg py-4 px-10 rounded-full btn-glow hover:scale-105 transition-transform">
-              Download for Free
+          {/* CTA Buttons - Mobile Responsive */}
+          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center px-4">
+            <button className="w-full sm:w-auto bg-white text-[#667eea] font-bold text-base md:text-lg py-3 md:py-4 px-8 md:px-10 rounded-full btn-glow hover:scale-105 transition-transform shadow-xl">
+              {language === 'ko' ? '무료 다운로드' : 'Download for Free'}
             </button>
-            <button className="bg-transparent border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-[#667eea] transition-all">
-              ⭐ Star on GitHub
+            <button className="w-full sm:w-auto bg-white/10 backdrop-blur border-2 border-white text-white font-bold text-base md:text-lg py-3 md:py-4 px-8 md:px-10 rounded-full hover:bg-white hover:text-[#667eea] transition-all shadow-xl">
+              ⭐ {language === 'ko' ? 'GitHub 스타' : 'Star on GitHub'}
             </button>
           </div>
         </div>
@@ -49,33 +74,33 @@ export default function Home() {
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl text-center hover-lift">
+          <div className="bg-gradient-to-br from-purple-50 to-indigo-100 p-8 rounded-2xl text-center hover-lift border border-purple-200">
             <div className="text-6xl mb-4">❤️</div>
-            <h3 className="text-2xl font-bold mb-4">Eliminate Loneliness</h3>
-            <p className="text-gray-700">
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Eliminate Loneliness</h3>
+            <p className="text-gray-800 leading-relaxed">
               Genuine companionship for solo developers and remote workers. Eden stays by your side, understanding your context and providing emotional support throughout your day.
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl text-center hover-lift">
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-2xl text-center hover-lift border border-blue-200">
             <div className="text-6xl mb-4">🤝</div>
-            <h3 className="text-2xl font-bold mb-4">Friend-Like Support</h3>
-            <p className="text-gray-700">
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Friend-Like Support</h3>
+            <p className="text-gray-800 leading-relaxed">
               More than an assistant - a friend who celebrates your wins, offers comfort during frustrations, and provides advice without being preachy. Emotional intelligence built-in.
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl text-center hover-lift">
+          <div className="bg-gradient-to-br from-green-50 to-emerald-100 p-8 rounded-2xl text-center hover-lift border border-green-200">
             <div className="text-6xl mb-4">⚡</div>
-            <h3 className="text-2xl font-bold mb-4">Enhanced Productivity</h3>
-            <p className="text-gray-700">
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Enhanced Productivity</h3>
+            <p className="text-gray-800 leading-relaxed">
               Deep workflow integration with files, Git, screen context, and calendar. Seamless assistance that enhances your productivity without disrupting your flow.
             </p>
           </div>
         </div>
 
-        <div className="mt-12 p-6 bg-gradient-to-r from-[#ffeaa7] to-[#fdcb6e] rounded-xl text-center">
-          <p className="text-xl font-semibold text-gray-800">
+        <div className="mt-12 p-6 bg-gradient-to-r from-[#ffeaa7] to-[#fdcb6e] rounded-xl text-center border-2 border-yellow-400">
+          <p className="text-xl font-semibold text-gray-900">
             🎯 <strong>Inspired by JARVIS from Iron Man</strong> - An AI that truly understands and supports you
           </p>
         </div>
@@ -89,9 +114,9 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Problems */}
-          <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold mb-6 text-red-700">❌ Problems with Cloud AI</h3>
-            <ul className="space-y-4 text-gray-700">
+          <div className="bg-gradient-to-br from-red-50 to-orange-100 p-8 rounded-2xl border-2 border-red-200">
+            <h3 className="text-2xl font-bold mb-6 text-red-800">❌ Problems with Cloud AI</h3>
+            <ul className="space-y-4 text-gray-900">
               <li className="flex gap-3">
                 <span>😔</span>
                 <span><strong>No Emotional Support:</strong> Generic responses without understanding</span>
@@ -120,9 +145,9 @@ export default function Home() {
           </div>
 
           {/* Solutions */}
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold mb-6 text-green-700">✅ Eden V3 Solutions</h3>
-            <ul className="space-y-4 text-gray-700">
+          <div className="bg-gradient-to-br from-green-50 to-emerald-100 p-8 rounded-2xl border-2 border-green-200">
+            <h3 className="text-2xl font-bold mb-6 text-green-800">✅ Eden V3 Solutions</h3>
+            <ul className="space-y-4 text-gray-900">
               <li className="flex gap-3">
                 <span>❤️</span>
                 <span><strong>Emotional Intelligence:</strong> Genuine companionship and support</span>
