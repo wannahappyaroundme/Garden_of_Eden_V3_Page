@@ -3,3 +3,6 @@ compatibility_date = "2025-11-14"
 compatibility_flags = ["nodejs_compat"]
 
 pages_build_output_dir = ".open-next"
+
+[assets]
+directory = ".open-next/assets"
