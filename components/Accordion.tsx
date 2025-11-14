@@ -24,7 +24,7 @@ export default function Accordion({ items }: AccordionProps) {
       {items.map((item, index) => (
         <div
           key={index}
-          className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow"
+          className="bg-white/60 backdrop-blur-xl rounded-2xl shadow-md overflow-hidden border border-white/50 hover:shadow-lg transition-shadow"
         >
           <button
             onClick={() => toggleItem(index)}

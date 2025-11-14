@@ -45,14 +45,16 @@ export default function Home() {
       <LanguageSwitcher />
 
       {/* Hero Section - Video-Style with Gradient Overlay */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#667eea] via-[#764ba2] to-[#667eea] text-white">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-400/80 via-indigo-400/80 to-purple-400/80 text-white">
         {/* Animated Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
             backgroundSize: '40px 40px'
           }} />
         </div>
+        {/* Glass morphism layer */}
+        <div className="absolute inset-0 backdrop-blur-3xl" />
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-20 text-center">
           <motion.div
@@ -149,7 +151,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.2 }}
-              className="bg-white p-10 rounded-3xl hover:shadow-2xl transition-shadow border border-gray-100"
+              className="bg-white/70 backdrop-blur-xl p-10 rounded-3xl hover:shadow-2xl transition-all border border-white/50"
             >
               <div className="text-6xl mb-6">{pillar.icon}</div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">{pillar.title}</h3>
@@ -241,7 +243,7 @@ export default function Home() {
       </section>
 
       {/* Stats - Large Numbers, Clean */}
-      <section className="py-24 bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white">
+      <section className="py-24 bg-gradient-to-br from-purple-400/70 to-indigo-400/70 text-white backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -291,7 +293,7 @@ export default function Home() {
 
           <Carousel autoPlay interval={8000}>
             {/* Privacy Feature */}
-            <div className="bg-white p-12 rounded-3xl shadow-lg mx-4">
+            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-3xl shadow-lg mx-4 border border-white/50">
               <div className="text-center">
                 <div className="text-6xl mb-6">🔒</div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">{t('features.privacy.title')}</h3>
@@ -321,7 +323,7 @@ export default function Home() {
             </div>
 
             {/* AI Models Feature */}
-            <div className="bg-white p-12 rounded-3xl shadow-lg mx-4">
+            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-3xl shadow-lg mx-4 border border-white/50">
               <div className="text-center">
                 <div className="text-6xl mb-6">🧠</div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">{t('features.aiModels.title')}</h3>
@@ -351,7 +353,7 @@ export default function Home() {
             </div>
 
             {/* Persona Feature */}
-            <div className="bg-white p-12 rounded-3xl shadow-lg mx-4">
+            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-3xl shadow-lg mx-4 border border-white/50">
               <div className="text-center">
                 <div className="text-6xl mb-6">🎭</div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">{t('features.persona.title')}</h3>
@@ -381,7 +383,7 @@ export default function Home() {
             </div>
 
             {/* Emotional Intelligence Feature */}
-            <div className="bg-white p-12 rounded-3xl shadow-lg mx-4">
+            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-3xl shadow-lg mx-4 border border-white/50">
               <div className="text-center">
                 <div className="text-6xl mb-6">💝</div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">{t('features.emotional.title')}</h3>
@@ -434,7 +436,7 @@ export default function Home() {
               { name: t('personas.sensei.name'), desc: t('personas.sensei.description'), details: t('personas.sensei.details'), icon: '🥋' },
               { name: t('personas.custom.name'), desc: t('personas.custom.description'), details: t('personas.custom.details'), icon: '⚙️' }
             ].map((persona, idx) => (
-              <div key={idx} className="bg-gradient-to-br from-purple-50 to-indigo-50 p-12 rounded-3xl mx-4 border border-purple-200">
+              <div key={idx} className="bg-gradient-to-br from-purple-100/50 to-indigo-100/50 backdrop-blur-xl p-12 rounded-3xl mx-4 border border-white/50">
                 <div className="text-center">
                   <div className="text-7xl mb-6">{persona.icon}</div>
                   <h3 className="text-3xl font-bold mb-4 text-gray-900">{persona.name}</h3>
@@ -460,8 +462,8 @@ export default function Home() {
           </motion.h2>
 
           <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-2xl shadow-lg overflow-hidden">
-              <thead className="bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white">
+            <table className="w-full bg-white/70 backdrop-blur-xl rounded-2xl shadow-lg overflow-hidden border border-white/50">
+              <thead className="bg-gradient-to-r from-purple-400/80 to-indigo-400/80 text-white backdrop-blur-sm">
                 <tr>
                   <th className="py-4 px-6 text-left font-bold">{t('comparison.feature')}</th>
                   <th className="py-4 px-6 text-center font-bold">{t('comparison.edenV3')}</th>
@@ -517,7 +519,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-24 bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white">
+      <section className="py-24 bg-gradient-to-br from-purple-400/70 to-indigo-400/70 text-white backdrop-blur-xl">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
