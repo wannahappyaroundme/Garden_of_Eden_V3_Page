@@ -45,8 +45,8 @@ export default function Home() {
       {/* Language Switcher */}
       <LanguageSwitcher />
 
-      {/* Hero Section - Muted Earth Tones (Diabrowser-inspired) */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#607caa]/85 via-[#98816e]/85 to-[#9f865a]/85 text-white">
+      {/* Hero Section - Mysterious Purple Gradient */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-500/75 via-violet-500/75 via-indigo-500/75 to-purple-600/75 text-white">
         {/* Animated Background Pattern */}
         <div className="absolute inset-0 opacity-15">
           <div className="absolute inset-0" style={{
@@ -101,7 +101,7 @@ export default function Home() {
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page/releases"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-[#607caa] font-bold text-lg py-4 px-10 rounded-full hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl"
+                className="bg-white text-purple-600 font-bold text-lg py-4 px-10 rounded-full hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl"
               >
                 {t('hero.downloadButton')}
               </a>
@@ -109,7 +109,7 @@ export default function Home() {
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-[#607caa] transition-all duration-300"
+                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-purple-600 transition-all duration-300"
               >
                 ⭐ {t('hero.githubButton')}
               </a>
@@ -245,7 +245,7 @@ export default function Home() {
       </section>
 
       {/* Stats - Large Numbers, Clean */}
-      <section className="py-24 bg-gradient-to-br from-[#607caa]/75 to-[#98816e]/75 text-white backdrop-blur-xl">
+      <section className="py-24 bg-gradient-to-br from-indigo-500/70 via-purple-500/70 via-violet-500/70 to-fuchsia-500/70 text-white backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -465,7 +465,7 @@ export default function Home() {
 
           <div className="overflow-x-auto">
             <table className="w-full bg-white/70 backdrop-blur-xl rounded-2xl md:rounded-[40px] shadow-lg overflow-hidden border border-white/50">
-              <thead className="bg-gradient-to-r from-[#607caa]/85 to-[#98816e]/85 text-white backdrop-blur-sm">
+              <thead className="bg-gradient-to-r from-purple-500/85 via-violet-500/85 to-indigo-500/85 text-white backdrop-blur-sm">
                 <tr>
                   <th className="py-4 px-6 text-left font-bold">{t('comparison.feature')}</th>
                   <th className="py-4 px-6 text-center font-bold">{t('comparison.edenV3')}</th>
@@ -521,7 +521,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-24 bg-gradient-to-br from-[#607caa]/75 to-[#9f865a]/75 text-white backdrop-blur-xl">
+      <section className="py-24 bg-gradient-to-br from-violet-500/70 via-purple-600/70 via-fuchsia-500/70 to-pink-500/70 text-white backdrop-blur-xl">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -553,7 +553,7 @@ export default function Home() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page/releases"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#607caa] font-bold text-lg py-4 px-10 rounded-full hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl"
+              className="bg-white text-purple-600 font-bold text-lg py-4 px-10 rounded-full hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl"
             >
               {t('finalCta.downloadButton')}
             </a>
@@ -561,7 +561,7 @@ export default function Home() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-[#607caa] transition-all duration-300"
+              className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-purple-600 transition-all duration-300"
             >
               ⭐ {t('finalCta.githubButton')}
             </a>

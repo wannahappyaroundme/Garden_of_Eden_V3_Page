@@ -455,12 +455,12 @@
   },
   "footer": {
     "title": "Garden of Eden Project",
-    "version": "버전 1.0.0-베타 • 85% 완성 • 8단계: 출시",
+    "version": "버전 3.0.1 • 85% 완성 • 8단계: 출시",
     "license": "MIT 라이선스",
     "licenseDesc": "영구 무료, 제한 없음",
     "inspiration": "마블 아이언맨의 자비스에서 영감을 받음",
-    "builtWith": "외로움 해소와 생산성 향상을 위해 ❤️로 구축됨",
+    "builtWith": "외로움 해소와 생산성 향상을 위해 제작됨",
     "poweredBy": "Qwen 2.5 14B (HumanEval: 80.5%), Whisper Large V3 (99개 언어), LLaVA 7B로 구동",
-    "copyright": "© 2025 Garden of Eden Project. 모든 권리 보유."
+    "copyright": "© 2025 Garden of Eden Project by Matthew. 모든 권리 보유."
   }
 }
