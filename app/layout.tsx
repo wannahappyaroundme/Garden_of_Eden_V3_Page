@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "Remote Work", "재택 근무"
   ],
   authors: [{ name: "Matthew" }],
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: "Garden of Eden V3 - Your AI Companion That Eliminates Loneliness",
     description: "Friend-like support, enhanced productivity, 100% private. The AI companion inspired by JARVIS from Iron Man.",
