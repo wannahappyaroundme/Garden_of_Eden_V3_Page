@@ -1,6 +1,4 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-import { notFound } from 'next/navigation';
 import { locales } from '@/i18n';
 import './globals.css';
 
@@ -15,15 +13,11 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
 
-  // 지원하지 않는 언어는 404
-  if (!locales.includes(locale as any)) {
-    notFound();
-  }
-
-  // 메시지 로드
-  const messages = await getMessages();
+  // 메시지를 직접 import
+  const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return (
     <html lang={locale}>
