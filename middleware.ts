@@ -11,11 +11,11 @@ export default createMiddleware({
   // URL에 언어 코드가 없으면 브라우저 언어 감지
   localeDetection: true,
 
-  // 언어 prefix 항상 표시 (e.g., /en/..., /ko/...)
-  localePrefix: 'always'
+  // 언어 prefix를 as-needed로 변경 (Cloudflare Pages 호환성)
+  localePrefix: 'as-needed'
 });
 
 export const config = {
-  // next-intl이 처리할 경로 패턴
-  matcher: ['/', '/(ko|en)/:path*']
+  // next-intl이 처리할 경로 패턴 (모든 경로 포함)
+  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
 };
