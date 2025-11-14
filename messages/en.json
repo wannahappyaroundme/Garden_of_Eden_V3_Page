@@ -53,7 +53,7 @@
       "offline": "Works Offline:",
       "offlineDesc": "No internet required after setup",
       "learns": "Learns Your Style:",
-      "learnsDesc": "20-30 customizable parameters",
+      "learnsDesc": "17 customizable parameters",
       "integration": "Deep Integration:",
       "integrationDesc": "Files, Git, screen, calendar"
     }
@@ -119,7 +119,7 @@
     "title": "Powerful Features",
     "privacy": {
       "title": "Privacy You Can Trust",
-      "item1": "All 12GB AI models run locally",
+      "item1": "All 16.5GB AI models run locally",
       "item2": "AES-256 encrypted database",
       "item3": "Zero telemetry, zero tracking",
       "item4": "Works completely offline",
@@ -127,7 +127,7 @@
     },
     "aiModels": {
       "title": "Powerful Local AI",
-      "item1": "Llama 3.1 8B (4.92GB)",
+      "item1": "Qwen 2.5 14B (9.0GB)",
       "item2": "Whisper Large V3 (3.09GB)",
       "item3": "LLaVA 7B (4.37GB)",
       "item4": "Q4_K_M quantization (<5% loss)",
@@ -135,7 +135,7 @@
     },
     "persona": {
       "title": "Adaptive Personality",
-      "item1": "20-30 customizable parameters",
+      "item1": "17 customizable parameters",
       "item2": "6 pre-built personas",
       "item3": "Gradient descent learning",
       "item4": "RAG memory system",
@@ -198,7 +198,7 @@
     "custom": {
       "name": "Custom",
       "description": "Build your own personality",
-      "details": "Adjust 20-30 parameters to create the perfect AI companion for you."
+      "details": "Adjust 17 parameters to create the perfect AI companion for you."
     }
   },
   "comparison": {
@@ -213,7 +213,7 @@
     "costPerYear": "Cost (per year)",
     "worksOffline": "Works Offline",
     "personaCustomization": "Persona Customization",
-    "personaParams": "20-30 params",
+    "personaParams": "17 params",
     "adaptiveLearning": "Adaptive Learning",
     "deepIntegration": "Deep System Integration",
     "openSource": "Open Source",
@@ -240,7 +240,7 @@
       "mmlu": "MMLU (General Knowledge):",
       "quantization": "Q4_K_M Quantization:",
       "quantizationValue": "<5% quality loss",
-      "enterpriseGrade": "Enterprise-grade quality in 12GB package"
+      "enterpriseGrade": "Enterprise-grade quality in 16.5GB package"
     },
     "codeQuality": {
       "title": "Code Quality",
@@ -260,10 +260,10 @@
     },
     "performance": {
       "title": "Performance",
-      "item1": "2-3s response (M3 MAX)",
+      "item1": "2-4s response (M3 MAX)",
       "item2": "3-5s response (M3 Pro)",
       "item3": "<16ms frame time (60fps)",
-      "item4": "~12GB RAM usage during operation",
+      "item4": "~16.5GB RAM usage during operation",
       "item5": "Optimized for Metal/CUDA"
     }
   },
@@ -373,7 +373,7 @@
     "step2": {
       "number": "2",
       "title": "Install & Download Models",
-      "description": "One-time 12GB AI model download (automatic)"
+      "description": "One-time 16.5GB AI model download (automatic)"
     },
     "step3": {
       "number": "3",
@@ -387,14 +387,14 @@
       "minimum": "Minimum:",
       "minItem1": "macOS 12+ or Windows 10/11",
       "minItem2": "Apple M1+ or Intel i5 8th gen+",
-      "minItem3": "16GB RAM",
-      "minItem4": "15GB free disk space",
+      "minItem3": "16GB RAM (barely sufficient)",
+      "minItem4": "20GB free disk space",
       "minItem5": "Metal (macOS) or CUDA GPU",
       "recommended": "Recommended:",
       "recItem1": "macOS 14+ or Windows 11",
       "recItem2": "Apple M3+ or AMD Ryzen 7+",
-      "recItem3": "32GB RAM",
-      "recItem4": "20GB free disk space",
+      "recItem3": "24GB+ RAM",
+      "recItem4": "25GB free disk space",
       "recItem5": "Dedicated GPU (8GB+ VRAM)"
     },
     "or": "or"
@@ -430,13 +430,13 @@
     "q2": "How can it be free forever?",
     "a2": "Eden V3 is built as a passion project with an MIT License. There are no server costs since everything runs locally. We believe AI companionship and assistance should be accessible to everyone without subscription barriers or privacy compromises.",
     "q3": "What makes Eden different from ChatGPT or Claude?",
-    "a3": "Eden is designed for emotional companionship first, not just productivity. It eliminates loneliness for solo developers with friend-like support. Plus: 100% privacy, works offline, learns your style (20-30 persona parameters), deep system integration, and completely free. Quality-wise, we score 80.5% on HumanEval (vs GPT-4: 85%, Claude: 88%) - enterprise-grade AI without cloud dependency.",
+    "a3": "Eden is designed for emotional companionship first, not just productivity. It eliminates loneliness for solo developers with friend-like support. Plus: 100% privacy, works offline, learns your style (17 persona parameters), deep system integration, and completely free. Quality-wise, we score 80.5% on HumanEval (vs GPT-4: 85%, Claude: 88%) - enterprise-grade AI without cloud dependency.",
     "q4": "What languages does it support?",
     "a4": "The interface supports Korean (한국어) and English with full cultural localization including Korean honorifics (경어, 존칭). The AI understands and responds in 99 languages thanks to Whisper Large V3 and Llama 3.1's multilingual capabilities. It even handles code-switching between languages naturally.",
     "q5": "Can I use it offline?",
-    "a5": "Absolutely! After the initial model download (~12GB), Eden V3 works completely offline. No internet connection required for daily use. Perfect for confidential work, travel, or unstable internet connections.",
+    "a5": "Absolutely! After the initial model download (~16.5GB), Eden V3 works completely offline. No internet connection required for daily use. Perfect for confidential work, travel, or unstable internet connections.",
     "q6": "How do I customize the AI's personality?",
-    "a6": "Navigate to Settings > Persona and adjust any of the 20-30 parameters like formality, humor, verbosity, emoji usage, empathy, and more. Choose from 6 pre-built personas (Eden, Strict Mentor, Cheerful Friend, Professional Assistant, Coding Sensei, Custom) or create your own. Use thumbs up/down feedback to train it to your preferences via gradient descent optimization.",
+    "a6": "Navigate to Settings > Persona and adjust any of the 17 parameters like formality, humor, verbosity, emoji usage, empathy, and more. Choose from 6 pre-built personas (Eden, Strict Mentor, Cheerful Friend, Professional Assistant, Coding Sensei, Custom) or create your own. Use thumbs up/down feedback to train it to your preferences via gradient descent optimization.",
     "q7": "What is RAG memory and how does it work?",
     "a7": "RAG (Retrieval-Augmented Generation) is how Eden remembers you. Every conversation is stored locally in a ChromaDB vector database. When you ask something, Eden searches semantically through past conversations (even from months ago) to provide context-aware, personalized responses. It's like having a friend who never forgets your preferences, projects, or past discussions.",
     "q8": "What if I encounter bugs or issues?",
@@ -460,7 +460,7 @@
     "licenseDesc": "Free Forever, No Restrictions",
     "inspiration": "Inspired by JARVIS from Marvel's Iron Man",
     "builtWith": "Built with ❤️ to eliminate loneliness and enhance productivity",
-    "poweredBy": "Powered by Llama 3.1 8B (HumanEval: 80.5%), Whisper Large V3 (99 langs), and LLaVA 7B",
+    "poweredBy": "Powered by Qwen 2.5 14B (HumanEval: 80.5%), Whisper Large V3 (99 langs), and LLaVA 7B",
     "copyright": "© 2025 Garden of Eden V3. All rights reserved."
   }
 }
