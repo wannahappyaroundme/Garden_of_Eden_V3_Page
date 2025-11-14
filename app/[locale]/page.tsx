@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 export default function Home() {
   const t = useTranslations();
 
-  // Animation variants
+  // Animation variants - Refined timings for elegance
   const fadeInUp = {
     hidden: { opacity: 0, y: 60 },
     visible: { opacity: 1, y: 0 }
@@ -20,7 +20,8 @@ export default function Home() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
+        staggerChildren: 0.15,
+        delayChildren: 0.1
       }
     }
   };
@@ -44,10 +45,10 @@ export default function Home() {
       {/* Language Switcher */}
       <LanguageSwitcher />
 
-      {/* Hero Section - Video-Style with Gradient Overlay */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-400/80 via-indigo-400/80 to-purple-400/80 text-white">
+      {/* Hero Section - Muted Earth Tones (Diabrowser-inspired) */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#607caa]/85 via-[#98816e]/85 to-[#9f865a]/85 text-white">
         {/* Animated Background Pattern */}
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 opacity-15">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
             backgroundSize: '40px 40px'
@@ -56,7 +57,7 @@ export default function Home() {
         {/* Glass morphism layer */}
         <div className="absolute inset-0 backdrop-blur-3xl" />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-6 py-20 text-center">
+        <div className="relative z-10 max-w-2xl mx-auto px-6 py-20 text-center">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -93,13 +94,14 @@ export default function Home() {
 
             <motion.div
               variants={fadeInUp}
+              transition={{ duration: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
               <a
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page/releases"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-[#667eea] font-bold text-lg py-4 px-10 rounded-full hover:scale-105 transition-transform shadow-2xl"
+                className="bg-white text-[#607caa] font-bold text-lg py-4 px-10 rounded-full hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl"
               >
                 {t('hero.downloadButton')}
               </a>
@@ -107,7 +109,7 @@ export default function Home() {
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-[#667eea] transition-all"
+                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-[#607caa] transition-all duration-300"
               >
                 ⭐ {t('hero.githubButton')}
               </a>
@@ -150,11 +152,11 @@ export default function Home() {
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: idx * 0.2 }}
-              className="bg-white/70 backdrop-blur-xl p-10 rounded-3xl hover:shadow-2xl transition-all border border-white/50"
+              transition={{ delay: idx * 0.15, duration: 0.6 }}
+              className="bg-white/70 backdrop-blur-xl p-10 rounded-2xl md:rounded-[40px] hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 border border-white/50"
             >
               <div className="text-6xl mb-6">{pillar.icon}</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">{pillar.title}</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900 tracking-tight">{pillar.title}</h3>
               <p className="text-gray-600 leading-relaxed">{pillar.desc}</p>
             </motion.div>
           ))}
@@ -243,7 +245,7 @@ export default function Home() {
       </section>
 
       {/* Stats - Large Numbers, Clean */}
-      <section className="py-24 bg-gradient-to-br from-purple-400/70 to-indigo-400/70 text-white backdrop-blur-xl">
+      <section className="py-24 bg-gradient-to-br from-[#607caa]/75 to-[#98816e]/75 text-white backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -281,7 +283,7 @@ export default function Home() {
 
       {/* Features Carousel */}
       <section className="py-24 bg-neutral-50">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-2xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -291,9 +293,9 @@ export default function Home() {
             {t('features.title')}
           </motion.h2>
 
-          <Carousel autoPlay interval={8000}>
+          <Carousel autoPlay interval={12000}>
             {/* Privacy Feature */}
-            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-3xl shadow-lg mx-4 border border-white/50">
+            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
               <div className="text-center">
                 <div className="text-6xl mb-6">🔒</div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">{t('features.privacy.title')}</h3>
@@ -323,7 +325,7 @@ export default function Home() {
             </div>
 
             {/* AI Models Feature */}
-            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-3xl shadow-lg mx-4 border border-white/50">
+            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
               <div className="text-center">
                 <div className="text-6xl mb-6">🧠</div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">{t('features.aiModels.title')}</h3>
@@ -353,7 +355,7 @@ export default function Home() {
             </div>
 
             {/* Persona Feature */}
-            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-3xl shadow-lg mx-4 border border-white/50">
+            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
               <div className="text-center">
                 <div className="text-6xl mb-6">🎭</div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">{t('features.persona.title')}</h3>
@@ -383,7 +385,7 @@ export default function Home() {
             </div>
 
             {/* Emotional Intelligence Feature */}
-            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-3xl shadow-lg mx-4 border border-white/50">
+            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
               <div className="text-center">
                 <div className="text-6xl mb-6">💝</div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">{t('features.emotional.title')}</h3>
@@ -417,7 +419,7 @@ export default function Home() {
 
       {/* Personas Carousel */}
       <section className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-2xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -427,7 +429,7 @@ export default function Home() {
             {t('personas.title')}
           </motion.h2>
 
-          <Carousel autoPlay interval={7000}>
+          <Carousel autoPlay interval={13000}>
             {[
               { name: t('personas.eden.name'), desc: t('personas.eden.description'), details: t('personas.eden.details'), icon: '🌟' },
               { name: t('personas.strictMentor.name'), desc: t('personas.strictMentor.description'), details: t('personas.strictMentor.details'), icon: '👨‍🏫' },
@@ -436,7 +438,7 @@ export default function Home() {
               { name: t('personas.sensei.name'), desc: t('personas.sensei.description'), details: t('personas.sensei.details'), icon: '🥋' },
               { name: t('personas.custom.name'), desc: t('personas.custom.description'), details: t('personas.custom.details'), icon: '⚙️' }
             ].map((persona, idx) => (
-              <div key={idx} className="bg-gradient-to-br from-purple-100/50 to-indigo-100/50 backdrop-blur-xl p-12 rounded-3xl mx-4 border border-white/50">
+              <div key={idx} className="bg-gradient-to-br from-purple-100/50 to-indigo-100/50 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
                 <div className="text-center">
                   <div className="text-7xl mb-6">{persona.icon}</div>
                   <h3 className="text-3xl font-bold mb-4 text-gray-900">{persona.name}</h3>
@@ -462,8 +464,8 @@ export default function Home() {
           </motion.h2>
 
           <div className="overflow-x-auto">
-            <table className="w-full bg-white/70 backdrop-blur-xl rounded-2xl shadow-lg overflow-hidden border border-white/50">
-              <thead className="bg-gradient-to-r from-purple-400/80 to-indigo-400/80 text-white backdrop-blur-sm">
+            <table className="w-full bg-white/70 backdrop-blur-xl rounded-2xl md:rounded-[40px] shadow-lg overflow-hidden border border-white/50">
+              <thead className="bg-gradient-to-r from-[#607caa]/85 to-[#98816e]/85 text-white backdrop-blur-sm">
                 <tr>
                   <th className="py-4 px-6 text-left font-bold">{t('comparison.feature')}</th>
                   <th className="py-4 px-6 text-center font-bold">{t('comparison.edenV3')}</th>
@@ -519,7 +521,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-24 bg-gradient-to-br from-purple-400/70 to-indigo-400/70 text-white backdrop-blur-xl">
+      <section className="py-24 bg-gradient-to-br from-[#607caa]/75 to-[#9f865a]/75 text-white backdrop-blur-xl">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -551,7 +553,7 @@ export default function Home() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page/releases"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#667eea] font-bold text-lg py-4 px-10 rounded-full hover:scale-105 transition-transform shadow-2xl"
+              className="bg-white text-[#607caa] font-bold text-lg py-4 px-10 rounded-full hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl"
             >
               {t('finalCta.downloadButton')}
             </a>
@@ -559,7 +561,7 @@ export default function Home() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-[#667eea] transition-all"
+              className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-[#607caa] transition-all duration-300"
             >
               ⭐ {t('finalCta.githubButton')}
             </a>

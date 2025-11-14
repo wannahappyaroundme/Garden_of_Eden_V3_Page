@@ -24,11 +24,11 @@ export default function Accordion({ items }: AccordionProps) {
       {items.map((item, index) => (
         <div
           key={index}
-          className="bg-white/60 backdrop-blur-xl rounded-2xl shadow-md overflow-hidden border border-white/50 hover:shadow-lg transition-shadow"
+          className="bg-white/60 backdrop-blur-xl rounded-2xl md:rounded-[32px] shadow-md overflow-hidden border border-white/50 hover:shadow-lg transition-all duration-300"
         >
           <button
             onClick={() => toggleItem(index)}
-            className="w-full flex items-center justify-between p-6 text-left transition-colors hover:bg-gray-50"
+            className="w-full flex items-center justify-between p-6 text-left transition-colors duration-300 hover:bg-gray-50"
           >
             <span className="font-semibold text-lg text-gray-900 pr-8">
               {item.question}
@@ -55,7 +55,7 @@ export default function Accordion({ items }: AccordionProps) {
                 initial={{ height: 0, opacity: 0 }}
                 animate={{ height: 'auto', opacity: 1 }}
                 exit={{ height: 0, opacity: 0 }}
-                transition={{ duration: 0.3, ease: 'easeInOut' }}
+                transition={{ duration: 0.4, ease: 'easeInOut' }}
               >
                 <div className="px-6 pb-6 text-gray-700 leading-relaxed">
                   {item.answer}
