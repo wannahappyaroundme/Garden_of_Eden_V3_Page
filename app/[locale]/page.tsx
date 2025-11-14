@@ -14,80 +14,90 @@ export default function Home() {
       <LanguageSwitcher />
 
       {/* Hero Section - Improved Contrast & Translation */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white py-16 md:py-20 px-4 md:px-5 rounded-[20px] text-center animate-fadeInUp">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white py-12 md:py-20 px-4 md:px-5 rounded-[20px] text-center animate-fadeInUp">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 animate-float text-white-shadow">
+          <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-3 md:mb-6 animate-float text-white-shadow">
             {t('hero.title')}
           </h1>
-          <p className="text-xl sm:text-2xl md:text-3xl mb-3 md:mb-4 font-semibold text-white-shadow">
+          <p className="text-lg sm:text-xl md:text-3xl mb-2 md:mb-4 font-semibold text-white-shadow">
             {t('hero.subtitle')}
           </p>
-          <p className="text-lg sm:text-xl md:text-2xl mb-4 md:mb-6 font-medium text-white-shadow">
+          <p className="text-sm sm:text-base md:text-2xl mb-3 md:mb-6 font-medium text-white-shadow">
             {t('hero.tagline')}
           </p>
 
           {/* Privacy Badge */}
-          <div className="inline-flex flex-wrap items-center justify-center gap-2 bg-white text-gray-900 py-3 px-6 md:px-8 rounded-full mb-6 md:mb-8 shadow-lg font-semibold text-sm sm:text-base">
-            <span className="text-xl md:text-2xl">🔒</span>
+          <div className="inline-flex flex-wrap items-center justify-center gap-2 bg-white text-gray-900 py-2 px-4 md:py-3 md:px-8 rounded-full mb-4 md:mb-8 shadow-lg font-semibold text-xs sm:text-sm md:text-base">
+            <span className="text-base md:text-2xl">🔒</span>
             <span>{t('hero.privacyBadge')}</span>
           </div>
 
-          <p className="text-base sm:text-lg md:text-xl mb-6 md:mb-8 font-bold">
+          <p className="text-sm sm:text-base md:text-xl mb-4 md:mb-8 font-bold">
             <strong>{t('hero.noCompromise')}</strong>
           </p>
 
           {/* CTA Buttons - Mobile Responsive */}
-          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center px-4">
-            <button className="w-full sm:w-auto bg-white text-[#667eea] font-bold text-base md:text-lg py-3 md:py-4 px-8 md:px-10 rounded-full btn-glow hover:scale-105 transition-transform shadow-xl">
+          <div className="flex flex-col sm:flex-row gap-2 md:gap-4 justify-center items-center px-4">
+            <a
+              href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page/releases"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto bg-white text-[#667eea] font-bold text-sm md:text-lg py-2.5 md:py-4 px-6 md:px-10 rounded-full btn-glow hover:scale-105 transition-transform shadow-xl text-center"
+            >
               {t('hero.downloadButton')}
-            </button>
-            <button className="w-full sm:w-auto bg-white/10 backdrop-blur border-2 border-white text-white font-bold text-base md:text-lg py-3 md:py-4 px-8 md:px-10 rounded-full hover:bg-white hover:text-[#667eea] transition-all shadow-xl">
+            </a>
+            <a
+              href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto bg-white/10 backdrop-blur border-2 border-white text-white font-bold text-sm md:text-lg py-2.5 md:py-4 px-6 md:px-10 rounded-full hover:bg-white hover:text-[#667eea] transition-all shadow-xl text-center"
+            >
               ⭐ {t('hero.githubButton')}
-            </button>
+            </a>
           </div>
         </div>
       </section>
 
       {/* Three Pillars Section - NEW */}
-      <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+      <section className="max-w-6xl mx-auto py-12 md:py-16 px-5">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-8 md:mb-12 gradient-text">
           {t('pillars.title')}
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-gradient-to-br from-purple-50 to-indigo-100 p-8 rounded-2xl text-center hover-lift border border-purple-200">
-            <div className="text-6xl mb-4">❤️</div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">
+        <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+          <div className="bg-gradient-to-br from-purple-50 to-indigo-100 p-6 md:p-8 rounded-2xl text-center hover-lift border border-purple-200">
+            <div className="text-4xl md:text-6xl mb-3 md:mb-4">❤️</div>
+            <h3 className="text-lg md:text-2xl font-bold mb-3 md:mb-4 text-gray-900">
               {t('pillars.loneliness.title')}
             </h3>
-            <p className="text-gray-800 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-800 leading-relaxed">
               {t('pillars.loneliness.description')}
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-2xl text-center hover-lift border border-blue-200">
-            <div className="text-6xl mb-4">🤝</div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-100 p-6 md:p-8 rounded-2xl text-center hover-lift border border-blue-200">
+            <div className="text-4xl md:text-6xl mb-3 md:mb-4">🤝</div>
+            <h3 className="text-lg md:text-2xl font-bold mb-3 md:mb-4 text-gray-900">
               {t('pillars.support.title')}
             </h3>
-            <p className="text-gray-800 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-800 leading-relaxed">
               {t('pillars.support.description')}
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-green-50 to-emerald-100 p-8 rounded-2xl text-center hover-lift border border-green-200">
-            <div className="text-6xl mb-4">⚡</div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">
+          <div className="bg-gradient-to-br from-green-50 to-emerald-100 p-6 md:p-8 rounded-2xl text-center hover-lift border border-green-200">
+            <div className="text-4xl md:text-6xl mb-3 md:mb-4">⚡</div>
+            <h3 className="text-lg md:text-2xl font-bold mb-3 md:mb-4 text-gray-900">
               {t('pillars.productivity.title')}
             </h3>
-            <p className="text-gray-800 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-800 leading-relaxed">
               {t('pillars.productivity.description')}
             </p>
           </div>
         </div>
 
-        <div className="mt-12 p-6 bg-gradient-to-r from-[#ffeaa7] to-[#fdcb6e] rounded-xl text-center border-2 border-yellow-400">
-          <p className="text-xl font-semibold text-gray-900">
+        <div className="mt-8 md:mt-12 p-4 md:p-6 bg-gradient-to-r from-[#ffeaa7] to-[#fdcb6e] rounded-xl text-center border-2 border-yellow-400">
+          <p className="text-sm md:text-xl font-semibold text-gray-900">
             🎯 <strong>{t('pillars.jarvisNote')}</strong> - {t('pillars.jarvisDescription')}
           </p>
         </div>
@@ -95,7 +105,7 @@ export default function Home() {
 
       {/* Problem/Solution Section */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('problemSolution.title')}
         </h2>
 
@@ -253,7 +263,7 @@ export default function Home() {
 
       {/* Dual Mode System Section - NEW */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('dualMode.title')}
         </h2>
 
@@ -332,7 +342,7 @@ export default function Home() {
 
       {/* Design Philosophy Section - NEW */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('designPhilosophy.title')}
         </h2>
 
@@ -421,7 +431,7 @@ export default function Home() {
 
       {/* Features Deep Dive - Updated */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('features.title')}
         </h2>
 
@@ -520,7 +530,7 @@ export default function Home() {
 
       {/* Personas Section - NEW */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-6 gradient-text">
           {t('personas.title')}
         </h2>
         <p className="text-xl text-center mb-12 text-gray-700">
@@ -571,7 +581,7 @@ export default function Home() {
 
       {/* Comparison Table - Enhanced */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('comparison.title')}
         </h2>
 
@@ -691,7 +701,7 @@ export default function Home() {
 
       {/* Technical Excellence Section - NEW */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('technical.title')}
         </h2>
 
@@ -791,7 +801,7 @@ export default function Home() {
 
       {/* Use Cases - Updated */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('useCases.title')}
         </h2>
 
@@ -841,7 +851,7 @@ export default function Home() {
 
       {/* Localization Section - NEW */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('localization.title')}
         </h2>
 
@@ -901,7 +911,7 @@ export default function Home() {
 
       {/* RAG Memory Section - NEW */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-6 gradient-text">
           {t('ragMemory.title')}
         </h2>
         <p className="text-xl text-center mb-8 text-gray-700 font-semibold">{t('ragMemory.subtitle')}</p>
@@ -968,7 +978,7 @@ export default function Home() {
 
       {/* Getting Started Section - Updated */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('gettingStarted.title')}
         </h2>
 
@@ -1031,7 +1041,7 @@ export default function Home() {
 
       {/* Roadmap Section - NEW */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('roadmap.title')}
         </h2>
 
@@ -1069,7 +1079,7 @@ export default function Home() {
 
       {/* FAQ Section - Enhanced */}
       <section className="max-w-6xl mx-auto py-16 px-5">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-12 gradient-text">
           {t('faq.title')}
         </h2>
 
@@ -1097,25 +1107,35 @@ export default function Home() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="max-w-6xl mx-auto py-16 px-5 text-center">
-        <div className="bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white p-12 md:p-16 rounded-3xl shadow-2xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white-shadow">
+      <section className="max-w-6xl mx-auto py-12 md:py-16 px-5 text-center">
+        <div className="bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white p-8 md:p-16 rounded-3xl shadow-2xl">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 md:mb-6 text-white-shadow">
             {t('finalCta.title')}
           </h2>
-          <p className="text-xl md:text-2xl mb-8 text-white-shadow">
+          <p className="text-base sm:text-lg md:text-2xl mb-6 md:mb-8 text-white-shadow">
             {t('finalCta.subtitle')}
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <button className="bg-white text-[#667eea] font-bold text-lg py-4 px-10 rounded-full btn-glow hover:scale-105 transition-transform shadow-xl">
+          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-6 md:mb-8">
+            <a
+              href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page/releases"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#667eea] font-bold text-sm md:text-lg py-3 md:py-4 px-8 md:px-10 rounded-full btn-glow hover:scale-105 transition-transform shadow-xl text-center"
+            >
               {t('finalCta.downloadButton')}
-            </button>
-            <button className="bg-white/10 backdrop-blur border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-[#667eea] transition-all shadow-xl">
+            </a>
+            <a
+              href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3_Page"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 backdrop-blur border-2 border-white text-white font-bold text-sm md:text-lg py-3 md:py-4 px-8 md:px-10 rounded-full hover:bg-white hover:text-[#667eea] transition-all shadow-xl text-center"
+            >
               ⭐ {t('finalCta.githubButton')}
-            </button>
+            </a>
           </div>
 
-          <div className="inline-flex flex-wrap items-center justify-center gap-2 bg-white/20 backdrop-blur py-3 px-6 rounded-full text-white font-semibold">
+          <div className="inline-flex flex-wrap items-center justify-center gap-2 bg-white/20 backdrop-blur py-2 md:py-3 px-4 md:px-6 rounded-full text-white font-semibold text-xs md:text-base">
             {t('finalCta.badge')}
           </div>
         </div>

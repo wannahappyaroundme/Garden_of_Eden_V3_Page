@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Garden of Eden V3",
+    "title": "Garden of Eden Project",
     "subtitle": "외로움을 없애주는 AI 동반자",
     "tagline": "친구 같은 지원 • 생산성 향상 • 100% 프라이버시",
     "privacyBadge": "100% 프라이빗 - 데이터가 기기를 벗어나지 않습니다",
@@ -26,7 +26,7 @@
     "jarvisDescription": "당신을 진정으로 이해하고 지원하는 AI"
   },
   "problemSolution": {
-    "title": "왜 Garden of Eden V3인가?",
+    "title": "왜 Garden of Eden Project인가?",
     "problems": {
       "title": "클라우드 AI의 문제점",
       "noEmotional": "정서적 지원 부재:",
@@ -43,7 +43,7 @@
       "limitedDesc": "워크플로우와 분리됨"
     },
     "solutions": {
-      "title": "Eden V3 솔루션",
+      "title": "Eden Project 솔루션",
       "emotional": "감성 지능:",
       "emotionalDesc": "진정한 동반자 관계와 지원",
       "privacy": "100% 프라이버시:",
@@ -59,7 +59,7 @@
     }
   },
   "stats": {
-    "title": "숫자로 보는 Eden V3",
+    "title": "숫자로 보는 Eden Project",
     "privacy": "프라이버시 보장",
     "cost": "평생 무료",
     "response": "응답 시간",
@@ -204,7 +204,7 @@
   "comparison": {
     "title": "경쟁사 비교",
     "feature": "기능",
-    "edenV3": "Eden V3",
+    "edenV3": "Eden Project",
     "chatgptPlus": "ChatGPT Plus",
     "claudePro": "Claude Pro",
     "githubCopilot": "GitHub Copilot",
@@ -428,13 +428,13 @@
     "q1": "데이터가 정말 100% 프라이빗한가요?",
     "a1": "네! 모든 AI 처리는 기기에서 로컬로 발생합니다. 데이터가 컴퓨터를 벗어나지 않습니다. 데이터베이스에 AES-256 암호화를 사용하며, 코드는 오픈소스(MIT 라이선스)이므로 직접 확인할 수 있습니다. 원격 측정 없음, 추적 없음, 클라우드 업로드 없음.",
     "q2": "어떻게 영구적으로 무료일 수 있나요?",
-    "a2": "Eden V3는 MIT 라이선스를 가진 열정 프로젝트로 구축되었습니다. 모든 것이 로컬에서 실행되므로 서버 비용이 없습니다. AI 동반자 관계와 지원은 구독 장벽이나 프라이버시 타협 없이 모두에게 접근 가능해야 한다고 믿습니다.",
+    "a2": "Eden Project는 MIT 라이선스를 가진 열정 프로젝트로 구축되었습니다. 모든 것이 로컬에서 실행되므로 서버 비용이 없습니다. AI 동반자 관계와 지원은 구독 장벽이나 프라이버시 타협 없이 모두에게 접근 가능해야 한다고 믿습니다.",
     "q3": "Eden은 ChatGPT나 Claude와 무엇이 다른가요?",
     "a3": "Eden은 생산성뿐만 아니라 정서적 동반자 관계를 위해 설계되었습니다. 친구 같은 지원으로 혼자 일하는 개발자의 외로움을 해소합니다. 게다가: 100% 프라이버시, 오프라인 작동, 스타일 학습(17개 페르소나 파라미터), 깊은 시스템 통합, 완전 무료. 품질 면에서는 HumanEval에서 80.5% 점수(GPT-4: 85%, Claude: 88% 대비) - 클라우드 의존성 없는 엔터프라이즈급 AI입니다.",
     "q4": "어떤 언어를 지원하나요?",
     "a4": "인터페이스는 한국어 경어(경어, 존칭)를 포함한 완전한 문화적 현지화와 함께 한국어와 영어를 지원합니다. AI는 Whisper Large V3와 Llama 3.1의 다국어 기능 덕분에 99개 언어로 이해하고 응답합니다. 언어 간 코드 스위칭도 자연스럽게 처리합니다.",
     "q5": "오프라인에서 사용할 수 있나요?",
-    "a5": "물론입니다! 초기 모델 다운로드(~16.5GB) 후, Eden V3는 완전히 오프라인으로 작동합니다. 일상적인 사용에 인터넷 연결이 필요하지 않습니다. 기밀 작업, 여행 또는 불안정한 인터넷 연결에 완벽합니다.",
+    "a5": "물론입니다! 초기 모델 다운로드(~16.5GB) 후, Eden Project는 완전히 오프라인으로 작동합니다. 일상적인 사용에 인터넷 연결이 필요하지 않습니다. 기밀 작업, 여행 또는 불안정한 인터넷 연결에 완벽합니다.",
     "q6": "AI의 성격을 어떻게 커스터마이징하나요?",
     "a6": "설정 > 페르소나로 이동하여 격식, 유머, 말의 장황함, 이모지 사용, 공감 등 17개 파라미터를 조정하세요. 6개의 사전 구축 페르소나(Eden, 엄격한 멘토, 쾌활한 친구, 전문 어시스턴트, 코딩 선생님, 커스텀) 중에서 선택하거나 직접 만드세요. 좋아요/싫어요 피드백을 사용하여 경사 하강 최적화를 통해 선호도에 맞게 훈련하세요.",
     "q7": "RAG 메모리란 무엇이며 어떻게 작동하나요?",
@@ -448,19 +448,19 @@
   },
   "finalCta": {
     "title": "오늘 당신의 AI 동반자를 찾으세요",
-    "subtitle": "외로움 해소. 생산성 향상. 프라이버시 보호. Garden of Eden V3에서 완벽한 AI 동반자를 찾은 수천 명의 개발자와 함께하세요.",
+    "subtitle": "외로움 해소. 생산성 향상. 프라이버시 보호. Garden of Eden Project에서 완벽한 AI 동반자를 찾은 수천 명의 개발자와 함께하세요.",
     "downloadButton": "지금 다운로드 - 무료입니다!",
     "githubButton": "GitHub 스타",
     "badge": "100% 프라이빗 • 영구 무료 • MIT 라이선스 • 친구 같은 동반자"
   },
   "footer": {
-    "title": "Garden of Eden V3",
+    "title": "Garden of Eden Project",
     "version": "버전 1.0.0-베타 • 85% 완성 • 8단계: 출시",
     "license": "MIT 라이선스",
     "licenseDesc": "영구 무료, 제한 없음",
     "inspiration": "마블 아이언맨의 자비스에서 영감을 받음",
     "builtWith": "외로움 해소와 생산성 향상을 위해 ❤️로 구축됨",
     "poweredBy": "Qwen 2.5 14B (HumanEval: 80.5%), Whisper Large V3 (99개 언어), LLaVA 7B로 구동",
-    "copyright": "© 2025 Garden of Eden V3. 모든 권리 보유."
+    "copyright": "© 2025 Garden of Eden Project. 모든 권리 보유."
   }
 }

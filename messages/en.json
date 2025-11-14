@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Garden of Eden V3",
+    "title": "Garden of Eden Project",
     "subtitle": "Your AI Companion That Eliminates Loneliness",
     "tagline": "Friend-Like Support • Enhanced Productivity • 100% Private",
     "privacyBadge": "100% Private - Zero Data Leaves Your Machine",
@@ -26,7 +26,7 @@
     "jarvisDescription": "An AI that truly understands and supports you"
   },
   "problemSolution": {
-    "title": "Why Garden of Eden V3?",
+    "title": "Why Garden of Eden Project?",
     "problems": {
       "title": "Problems with Cloud AI",
       "noEmotional": "No Emotional Support:",
@@ -43,7 +43,7 @@
       "limitedDesc": "Disconnected from your workflow"
     },
     "solutions": {
-      "title": "Eden V3 Solutions",
+      "title": "Eden Project Solutions",
       "emotional": "Emotional Intelligence:",
       "emotionalDesc": "Genuine companionship and support",
       "privacy": "100% Privacy:",
@@ -59,7 +59,7 @@
     }
   },
   "stats": {
-    "title": "By the Numbers",
+    "title": "Eden Project By the Numbers",
     "privacy": "Privacy Guaranteed",
     "cost": "Forever Free",
     "response": "Response Time",
@@ -204,7 +204,7 @@
   "comparison": {
     "title": "How We Compare",
     "feature": "Feature",
-    "edenV3": "Eden V3",
+    "edenV3": "Eden Project",
     "chatgptPlus": "ChatGPT Plus",
     "claudePro": "Claude Pro",
     "githubCopilot": "GitHub Copilot",
@@ -428,13 +428,13 @@
     "q1": "Is my data really 100% private?",
     "a1": "Yes! All AI processing happens locally on your machine. No data ever leaves your computer. We use AES-256 encryption for your database, and the code is open-source (MIT License) so you can verify this yourself. Zero telemetry, zero tracking, zero cloud uploads.",
     "q2": "How can it be free forever?",
-    "a2": "Eden V3 is built as a passion project with an MIT License. There are no server costs since everything runs locally. We believe AI companionship and assistance should be accessible to everyone without subscription barriers or privacy compromises.",
+    "a2": "Eden Project is built as a passion project with an MIT License. There are no server costs since everything runs locally. We believe AI companionship and assistance should be accessible to everyone without subscription barriers or privacy compromises.",
     "q3": "What makes Eden different from ChatGPT or Claude?",
     "a3": "Eden is designed for emotional companionship first, not just productivity. It eliminates loneliness for solo developers with friend-like support. Plus: 100% privacy, works offline, learns your style (17 persona parameters), deep system integration, and completely free. Quality-wise, we score 80.5% on HumanEval (vs GPT-4: 85%, Claude: 88%) - enterprise-grade AI without cloud dependency.",
     "q4": "What languages does it support?",
     "a4": "The interface supports Korean (한국어) and English with full cultural localization including Korean honorifics (경어, 존칭). The AI understands and responds in 99 languages thanks to Whisper Large V3 and Llama 3.1's multilingual capabilities. It even handles code-switching between languages naturally.",
     "q5": "Can I use it offline?",
-    "a5": "Absolutely! After the initial model download (~16.5GB), Eden V3 works completely offline. No internet connection required for daily use. Perfect for confidential work, travel, or unstable internet connections.",
+    "a5": "Absolutely! After the initial model download (~16.5GB), Eden Project works completely offline. No internet connection required for daily use. Perfect for confidential work, travel, or unstable internet connections.",
     "q6": "How do I customize the AI's personality?",
     "a6": "Navigate to Settings > Persona and adjust any of the 17 parameters like formality, humor, verbosity, emoji usage, empathy, and more. Choose from 6 pre-built personas (Eden, Strict Mentor, Cheerful Friend, Professional Assistant, Coding Sensei, Custom) or create your own. Use thumbs up/down feedback to train it to your preferences via gradient descent optimization.",
     "q7": "What is RAG memory and how does it work?",
@@ -448,19 +448,19 @@
   },
   "finalCta": {
     "title": "Find Your AI Companion Today",
-    "subtitle": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Garden of Eden V3.",
+    "subtitle": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Garden of Eden Project.",
     "downloadButton": "Download Now - It's Free!",
     "githubButton": "Star on GitHub",
     "badge": "100% Private • $0 Forever • MIT License • Friend-Like Companion"
   },
   "footer": {
-    "title": "Garden of Eden V3",
+    "title": "Garden of Eden Project",
     "version": "Version 1.0.0-beta • 85% Complete • Phase 8: Launch",
     "license": "MIT License",
     "licenseDesc": "Free Forever, No Restrictions",
     "inspiration": "Inspired by JARVIS from Marvel's Iron Man",
     "builtWith": "Built with ❤️ to eliminate loneliness and enhance productivity",
     "poweredBy": "Powered by Qwen 2.5 14B (HumanEval: 80.5%), Whisper Large V3 (99 langs), and LLaVA 7B",
-    "copyright": "© 2025 Garden of Eden V3. All rights reserved."
+    "copyright": "© 2025 Garden of Eden Project. All rights reserved."
   }
 }
