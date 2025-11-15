@@ -1,6 +1,6 @@
 {
   "name": "eden_project_v3_page",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "> Your AI Assistant That Respects Your Privacy",
   "main": "index.js",
   "scripts": {
