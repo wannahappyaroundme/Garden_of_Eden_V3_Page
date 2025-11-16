@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Navbar from "@/components/Navbar";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Carousel from "@/components/Carousel";
 import Accordion from "@/components/Accordion";
@@ -43,11 +44,14 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-neutral-50">
+      {/* Fixed Navigation Bar */}
+      <Navbar />
+
       {/* Language Switcher */}
       <LanguageSwitcher />
 
       {/* Hero Section - Mysterious Purple Gradient */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-500/75 via-violet-500/75 via-indigo-500/75 to-purple-600/75 text-white">
+      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-500/75 via-violet-500/75 via-indigo-500/75 to-purple-600/75 text-white">
         {/* Animated Background Pattern */}
         <div className="absolute inset-0 opacity-15">
           <div
@@ -152,8 +156,8 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* Three Pillars - Minimalist Cards */}
-      <section className="max-w-7xl mx-auto py-24 px-6">
+      {/* About Section - Three Pillars */}
+      <section id="about" className="max-w-7xl mx-auto py-32 px-6">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -322,17 +326,83 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats - Large Numbers, Clean */}
-      <section className="py-24 bg-gradient-to-br from-indigo-500/70 via-purple-500/70 via-violet-500/70 to-fuchsia-500/70 text-white backdrop-blur-xl">
+      {/* Team Section */}
+      <section id="team" className="py-32 bg-gradient-to-br from-indigo-500/70 via-purple-500/70 via-violet-500/70 to-fuchsia-500/70 text-white backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-20"
+            className="text-4xl md:text-5xl font-bold text-center mb-12"
+          >
+            {t("team.title")}
+          </motion.h2>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-xl text-center mb-20 text-white/90 max-w-3xl mx-auto"
+          >
+            {t("team.description")}
+          </motion.p>
+
+          <div className="grid md:grid-cols-2 gap-12 mb-20">
+            {/* GitHub Contributors */}
+            <motion.div
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="bg-white/10 backdrop-blur-xl p-10 rounded-2xl md:rounded-[40px] border border-white/20"
+            >
+              <div className="text-5xl mb-6">👨‍💻</div>
+              <h3 className="text-2xl font-bold mb-4">{t("team.developers")}</h3>
+              <p className="text-white/80 mb-6">{t("team.developersDesc")}</p>
+              <a
+                href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white/20 hover:bg-white/30 rounded-full transition-all duration-300"
+              >
+                <span>GitHub</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </motion.div>
+
+            {/* Community */}
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="bg-white/10 backdrop-blur-xl p-10 rounded-2xl md:rounded-[40px] border border-white/20"
+            >
+              <div className="text-5xl mb-6">🌍</div>
+              <h3 className="text-2xl font-bold mb-4">{t("team.community")}</h3>
+              <p className="text-white/80 mb-6">{t("team.communityDesc")}</p>
+              <a
+                href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/discussions"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white/20 hover:bg-white/30 rounded-full transition-all duration-300"
+              >
+                <span>{t("team.join")}</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </motion.div>
+          </div>
+
+          {/* Stats */}
+          <motion.h3
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-3xl font-bold text-center mb-12"
           >
             {t("stats.title")}
-          </motion.h2>
+          </motion.h3>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-12">
             {[
@@ -364,7 +434,7 @@ export default function Home() {
       </section>
 
       {/* Features Carousel */}
-      <section className="py-24 bg-neutral-50">
+      <section id="features" className="py-32 bg-neutral-50">
         <div className="max-w-2xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -656,8 +726,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Comparison Table - Enhanced Design */}
-      <section className="py-24 bg-neutral-50">
+      {/* Pricing Section - Comparison Table */}
+      <section id="pricing" className="py-32 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -823,8 +893,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-24 bg-gradient-to-br from-violet-500/70 via-purple-600/70 via-fuchsia-500/70 to-pink-500/70 text-white backdrop-blur-xl">
+      {/* Download Section */}
+      <section id="download" className="py-32 bg-gradient-to-br from-violet-500/70 via-purple-600/70 via-fuchsia-500/70 to-pink-500/70 text-white backdrop-blur-xl">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}

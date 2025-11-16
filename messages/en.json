@@ -446,6 +446,15 @@
     "q10": "Why is Solo Developer the primary target user?",
     "a10": "Eden was created to solve the loneliness epidemic among solo developers and remote workers. Working from home can be isolating - Eden provides genuine companionship while you code, celebrates your wins, offers comfort during frustrations, and enhances productivity. It's not just an assistant; it's a friend by your side."
   },
+  "team": {
+    "title": "Team",
+    "description": "Garden of Eden Project is built by a passionate open-source community of developers working together.",
+    "developers": "Development Team",
+    "developersDesc": "Meet the contributors building Eden together on GitHub. Open to everyone.",
+    "community": "Community",
+    "communityDesc": "Join our community to ask questions, share ideas, and help make Eden better together.",
+    "join": "Join the Community"
+  },
   "finalCta": {
     "title": "Find Your AI Companion Today",
     "subtitle": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Garden of Eden Project.",
