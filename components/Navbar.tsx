@@ -5,33 +5,154 @@ import { useLocale } from 'next-intl';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronDown } from 'lucide-react';
+
+interface SubMenuItem {
+  id: string;
+  label: string;
+  path: string;
+}
+
+interface MenuItem {
+  id: string;
+  label: string;
+  path?: string;
+  submenu?: SubMenuItem[];
+}
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const locale = useLocale();
   const pathname = usePathname();
 
-  // 메뉴 항목 (다국어)
-  const menuItems = locale === 'ko'
+  // 메뉴 항목 (다국어 + 드롭다운)
+  const menuItems: MenuItem[] = locale === 'ko'
     ? [
-        { id: '', label: '홈', path: '' },
-        { id: 'about', label: '소개', path: '/about' },
-        { id: 'features', label: '기능', path: '/features' },
+        { id: 'home', label: '홈', path: '/' },
+        {
+          id: 'product',
+          label: '제품',
+          submenu: [
+            { id: 'overview', label: '개요', path: '/product/overview' },
+            { id: 'features', label: '기능', path: '/product/features' },
+            { id: 'technology', label: '기술', path: '/product/technology' },
+            { id: 'roadmap', label: '로드맵', path: '/product/roadmap' },
+          ]
+        },
+        {
+          id: 'why-eden',
+          label: '왜 Eden인가?',
+          submenu: [
+            { id: 'privacy', label: '프라이버시 우선', path: '/why-eden/privacy' },
+            { id: 'comparison', label: '경쟁사 비교', path: '/why-eden/comparison' },
+            { id: 'use-cases', label: '사용 사례', path: '/why-eden/use-cases' },
+          ]
+        },
         { id: 'pricing', label: '가격', path: '/pricing' },
         { id: 'download', label: '다운로드', path: '/download' },
+        {
+          id: 'resources',
+          label: '리소스',
+          submenu: [
+            { id: 'documentation', label: '문서', path: '/resources/documentation' },
+            { id: 'community', label: '커뮤니티', path: '/resources/community' },
+            { id: 'faq', label: 'FAQ', path: '/faq' },
+          ]
+        },
+        {
+          id: 'about',
+          label: '회사',
+          submenu: [
+            { id: 'vision', label: '비전', path: '/about/vision' },
+            { id: 'press', label: '언론 자료', path: '/about/press' },
+            { id: 'contact', label: '문의하기', path: '/contact' },
+          ]
+        },
+        {
+          id: 'legal',
+          label: '법적 고지',
+          submenu: [
+            { id: 'privacy', label: '개인정보처리방침', path: '/legal/privacy-policy' },
+            { id: 'terms', label: '이용약관', path: '/legal/terms-of-service' },
+            { id: 'license', label: '오픈소스 라이선스', path: '/legal/license' },
+          ]
+        },
       ]
     : [
-        { id: '', label: 'Home', path: '' },
-        { id: 'about', label: 'About', path: '/about' },
-        { id: 'features', label: 'Features', path: '/features' },
+        { id: 'home', label: 'Home', path: '/' },
+        {
+          id: 'product',
+          label: 'Product',
+          submenu: [
+            { id: 'overview', label: 'Overview', path: '/product/overview' },
+            { id: 'features', label: 'Features', path: '/product/features' },
+            { id: 'technology', label: 'Technology', path: '/product/technology' },
+            { id: 'roadmap', label: 'Roadmap', path: '/product/roadmap' },
+          ]
+        },
+        {
+          id: 'why-eden',
+          label: 'Why Eden?',
+          submenu: [
+            { id: 'privacy', label: 'Privacy First', path: '/why-eden/privacy' },
+            { id: 'comparison', label: 'Comparison', path: '/why-eden/comparison' },
+            { id: 'use-cases', label: 'Use Cases', path: '/why-eden/use-cases' },
+          ]
+        },
         { id: 'pricing', label: 'Pricing', path: '/pricing' },
         { id: 'download', label: 'Download', path: '/download' },
+        {
+          id: 'resources',
+          label: 'Resources',
+          submenu: [
+            { id: 'documentation', label: 'Documentation', path: '/resources/documentation' },
+            { id: 'community', label: 'Community', path: '/resources/community' },
+            { id: 'faq', label: 'FAQ', path: '/faq' },
+          ]
+        },
+        {
+          id: 'about',
+          label: 'About',
+          submenu: [
+            { id: 'vision', label: 'Vision', path: '/about/vision' },
+            { id: 'press', label: 'Press Kit', path: '/about/press' },
+            { id: 'contact', label: 'Contact', path: '/contact' },
+          ]
+        },
+        {
+          id: 'legal',
+          label: 'Legal',
+          submenu: [
+            { id: 'privacy', label: 'Privacy Policy', path: '/legal/privacy-policy' },
+            { id: 'terms', label: 'Terms of Service', path: '/legal/terms-of-service' },
+            { id: 'license', label: 'Open Source License', path: '/legal/license' },
+          ]
+        },
       ];
 
   // 현재 활성 페이지 감지
-  const currentPath = pathname.replace(`/${locale}`, '') || '';
-  const activePage = menuItems.find(item => item.path === currentPath)?.id || '';
+  const currentPath = pathname.replace(`/${locale}`, '') || '/';
+
+  const isPathActive = (path: string) => {
+    if (path === '/') return currentPath === '/';
+    return currentPath.startsWith(path);
+  };
+
+  const getActiveSection = () => {
+    for (const item of menuItems) {
+      if (item.path && isPathActive(item.path)) return item.id;
+      if (item.submenu) {
+        for (const subItem of item.submenu) {
+          if (isPathActive(subItem.path)) return item.id;
+        }
+      }
+    }
+    return '';
+  };
+
+  const activePage = getActiveSection();
 
   // 스크롤 감지
   useEffect(() => {
@@ -43,9 +164,16 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // 드롭다운 외부 클릭 감지
+  useEffect(() => {
+    const handleClickOutside = () => setOpenDropdown(null);
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-white/90 backdrop-blur-xl shadow-lg'
           : 'bg-white/60 backdrop-blur-md'
@@ -62,27 +190,89 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             {menuItems.map((item) => (
-              <Link
-                key={item.id}
-                href={`/${locale}${item.path}`}
-                className={`font-semibold transition-all duration-300 relative ${
-                  activePage === item.id
-                    ? 'text-purple-600'
-                    : 'text-gray-700 hover:text-purple-600'
-                }`}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {item.label}
-                {activePage === item.id && (
-                  <motion.div
-                    layoutId="activeSection"
-                    className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-600 to-violet-600"
-                    transition={{ type: 'spring', stiffness: 380, damping: 30 }}
-                  />
+              <div key={item.id} className="relative group">
+                {item.submenu ? (
+                  // Dropdown menu item
+                  <div
+                    className="relative"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setOpenDropdown(openDropdown === item.id ? null : item.id);
+                    }}
+                  >
+                    <button
+                      className={`flex items-center gap-1 font-semibold transition-all duration-300 ${
+                        activePage === item.id
+                          ? 'text-purple-600'
+                          : 'text-gray-700 hover:text-purple-600'
+                      }`}
+                    >
+                      {item.label}
+                      <ChevronDown
+                        className={`w-4 h-4 transition-transform duration-200 ${
+                          openDropdown === item.id ? 'rotate-180' : ''
+                        }`}
+                      />
+                    </button>
+                    {activePage === item.id && (
+                      <motion.div
+                        layoutId="activeSection"
+                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-600 to-violet-600"
+                        transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                      />
+                    )}
+
+                    {/* Dropdown panel */}
+                    <AnimatePresence>
+                      {openDropdown === item.id && (
+                        <motion.div
+                          initial={{ opacity: 0, y: -10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -10 }}
+                          transition={{ duration: 0.2 }}
+                          className="absolute top-full left-0 mt-6 w-48 bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden"
+                        >
+                          {item.submenu.map((subItem) => (
+                            <Link
+                              key={subItem.id}
+                              href={`/${locale}${subItem.path}`}
+                              onClick={() => setOpenDropdown(null)}
+                              className={`block px-4 py-3 text-sm font-medium transition-colors ${
+                                isPathActive(subItem.path)
+                                  ? 'bg-purple-50 text-purple-600'
+                                  : 'text-gray-700 hover:bg-gray-50'
+                              }`}
+                            >
+                              {subItem.label}
+                            </Link>
+                          ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                ) : (
+                  // Regular menu item
+                  <Link
+                    href={`/${locale}${item.path}`}
+                    className={`font-semibold transition-all duration-300 relative ${
+                      activePage === item.id
+                        ? 'text-purple-600'
+                        : 'text-gray-700 hover:text-purple-600'
+                    }`}
+                  >
+                    {item.label}
+                    {activePage === item.id && (
+                      <motion.div
+                        layoutId="activeSection"
+                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-600 to-violet-600"
+                        transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                      />
+                    )}
+                  </Link>
                 )}
-              </Link>
+              </div>
             ))}
           </div>
 
@@ -127,20 +317,72 @@ export default function Navbar() {
             transition={{ duration: 0.3 }}
             className="md:hidden bg-white/95 backdrop-blur-xl border-t border-gray-200"
           >
-            <div className="px-6 py-4 space-y-3">
+            <div className="px-6 py-4 space-y-2 max-h-[70vh] overflow-y-auto">
               {menuItems.map((item) => (
-                <Link
-                  key={item.id}
-                  href={`/${locale}${item.path}`}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`block w-full text-left py-2 px-4 rounded-lg font-semibold transition-all ${
-                    activePage === item.id
-                      ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white'
-                      : 'text-gray-700 hover:bg-gray-100'
-                  }`}
-                >
-                  {item.label}
-                </Link>
+                <div key={item.id}>
+                  {item.submenu ? (
+                    // Mobile dropdown
+                    <div>
+                      <button
+                        onClick={() => setOpenDropdown(openDropdown === item.id ? null : item.id)}
+                        className={`flex items-center justify-between w-full text-left py-2 px-4 rounded-lg font-semibold transition-all ${
+                          activePage === item.id
+                            ? 'bg-purple-50 text-purple-600'
+                            : 'text-gray-700 hover:bg-gray-100'
+                        }`}
+                      >
+                        {item.label}
+                        <ChevronDown
+                          className={`w-4 h-4 transition-transform duration-200 ${
+                            openDropdown === item.id ? 'rotate-180' : ''
+                          }`}
+                        />
+                      </button>
+                      <AnimatePresence>
+                        {openDropdown === item.id && (
+                          <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            exit={{ opacity: 0, height: 0 }}
+                            transition={{ duration: 0.2 }}
+                            className="ml-4 mt-1 space-y-1"
+                          >
+                            {item.submenu.map((subItem) => (
+                              <Link
+                                key={subItem.id}
+                                href={`/${locale}${subItem.path}`}
+                                onClick={() => {
+                                  setIsMobileMenuOpen(false);
+                                  setOpenDropdown(null);
+                                }}
+                                className={`block py-2 px-4 rounded-lg text-sm font-medium transition-all ${
+                                  isPathActive(subItem.path)
+                                    ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white'
+                                    : 'text-gray-600 hover:bg-gray-100'
+                                }`}
+                              >
+                                {subItem.label}
+                              </Link>
+                            ))}
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  ) : (
+                    // Regular mobile item
+                    <Link
+                      href={`/${locale}${item.path}`}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className={`block w-full text-left py-2 px-4 rounded-lg font-semibold transition-all ${
+                        activePage === item.id
+                          ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white'
+                          : 'text-gray-700 hover:bg-gray-100'
+                      }`}
+                    >
+                      {item.label}
+                    </Link>
+                  )}
+                </div>
               ))}
             </div>
           </motion.div>
