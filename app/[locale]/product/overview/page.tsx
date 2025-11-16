@@ -7,7 +7,7 @@ export default function ProductOverviewPage() {
   const pillars = [
     {
       icon: Heart,
-      gradient: 'from-rose-500 to-pink-500',
+      gradient: 'from-purple-500 to-violet-500',
     },
     {
       icon: Users,
@@ -15,7 +15,7 @@ export default function ProductOverviewPage() {
     },
     {
       icon: Zap,
-      gradient: 'from-amber-500 to-orange-500',
+      gradient: 'from-purple-600 to-violet-600',
     },
   ];
 
@@ -31,27 +31,27 @@ export default function ProductOverviewPage() {
   const solutions = [
     {
       icon: Lock,
-      gradient: 'from-green-500 to-emerald-500',
+      gradient: 'from-purple-500 to-violet-500',
     },
     {
       icon: Sparkles,
-      gradient: 'from-blue-500 to-cyan-500',
+      gradient: 'from-violet-500 to-purple-500',
     },
     {
       icon: Brain,
-      gradient: 'from-purple-500 to-pink-500',
+      gradient: 'from-purple-600 to-violet-600',
     },
     {
       icon: Zap,
-      gradient: 'from-orange-500 to-red-500',
+      gradient: 'from-violet-600 to-purple-600',
     },
     {
       icon: Users,
-      gradient: 'from-teal-500 to-green-500',
+      gradient: 'from-purple-500 to-violet-500',
     },
     {
       icon: Heart,
-      gradient: 'from-rose-500 to-pink-500',
+      gradient: 'from-violet-500 to-purple-500',
     },
   ];
 
