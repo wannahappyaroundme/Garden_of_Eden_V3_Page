@@ -18,7 +18,6 @@ export default function Navbar() {
         { id: 'about', label: '소개' },
         { id: 'features', label: '기능' },
         { id: 'pricing', label: '가격' },
-        { id: 'team', label: '팀' },
         { id: 'download', label: '다운로드' },
       ]
     : [
@@ -26,7 +25,6 @@ export default function Navbar() {
         { id: 'about', label: 'About' },
         { id: 'features', label: 'Features' },
         { id: 'pricing', label: 'Pricing' },
-        { id: 'team', label: 'Team' },
         { id: 'download', label: 'Download' },
       ];
 
