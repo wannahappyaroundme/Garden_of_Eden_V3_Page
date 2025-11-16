@@ -2,71 +2,50 @@
 
 import { useState, useEffect } from 'react';
 import { useLocale } from 'next-intl';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const locale = useLocale();
+  const pathname = usePathname();
 
   // 메뉴 항목 (다국어)
   const menuItems = locale === 'ko'
     ? [
-        { id: 'home', label: '홈' },
-        { id: 'about', label: '소개' },
-        { id: 'features', label: '기능' },
-        { id: 'pricing', label: '가격' },
-        { id: 'download', label: '다운로드' },
+        { id: '', label: '홈', path: '' },
+        { id: 'about', label: '소개', path: '/about' },
+        { id: 'features', label: '기능', path: '/features' },
+        { id: 'pricing', label: '가격', path: '/pricing' },
+        { id: 'download', label: '다운로드', path: '/download' },
       ]
     : [
-        { id: 'home', label: 'Home' },
-        { id: 'about', label: 'About' },
-        { id: 'features', label: 'Features' },
-        { id: 'pricing', label: 'Pricing' },
-        { id: 'download', label: 'Download' },
+        { id: '', label: 'Home', path: '' },
+        { id: 'about', label: 'About', path: '/about' },
+        { id: 'features', label: 'Features', path: '/features' },
+        { id: 'pricing', label: 'Pricing', path: '/pricing' },
+        { id: 'download', label: 'Download', path: '/download' },
       ];
+
+  // 현재 활성 페이지 감지
+  const currentPath = pathname.replace(`/${locale}`, '') || '';
+  const activePage = menuItems.find(item => item.path === currentPath)?.id || '';
 
   // 스크롤 감지
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
-
-      // Active 섹션 감지
-      const sections = menuItems.map(item => item.id);
-      for (const sectionId of sections) {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          const rect = element.getBoundingClientRect();
-          if (rect.top <= 100 && rect.bottom >= 100) {
-            setActiveSection(sectionId);
-            break;
-          }
-        }
-      }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [menuItems]);
-
-  // 부드러운 스크롤
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const offsetTop = element.offsetTop - 80; // 네비게이션 높이만큼 오프셋
-      window.scrollTo({
-        top: offsetTop,
-        behavior: 'smooth',
-      });
-      setIsMobileMenuOpen(false);
-    }
-  };
+  }, []);
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled
           ? 'bg-white/90 backdrop-blur-xl shadow-lg'
           : 'bg-white/60 backdrop-blur-md'
@@ -75,34 +54,35 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <button
-            onClick={() => scrollToSection('home')}
+          <Link
+            href={`/${locale}`}
             className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent hover:from-purple-500 hover:to-violet-500 transition-all"
           >
             Garden of Eden
-          </button>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
             {menuItems.map((item) => (
-              <button
+              <Link
                 key={item.id}
-                onClick={() => scrollToSection(item.id)}
+                href={`/${locale}${item.path}`}
                 className={`font-semibold transition-all duration-300 relative ${
-                  activeSection === item.id
+                  activePage === item.id
                     ? 'text-purple-600'
                     : 'text-gray-700 hover:text-purple-600'
                 }`}
+                onClick={() => setIsMobileMenuOpen(false)}
               >
                 {item.label}
-                {activeSection === item.id && (
+                {activePage === item.id && (
                   <motion.div
                     layoutId="activeSection"
                     className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-600 to-violet-600"
                     transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                   />
                 )}
-              </button>
+              </Link>
             ))}
           </div>
 
@@ -149,17 +129,18 @@ export default function Navbar() {
           >
             <div className="px-6 py-4 space-y-3">
               {menuItems.map((item) => (
-                <button
+                <Link
                   key={item.id}
-                  onClick={() => scrollToSection(item.id)}
+                  href={`/${locale}${item.path}`}
+                  onClick={() => setIsMobileMenuOpen(false)}
                   className={`block w-full text-left py-2 px-4 rounded-lg font-semibold transition-all ${
-                    activeSection === item.id
+                    activePage === item.id
                       ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white'
                       : 'text-gray-700 hover:bg-gray-100'
                   }`}
                 >
                   {item.label}
-                </button>
+                </Link>
               ))}
             </div>
           </motion.div>

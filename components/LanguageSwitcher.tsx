@@ -1,18 +1,23 @@
 'use client';
 
 import { useLocale } from 'next-intl';
+import { usePathname } from 'next/navigation';
 import { locales } from '@/i18n';
 import Link from 'next/link';
 
 export default function LanguageSwitcher() {
   const locale = useLocale();
+  const pathname = usePathname();
+
+  // 현재 경로에서 locale을 제거하여 경로만 추출
+  const pathWithoutLocale = pathname.replace(`/${locale}`, '') || '/';
 
   return (
     <div className="fixed top-4 right-4 z-50 flex gap-2 bg-white/60 backdrop-blur-xl p-2 rounded-full shadow-lg border border-white/50">
       {locales.map((lang) => (
         <Link
           key={lang}
-          href={`/${lang}/`}
+          href={`/${lang}${pathWithoutLocale}`}
           className={`px-3 sm:px-4 py-2 rounded-full font-bold text-xs sm:text-sm transition-all duration-300 ${
             locale === lang
               ? 'bg-gradient-to-r from-purple-500 via-violet-500 to-indigo-500 text-white shadow-md'
