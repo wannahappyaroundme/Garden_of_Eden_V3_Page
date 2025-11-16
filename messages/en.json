@@ -2,6 +2,7 @@
   "hero": {
     "title": "Garden of Eden Project",
     "subtitle": "Your AI Companion That Eliminates Loneliness",
+    "description": "Your AI Companion That Eliminates Loneliness",
     "tagline": "Friend-Like Support • Enhanced Productivity • 100% Private",
     "privacyBadge": "100% Private - Zero Data Leaves Your Machine",
     "noCompromise": "No Cloud • No Subscriptions • No Compromises",
@@ -55,7 +56,11 @@
       "learns": "Learns Your Style:",
       "learnsDesc": "17 customizable parameters",
       "integration": "Deep Integration:",
-      "integrationDesc": "Files, Git, screen, calendar"
+      "integrationDesc": "Files, Git, screen, calendar",
+      "customizable": "Customizable",
+      "customizableDesc": "17 persona parameters",
+      "multiModal": "Multi-Modal",
+      "multiModalDesc": "Voice, screen, text"
     }
   },
   "stats": {
@@ -199,6 +204,26 @@
       "name": "Custom",
       "description": "Build your own personality",
       "details": "Adjust 17 parameters to create the perfect AI companion for you."
+    },
+    "creative": {
+      "name": "Creative",
+      "description": "Innovative and imaginative"
+    },
+    "empathetic": {
+      "name": "Empathetic",
+      "description": "Understanding and supportive"
+    },
+    "teacher": {
+      "name": "Teacher",
+      "description": "Explains concepts clearly"
+    },
+    "motivator": {
+      "name": "Motivator",
+      "description": "Encouraging and energetic"
+    },
+    "casual": {
+      "name": "Casual",
+      "description": "Relaxed and friendly"
     }
   },
   "comparison": {
@@ -225,7 +250,20 @@
     "qualityCostComparison": "Quality + Cost Comparison:",
     "qualityCostDescription": "Enterprise-grade AI quality (80.5% HumanEval) saves you",
     "savingsAmount": "$120-240/year",
-    "withPrivacy": "with complete privacy!"
+    "withPrivacy": "with complete privacy!",
+    "edenTagline": "Free Forever • 100% Private",
+    "features": {
+      "price": "Price",
+      "privacy": "Privacy",
+      "offline": "Offline Mode",
+      "emotional": "Emotional Intelligence",
+      "customization": "Customization",
+      "responseTime": "Response Time"
+    },
+    "whyFree": {
+      "title": "Why is it free?",
+      "description": "No cloud costs, open source, MIT license"
+    }
   },
   "technical": {
     "title": "Production Quality & AI Benchmarks",
@@ -424,7 +462,14 @@
     "joinJourney": "Join us on the journey to 100% completion and beyond!"
   },
   "faq": {
+    "badge": "FAQ",
     "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about Garden of Eden V3",
+    "categories": {
+      "general": "General Questions",
+      "technical": "Technical Questions",
+      "privacy": "Privacy & Security"
+    },
     "q1": "Is my data really 100% private?",
     "a1": "Yes! All AI processing happens locally on your machine. No data ever leaves your computer. We use AES-256 encryption for your database, and the code is open-source (MIT License) so you can verify this yourself. Zero telemetry, zero tracking, zero cloud uploads.",
     "q2": "How can it be free forever?",
@@ -444,7 +489,13 @@
     "q9": "Can I contribute to the project?",
     "a9": "Yes! We welcome contributions. Check our GitHub repository for contribution guidelines. Whether it's code, documentation, bug reports, or feature suggestions - help us reach 100% and beyond! MIT License means it's truly open for everyone.",
     "q10": "Why is Solo Developer the primary target user?",
-    "a10": "Eden was created to solve the loneliness epidemic among solo developers and remote workers. Working from home can be isolating - Eden provides genuine companionship while you code, celebrates your wins, offers comfort during frustrations, and enhances productivity. It's not just an assistant; it's a friend by your side."
+    "a10": "Eden was created to solve the loneliness epidemic among solo developers and remote workers. Working from home can be isolating - Eden provides genuine companionship while you code, celebrates your wins, offers comfort during frustrations, and enhances productivity. It's not just an assistant; it's a friend by your side.",
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "We're here to help! Reach out to our community or contact us directly.",
+      "download": "Download Eden",
+      "contact": "Contact Us"
+    }
   },
   "team": {
     "title": "Team",
@@ -462,14 +513,538 @@
     "githubButton": "Star on GitHub",
     "badge": "100% Private • $0 Forever • MIT License • Friend-Like Companion"
   },
+  "finalCTA": {
+    "title": "Find Your AI Companion Today",
+    "subtitle": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Garden of Eden Project.",
+    "description": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Garden of Eden Project.",
+    "downloadButton": "Download Now - It's Free!",
+    "githubButton": "Star on GitHub",
+    "badge": "100% Private • $0 Forever • MIT License • Friend-Like Companion"
+  },
   "footer": {
     "title": "Garden of Eden Project",
+    "tagline": "Your Private AI Companion",
     "version": "Version 1.0.0-beta • 85% Complete • Phase 8: Launch",
     "license": "MIT License",
     "licenseDesc": "Free Forever, No Restrictions",
     "inspiration": "Inspired by JARVIS from Marvel's Iron Man",
     "builtWith": "Built with ❤️ to eliminate loneliness and enhance productivity",
     "poweredBy": "Powered by Qwen 2.5 14B (HumanEval: 80.5%), Whisper Large V3 (99 langs), and LLaVA 7B",
-    "copyright": "© 2025 Garden of Eden Project. All rights reserved."
+    "copyright": "© 2025 Garden of Eden Project. All rights reserved.",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "download": "Download",
+    "company": "Company",
+    "about": "About",
+    "legal": "Legal",
+    "openSource": "Open Source (MIT)"
+  },
+  "productOverview": {
+    "badge": "Garden of Eden V3",
+    "title": "Your Private AI Assistant",
+    "subtitle": "That Never Leaves Your Computer",
+    "vision": "Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity",
+    "threePillars": {
+      "title": "Three Core Pillars",
+      "pillar1": {
+        "title": "Eliminate Loneliness",
+        "description": "Never feel alone with your 24/7 AI companion"
+      },
+      "pillar2": {
+        "title": "Emotional Support",
+        "description": "Comfort, empathy, conversation - always on your side"
+      },
+      "pillar3": {
+        "title": "Boost Productivity",
+        "description": "Smart assistant that helps you work like JARVIS"
+      }
+    },
+    "problemSolution": {
+      "title": "The Problem vs Our Solution",
+      "problemsTitle": "Problems with Cloud AI",
+      "problem1": "Cloud AI = Privacy Invasion",
+      "problem2": "$20/month forever",
+      "problem3": "One-size-fits-all personality",
+      "problem4": "No internet = no AI",
+      "problem5": "Doesn't understand you",
+      "problem6": "Company owns your data",
+      "solutionsTitle": "Eden's Solutions",
+      "solution1": {
+        "title": "100% Local",
+        "description": "All processing on your machine. Data never leaves"
+      },
+      "solution2": {
+        "title": "Completely Free",
+        "description": "MIT open source. No subscriptions, no fees, no tricks"
+      },
+      "solution3": {
+        "title": "Your Personalized AI",
+        "description": "10 personality parameters. Learns from your feedback"
+      },
+      "solution4": {
+        "title": "Works Offline",
+        "description": "Works without internet. Even on planes"
+      },
+      "solution5": {
+        "title": "Understands You",
+        "description": "RAG memory remembers past conversations. Like a real friend"
+      },
+      "solution6": {
+        "title": "Your Data",
+        "description": "100% ownership. Backup, delete, transfer - your choice"
+      }
+    },
+    "visionSection": {
+      "title": "Our Vision",
+      "description1": "Build the world's most powerful",
+      "highlight1": "privacy-first, local-first AI assistant",
+      "description2": "that matches cloud AI performance",
+      "description3": "while keeping",
+      "highlight2": "all data on your machine",
+      "quote": "Build the world's best privacy-first, local-first AI assistant that matches or exceeds cloud AI capabilities while keeping all data on the user's machine.",
+      "visionText1": "Build the world's most powerful",
+      "visionText2": "to match cloud AI performance while keeping",
+      "visionText3": "on your machine"
+    },
+    "corePromise": {
+      "title": "Core Promise",
+      "local": "Local",
+      "localPercent": "100%",
+      "private": "Private",
+      "privatePercent": "100%",
+      "cloud": "Cloud",
+      "cloudPercent": "0%",
+      "subscriptions": "Subscriptions",
+      "subscriptionsPercent": "0%"
+    },
+    "cta": {
+      "title": "Get Started Now",
+      "description": "Free, open source, private - download now and experience your own JARVIS",
+      "download": "Download",
+      "features": "View Features"
+    }
+  },
+  "productTechnology": {
+    "badge": "Tech Stack & Architecture",
+    "title": "Built for Performance,",
+    "subtitle": "Security, and Privacy",
+    "description": "Modern tech stack powering a production-quality desktop AI assistant",
+    "architecture": {
+      "title": "System Architecture"
+    },
+    "core": {
+      "title": "Core Technology",
+      "subtitle": "Framework, Language & State"
+    },
+    "ai": {
+      "title": "AI & Machine Learning",
+      "subtitle": "LLMs, Speech, Vision & Embeddings"
+    },
+    "performance": {
+      "title": "Performance Metrics"
+    },
+    "security": {
+      "title": "Security & Privacy",
+      "local": "100% Local Processing",
+      "localDesc": "All AI runs on your machine via Ollama. No cloud APIs, no telemetry, no data upload.",
+      "encrypted": "Encrypted Database",
+      "encryptedDesc": "AES-256 encryption for local SQLite database. Your conversations stay secure.",
+      "backup": "Optional Cloud Backup",
+      "backupDesc": "Only persona settings (10 numbers), never conversations. Fully opt-in with Google OAuth.",
+      "opensource": "Open Source",
+      "opensourceDesc": "MIT License. Audit the code yourself. Transparent, no backdoors, community-driven."
+    },
+    "cta": {
+      "title": "Experience the Technology",
+      "description": "Download now and see how modern tech delivers privacy, performance, and power",
+      "download": "Download Now",
+      "github": "View on GitHub"
+    }
+  },
+  "productRoadmap": {
+    "badge": "Product Roadmap",
+    "title": "Vision, Milestones,",
+    "subtitle": "and Future Plans",
+    "vision": "사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다",
+    "visionEn": "Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity",
+    "timeline": {
+      "title": "Development Timeline"
+    },
+    "releases": {
+      "title": "Upcoming Releases",
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "planned": "Planned"
+    },
+    "community": {
+      "title": "Community Requests",
+      "subtitle": "Most requested features from GitHub Discussions",
+      "votes": "votes",
+      "vote": "Vote on Features"
+    },
+    "philosophy": {
+      "title": "Our Philosophy"
+    },
+    "metrics": {
+      "title": "Success Metrics",
+      "current": "v3.0.4 (Current)",
+      "goal2026": "v4.0.0 (2026 Goal)",
+      "goal2027": "v5.0.0 (2027 Goal)"
+    },
+    "cta": {
+      "title": "Shape the Future",
+      "description": "Your feedback guides development. Vote on features, suggest ideas, contribute code.",
+      "discussions": "Join Discussions",
+      "features": "Request Features"
+    }
+  },
+  "whyEdenComparison": {
+    "badge": "Comparison",
+    "title": "Garden of Eden vs",
+    "subtitle": "Cloud AI Services",
+    "description": "See how we compare to ChatGPT Plus, GitHub Copilot, and Claude Pro",
+    "table": {
+      "title": "Main Comparison Table",
+      "feature": "Feature",
+      "eden": "Garden of Eden",
+      "free": "Free"
+    },
+    "savings": {
+      "title": "Cost Savings with Garden of Eden",
+      "subtitle": "Save hundreds of dollars per year",
+      "monthly": "Monthly:",
+      "annual": "Annual:",
+      "threeYear": "3-Year Total:",
+      "save": "Save ${amount} with Eden",
+      "edenFree": "Garden of Eden: $0 Forever",
+      "mit": "MIT License • Open Source • No Hidden Costs"
+    },
+    "privacy": {
+      "title": "Privacy & Data Ownership"
+    },
+    "verdict": {
+      "title": "The Verdict",
+      "description1": "If you value",
+      "highlight": "privacy, ownership, and customization",
+      "description2": "over bleeding-edge performance,",
+      "conclusion": "Garden of Eden V3 is the clear choice.",
+      "cloudAI": {
+        "title": "Choose Cloud AI If:",
+        "item1": "You need the absolute best performance",
+        "item2": "You don't mind $20/month subscriptions",
+        "item3": "Privacy isn't a concern",
+        "item4": "You have reliable internet always"
+      },
+      "eden": {
+        "title": "Choose Garden of Eden If:",
+        "item1": "Privacy and data ownership matter",
+        "item2": "You want zero ongoing costs",
+        "item3": "You work offline or in secure environments",
+        "item4": "You value customization and control"
+      }
+    },
+    "cta": {
+      "title": "Ready to Save Money and Protect Your Privacy?",
+      "description": "Download Garden of Eden V3 now - free forever, private forever",
+      "download": "Download Now",
+      "features": "View All Features"
+    }
+  },
+  "whyEdenPrivacy": {
+    "badge": "Privacy First",
+    "title": "Your Data Never",
+    "subtitle": "Leaves Your Machine",
+    "description": "Complete privacy through 100% local processing - this is our core philosophy",
+    "principles": {
+      "title": "Privacy Principles",
+      "principle1": {
+        "title": "100% Local Processing",
+        "description": "All AI runs on your machine via Ollama. Zero data leaves your computer."
+      },
+      "principle2": {
+        "title": "No Telemetry, No Tracking",
+        "description": "We collect exactly zero data. No analytics, no usage stats, no tracking pixels."
+      },
+      "principle3": {
+        "title": "Encrypted Local Storage",
+        "description": "AES-256 encryption for your conversations and persona settings stored locally."
+      },
+      "principle4": {
+        "title": "No Cloud Dependency",
+        "description": "Works completely offline after setup. No cloud servers, no API calls."
+      },
+      "principle5": {
+        "title": "Optional Cloud Backup",
+        "description": "Only persona settings (10 numbers), never conversations. Fully opt-in."
+      },
+      "principle6": {
+        "title": "Open Source Transparency",
+        "description": "MIT License. Audit every line of code. No backdoors, no hidden features."
+      }
+    },
+    "philosophy": {
+      "title": "Our Privacy Philosophy",
+      "description": "Privacy is not a feature - it's a fundamental right. We built Garden of Eden V3 on the principle that your data belongs to you, and only you."
+    }
+  },
+  "resourcesDocumentation": {
+    "title": "Documentation",
+    "subtitle": "Everything you need to know about Garden of Eden V3"
+  },
+  "resourcesCommunity": {
+    "badge": "Community",
+    "title": "Join the Community",
+    "subtitle": "Get help, share ideas, and contribute to the project"
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Contact & Support",
+    "subtitle": "We're here to help! Choose the best way to reach us",
+    "methods": {
+      "title": "How to Reach Us",
+      "subtitle": "Multiple ways to get support and connect with our community",
+      "method1": {
+        "title": "GitHub Repository",
+        "description": "View source code, contribute, and star the project",
+        "action": "Visit Repository"
+      },
+      "method2": {
+        "title": "Report Issues",
+        "description": "Found a bug? Report it on GitHub Issues",
+        "action": "Report Bug"
+      },
+      "method3": {
+        "title": "Feature Requests",
+        "description": "Share ideas and suggestions on GitHub Discussions",
+        "action": "Share Ideas"
+      },
+      "method4": {
+        "title": "Email Support",
+        "description": "For general inquiries and partnership opportunities",
+        "action": "Send Email"
+      }
+    },
+    "responseTime": {
+      "title": "Response Time",
+      "description": "We're an open-source project maintained by passionate developers. Here's what to expect:",
+      "github": "GitHub Issues: Usually within 24-48 hours",
+      "email": "Email: 2-5 business days",
+      "community": "Community Forums: Real-time responses from community members"
+    },
+    "community": {
+      "title": "Join Our Community",
+      "subtitle": "Connect with other users and contributors",
+      "item1": {
+        "title": "GitHub Discussions",
+        "description": "Ask questions and share experiences"
+      },
+      "item2": {
+        "title": "Contributors",
+        "description": "Meet the team building Eden"
+      },
+      "item3": {
+        "title": "Open Source",
+        "description": "MIT License - contribute freely"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Download Garden of Eden V3 now and join our growing community of users",
+      "github": "Visit GitHub",
+      "faq": "Read FAQ"
+    }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "badge": "Privacy Policy",
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated: January 2025",
+      "intro": "Garden of Eden V3 is built on a fundamental principle: your data never leaves your machine. This privacy policy explains how we achieve 100% local privacy.",
+      "philosophy": {
+        "title": "Our Core Privacy Philosophy",
+        "description": "We believe privacy is a fundamental right, not a premium feature. Everything runs locally on your machine.",
+        "stat1": "Local Processing",
+        "stat2": "Data Collection",
+        "stat3": "Cloud Servers"
+      },
+      "section1": {
+        "title": "Information We Do NOT Collect",
+        "content": "Garden of Eden V3 collects zero data. We have no servers, no analytics, no telemetry, and no tracking of any kind.",
+        "point1": "No conversation logs or chat history",
+        "point2": "No usage statistics or analytics",
+        "point3": "No personal information or identifiers"
+      },
+      "section2": {
+        "title": "How Your Data Stays Local",
+        "content": "All AI processing happens on your machine using Ollama. Your conversations, files, and settings are stored locally with AES-256 encryption."
+      },
+      "section3": {
+        "title": "Local Data Storage",
+        "content": "All data is stored locally on your machine in encrypted format:",
+        "point1": "Conversations: Encrypted SQLite database on your machine",
+        "point2": "Persona Settings: Local JSON files with 17 customizable parameters",
+        "point3": "File Access: Temporary in-memory processing, never uploaded"
+      },
+      "section4": {
+        "title": "Optional Cloud Backup",
+        "content": "You can optionally enable cloud backup for persona settings only (10 numeric parameters). Conversations are NEVER backed up to the cloud. This feature is opt-in and disabled by default."
+      },
+      "section5": {
+        "title": "Third-Party Services",
+        "content": "Garden of Eden V3 uses Ollama for local AI processing. Ollama runs entirely on your machine and does not send data to external servers. No other third-party services are used."
+      },
+      "section6": {
+        "title": "Open Source Transparency",
+        "content": "Our code is open source (MIT License) and available on GitHub. You can audit every line to verify our privacy claims. No backdoors, no hidden features, no telemetry."
+      },
+      "notice": {
+        "title": "Important Notice",
+        "content": "Since Garden of Eden V3 runs entirely on your machine, you have complete control over your data. You can delete, export, or modify your data at any time by accessing the local database files.",
+        "contact": "If you have any questions about this privacy policy, please contact us on GitHub."
+      },
+      "contact": {
+        "title": "Questions About Privacy?",
+        "description": "We're committed to transparency. If you have any questions, reach out to us:",
+        "email": "Email:",
+        "github": "GitHub:"
+      }
+    },
+    "termsOfService": {
+      "badge": "Terms of Service",
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated: January 2025",
+      "intro": "Welcome to Garden of Eden V3. These terms govern your use of our open-source AI companion software.",
+      "keyPoints": {
+        "title": "Key Points",
+        "point1": {
+          "title": "Free & Open Source",
+          "description": "MIT License - use freely for personal or commercial purposes"
+        },
+        "point2": {
+          "title": "Your Data, Your Control",
+          "description": "All data stays on your machine, you own everything"
+        },
+        "point3": {
+          "title": "No Warranties",
+          "description": "Software provided 'as-is' without guarantees"
+        }
+      },
+      "section1": {
+        "title": "Acceptance of Terms",
+        "content": "By downloading, installing, or using Garden of Eden V3, you agree to these terms of service. If you do not agree, do not use the software.",
+        "point1": "You are responsible for your use of the software",
+        "point2": "You acknowledge this is open-source software provided free of charge",
+        "point3": "You understand all processing happens locally on your machine"
+      },
+      "section2": {
+        "title": "License Grant (MIT License)",
+        "content": "Garden of Eden V3 is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions in the LICENSE file."
+      },
+      "section3": {
+        "title": "User Responsibilities",
+        "content": "When using Garden of Eden V3, you agree to:",
+        "point1": "Use the software in compliance with applicable laws",
+        "point2": "Not use it for illegal or harmful purposes",
+        "point3": "Take responsibility for securing your local data and backups"
+      },
+      "section4": {
+        "title": "Privacy & Data",
+        "content": "All data processing occurs locally on your machine. We do not collect, store, or transmit your data. You are solely responsible for backing up and securing your local data."
+      },
+      "section5": {
+        "title": "Updates & Modifications",
+        "content": "We may release updates to Garden of Eden V3. Updates are optional, and you are not required to install them. We reserve the right to modify these terms at any time."
+      },
+      "section6": {
+        "title": "Prohibited Uses",
+        "content": "You may not use Garden of Eden V3 to:",
+        "point1": "Violate any laws or regulations",
+        "point2": "Infringe on intellectual property rights",
+        "point3": "Generate illegal or harmful content",
+        "point4": "Impersonate others or misrepresent your identity"
+      },
+      "section7": {
+        "title": "Disclaimer of Warranties",
+        "content": "Garden of Eden V3 is provided 'as-is' without warranties of any kind, express or implied. We do not guarantee the software will be error-free, secure, or meet your requirements."
+      },
+      "disclaimer": {
+        "title": "Important Disclaimers",
+        "content": "Garden of Eden V3 is experimental software. Use at your own risk.",
+        "warranty": {
+          "title": "No Warranty",
+          "description": "Software provided 'as-is' with no guarantees of performance or reliability"
+        },
+        "liability": {
+          "title": "Limited Liability",
+          "description": "We are not liable for any damages arising from use of the software"
+        }
+      },
+      "contact": {
+        "title": "Questions or Concerns?",
+        "description": "For questions about these terms, contact us:",
+        "email": "Email:",
+        "github": "GitHub:"
+      }
+    },
+    "license": {
+      "badge": "Open Source",
+      "title": "MIT License",
+      "intro": "Garden of Eden V3 is open source software, released under the permissive MIT License. This means you're free to use, modify, and distribute it for any purpose.",
+      "licenseType": "License Type: MIT License",
+      "licenseDescription": "One of the most permissive open source licenses. Use it freely, commercially or personally, with minimal restrictions.",
+      "philosophy": {
+        "title": "Why Open Source?",
+        "description": "We believe AI companionship should be accessible to everyone, transparent, and owned by the community.",
+        "value1": "Global Accessibility",
+        "value2": "Full Transparency",
+        "value3": "Community Driven"
+      },
+      "permissions": {
+        "title": "What You Can Do",
+        "subtitle": "The MIT License grants you extensive permissions:",
+        "permission1": {
+          "title": "Commercial Use",
+          "description": "Use Garden of Eden V3 in commercial products and services without paying fees or royalties"
+        },
+        "permission2": {
+          "title": "Modification",
+          "description": "Modify, customize, and adapt the code to fit your specific needs"
+        },
+        "permission3": {
+          "title": "Distribution",
+          "description": "Distribute copies of the software, modified or unmodified, to others"
+        },
+        "permission4": {
+          "title": "Private Use",
+          "description": "Use the software privately for personal projects without any restrictions"
+        }
+      },
+      "conditions": {
+        "title": "Conditions",
+        "subtitle": "The MIT License has minimal requirements:",
+        "condition1": {
+          "title": "License & Copyright Notice",
+          "description": "Include the original MIT License and copyright notice in any copies or substantial portions of the software"
+        },
+        "condition2": {
+          "title": "No Trademark Rights",
+          "description": "The license does not grant permission to use the trade names, trademarks, or service marks of the project"
+        }
+      },
+      "fullText": {
+        "title": "Full MIT License Text",
+        "mitTitle": "MIT License",
+        "copyright": "Copyright (c) 2025 Garden of Eden Project",
+        "permissionText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+        "warrantyText": "THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+      },
+      "cta": {
+        "title": "Contribute to the Project",
+        "description": "Garden of Eden V3 is built by the community, for the community. We welcome your contributions!",
+        "viewSource": "View Source Code",
+        "documentation": "Read Documentation"
+      }
+    }
   }
 }
