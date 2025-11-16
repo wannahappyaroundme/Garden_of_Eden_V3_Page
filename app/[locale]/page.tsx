@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Carousel from "@/components/Carousel";
 import Accordion from "@/components/Accordion";
+import TypedText from "@/components/TypedText";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -88,7 +89,7 @@ export default function Home() {
               variants={fadeInUp}
               className="text-2xl md:text-3xl mb-4 font-light"
             >
-              {t("hero.subtitle")}
+              {t("hero.subtitle")} <TypedText />
             </motion.p>
 
             <motion.p
