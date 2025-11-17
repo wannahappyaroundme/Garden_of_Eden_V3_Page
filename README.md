@@ -1,117 +1,246 @@
-# Garden of Eden V3 - Landing Page
+# Garden of Eden V3 - Marketing Website
 
-> Your AI Companion That Eliminates Loneliness
+> AI 동반자 서비스 공식 웹사이트 - 완벽한 프라이버시를 보장하는 로컬 AI
 
-A comprehensive, modern landing page for Garden of Eden V3 - the 100% local AI companion that provides friend-like support, enhances productivity, and guarantees complete privacy. Inspired by JARVIS from Iron Man.
+Next.js 15 App Router 기반 마케팅 웹사이트로, Garden of Eden V3 AI 동반자 서비스를 소개합니다.
 
-## Tech Stack
+## 🎨 디자인 철학
 
-- **Next.js 15** - App Router
-- **React 19+** - Latest React features
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first styling
-- **shadcn/ui** - Beautiful UI components
+**시크하고 세련된 검은색/흰색 미니멀리즘**
+- 검은색 배경 (black, zinc-950, zinc-900)
+- 흰색 텍스트로 강력한 대비
+- gray-300/gray-400 보조 텍스트
+- 미묘한 호버 효과와 애니메이션
+- 깔끔하고 현대적인 카드 디자인
 
-## Landing Page Sections
+## 🛠️ 기술 스택
 
-1. **Hero Section** - Companionship-focused messaging with CTAs
-2. **Three Core Pillars** - Eliminate Loneliness, Friend-Like Support, Enhanced Productivity
-3. **Problem/Solution** - Why Eden V3 vs Cloud AI
-4. **Key Statistics** - 100% Privacy, $0 Forever, 20-30 Persona Parameters
-5. **Dual Mode System** - User-Led vs AI-Led intelligence
-6. **Design Philosophy** - "Screen is Reality" (화면이 곧 현실)
-7. **Powerful Features** - 6 feature cards with technical details
-8. **Pre-Built Personas** - 6 named personalities
-9. **Comparison Table** - vs ChatGPT Plus, Claude Pro, GitHub Copilot
-10. **Technical Excellence** - AI Benchmarks (HumanEval: 80.5%), Production Quality
-11. **Technology Stack** - 12 technologies
-12. **Perfect For** - 6 user personas (Solo Developer as primary)
-13. **Cultural Localization** - Korean honorifics, 99 languages
-14. **RAG Memory System** - How Eden remembers you
-15. **Getting Started** - 3-step guide + system requirements
-16. **Development Roadmap** - Phases 1-8, v1.1, v1.2, v2.0
-17. **FAQ Section** - 10 comprehensive Q&A
-18. **Final CTA** - Download and GitHub star
+- **Next.js 15** - App Router, SSG (Static Site Generation)
+- **React 19** - 최신 React 기능
+- **TypeScript** - 타입 안전성
+- **Tailwind CSS** - 유틸리티 기반 스타일링
+- **Framer Motion** - 부드러운 애니메이션
+- **next-intl** - 다국어 지원 (한국어/영어)
+- **lucide-react** - 아이콘
+- **typed.js** - 타이핑 애니메이션
 
-## Features
+## 📄 주요 페이지
 
-- ❤️ Emotional companionship messaging throughout
-- 🎨 Beautiful purple/blue gradient designs
-- 📱 Fully responsive (mobile-first design)
-- ⚡ Optimized performance (<16ms frame time)
-- 🎭 Smooth animations (fadeInUp, float, pulse, shimmer)
-- 🌙 Clean, modern UI with hover effects
-- 📊 AI benchmark data (HumanEval, MMLU scores)
-- 🌍 Cultural localization (Korean + English)
-- 🚀 Production-ready with auto-deployment
+### 메인 페이지 (Home)
+- Hero 섹션: 검은색 배경, 흰색 그리드 패턴, 타이핑 애니메이션
+- 핵심 기능 카드 (3개)
+- 사용자 타겟 섹션 (6개)
+- Final CTA 섹션
 
-## Getting Started
+### Features 페이지
+- 기능 Carousel (4개 카드: 프라이버시, AI 모델, 페르소나, 감정 지능)
+- 페르소나 그리드 (6개: 전문가, 창의적, 공감적, 선생님, 동기부여, 캐주얼)
+- 기술적 우수성 (4개 카드)
+
+### Download 페이지
+- 플랫폼별 다운로드 (Windows, macOS, Linux)
+- 시스템 요구사항
+- 빠른 시작 가이드 (4단계)
+- 커뮤니티 & 지원
+
+### Product Overview 페이지
+- 3대 핵심 가치
+- 문제 vs 해결책
+- 비전 섹션
+- 핵심 약속 (100% 로컬, 100% 프라이빗, 0% 클라우드, 0% 구독료)
+
+### 기타 페이지
+- FAQ
+- Contact
+- Legal (Privacy Policy, Terms of Service, License)
+- Resources (Documentation)
+
+## 🎯 주요 기능
+
+- ✅ **완전한 반응형** - 모바일 우선 디자인
+- ✅ **다국어 지원** - 한국어/영어 (next-intl)
+- ✅ **다크 테마** - 검은색 기반 시크한 디자인
+- ✅ **애니메이션** - Framer Motion (fadeInUp, float, scale)
+- ✅ **타이핑 효과** - Hero 섹션 typed.js
+- ✅ **SSG 배포** - 27개 정적 페이지 생성
+- ✅ **SEO 최적화** - 메타 태그, 구조화된 데이터
+- ✅ **성능 최적화** - Next.js 이미지 최적화, 코드 스플리팅
+
+## 🚀 시작하기
 
 ```bash
-# Install dependencies
+# 의존성 설치
 npm install
 
-# Run development server
+# 개발 서버 실행
 npm run dev
 
-# Build for production
+# 프로덕션 빌드
 npm run build
 
-# Start production server
-npm start
+# 빌드 결과 미리보기
+npm run preview
 ```
 
-## Project Structure
+## 📁 프로젝트 구조
 
 ```
-├── .github/
-│   └── workflows/
-│       └── deploy.yml      # GitHub Actions auto-deployment
-├── app/                    # Next.js App Router
-│   ├── page.tsx           # Comprehensive landing page (1,172 lines)
-│   ├── layout.tsx         # Root layout with SEO
-│   └── globals.css        # Global styles + animations
-├── lib/
-│   └── utils.ts           # shadcn/ui utilities
-├── components.json        # shadcn/ui configuration
-├── vercel.json           # Vercel deployment config
-├── DEPLOYMENT.md         # Deployment guide
-└── README.md            # This file
+├── app/
+│   └── [locale]/              # 다국어 라우팅
+│       ├── page.tsx           # 홈 페이지
+│       ├── features/          # 기능 페이지
+│       ├── download/          # 다운로드 페이지
+│       ├── product/
+│       │   ├── overview/      # 제품 개요
+│       │   └── technology/    # 기술 스택
+│       ├── faq/               # FAQ
+│       ├── contact/           # 문의
+│       ├── legal/             # 법적 문서
+│       │   ├── privacy-policy/
+│       │   ├── terms-of-service/
+│       │   └── license/
+│       └── resources/
+│           └── documentation/ # 문서
+├── components/
+│   ├── Navbar.tsx             # 네비게이션 (검은색 테마)
+│   ├── Footer.tsx             # 푸터 (zinc-950)
+│   ├── TypedText.tsx          # 타이핑 애니메이션
+│   └── Carousel.tsx           # 캐러셀
+├── messages/
+│   ├── en.json                # 영어 번역
+│   └── ko.json                # 한국어 번역
+├── public/                    # 정적 파일
+├── tailwind.config.ts         # Tailwind 설정
+└── next.config.ts             # Next.js 설정
 ```
 
-## Deployment
+## 🎨 디자인 시스템
 
-This project is configured for automatic deployment to Vercel via GitHub Actions.
+### 색상 팔레트
+```css
+/* 배경 */
+bg-black                 /* 순수 검은색 */
+bg-zinc-950             /* 매우 어두운 zinc */
+bg-zinc-900             /* 어두운 zinc (카드) */
 
-### Setup Auto-Deployment
+/* 텍스트 */
+text-white              /* 헤딩 */
+text-gray-300           /* 본문 */
+text-gray-400           /* 보조 텍스트 */
 
-1. Create a Vercel account and import this repository
-2. Get your Vercel tokens (VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID)
-3. Add them as GitHub repository secrets
-4. Push to `main` branch - automatic deployment triggers!
+/* 테두리 */
+border-zinc-800         /* 기본 */
+border-zinc-700         /* 호버 */
 
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+/* 악센트 (최소 사용) */
+text-green-400          /* 성공 */
+text-blue-400           /* 정보 */
+text-red-400            /* 경고 */
+text-purple-400         /* 포인트 */
+```
 
-## Content Alignment
+### 애니메이션
+```css
+animate-fadeInUp        /* 페이드업 */
+animate-float           /* 부유 효과 */
+animate-gradient-shift  /* 그라데이션 이동 */
+hover:scale-105         /* 호버 확대 */
+hover:shadow-2xl        /* 호버 그림자 */
+```
 
-All content is aligned with the **PROJECT_EDEN_V3_MASTER_SPEC.md**:
-- ✅ Emotional companionship as core mission
-- ✅ Three pillars philosophy (Loneliness, Friend-Like Support, Productivity)
-- ✅ 20-30 persona parameters (corrected from 28)
-- ✅ Dual mode system (User-Led vs AI-Led)
-- ✅ Design philosophy: "Screen is Reality" (화면이 곧 현실)
-- ✅ 6 named pre-built personas
-- ✅ AI benchmark scores (HumanEval: 80.5%, MMLU: 69.4%)
-- ✅ Cultural localization (Korean honorifics, 99 languages)
-- ✅ RAG memory system explanation
-- ✅ Solo Developer as primary target user
-- ✅ Complete roadmap (v1.1, v1.2, v2.0)
+## 📊 빌드 통계
 
-## License
+```
+✓ Generating static pages (27/27)
+Route (app)                              Size     First Load JS
+├ ○ /[locale]                            6.01 kB  162 kB
+├ ● /[locale]/contact                    292 B    117 kB
+├ ● /[locale]/download                   3.07 kB  156 kB
+├ ● /[locale]/faq                        2.17 kB  119 kB
+├ ● /[locale]/features                   5.09 kB  158 kB
+├ ● /[locale]/product/overview           292 B    117 kB
+└ ... (27 pages total)
+```
 
-MIT License - Free Forever
+## 🌐 배포
 
-## Acknowledgments
+### Vercel (권장)
+```bash
+# Vercel CLI 설치
+npm install -g vercel
 
-Inspired by JARVIS from Marvel's Iron Man
-Built with ❤️ to eliminate loneliness and enhance productivity
+# 배포
+vercel --prod
+```
+
+### GitHub Pages
+```bash
+# 빌드
+npm run build
+
+# out 폴더를 GitHub Pages에 배포
+```
+
+## 📝 콘텐츠 관리
+
+### 다국어 번역 추가
+1. `messages/ko.json` 또는 `messages/en.json` 편집
+2. 번역 키 추가
+3. 컴포넌트에서 `useTranslations()` 훅 사용
+
+```tsx
+const t = useTranslations();
+<h1>{t('hero.title')}</h1>
+```
+
+### 새 페이지 추가
+1. `app/[locale]/새페이지/page.tsx` 생성
+2. Navbar에 링크 추가
+3. 번역 파일에 텍스트 추가
+
+## 🎯 성능 최적화
+
+- ✅ Static Site Generation (SSG)
+- ✅ 이미지 최적화 (Next.js Image)
+- ✅ 코드 스플리팅
+- ✅ Tree shaking
+- ✅ Gzip 압축
+- ✅ 지연 로딩 (Lazy loading)
+
+## 📱 반응형 브레이크포인트
+
+```css
+/* Mobile First */
+default:  < 640px   (sm 미만)
+sm:       640px+    (태블릿 세로)
+md:       768px+    (태블릿 가로)
+lg:       1024px+   (작은 데스크톱)
+xl:       1280px+   (데스크톱)
+2xl:      1536px+   (큰 데스크톱)
+```
+
+## 🔗 관련 링크
+
+- **데스크톱 앱**: [Garden of Eden V3](https://github.com/wannahappyaroundme/Garden_of_Eden_V3)
+- **프로젝트 스펙**: [PROJECT_EDEN_V3_MASTER_SPEC.md](PROJECT_EDEN_V3_MASTER_SPEC.md)
+
+## 📄 라이선스
+
+MIT License - 자유롭게 사용, 수정, 배포 가능
+
+## 🙏 감사의 글
+
+- **Next.js 팀** - 놀라운 프레임워크
+- **Vercel** - 훌륭한 호스팅
+- **Tailwind CSS** - 유틸리티 CSS
+- **Framer Motion** - 애니메이션 라이브러리
+- **next-intl** - 국제화 솔루션
+
+---
+
+**최종 업데이트**: 2025-01-17
+**버전**: 2.0.0
+**상태**: ✅ Production Ready (검은색 테마 완료)
+**빌드**: 27 정적 페이지 성공
+
+💜 Garden of Eden V3와 함께 완벽한 프라이버시를 경험하세요
