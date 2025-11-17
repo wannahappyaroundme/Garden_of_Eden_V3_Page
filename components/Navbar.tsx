@@ -119,8 +119,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/90 backdrop-blur-xl shadow-lg'
-          : 'bg-white/60 backdrop-blur-md'
+          ? 'bg-black/90 backdrop-blur-xl shadow-lg border-b border-zinc-800'
+          : 'bg-black/60 backdrop-blur-md'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6">
@@ -128,7 +128,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href={`/${locale}`}
-            className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent hover:from-purple-500 hover:to-violet-500 transition-all"
+            className="text-2xl font-bold text-white hover:text-gray-300 transition-all"
           >
             Garden of Eden
           </Link>
@@ -148,8 +148,8 @@ export default function Navbar() {
                     <button
                       className={`flex items-center gap-1 font-semibold transition-all duration-300 ${
                         activePage === item.id
-                          ? 'text-purple-600'
-                          : 'text-gray-700 hover:text-purple-600'
+                          ? 'text-white'
+                          : 'text-gray-400 hover:text-white'
                       }`}
                     >
                       {item.label}
@@ -162,7 +162,7 @@ export default function Navbar() {
                     {activePage === item.id && (
                       <motion.div
                         layoutId="activeSection"
-                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-600 to-violet-600"
+                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-white"
                         transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                       />
                     )}
@@ -175,7 +175,7 @@ export default function Navbar() {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -10 }}
                           transition={{ duration: 0.2 }}
-                          className="absolute top-full left-0 mt-6 w-48 bg-radial-at-tl from-white via-purple-50/30 to-white rounded-lg shadow-[0_0_30px_rgba(168,85,247,0.2)] border border-purple-200/50 overflow-hidden"
+                          className="absolute top-full left-0 mt-6 w-48 bg-zinc-900 rounded-lg shadow-xl border border-zinc-800 overflow-hidden"
                         >
                           {item.submenu.map((subItem) => (
                             <Link
@@ -183,8 +183,8 @@ export default function Navbar() {
                               href={`/${locale}${subItem.path}`}
                               className={`block px-4 py-3 text-sm font-medium transition-all duration-300 ${
                                 isPathActive(subItem.path)
-                                  ? 'bg-purple-100/60 text-purple-600 font-bold'
-                                  : 'text-gray-700 hover:bg-purple-50/40 hover:text-purple-600'
+                                  ? 'bg-zinc-800 text-white font-bold'
+                                  : 'text-gray-400 hover:bg-zinc-800/50 hover:text-white'
                               }`}
                             >
                               {subItem.label}
@@ -200,15 +200,15 @@ export default function Navbar() {
                     href={`/${locale}${item.path}`}
                     className={`font-semibold transition-all duration-300 relative ${
                       activePage === item.id
-                        ? 'text-purple-600'
-                        : 'text-gray-700 hover:text-purple-600'
+                        ? 'text-white'
+                        : 'text-gray-400 hover:text-white'
                     }`}
                   >
                     {item.label}
                     {activePage === item.id && (
                       <motion.div
                         layoutId="activeSection"
-                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-600 to-violet-600"
+                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-white"
                         transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                       />
                     )}
@@ -221,10 +221,10 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            className="md:hidden p-2 rounded-lg hover:bg-zinc-800 transition-colors"
           >
             <svg
-              className="w-6 h-6 text-gray-700"
+              className="w-6 h-6 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
