@@ -40,18 +40,18 @@ export default function FAQPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-radial-white">
       {/* Hero */}
-      <section className="pt-32 pb-20 px-6">
+      <section className="pt-32 pb-20 px-6 bg-radial-white-center">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-900 border border-zinc-800 rounded-full mb-6">
-            <HelpCircle className="w-4 h-4 text-white" />
-            <span className="text-white font-semibold">{t('faq.badge')}</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100/50 backdrop-blur-sm border border-purple-200/60 rounded-full mb-6">
+            <HelpCircle className="w-4 h-4 text-purple-700" />
+            <span className="text-purple-900 font-semibold">{t('faq.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">
             {t('faq.title')}
           </h1>
-          <p className="text-xl text-gray-400">
+          <p className="text-xl text-gray-700">
             {t('faq.subtitle')}
           </p>
         </div>
@@ -59,11 +59,11 @@ export default function FAQPage() {
 
       {/* FAQ Categories */}
       {categories.map((category, catIndex) => (
-        <section key={catIndex} className={`py-16 px-6 ${catIndex % 2 === 0 ? 'bg-zinc-950' : 'bg-black'}`}>
+        <section key={catIndex} className={`py-16 px-6 ${catIndex % 2 === 0 ? 'bg-radial-white-purple' : 'bg-radial-white-multi'}`}>
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <span className="text-4xl">{category.icon}</span>
-              <h2 className="text-3xl font-bold text-white">{t(category.title)}</h2>
+              <span className="text-4xl animate-float">{category.icon}</span>
+              <h2 className="text-3xl font-bold text-gray-900">{t(category.title)}</h2>
             </div>
             <div className="space-y-4">
               {category.faqs.map((faq, index) => {
@@ -73,27 +73,27 @@ export default function FAQPage() {
                 return (
                   <div
                     key={index}
-                    className="rounded-xl border border-zinc-800 bg-zinc-900 overflow-hidden hover:shadow-lg hover:border-zinc-700 transition-all duration-300"
+                    className="rounded-xl border border-purple-200/60 bg-white/80 backdrop-blur-sm overflow-hidden hover:shadow-xl hover:shadow-purple-200/50 hover:border-purple-300 transition-all duration-300"
                   >
                     <button
                       onClick={() => setOpenIndex(isOpen ? null : globalIndex)}
                       className="w-full p-6 text-left flex items-center justify-between gap-4 group"
                     >
-                      <h3 className="text-lg font-semibold text-white group-hover:text-gray-300 transition-colors">
+                      <h3 className="text-lg font-semibold text-gray-900 group-hover:text-purple-700 transition-colors">
                         {t(faq.question)}
                       </h3>
                       <div className="flex-shrink-0">
                         {isOpen ? (
-                          <Minus className="w-5 h-5 text-white" />
+                          <Minus className="w-5 h-5 text-purple-600" />
                         ) : (
-                          <Plus className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors" />
+                          <Plus className="w-5 h-5 text-purple-600 group-hover:text-purple-700 transition-colors" />
                         )}
                       </div>
                     </button>
                     {isOpen && (
                       <div className="px-6 pb-6">
-                        <div className="pt-2 border-t border-zinc-800">
-                          <p className="text-gray-300 leading-relaxed mt-4">
+                        <div className="pt-2 border-t border-purple-200/60">
+                          <p className="text-gray-700 leading-relaxed mt-4">
                             {t(faq.answer)}
                           </p>
                         </div>
@@ -108,22 +108,22 @@ export default function FAQPage() {
       ))}
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-zinc-950 text-white">
+      <section className="py-20 px-6 bg-radial-white-center">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 text-white">{t('faq.cta.title')}</h2>
-          <p className="text-xl mb-8 leading-relaxed text-gray-300">
+          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('faq.cta.title')}</h2>
+          <p className="text-xl mb-8 leading-relaxed text-gray-700">
             {t('faq.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/download"
-              className="px-8 py-4 bg-white text-black rounded-xl font-semibold hover:shadow-xl hover:bg-gray-200 transition-all duration-300"
+              className="px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-xl font-semibold hover:from-purple-700 hover:to-violet-700 hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300 hover:scale-105"
             >
               {t('faq.cta.download')}
             </a>
             <a
               href="/contact"
-              className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-xl font-semibold hover:bg-white hover:text-black transition-all duration-300"
+              className="px-8 py-4 bg-transparent border-2 border-purple-600 text-purple-700 rounded-xl font-semibold hover:bg-purple-600 hover:text-white transition-all duration-300 hover:scale-105"
             >
               {t('faq.cta.contact')}
             </a>

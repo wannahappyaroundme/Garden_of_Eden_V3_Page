@@ -119,8 +119,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-black/90 backdrop-blur-xl shadow-lg border-b border-zinc-800'
-          : 'bg-black/60 backdrop-blur-md'
+          ? 'bg-white/95 backdrop-blur-xl shadow-lg border-b border-purple-200/60'
+          : 'bg-white/80 backdrop-blur-md'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6">
@@ -128,7 +128,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href={`/${locale}`}
-            className="text-2xl font-bold text-white hover:text-gray-300 transition-all"
+            className="text-2xl font-bold bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent hover:from-purple-700 hover:via-violet-700 hover:to-purple-600 transition-all"
           >
             Garden of Eden
           </Link>
@@ -148,8 +148,8 @@ export default function Navbar() {
                     <button
                       className={`flex items-center gap-1 font-semibold transition-all duration-300 ${
                         activePage === item.id
-                          ? 'text-white'
-                          : 'text-gray-400 hover:text-white'
+                          ? 'text-purple-700'
+                          : 'text-gray-600 hover:text-purple-600'
                       }`}
                     >
                       {item.label}
@@ -162,7 +162,7 @@ export default function Navbar() {
                     {activePage === item.id && (
                       <motion.div
                         layoutId="activeSection"
-                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-white"
+                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-600 to-violet-600"
                         transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                       />
                     )}
@@ -175,7 +175,7 @@ export default function Navbar() {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -10 }}
                           transition={{ duration: 0.2 }}
-                          className="absolute top-full left-0 mt-6 w-48 bg-zinc-900 rounded-lg shadow-xl border border-zinc-800 overflow-hidden"
+                          className="absolute top-full left-0 mt-6 w-48 bg-white rounded-lg shadow-xl border border-purple-200/60 overflow-hidden"
                         >
                           {item.submenu.map((subItem) => (
                             <Link
@@ -183,8 +183,8 @@ export default function Navbar() {
                               href={`/${locale}${subItem.path}`}
                               className={`block px-4 py-3 text-sm font-medium transition-all duration-300 ${
                                 isPathActive(subItem.path)
-                                  ? 'bg-zinc-800 text-white font-bold'
-                                  : 'text-gray-400 hover:bg-zinc-800/50 hover:text-white'
+                                  ? 'bg-purple-100 text-purple-700 font-bold'
+                                  : 'text-gray-600 hover:bg-purple-50 hover:text-purple-600'
                               }`}
                             >
                               {subItem.label}
@@ -200,15 +200,15 @@ export default function Navbar() {
                     href={`/${locale}${item.path}`}
                     className={`font-semibold transition-all duration-300 relative ${
                       activePage === item.id
-                        ? 'text-white'
-                        : 'text-gray-400 hover:text-white'
+                        ? 'text-purple-700'
+                        : 'text-gray-600 hover:text-purple-600'
                     }`}
                   >
                     {item.label}
                     {activePage === item.id && (
                       <motion.div
                         layoutId="activeSection"
-                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-white"
+                        className="absolute -bottom-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-600 to-violet-600"
                         transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                       />
                     )}
@@ -221,10 +221,10 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-zinc-800 transition-colors"
+            className="md:hidden p-2 rounded-lg hover:bg-purple-100 transition-colors"
           >
             <svg
-              className="w-6 h-6 text-white"
+              className="w-6 h-6 text-purple-700"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -257,7 +257,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-white/95 backdrop-blur-xl border-t border-gray-200"
+            className="md:hidden bg-white/95 backdrop-blur-xl border-t border-purple-200/60"
           >
             <div className="px-6 py-4 space-y-2 max-h-[70vh] overflow-y-auto">
               {menuItems.map((item) => (
@@ -269,8 +269,8 @@ export default function Navbar() {
                         onClick={() => setOpenDropdown(openDropdown === item.id ? null : item.id)}
                         className={`flex items-center justify-between w-full text-left py-2 px-4 rounded-lg font-semibold transition-all ${
                           activePage === item.id
-                            ? 'bg-purple-50 text-purple-600'
-                            : 'text-gray-700 hover:bg-gray-100'
+                            ? 'bg-purple-100 text-purple-700'
+                            : 'text-gray-700 hover:bg-purple-50'
                         }`}
                       >
                         {item.label}
@@ -300,7 +300,7 @@ export default function Navbar() {
                                 className={`block py-2 px-4 rounded-lg text-sm font-medium transition-all ${
                                   isPathActive(subItem.path)
                                     ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white'
-                                    : 'text-gray-600 hover:bg-gray-100'
+                                    : 'text-gray-600 hover:bg-purple-100'
                                 }`}
                               >
                                 {subItem.label}
@@ -318,7 +318,7 @@ export default function Navbar() {
                       className={`block w-full text-left py-2 px-4 rounded-lg font-semibold transition-all ${
                         activePage === item.id
                           ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white'
-                          : 'text-gray-700 hover:bg-gray-100'
+                          : 'text-gray-700 hover:bg-purple-50'
                       }`}
                     >
                       {item.label}

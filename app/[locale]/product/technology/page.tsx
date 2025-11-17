@@ -126,78 +126,77 @@ export default function TechnologyPage() {
       layer: 'User Interface',
       tech: 'React + Tailwind CSS',
       description: 'KakaoTalk-style chat, voice input, screen context',
-      color: 'from-purple-500 to-violet-500',
+      color: 'from-white to-gray-100',
     },
     {
       layer: 'Application Logic',
       tech: 'TypeScript + Zustand',
       description: 'State management, persona system, learning optimization',
-      color: 'from-violet-500 to-purple-500',
+      color: 'from-white to-gray-100',
     },
     {
       layer: 'IPC Bridge',
       tech: 'Tauri Commands',
       description: 'Type-safe communication between frontend and backend',
-      color: 'from-purple-600 to-violet-600',
+      color: 'from-white to-gray-100',
     },
     {
       layer: 'Backend Services',
       tech: 'Rust + Tokio',
       description: 'File ops, Git integration, screen capture, webhooks',
-      color: 'from-violet-600 to-purple-600',
+      color: 'from-white to-gray-100',
     },
     {
       layer: 'AI Runtime',
       tech: 'Ollama + Whisper + LLaVA',
       description: 'Local LLM inference, speech-to-text, vision',
-      color: 'from-purple-500 to-violet-500',
+      color: 'from-white to-gray-100',
     },
     {
       layer: 'Data Layer',
       tech: 'SQLite + AES-256',
       description: 'Encrypted conversations, persona settings, RAG memory',
-      color: 'from-violet-500 to-purple-500',
+      color: 'from-white to-gray-100',
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-violet-50">
+    <div className="min-h-screen bg-radial-white">
       {/* Hero */}
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 rounded-full mb-6">
-            <Cpu className="w-4 h-4 text-purple-600" />
-            <span className="text-purple-600 font-semibold">{t('productTechnology.badge')}</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full mb-6">
+            <Cpu className="w-4 h-4 text-gray-900" />
+            <span className="text-gray-900 font-semibold">{t('productTechnology.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             {t('productTechnology.title')}
             <br />
             {t('productTechnology.subtitle')}
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             {t('productTechnology.description')}
           </p>
         </div>
       </section>
 
       {/* Architecture Layers */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">{t('productTechnology.architecture.title')}</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-gray-900">{t('productTechnology.architecture.title')}</h2>
           <div className="space-y-4">
             {architecture.map((layer, index) => (
               <div
                 key={index}
-                className="group relative p-6 rounded-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:shadow-xl transition-all duration-300"
+                className="group relative p-6 rounded-xl bg-white/80 backdrop-blur-sm border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300"
               >
-                <div className={`absolute inset-0 bg-gradient-to-br ${layer.color} opacity-0 group-hover:opacity-5 rounded-xl transition-opacity`} />
                 <div className="relative flex items-center gap-6">
-                  <div className={`w-16 h-16 rounded-lg bg-gradient-to-br ${layer.color} flex items-center justify-center flex-shrink-0`}>
-                    <Layers className="w-8 h-8 text-white" />
+                  <div className={`w-16 h-16 rounded-lg bg-gradient-to-br ${layer.color} flex items-center justify-center flex-shrink-0 border border-gray-200`}>
+                    <Layers className="w-8 h-8 text-gray-900" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold mb-1">{layer.layer}</h3>
-                    <p className="text-sm text-purple-600 font-semibold mb-2">{layer.tech}</p>
+                    <h3 className="text-xl font-bold mb-1 text-gray-900">{layer.layer}</h3>
+                    <p className="text-sm text-gray-900 font-semibold mb-2">{layer.tech}</p>
                     <p className="text-gray-600">{layer.description}</p>
                   </div>
                 </div>
@@ -208,25 +207,25 @@ export default function TechnologyPage() {
       </section>
 
       {/* Tech Stack - Core */}
-      <section className="py-20 px-6 bg-gradient-to-br from-purple-50 to-violet-50">
+      <section className="py-20 px-6 bg-radial-white-multi">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">{t('productTechnology.core.title')}</h2>
-          <p className="text-center text-gray-600 mb-16">{t('productTechnology.core.subtitle')}</p>
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">{t('productTechnology.core.title')}</h2>
+          <p className="text-center text-gray-700 mb-16">{t('productTechnology.core.subtitle')}</p>
           <div className="grid md:grid-cols-3 gap-8">
             {techStack.core.map((section, idx) => (
-              <div key={idx} className="bg-white rounded-xl p-6 shadow-lg">
+              <div key={idx} className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-violet-500 flex items-center justify-center">
-                    <section.icon className="w-6 h-6 text-white" />
+                  <div className="w-12 h-12 rounded-lg bg-white border border-gray-200 flex items-center justify-center">
+                    <section.icon className="w-6 h-6 text-gray-900" />
                   </div>
-                  <h3 className="font-bold text-xl">{section.category}</h3>
+                  <h3 className="font-bold text-xl text-gray-900">{section.category}</h3>
                 </div>
                 <div className="space-y-4">
                   {section.items.map((item, i) => (
                     <div key={i}>
                       <p className="font-semibold text-gray-900">{item.name}</p>
                       <p className="text-sm text-gray-600">{item.description}</p>
-                      <p className="text-xs text-purple-600 font-medium mt-1">{item.highlight}</p>
+                      <p className="text-xs text-gray-900 font-medium mt-1">{item.highlight}</p>
                     </div>
                   ))}
                 </div>
@@ -237,25 +236,25 @@ export default function TechnologyPage() {
       </section>
 
       {/* AI & ML Stack */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-20 px-6 bg-radial-white-center">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">{t('productTechnology.ai.title')}</h2>
-          <p className="text-center text-gray-600 mb-16">{t('productTechnology.ai.subtitle')}</p>
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">{t('productTechnology.ai.title')}</h2>
+          <p className="text-center text-gray-700 mb-16">{t('productTechnology.ai.subtitle')}</p>
           <div className="grid md:grid-cols-2 gap-8">
             {techStack.ai.map((section, idx) => (
-              <div key={idx} className="bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl p-6 border border-purple-200">
+              <div key={idx} className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-violet-500 flex items-center justify-center">
-                    <section.icon className="w-6 h-6 text-white" />
+                  <div className="w-12 h-12 rounded-lg bg-white border border-gray-200 flex items-center justify-center">
+                    <section.icon className="w-6 h-6 text-gray-900" />
                   </div>
-                  <h3 className="font-bold text-xl">{section.category}</h3>
+                  <h3 className="font-bold text-xl text-gray-900">{section.category}</h3>
                 </div>
                 <div className="space-y-4">
                   {section.items.map((item, i) => (
-                    <div key={i} className="bg-white rounded-lg p-4">
+                    <div key={i} className="bg-gray-50 rounded-lg p-4 border border-gray-200">
                       <p className="font-semibold text-gray-900">{item.name}</p>
                       <p className="text-sm text-gray-600">{item.description}</p>
-                      <p className="text-xs text-purple-600 font-medium mt-1">{item.highlight}</p>
+                      <p className="text-xs text-gray-900 font-medium mt-1">{item.highlight}</p>
                     </div>
                   ))}
                 </div>
@@ -266,14 +265,14 @@ export default function TechnologyPage() {
       </section>
 
       {/* Performance Metrics */}
-      <section className="py-20 px-6 bg-gradient-to-br from-violet-50 to-purple-50">
+      <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">{t('productTechnology.performance.title')}</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-gray-900">{t('productTechnology.performance.title')}</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {performance.map((item, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-lg text-center">
+              <div key={index} className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300 text-center">
                 <p className="text-sm text-gray-600 mb-2">{item.metric}</p>
-                <p className="text-4xl font-bold text-purple-600 mb-2">{item.value}</p>
+                <p className="text-4xl font-bold text-gray-900 mb-2">{item.value}</p>
                 <p className="text-xs text-gray-500">{item.note}</p>
               </div>
             ))}
@@ -282,44 +281,44 @@ export default function TechnologyPage() {
       </section>
 
       {/* Security & Privacy */}
-      <section className="py-20 px-6 bg-gradient-to-br from-purple-600 to-violet-600 text-white">
+      <section className="py-20 px-6 bg-radial-white-multi">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center gap-3 mb-8">
-            <Shield className="w-12 h-12" />
-            <h2 className="text-4xl font-bold">{t('productTechnology.security.title')}</h2>
+            <Shield className="w-12 h-12 text-gray-900" />
+            <h2 className="text-4xl font-bold text-gray-900">{t('productTechnology.security.title')}</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <h3 className="text-xl font-bold mb-4">{t('productTechnology.security.local')}</h3>
-              <p className="text-white/90">{t('productTechnology.security.localDesc')}</p>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">{t('productTechnology.security.local')}</h3>
+              <p className="text-gray-700">{t('productTechnology.security.localDesc')}</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <h3 className="text-xl font-bold mb-4">{t('productTechnology.security.encrypted')}</h3>
-              <p className="text-white/90">{t('productTechnology.security.encryptedDesc')}</p>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">{t('productTechnology.security.encrypted')}</h3>
+              <p className="text-gray-700">{t('productTechnology.security.encryptedDesc')}</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <h3 className="text-xl font-bold mb-4">{t('productTechnology.security.backup')}</h3>
-              <p className="text-white/90">{t('productTechnology.security.backupDesc')}</p>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">{t('productTechnology.security.backup')}</h3>
+              <p className="text-gray-700">{t('productTechnology.security.backupDesc')}</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <h3 className="text-xl font-bold mb-4">{t('productTechnology.security.opensource')}</h3>
-              <p className="text-white/90">{t('productTechnology.security.opensourceDesc')}</p>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">{t('productTechnology.security.opensource')}</h3>
+              <p className="text-gray-700">{t('productTechnology.security.opensourceDesc')}</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-20 px-6 bg-radial-white-center">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">{t('productTechnology.cta.title')}</h2>
-          <p className="text-xl text-gray-600 mb-8">
+          <h2 className="text-3xl font-bold mb-6 text-gray-900">{t('productTechnology.cta.title')}</h2>
+          <p className="text-xl text-gray-700 mb-8">
             {t('productTechnology.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/download"
-              className="px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-xl font-semibold hover:shadow-xl transition-all"
+              className="px-8 py-4 bg-black text-white rounded-xl font-semibold hover:bg-gray-900 hover:shadow-2xl transition-all hover:scale-105"
             >
               {t('productTechnology.cta.download')}
             </a>
@@ -327,7 +326,7 @@ export default function TechnologyPage() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-white border-2 border-blue-600 text-blue-600 rounded-xl font-semibold hover:bg-blue-50 transition-all"
+              className="px-8 py-4 bg-transparent border-2 border-black text-gray-900 rounded-xl font-semibold hover:bg-black hover:text-white transition-all hover:scale-105"
             >
               {t('productTechnology.cta.github')}
             </a>
