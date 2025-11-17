@@ -15,25 +15,25 @@ export default function FeaturesPage() {
   return (
     <main className="min-h-screen bg-neutral-50 pt-20">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-indigo-500/75 via-purple-500/75 via-violet-500/75 to-fuchsia-500/75 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-15">
+      <section className="relative py-32 bg-radial-at-t from-white via-purple-100/40 to-white text-gray-900 overflow-hidden">
+        <div className="absolute inset-0 opacity-20 animate-gradient-shift bg-gradient-to-r from-transparent via-purple-200/20 to-transparent" />
+        <div className="absolute inset-0 opacity-10">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
-                "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
-              backgroundSize: "40px 40px",
+                "radial-gradient(circle at 1px 1px, rgba(168, 85, 247, 0.3) 1px, transparent 0)",
+              backgroundSize: "50px 50px",
             }}
           />
         </div>
-        <div className="absolute inset-0 backdrop-blur-3xl" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <motion.h1
             initial="hidden"
             animate="visible"
             variants={fadeInUp}
-            className="text-5xl md:text-7xl font-bold mb-6"
+            className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-600 bg-clip-text text-transparent"
           >
             {t("features.title")}
           </motion.h1>
@@ -42,7 +42,7 @@ export default function FeaturesPage() {
             animate="visible"
             variants={fadeInUp}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-2xl text-white/90"
+            className="text-xl md:text-2xl text-gray-700"
           >
             Eden만의 특별한 기능들을 만나보세요
           </motion.p>
@@ -50,14 +50,14 @@ export default function FeaturesPage() {
       </section>
 
       {/* Features Carousel */}
-      <section className="py-32 bg-neutral-50">
+      <section className="py-32 bg-radial-at-c from-purple-50/20 via-white to-violet-50/20">
         <div className="max-w-2xl mx-auto px-6">
           <Carousel autoPlay interval={12000}>
             {/* Privacy Feature */}
-            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
+            <div className="bg-radial-at-tl from-white via-purple-50/50 to-violet-50/40 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-purple-200/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
-                <div className="text-6xl mb-6">🔒</div>
-                <h3 className="text-3xl font-bold mb-6 text-gray-900">
+                <div className="text-6xl mb-6 animate-float">🔒</div>
+                <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
                   {t("features.privacy.title")}
                 </h3>
                 <ul className="space-y-3 text-left max-w-xl mx-auto">
@@ -106,10 +106,10 @@ export default function FeaturesPage() {
             </div>
 
             {/* AI Models Feature */}
-            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
+            <div className="bg-radial-at-tr from-white via-purple-50/50 to-violet-50/40 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-purple-200/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
-                <div className="text-6xl mb-6">🧠</div>
-                <h3 className="text-3xl font-bold mb-6 text-gray-900">
+                <div className="text-6xl mb-6 animate-float">🧠</div>
+                <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
                   {t("features.aiModels.title")}
                 </h3>
                 <ul className="space-y-3 text-left max-w-xl mx-auto">
@@ -150,10 +150,10 @@ export default function FeaturesPage() {
             </div>
 
             {/* Persona Feature */}
-            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
+            <div className="bg-radial-at-bl from-white via-purple-50/50 to-violet-50/40 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-purple-200/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
-                <div className="text-6xl mb-6">🎭</div>
-                <h3 className="text-3xl font-bold mb-6 text-gray-900">
+                <div className="text-6xl mb-6 animate-float">🎭</div>
+                <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
                   {t("features.persona.title")}
                 </h3>
                 <ul className="space-y-3 text-left max-w-xl mx-auto">
@@ -194,10 +194,10 @@ export default function FeaturesPage() {
             </div>
 
             {/* Emotional Intelligence Feature */}
-            <div className="bg-white/60 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-white/50 hover:shadow-xl transition-all duration-300">
+            <div className="bg-radial-at-br from-white via-purple-50/50 to-violet-50/40 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-purple-200/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
-                <div className="text-6xl mb-6">💖</div>
-                <h3 className="text-3xl font-bold mb-6 text-gray-900">
+                <div className="text-6xl mb-6 animate-float">💖</div>
+                <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
                   {t("features.emotional.title")}
                 </h3>
                 <ul className="space-y-3 text-left max-w-xl mx-auto">

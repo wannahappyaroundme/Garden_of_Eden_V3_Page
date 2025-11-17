@@ -44,6 +44,8 @@ const config: Config = {
         'float': 'float 3s ease-in-out infinite',
         'pulse': 'pulse 0.5s ease-in-out',
         'shimmer': 'shimmer 3s linear infinite',
+        'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
+        'gradient-shift': 'gradient-shift 8s ease infinite',
       },
       keyframes: {
         fadeInUp: {
@@ -62,6 +64,28 @@ const config: Config = {
           '0%': { backgroundPosition: '-1000px 0' },
           '100%': { backgroundPosition: '1000px 0' },
         },
+        'pulse-glow': {
+          '0%, 100%': {
+            boxShadow: '0 0 20px rgba(168, 85, 247, 0.4)',
+          },
+          '50%': {
+            boxShadow: '0 0 40px rgba(168, 85, 247, 0.8)',
+          },
+        },
+        'gradient-shift': {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+      },
+      backgroundImage: {
+        'radial-gradient': 'radial-gradient(var(--tw-gradient-stops))',
+        'radial-at-t': 'radial-gradient(ellipse at top, var(--tw-gradient-stops))',
+        'radial-at-c': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
+        'radial-at-b': 'radial-gradient(ellipse at bottom, var(--tw-gradient-stops))',
+        'radial-at-tl': 'radial-gradient(circle at top left, var(--tw-gradient-stops))',
+        'radial-at-tr': 'radial-gradient(circle at top right, var(--tw-gradient-stops))',
+        'radial-at-bl': 'radial-gradient(circle at bottom left, var(--tw-gradient-stops))',
+        'radial-at-br': 'radial-gradient(circle at bottom right, var(--tw-gradient-stops))',
       },
     },
   },

@@ -37,5 +37,5 @@ export default function TypedText() {
     };
   }, [locale]);
 
-  return <span ref={el} className="text-white font-bold" />;
+  return <span ref={el} className="bg-gradient-to-r from-purple-600 via-violet-600 to-purple-600 bg-clip-text text-transparent font-bold animate-gradient-shift" style={{backgroundSize: '200% 200%'}} />;
 }

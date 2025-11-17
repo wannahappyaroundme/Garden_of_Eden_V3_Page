@@ -175,16 +175,16 @@ export default function Navbar() {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -10 }}
                           transition={{ duration: 0.2 }}
-                          className="absolute top-full left-0 mt-6 w-48 bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden"
+                          className="absolute top-full left-0 mt-6 w-48 bg-radial-at-tl from-white via-purple-50/30 to-white rounded-lg shadow-[0_0_30px_rgba(168,85,247,0.2)] border border-purple-200/50 overflow-hidden"
                         >
                           {item.submenu.map((subItem) => (
                             <Link
                               key={subItem.id}
                               href={`/${locale}${subItem.path}`}
-                              className={`block px-4 py-3 text-sm font-medium transition-colors ${
+                              className={`block px-4 py-3 text-sm font-medium transition-all duration-300 ${
                                 isPathActive(subItem.path)
-                                  ? 'bg-purple-50 text-purple-600'
-                                  : 'text-gray-700 hover:bg-gray-50'
+                                  ? 'bg-purple-100/60 text-purple-600 font-bold'
+                                  : 'text-gray-700 hover:bg-purple-50/40 hover:text-purple-600'
                               }`}
                             >
                               {subItem.label}
