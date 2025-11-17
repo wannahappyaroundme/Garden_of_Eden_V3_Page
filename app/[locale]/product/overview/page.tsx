@@ -63,7 +63,7 @@ export default function ProductOverviewPage() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100/50 backdrop-blur-sm border border-purple-200/60 rounded-full mb-6">
             <span className="text-purple-900 font-semibold">🌳 {t('productOverview.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             {t('productOverview.title')}
             <br />
             {t('productOverview.subtitle')}
@@ -78,7 +78,7 @@ export default function ProductOverviewPage() {
       <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('productOverview.threePillars.title')}</h2>
+            <h2 className="text-4xl font-bold mb-4 text-gray-900">{t('productOverview.threePillars.title')}</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {pillars.map((pillar, index) => (
@@ -101,7 +101,7 @@ export default function ProductOverviewPage() {
       <section className="py-20 px-6 bg-radial-white-multi">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('productOverview.problemSolution.title')}</h2>
+            <h2 className="text-4xl font-bold mb-4 text-gray-900">{t('productOverview.problemSolution.title')}</h2>
           </div>
 
           {/* Problems */}
@@ -148,7 +148,7 @@ export default function ProductOverviewPage() {
       {/* Vision Section */}
       <section className="py-20 px-6 bg-radial-white-center">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('productOverview.visionSection.title')}</h2>
+          <h2 className="text-4xl font-bold mb-8 text-gray-900">{t('productOverview.visionSection.title')}</h2>
           <p className="text-2xl mb-6 leading-relaxed text-gray-700">
             {t('productOverview.visionSection.visionText1')} <span className="font-bold underline text-purple-700">{t('productOverview.visionSection.highlight1')}</span>
           </p>
@@ -166,7 +166,7 @@ export default function ProductOverviewPage() {
       {/* Core Promise */}
       <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('productOverview.corePromise.title')}</h2>
+          <h2 className="text-4xl font-bold mb-12 text-gray-900">{t('productOverview.corePromise.title')}</h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="p-6">
               <div className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent mb-3">{t('productOverview.corePromise.localPercent')}</div>
@@ -191,7 +191,7 @@ export default function ProductOverviewPage() {
       {/* CTA */}
       <section className="py-20 px-6 bg-radial-white-multi">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('productOverview.cta.title')}</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-900">{t('productOverview.cta.title')}</h2>
           <p className="text-xl text-gray-700 mb-8">
             {t('productOverview.cta.description')}
           </p>

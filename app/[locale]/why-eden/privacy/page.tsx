@@ -31,7 +31,7 @@ export default function PrivacyPage() {
             <Shield className="w-4 h-4 text-purple-700" />
             <span className="text-purple-900 font-semibold">{t('whyEdenPrivacy.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             {t('whyEdenPrivacy.title')}
             <br />
             {t('whyEdenPrivacy.subtitle')}
@@ -45,7 +45,7 @@ export default function PrivacyPage() {
       {/* Privacy Principles */}
       <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('whyEdenPrivacy.principles.title')}</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-gray-900">{t('whyEdenPrivacy.principles.title')}</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {privacyPrinciples.map((item, index) => (
               <div
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
       {/* Philosophy */}
       <section className="py-20 px-6 bg-radial-white-center">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('whyEdenPrivacy.philosophy.title')}</h2>
+          <h2 className="text-4xl font-bold mb-8 text-gray-900">{t('whyEdenPrivacy.philosophy.title')}</h2>
           <p className="text-2xl leading-relaxed text-gray-700">
             {t('whyEdenPrivacy.philosophy.description')}
           </p>

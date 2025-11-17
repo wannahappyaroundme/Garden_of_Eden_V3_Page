@@ -44,7 +44,7 @@ export default function TermsOfServicePage() {
             <FileText className="w-4 h-4 text-purple-700" />
             <span className="text-purple-900 font-semibold">{t('legal.termsOfService.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             {t('legal.termsOfService.title')}
           </h1>
           <p className="text-lg text-gray-600 mb-4">
@@ -59,7 +59,7 @@ export default function TermsOfServicePage() {
       {/* Key Points */}
       <section className="py-16 px-6 bg-radial-white-purple">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.termsOfService.keyPoints.title')}</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">{t('legal.termsOfService.keyPoints.title')}</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-6 rounded-xl bg-white/80 backdrop-blur-sm border border-purple-200/60">
               <div className="text-3xl mb-3">✅</div>
@@ -133,7 +133,7 @@ export default function TermsOfServicePage() {
       {/* Important Disclaimer */}
       <section className="py-16 px-6 bg-radial-white-center">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.termsOfService.disclaimer.title')}</h2>
+          <h2 className="text-4xl font-bold mb-6 text-gray-900">{t('legal.termsOfService.disclaimer.title')}</h2>
           <p className="text-xl leading-relaxed mb-8 text-gray-700">
             {t('legal.termsOfService.disclaimer.content')}
           </p>
@@ -153,7 +153,7 @@ export default function TermsOfServicePage() {
       {/* Contact */}
       <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.termsOfService.contact.title')}</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-900">{t('legal.termsOfService.contact.title')}</h2>
           <p className="text-lg text-gray-700 mb-8">
             {t('legal.termsOfService.contact.description')}
           </p>

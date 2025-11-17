@@ -40,7 +40,7 @@ export default function PrivacyPolicyPage() {
             <Shield className="w-4 h-4 text-purple-700" />
             <span className="text-purple-900 font-semibold">{t('legal.privacyPolicy.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             {t('legal.privacyPolicy.title')}
           </h1>
           <p className="text-lg text-gray-600 mb-4">
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
       {/* Core Philosophy */}
       <section className="py-16 px-6 bg-radial-white-purple">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.privacyPolicy.philosophy.title')}</h2>
+          <h2 className="text-4xl font-bold mb-6 text-gray-900">{t('legal.privacyPolicy.philosophy.title')}</h2>
           <p className="text-2xl leading-relaxed mb-8 text-gray-700">
             {t('legal.privacyPolicy.philosophy.description')}
           </p>
@@ -143,7 +143,7 @@ export default function PrivacyPolicyPage() {
       {/* Contact Section */}
       <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.privacyPolicy.contact.title')}</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-900">{t('legal.privacyPolicy.contact.title')}</h2>
           <p className="text-lg text-gray-700 mb-8">
             {t('legal.privacyPolicy.contact.description')}
           </p>

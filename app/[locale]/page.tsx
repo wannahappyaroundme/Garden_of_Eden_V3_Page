@@ -62,7 +62,7 @@ export default function Home() {
 
             <motion.h1
               variants={fadeInUp}
-              className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+              className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight text-gray-900"
             >
               {t("hero.subtitle")} <TypedText />
             </motion.h1>
@@ -158,7 +158,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
           >
             {locale === "ko" ? "Eden을 선택해야 하는 이유" : "Why Choose Eden"}
           </motion.h2>
@@ -224,7 +224,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-3xl font-bold text-center mb-12 text-gray-900"
           >
             {t("stats.title")}
           </motion.h3>
@@ -246,7 +246,7 @@ export default function Home() {
                 transition={{ delay: idx * 0.1 }}
                 className="text-center"
               >
-                <div className="text-6xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
+                <div className="text-6xl md:text-7xl font-bold mb-4 text-gray-900">
                   {stat.num}
                 </div>
                 <div className="text-lg md:text-xl text-gray-600">
@@ -265,7 +265,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold mb-8 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl font-bold mb-8 text-gray-900"
           >
             {t("finalCTA.title")}
           </motion.h2>

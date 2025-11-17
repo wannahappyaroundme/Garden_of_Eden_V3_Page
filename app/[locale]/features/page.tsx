@@ -34,7 +34,7 @@ export default function FeaturesPage() {
             initial="hidden"
             animate="visible"
             variants={fadeInUp}
-            className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-5xl md:text-7xl font-bold mb-6 text-gray-900"
           >
             {t("features.title")}
           </motion.h1>
@@ -248,7 +248,7 @@ export default function FeaturesPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
           >
             {t("personas.title")}
           </motion.h2>
@@ -319,7 +319,7 @@ export default function FeaturesPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
           >
             기술적 우수성
           </motion.h2>

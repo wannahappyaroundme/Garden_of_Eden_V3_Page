@@ -33,7 +33,7 @@ export default function DownloadPage() {
             initial="hidden"
             animate="visible"
             variants={fadeInUp}
-            className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-5xl md:text-7xl font-bold mb-6 text-gray-900"
           >
             {t("finalCTA.title")}
           </motion.h1>
@@ -81,7 +81,7 @@ export default function DownloadPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
           >
             모든 플랫폼 지원
           </motion.h2>
@@ -201,7 +201,7 @@ export default function DownloadPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
           >
             시스템 요구사항
           </motion.h2>
@@ -286,7 +286,7 @@ export default function DownloadPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
           >
             빠른 시작 가이드
           </motion.h2>
@@ -359,7 +359,7 @@ export default function DownloadPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold mb-8 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl font-bold mb-8 text-gray-900"
           >
             도움이 필요하신가요?
           </motion.h2>

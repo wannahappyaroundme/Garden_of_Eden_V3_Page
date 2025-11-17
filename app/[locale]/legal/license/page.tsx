@@ -43,7 +43,7 @@ export default function LicensePage() {
             <FileCode className="w-4 h-4 text-purple-700" />
             <span className="text-purple-900 font-semibold">{t('legal.license.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             {t('legal.license.title')}
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
@@ -64,7 +64,7 @@ export default function LicensePage() {
       <section className="py-16 px-6 bg-radial-white-purple">
         <div className="max-w-4xl mx-auto text-center">
           <Heart className="w-16 h-16 mx-auto mb-6 text-purple-600" />
-          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.license.philosophy.title')}</h2>
+          <h2 className="text-4xl font-bold mb-6 text-gray-900">{t('legal.license.philosophy.title')}</h2>
           <p className="text-2xl leading-relaxed mb-8 text-gray-700">
             {t('legal.license.philosophy.description')}
           </p>
@@ -88,7 +88,7 @@ export default function LicensePage() {
       {/* Permissions */}
       <section className="py-20 px-6 bg-radial-white-multi">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.license.permissions.title')}</h2>
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">{t('legal.license.permissions.title')}</h2>
           <p className="text-center text-gray-700 mb-12 text-lg">
             {t('legal.license.permissions.subtitle')}
           </p>
@@ -120,7 +120,7 @@ export default function LicensePage() {
       {/* Conditions */}
       <section className="py-20 px-6 bg-radial-white-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.license.conditions.title')}</h2>
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">{t('legal.license.conditions.title')}</h2>
           <p className="text-center text-gray-700 mb-12 text-lg">
             {t('legal.license.conditions.subtitle')}
           </p>
@@ -152,7 +152,7 @@ export default function LicensePage() {
       {/* Full License Text */}
       <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.license.fullText.title')}</h2>
+          <h2 className="text-3xl font-bold mb-8 text-gray-900">{t('legal.license.fullText.title')}</h2>
           <div className="p-8 bg-white/80 backdrop-blur-sm rounded-xl border border-purple-200/60 font-mono text-sm space-y-4 overflow-x-auto">
             <p className="font-bold text-gray-900">{t('legal.license.fullText.mitTitle')}</p>
             <p className="text-gray-700">{t('legal.license.fullText.copyright')}</p>
@@ -165,7 +165,7 @@ export default function LicensePage() {
       {/* CTA */}
       <section className="py-20 px-6 bg-radial-white-multi">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('legal.license.cta.title')}</h2>
+          <h2 className="text-4xl font-bold mb-6 text-gray-900">{t('legal.license.cta.title')}</h2>
           <p className="text-xl mb-8 leading-relaxed text-gray-700">
             {t('legal.license.cta.description')}
           </p>

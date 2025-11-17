@@ -128,7 +128,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href={`/${locale}`}
-            className="text-2xl font-bold bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent hover:from-purple-700 hover:via-violet-700 hover:to-purple-600 transition-all"
+            className="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-all"
           >
             Garden of Eden
           </Link>

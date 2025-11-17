@@ -51,7 +51,7 @@ export default function ContactPage() {
             <HelpCircle className="w-4 h-4 text-purple-700" />
             <span className="text-purple-900 font-semibold">{t('contact.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             {t('contact.title')}
           </h1>
           <p className="text-xl text-gray-700">
@@ -63,7 +63,7 @@ export default function ContactPage() {
       {/* Contact Methods */}
       <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('contact.methods.title')}</h2>
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">{t('contact.methods.title')}</h2>
           <p className="text-center text-gray-700 mb-12 text-lg">
             {t('contact.methods.subtitle')}
           </p>
@@ -134,7 +134,7 @@ export default function ContactPage() {
       {/* Community */}
       <section className="py-20 px-6 bg-radial-white-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('contact.community.title')}</h2>
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">{t('contact.community.title')}</h2>
           <p className="text-center text-gray-700 mb-12 text-lg">
             {t('contact.community.subtitle')}
           </p>
@@ -158,7 +158,7 @@ export default function ContactPage() {
       {/* CTA */}
       <section className="py-20 px-6 bg-radial-white-purple">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-500 bg-clip-text text-transparent">{t('contact.cta.title')}</h2>
+          <h2 className="text-4xl font-bold mb-6 text-gray-900">{t('contact.cta.title')}</h2>
           <p className="text-xl mb-8 leading-relaxed text-gray-700">
             {t('contact.cta.description')}
           </p>
