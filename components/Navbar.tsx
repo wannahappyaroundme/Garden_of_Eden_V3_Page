@@ -40,7 +40,7 @@ export default function Navbar() {
             { id: 'technology', label: '기술', path: '/product/technology' },
           ]
         },
-        { id: 'why-eden', label: '왜 Eden인가?', path: '/why-eden/privacy' },
+        { id: 'why-eden', label: '왜 Eden인가?', path: '/why-eden' },
         { id: 'download', label: '다운로드', path: '/download' },
         {
           id: 'resources',
@@ -63,7 +63,7 @@ export default function Navbar() {
             { id: 'technology', label: 'Technology', path: '/product/technology' },
           ]
         },
-        { id: 'why-eden', label: 'Why Eden?', path: '/why-eden/privacy' },
+        { id: 'why-eden', label: 'Why Eden?', path: '/why-eden' },
         { id: 'download', label: 'Download', path: '/download' },
         {
           id: 'resources',
@@ -76,8 +76,17 @@ export default function Navbar() {
         },
       ];
 
-  // 현재 활성 페이지 감지
-  const currentPath = pathname.replace(`/${locale}`, '') || '/';
+  // 현재 활성 페이지 감지 - locale을 올바르게 처리
+  const getPathWithoutLocale = () => {
+    const segments = pathname.split('/').filter(Boolean);
+    // 첫 번째 segment가 locale이면 제거
+    if (segments[0] === locale) {
+      return '/' + segments.slice(1).join('/');
+    }
+    return pathname || '/';
+  };
+
+  const currentPath = getPathWithoutLocale();
 
   const isPathActive = (path: string) => {
     if (path === '/') return currentPath === '/';
@@ -146,6 +155,10 @@ export default function Navbar() {
                   // Dropdown menu item
                   <div className="relative">
                     <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setOpenDropdown(openDropdown === item.id ? null : item.id);
+                      }}
                       className={`flex items-center gap-1 font-semibold transition-all duration-300 ${
                         activePage === item.id
                           ? 'text-purple-700'

@@ -5,7 +5,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { locales } from '@/i18n';
 
 export default function LanguageSwitcher() {
-  const locale = useLocale();
+  const locale = useLocale() as string;
   const pathname = usePathname();
   const router = useRouter();
 
@@ -30,19 +30,22 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex gap-2 bg-white/90 backdrop-blur-xl p-2 rounded-full shadow-lg border border-purple-200/60">
-      {locales.map((lang) => (
-        <button
-          key={lang}
-          onClick={() => switchLanguage(lang)}
-          className={`px-3 sm:px-4 py-2 rounded-full font-bold text-xs sm:text-sm transition-all duration-300 ${
-            locale === lang
-              ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white shadow-md'
-              : 'text-gray-600 hover:bg-purple-100 hover:text-purple-700 hover:shadow-sm'
-          }`}
-        >
-          {lang === 'en' ? 'EN' : '한국어'}
-        </button>
-      ))}
+      {locales.map((lang) => {
+        const isActive = locale === lang;
+        return (
+          <button
+            key={lang}
+            onClick={() => switchLanguage(lang)}
+            className={`px-3 sm:px-4 py-2 rounded-full font-bold text-xs sm:text-sm transition-all duration-300 ${
+              isActive
+                ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white shadow-md'
+                : 'text-gray-600 hover:bg-purple-100 hover:text-purple-700 hover:shadow-sm'
+            }`}
+          >
+            {lang === 'en' ? 'EN' : '한국어'}
+          </button>
+        );
+      })}
     </div>
   );
 }
