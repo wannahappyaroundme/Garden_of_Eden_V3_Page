@@ -192,16 +192,15 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-6">
             {menuItems.map((item) => (
-              <div key={item.id} className="relative group">
+              <div
+                key={item.id}
+                className="relative group"
+                onMouseEnter={() => item.submenu && setOpenDropdown(item.id)}
+                onMouseLeave={() => setOpenDropdown(null)}
+              >
                 {item.submenu ? (
                   // Dropdown menu item
-                  <div
-                    className="relative"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setOpenDropdown(openDropdown === item.id ? null : item.id);
-                    }}
-                  >
+                  <div className="relative">
                     <button
                       className={`flex items-center gap-1 font-semibold transition-all duration-300 ${
                         activePage === item.id
@@ -238,7 +237,6 @@ export default function Navbar() {
                             <Link
                               key={subItem.id}
                               href={`/${locale}${subItem.path}`}
-                              onClick={() => setOpenDropdown(null)}
                               className={`block px-4 py-3 text-sm font-medium transition-colors ${
                                 isPathActive(subItem.path)
                                   ? 'bg-purple-50 text-purple-600'
