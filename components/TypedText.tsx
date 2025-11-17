@@ -37,5 +37,5 @@ export default function TypedText() {
     };
   }, [locale]);
 
-  return <span ref={el} className="text-violet-300 font-bold" />;
+  return <span ref={el} className="bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent font-bold" />;
 }

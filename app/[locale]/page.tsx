@@ -28,20 +28,18 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-50">
       {/* Hero Section - Full Screen */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-500/75 via-violet-500/75 via-indigo-500/75 to-purple-600/75 text-white">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
         {/* Animated Background Pattern */}
-        <div className="absolute inset-0 opacity-15">
+        <div className="absolute inset-0 opacity-5">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
-                "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
+                "radial-gradient(circle at 1px 1px, rgb(147, 51, 234) 1px, transparent 0)",
               backgroundSize: "40px 40px",
             }}
           />
         </div>
-        {/* Glass morphism layer */}
-        <div className="absolute inset-0 backdrop-blur-3xl" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 py-20 text-center">
           <motion.div
@@ -51,31 +49,31 @@ export default function Home() {
           >
             <motion.div
               variants={fadeInUp}
-              className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-white/30"
+              className="inline-flex items-center gap-2 bg-purple-100 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-purple-200"
             >
               <span className="text-2xl">🔒</span>
-              <span className="text-sm font-semibold">
+              <span className="text-sm font-semibold text-purple-700">
                 {t("hero.privacyBadge")}
               </span>
             </motion.div>
 
             <motion.h1
               variants={fadeInUp}
-              className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight"
+              className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent"
             >
               {t("hero.title")}
             </motion.h1>
 
             <motion.p
               variants={fadeInUp}
-              className="text-2xl md:text-3xl mb-4 font-light"
+              className="text-2xl md:text-3xl mb-4 font-light text-gray-700"
             >
               {t("hero.subtitle")} <TypedText />
             </motion.p>
 
             <motion.p
               variants={fadeInUp}
-              className="text-lg md:text-xl mb-12 text-white/80 max-w-2xl mx-auto"
+              className="text-lg md:text-xl mb-12 text-gray-600 max-w-2xl mx-auto"
             >
               {t("hero.description")}
             </motion.p>
@@ -88,7 +86,7 @@ export default function Home() {
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-purple-600 font-bold text-lg py-4 px-10 rounded-full hover:bg-purple-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+                className="bg-gradient-to-r from-purple-600 to-violet-600 text-white font-bold text-lg py-4 px-10 rounded-full hover:from-purple-700 hover:to-violet-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
               >
                 {t("finalCTA.downloadButton")}
               </a>
@@ -96,7 +94,7 @@ export default function Home() {
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-purple-600 transition-all duration-300"
+                className="bg-white border-2 border-purple-600 text-purple-600 font-bold text-lg py-4 px-10 rounded-full hover:bg-purple-50 transition-all duration-300"
               >
                 ⭐ {t("hero.githubButton")}
               </a>

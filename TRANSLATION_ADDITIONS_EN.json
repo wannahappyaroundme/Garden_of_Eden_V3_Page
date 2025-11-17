@@ -1,0 +1,969 @@
+{
+  "productOverview": {
+    "badge": "Garden of Eden V3",
+    "title": "Your Private AI Assistant",
+    "subtitle": "That Never Leaves Your Computer",
+    "vision": "Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity",
+    "threePillars": {
+      "title": "Three Core Pillars",
+      "titleKo": "3가지 핵심 기둥",
+      "pillar1": {
+        "title": "Eliminate Loneliness",
+        "titleKo": "외로움 해결",
+        "description": "Never feel alone with your 24/7 AI companion",
+        "descriptionKo": "혼자가 아닌 느낌, 24/7 함께하는 AI 친구"
+      },
+      "pillar2": {
+        "title": "Emotional Support",
+        "titleKo": "감정적 지원",
+        "description": "Comfort, empathy, conversation - always on your side",
+        "descriptionKo": "위로, 공감, 대화 - 언제나 당신 편"
+      },
+      "pillar3": {
+        "title": "Boost Productivity",
+        "titleKo": "생산성 향상",
+        "description": "Smart assistant that helps you work like JARVIS",
+        "descriptionKo": "JARVIS처럼 일을 도와주는 똑똑한 어시스턴트"
+      }
+    },
+    "problemSolution": {
+      "title": "The Problem vs Our Solution",
+      "titleKo": "문제와 해결책",
+      "problemsTitle": "Problems with Cloud AI",
+      "problemsTitleKo": "기존 AI의 문제점",
+      "problems": {
+        "problem1": {
+          "problem": "Cloud AI = Privacy Invasion",
+          "problemKo": "클라우드 AI = 프라이버시 침해"
+        },
+        "problem2": {
+          "problem": "$20/month forever",
+          "problemKo": "월 $20씩 계속 내야 함"
+        },
+        "problem3": {
+          "problem": "One-size-fits-all personality",
+          "problemKo": "획일적인 AI 성격"
+        },
+        "problem4": {
+          "problem": "No internet = no AI",
+          "problemKo": "인터넷 없으면 작동 안 함"
+        },
+        "problem5": {
+          "problem": "Doesn't understand you",
+          "problemKo": "당신을 이해하지 못함"
+        },
+        "problem6": {
+          "problem": "Company owns your data",
+          "problemKo": "기업이 데이터 소유"
+        }
+      },
+      "solutionsTitle": "Eden's Solutions",
+      "solutionsTitleKo": "Eden의 솔루션",
+      "solutions": {
+        "solution1": {
+          "title": "100% Local",
+          "titleKo": "100% 로컬",
+          "description": "All processing on your machine. Data never leaves",
+          "descriptionKo": "모든 처리가 당신의 컴퓨터에서. 데이터는 절대 외부로 나가지 않습니다"
+        },
+        "solution2": {
+          "title": "Completely Free",
+          "titleKo": "완전 무료",
+          "description": "MIT open source. No subscriptions, no fees, no tricks",
+          "descriptionKo": "MIT 라이센스 오픈소스. 구독료, 결제, 숨은 비용 없음"
+        },
+        "solution3": {
+          "title": "Your Personalized AI",
+          "titleKo": "나만의 AI",
+          "description": "10 personality parameters. Learns from your feedback",
+          "descriptionKo": "10가지 파라미터로 성격 조정. 피드백으로 학습"
+        },
+        "solution4": {
+          "title": "Works Offline",
+          "titleKo": "오프라인 작동",
+          "description": "Works without internet. Even on planes",
+          "descriptionKo": "인터넷 없이도 완벽 작동. 비행기에서도 사용 가능"
+        },
+        "solution5": {
+          "title": "Understands You",
+          "titleKo": "당신을 이해",
+          "description": "RAG memory remembers past conversations. Like a real friend",
+          "descriptionKo": "RAG 메모리로 과거 대화 기억. 진짜 친구처럼"
+        },
+        "solution6": {
+          "title": "Your Data",
+          "titleKo": "당신의 데이터",
+          "description": "100% ownership. Backup, delete, transfer - your choice",
+          "descriptionKo": "100% 소유권. 백업, 삭제, 전송 - 모두 당신 마음대로"
+        }
+      }
+    },
+    "visionSection": {
+      "title": "Our Vision",
+      "titleKo": "우리의 비전",
+      "description1": "Build the world's most powerful",
+      "highlight1": "privacy-first, local-first AI assistant",
+      "description2": "that matches cloud AI performance",
+      "description3": "while keeping",
+      "highlight2": "all data on your machine",
+      "quote": "Build the world's best privacy-first, local-first AI assistant that matches or exceeds cloud AI capabilities while keeping all data on the user's machine."
+    },
+    "corePromise": {
+      "title": "Core Promise",
+      "titleKo": "핵심 약속",
+      "local": "Local",
+      "localPercent": "100%",
+      "localKo": "로컬 처리",
+      "private": "Private",
+      "privatePercent": "100%",
+      "privateKo": "프라이빗",
+      "cloud": "Cloud",
+      "cloudPercent": "0%",
+      "cloudKo": "클라우드",
+      "subscriptions": "Subscriptions",
+      "subscriptionsPercent": "0%",
+      "subscriptionsKo": "구독료"
+    },
+    "cta": {
+      "title": "Get Started Now",
+      "titleKo": "지금 바로 시작하세요",
+      "description": "Free, open source, private - download now and experience your own JARVIS",
+      "descriptionKo": "무료, 오픈소스, 프라이빗 - 지금 다운로드하고 당신만의 JARVIS를 경험하세요",
+      "download": "Download",
+      "downloadKo": "다운로드 시작",
+      "features": "View Features",
+      "featuresKo": "기능 둘러보기"
+    }
+  },
+  "productTechnology": {
+    "badge": "Tech Stack & Architecture",
+    "title": "Built for Performance,",
+    "subtitle": "Security, and Privacy",
+    "description": "Modern tech stack powering a production-quality desktop AI assistant",
+    "architecture": {
+      "title": "System Architecture",
+      "layers": [
+        {
+          "layer": "User Interface",
+          "tech": "React + Tailwind CSS",
+          "description": "KakaoTalk-style chat, voice input, screen context"
+        },
+        {
+          "layer": "Application Logic",
+          "tech": "TypeScript + Zustand",
+          "description": "State management, persona system, learning optimization"
+        },
+        {
+          "layer": "IPC Bridge",
+          "tech": "Tauri Commands",
+          "description": "Type-safe communication between frontend and backend"
+        },
+        {
+          "layer": "Backend Services",
+          "tech": "Rust + Tokio",
+          "description": "File ops, Git integration, screen capture, webhooks"
+        },
+        {
+          "layer": "AI Runtime",
+          "tech": "Ollama + Whisper + LLaVA",
+          "description": "Local LLM inference, speech-to-text, vision"
+        },
+        {
+          "layer": "Data Layer",
+          "tech": "SQLite + AES-256",
+          "description": "Encrypted conversations, persona settings, RAG memory"
+        }
+      ]
+    },
+    "core": {
+      "title": "Core Technology",
+      "subtitle": "Framework, Language & State",
+      "framework": {
+        "category": "Framework",
+        "items": [
+          {
+            "name": "Tauri 2.9",
+            "description": "Rust backend + React frontend",
+            "highlight": "7.1MB build (vs 285MB Electron)"
+          }
+        ]
+      },
+      "language": {
+        "category": "Language",
+        "items": [
+          {
+            "name": "TypeScript 5.3+",
+            "description": "Strict mode",
+            "highlight": "Type-safe development"
+          }
+        ]
+      },
+      "state": {
+        "category": "State Management",
+        "items": [
+          {
+            "name": "Zustand",
+            "description": "Lightweight, persistent",
+            "highlight": "Simple & fast"
+          }
+        ]
+      }
+    },
+    "ai": {
+      "title": "AI & Machine Learning",
+      "subtitle": "LLMs, Speech, Vision & Embeddings",
+      "llm": {
+        "category": "LLM",
+        "items": [
+          {
+            "name": "qwen2.5:7b",
+            "description": "7B parameters, Q4_K_M quantization",
+            "highlight": "4.7GB model size"
+          },
+          {
+            "name": "Llama 3.2",
+            "description": "Alternative model option",
+            "highlight": "3B/7B variants"
+          },
+          {
+            "name": "Phi-3",
+            "description": "Microsoft small language model",
+            "highlight": "Fast inference"
+          }
+        ]
+      },
+      "runtime": {
+        "category": "Runtime",
+        "items": [
+          {
+            "name": "Ollama",
+            "description": "Local model runtime",
+            "highlight": "Metal acceleration on macOS"
+          }
+        ]
+      },
+      "speechVision": {
+        "category": "Speech & Vision",
+        "items": [
+          {
+            "name": "Whisper-small",
+            "description": "Speech-to-text via Xenova/transformers",
+            "highlight": "Korean + English"
+          },
+          {
+            "name": "LLaVA 7B",
+            "description": "Vision model for screen analysis",
+            "highlight": "Privacy-first image processing"
+          }
+        ]
+      },
+      "embeddings": {
+        "category": "Embeddings",
+        "items": [
+          {
+            "name": "TF-IDF",
+            "description": "128-dim vectors",
+            "highlight": "Fast retrieval"
+          },
+          {
+            "name": "BGE-M3 (planned)",
+            "description": "Advanced embeddings",
+            "highlight": "Better context understanding"
+          }
+        ]
+      }
+    },
+    "performance": {
+      "title": "Performance Metrics",
+      "metrics": [
+        {
+          "metric": "Response Time",
+          "value": "2-4s",
+          "note": "qwen2.5:7b on M1/M2"
+        },
+        {
+          "metric": "Memory Usage",
+          "value": "10-14GB",
+          "note": "Ollama ~12GB + App ~2GB"
+        },
+        {
+          "metric": "Startup Time",
+          "value": "<2s",
+          "note": "Warm start, <6s cold start"
+        },
+        {
+          "metric": "Model Size",
+          "value": "4.7GB",
+          "note": "Q4_K_M quantization"
+        },
+        {
+          "metric": "Build Size",
+          "value": "7.1MB",
+          "note": "Tauri (vs 285MB Electron)"
+        },
+        {
+          "metric": "Database",
+          "value": "<10MB",
+          "note": "Grows with conversations"
+        }
+      ]
+    },
+    "security": {
+      "title": "Security & Privacy",
+      "local": "100% Local Processing",
+      "localDesc": "All AI runs on your machine via Ollama. No cloud APIs, no telemetry, no data upload.",
+      "encrypted": "Encrypted Database",
+      "encryptedDesc": "AES-256 encryption for local SQLite database. Your conversations stay secure.",
+      "backup": "Optional Cloud Backup",
+      "backupDesc": "Only persona settings (10 numbers), never conversations. Fully opt-in with Google OAuth.",
+      "opensource": "Open Source",
+      "opensourceDesc": "MIT License. Audit the code yourself. Transparent, no backdoors, community-driven."
+    },
+    "cta": {
+      "title": "Experience the Technology",
+      "description": "Download now and see how modern tech delivers privacy, performance, and power",
+      "download": "Download Now",
+      "github": "View on GitHub"
+    }
+  },
+  "productRoadmap": {
+    "badge": "Product Roadmap",
+    "title": "Vision, Milestones,",
+    "subtitle": "and Future Plans",
+    "vision": "사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다",
+    "visionEn": "Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity",
+    "timeline": {
+      "title": "Development Timeline",
+      "items": [
+        {
+          "quarter": "2024 Q4",
+          "progress": 100,
+          "label": "Phases 1-8 Complete (v3.0.0)"
+        },
+        {
+          "quarter": "2025 Q1",
+          "progress": 100,
+          "label": "Phase 9 Complete (v3.0.4)"
+        },
+        {
+          "quarter": "2025 Q2",
+          "progress": 20,
+          "label": "Phase 10: Windows Build"
+        },
+        {
+          "quarter": "2025 Q3",
+          "progress": 0,
+          "label": "Phase 11: Advanced Features"
+        },
+        {
+          "quarter": "2025 Q4",
+          "progress": 0,
+          "label": "Phase 12: Plugin System"
+        },
+        {
+          "quarter": "2026 Q1",
+          "progress": 0,
+          "label": "Phase 13: AI Enhancements"
+        }
+      ],
+      "complete": "complete"
+    },
+    "releases": {
+      "title": "Upcoming Releases",
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "planned": "Planned",
+      "items": [
+        {
+          "version": "v3.0.4",
+          "status": "completed",
+          "quarter": "Q1 2025",
+          "title": "Cloud Backup & Complete Documentation",
+          "description": "Current stable release with Google OAuth integration",
+          "features": [
+            "Google OAuth integration",
+            "Google Drive backup (persona settings only)",
+            "Complete documentation overhaul",
+            "SERVICE.md, DEPLOYMENT.md, MARKETING.md",
+            "15,000+ words of user docs"
+          ]
+        },
+        {
+          "version": "v3.1.0",
+          "status": "in-progress",
+          "quarter": "Q2 2025",
+          "title": "Windows Support",
+          "description": "Bring Garden of Eden V3 to Windows users",
+          "features": [
+            "Windows 10/11 build (MSI installer)",
+            "Windows-specific screen capture",
+            "Windows TTS integration",
+            "Ollama Windows support",
+            "Code signing (Windows Authenticode)",
+            "Installation guide for Windows"
+          ]
+        },
+        {
+          "version": "v3.2.0",
+          "status": "planned",
+          "quarter": "Q2 2025",
+          "title": "Advanced RAG",
+          "description": "Upgrade memory system with better embeddings",
+          "features": [
+            "BGE-M3 embeddings (replace TF-IDF)",
+            "LanceDB vector database",
+            "RAFT hallucination reduction",
+            "Improved context retrieval",
+            "Memory visualization UI",
+            "Export/import memory database"
+          ]
+        },
+        {
+          "version": "v3.3.0",
+          "status": "planned",
+          "quarter": "Q3 2025",
+          "title": "Internet Access",
+          "description": "Enable AI to search web and fetch URLs",
+          "features": [
+            "Web search integration (DuckDuckGo, SearX)",
+            "URL fetching (privacy-preserving)",
+            "Website summarization",
+            "News aggregation",
+            "Privacy controls (opt-in)",
+            "Content filtering"
+          ]
+        },
+        {
+          "version": "v3.4.0",
+          "status": "planned",
+          "quarter": "Q3-Q4 2025",
+          "title": "Plugin System",
+          "description": "Allow users to extend functionality",
+          "features": [
+            "Plugin API architecture",
+            "JavaScript/TypeScript plugin support",
+            "Plugin marketplace (GitHub-based)",
+            "Sandboxed execution",
+            "Permission system",
+            "Example plugins (weather, calculator, etc.)"
+          ]
+        },
+        {
+          "version": "v4.0.0",
+          "status": "planned",
+          "quarter": "Q1 2026",
+          "title": "Multiple Personas",
+          "description": "Save and switch between persona profiles",
+          "features": [
+            "Multiple persona profiles",
+            "Quick persona switching",
+            "Persona import/export",
+            "Community persona marketplace",
+            "Persona sharing (JSON)",
+            "Persona versioning"
+          ]
+        }
+      ]
+    },
+    "community": {
+      "title": "Community Requests",
+      "subtitle": "Most requested features from GitHub Discussions",
+      "votes": "votes",
+      "vote": "Vote on Features",
+      "requests": [
+        {
+          "feature": "Windows Support",
+          "votes": 46,
+          "version": "v3.1.0"
+        },
+        {
+          "feature": "Internet Access",
+          "votes": 32,
+          "version": "v3.3.0"
+        },
+        {
+          "feature": "Plugin System",
+          "votes": 28,
+          "version": "v3.4.0"
+        },
+        {
+          "feature": "Multiple Personas",
+          "votes": 24,
+          "version": "v4.0.0"
+        },
+        {
+          "feature": "Linux Build",
+          "votes": 18,
+          "version": "Backlog"
+        },
+        {
+          "feature": "Calendar Integration",
+          "votes": 15,
+          "version": "Backlog"
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "principles": [
+        "Privacy First - Never compromise on privacy",
+        "Local First - Cloud is always optional",
+        "Free Forever - Core app will always be free",
+        "Open Source - MIT license, no exceptions",
+        "Community-Driven - Users guide development",
+        "Fast - Response time <5s always",
+        "Accessible - Works for everyone"
+      ]
+    },
+    "metrics": {
+      "title": "Success Metrics",
+      "current": "v3.0.4 (Current)",
+      "goal2026": "v4.0.0 (2026 Goal)",
+      "goal2027": "v5.0.0 (2027 Goal)",
+      "currentMetrics": [
+        "100% local processing",
+        "<10MB binary size",
+        "2-4s response time",
+        "10 persona parameters",
+        "Voice + screen context"
+      ],
+      "goal2026Metrics": [
+        "10,000+ downloads",
+        "1,000+ GitHub stars",
+        "80%+ test coverage",
+        "<2s response time",
+        "3 platforms support"
+      ],
+      "goal2027Metrics": [
+        "100,000+ downloads",
+        "10,000+ GitHub stars",
+        "Self-sustaining community",
+        "Multi-modal AI",
+        "Sub-1s response time"
+      ]
+    },
+    "cta": {
+      "title": "Shape the Future",
+      "description": "Your feedback guides development. Vote on features, suggest ideas, contribute code.",
+      "discussions": "Join Discussions",
+      "features": "Request Features"
+    }
+  },
+  "whyEdenComparison": {
+    "badge": "Comparison",
+    "title": "Garden of Eden vs",
+    "subtitle": "Cloud AI Services",
+    "description": "See how we compare to ChatGPT Plus, GitHub Copilot, and Claude Pro",
+    "table": {
+      "title": "Main Comparison Table",
+      "feature": "Feature",
+      "eden": "Garden of Eden",
+      "free": "Free",
+      "chatgpt": "ChatGPT Plus",
+      "copilot": "GitHub Copilot",
+      "claude": "Claude Pro",
+      "rows": [
+        {
+          "feature": "Price",
+          "eden": {
+            "value": "Free",
+            "detail": "$0 forever"
+          },
+          "chatgpt": {
+            "value": "$20/month",
+            "detail": "$240/year"
+          },
+          "copilot": {
+            "value": "$10/month",
+            "detail": "$120/year"
+          },
+          "claude": {
+            "value": "$20/month",
+            "detail": "$240/year"
+          }
+        },
+        {
+          "feature": "Privacy",
+          "eden": {
+            "value": "100% Local",
+            "detail": "No data leaves your machine"
+          },
+          "chatgpt": {
+            "value": "Cloud (OpenAI)",
+            "detail": "Data sent to servers"
+          },
+          "copilot": {
+            "value": "Cloud (Microsoft)",
+            "detail": "Code sent to servers"
+          },
+          "claude": {
+            "value": "Cloud (Anthropic)",
+            "detail": "Data sent to servers"
+          }
+        },
+        {
+          "feature": "Offline Mode",
+          "eden": {
+            "value": "Yes",
+            "detail": "Works without internet"
+          },
+          "chatgpt": {
+            "value": "No",
+            "detail": "Requires internet"
+          },
+          "copilot": {
+            "value": "No",
+            "detail": "Requires internet"
+          },
+          "claude": {
+            "value": "No",
+            "detail": "Requires internet"
+          }
+        },
+        {
+          "feature": "Customizable Personality",
+          "eden": {
+            "value": "10 parameters",
+            "detail": "Fully adjustable"
+          },
+          "chatgpt": {
+            "value": "No",
+            "detail": "Fixed personality"
+          },
+          "copilot": {
+            "value": "No",
+            "detail": "Fixed personality"
+          },
+          "claude": {
+            "value": "No",
+            "detail": "Fixed personality"
+          }
+        },
+        {
+          "feature": "Learning System",
+          "eden": {
+            "value": "Yes (local)",
+            "detail": "Gradient descent optimization"
+          },
+          "chatgpt": {
+            "value": "Yes (cloud)",
+            "detail": "Trains on your data"
+          },
+          "copilot": {
+            "value": "Yes (cloud)",
+            "detail": "Trains on your data"
+          },
+          "claude": {
+            "value": "Yes (cloud)",
+            "detail": "Claims not to train"
+          }
+        },
+        {
+          "feature": "Response Time",
+          "eden": {
+            "value": "2-4s",
+            "detail": "Local processing"
+          },
+          "chatgpt": {
+            "value": "<1s",
+            "detail": "Massive data centers"
+          },
+          "copilot": {
+            "value": "<1s",
+            "detail": "Cloud infrastructure"
+          },
+          "claude": {
+            "value": "<1s",
+            "detail": "Cloud infrastructure"
+          }
+        },
+        {
+          "feature": "Model Size",
+          "eden": {
+            "value": "7B params",
+            "detail": "4.7GB download"
+          },
+          "chatgpt": {
+            "value": "100B+ params",
+            "detail": "Not disclosed"
+          },
+          "copilot": {
+            "value": "Unknown",
+            "detail": "Not disclosed"
+          },
+          "claude": {
+            "value": "100B+ params",
+            "detail": "Not disclosed"
+          }
+        },
+        {
+          "feature": "Open Source",
+          "eden": {
+            "value": "Yes (MIT)",
+            "detail": "Audit the code"
+          },
+          "chatgpt": {
+            "value": "No",
+            "detail": "Proprietary"
+          },
+          "copilot": {
+            "value": "No",
+            "detail": "Proprietary"
+          },
+          "claude": {
+            "value": "No",
+            "detail": "Proprietary"
+          }
+        },
+        {
+          "feature": "Voice Input",
+          "eden": {
+            "value": "Yes",
+            "detail": "Whisper STT"
+          },
+          "chatgpt": {
+            "value": "Yes (web)",
+            "detail": "Web only"
+          },
+          "copilot": {
+            "value": "No",
+            "detail": "Not available"
+          },
+          "claude": {
+            "value": "No",
+            "detail": "Not available"
+          }
+        },
+        {
+          "feature": "Screen Context",
+          "eden": {
+            "value": "Yes (LLaVA)",
+            "detail": "Local vision"
+          },
+          "chatgpt": {
+            "value": "No",
+            "detail": "Not available"
+          },
+          "copilot": {
+            "value": "No",
+            "detail": "Not available"
+          },
+          "claude": {
+            "value": "No",
+            "detail": "Not available"
+          }
+        }
+      ]
+    },
+    "savings": {
+      "title": "Cost Savings with Garden of Eden",
+      "subtitle": "Save hundreds of dollars per year",
+      "monthly": "Monthly:",
+      "annual": "Annual:",
+      "threeYear": "3-Year Total:",
+      "save": "Save ${amount} with Eden",
+      "edenFree": "Garden of Eden: $0 Forever",
+      "mit": "MIT License • Open Source • No Hidden Costs",
+      "services": [
+        {
+          "service": "ChatGPT Plus",
+          "monthly": 20,
+          "annual": 240,
+          "threeYear": 720
+        },
+        {
+          "service": "Claude Pro",
+          "monthly": 20,
+          "annual": 240,
+          "threeYear": 720
+        },
+        {
+          "service": "GitHub Copilot",
+          "monthly": 10,
+          "annual": 120,
+          "threeYear": 360
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy & Data Ownership",
+      "dataOwnership": [
+        {
+          "aspect": "Data Storage",
+          "eden": "Your Mac only",
+          "others": "Company servers"
+        },
+        {
+          "aspect": "Training on Your Data",
+          "eden": "Never",
+          "others": "Yes (most services)"
+        },
+        {
+          "aspect": "Offline Capability",
+          "eden": "Full functionality",
+          "others": "None"
+        },
+        {
+          "aspect": "Open Source",
+          "eden": "Yes (MIT)",
+          "others": "No"
+        },
+        {
+          "aspect": "Audit Trail",
+          "eden": "Complete",
+          "others": "None"
+        },
+        {
+          "aspect": "Data Retention",
+          "eden": "You control",
+          "others": "Company controls"
+        }
+      ]
+    },
+    "verdict": {
+      "title": "The Verdict",
+      "description1": "If you value",
+      "highlight": "privacy, ownership, and customization",
+      "description2": "over bleeding-edge performance,",
+      "conclusion": "Garden of Eden V3 is the clear choice.",
+      "cloudAI": {
+        "title": "Choose Cloud AI If:",
+        "items": [
+          "You need the absolute best performance",
+          "You don't mind $20/month subscriptions",
+          "Privacy isn't a concern",
+          "You have reliable internet always"
+        ]
+      },
+      "eden": {
+        "title": "Choose Garden of Eden If:",
+        "items": [
+          "Privacy and data ownership matter",
+          "You want zero ongoing costs",
+          "You work offline or in secure environments",
+          "You value customization and control"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ready to Save Money and Protect Your Privacy?",
+      "description": "Download Garden of Eden V3 now - free forever, private forever",
+      "download": "Download Now",
+      "features": "View All Features"
+    }
+  },
+  "whyEdenPrivacy": {
+    "badge": "Privacy First",
+    "title": "Your Data Never",
+    "subtitle": "Leaves Your Machine",
+    "description": "Complete privacy through 100% local processing - this is our core philosophy",
+    "principles": {
+      "title": "Privacy Principles",
+      "items": [
+        {
+          "title": "100% Local Processing",
+          "titleKo": "100% 로컬 처리",
+          "description": "All AI runs on your machine via Ollama. Zero data leaves your computer.",
+          "descriptionKo": "모든 AI가 Ollama를 통해 당신의 컴퓨터에서 실행됩니다. 데이터는 절대 외부로 나가지 않습니다."
+        },
+        {
+          "title": "No Telemetry, No Tracking",
+          "titleKo": "텔레메트리 없음, 추적 없음",
+          "description": "We collect exactly zero data. No analytics, no usage stats, no tracking pixels.",
+          "descriptionKo": "우리는 정확히 0개의 데이터를 수집합니다. 분석, 사용 통계, 추적 픽셀 전혀 없습니다."
+        },
+        {
+          "title": "Encrypted Local Storage",
+          "titleKo": "암호화된 로컬 스토리지",
+          "description": "AES-256 encryption for your conversations and persona settings stored locally.",
+          "descriptionKo": "로컬에 저장된 대화 및 페르소나 설정에 AES-256 암호화 적용."
+        },
+        {
+          "title": "No Cloud Dependency",
+          "titleKo": "클라우드 의존성 없음",
+          "description": "Works completely offline after setup. No cloud servers, no API calls.",
+          "descriptionKo": "설정 후 완전히 오프라인으로 작동. 클라우드 서버도, API 호출도 없습니다."
+        },
+        {
+          "title": "Optional Cloud Backup",
+          "titleKo": "선택적 클라우드 백업",
+          "description": "Only persona settings (10 numbers), never conversations. Fully opt-in.",
+          "descriptionKo": "페르소나 설정만 (10개 숫자), 대화는 절대 안 함. 완전히 선택 사항."
+        },
+        {
+          "title": "Open Source Transparency",
+          "titleKo": "오픈 소스 투명성",
+          "description": "MIT License. Audit every line of code. No backdoors, no hidden features.",
+          "descriptionKo": "MIT 라이센스. 모든 코드 라인 감사 가능. 백도어 없음, 숨겨진 기능 없음."
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "Our Privacy Philosophy",
+      "description": "Privacy is not a feature - it's a fundamental right. We built Garden of Eden V3 on the principle that your data belongs to you, and only you."
+    }
+  },
+  "resourcesDocumentation": {
+    "title": "Documentation",
+    "subtitle": "Everything you need to know about Garden of Eden V3",
+    "resources": [
+      {
+        "title": "User Guide",
+        "description": "Complete guide to using Garden of Eden V3",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki"
+      },
+      {
+        "title": "Quick Start",
+        "description": "5-minute guide to get started",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/blob/main/docs/QUICKSTART.md"
+      },
+      {
+        "title": "GitHub Wiki",
+        "description": "Technical documentation",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki"
+      },
+      {
+        "title": "Troubleshooting",
+        "description": "Common issues and solutions",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki/Troubleshooting"
+      },
+      {
+        "title": "GitHub Repository",
+        "description": "Source code and releases",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
+      },
+      {
+        "title": "Discussions",
+        "description": "Ask questions and share ideas",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/discussions"
+      }
+    ]
+  },
+  "resourcesCommunity": {
+    "badge": "Community",
+    "title": "Join the Community",
+    "subtitle": "Get help, share ideas, and contribute to the project",
+    "channels": [
+      {
+        "title": "GitHub Discussions",
+        "description": "Ask questions, share ideas, and connect with the community",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/discussions"
+      },
+      {
+        "title": "GitHub Issues",
+        "description": "Report bugs and request features",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/issues"
+      },
+      {
+        "title": "Star on GitHub",
+        "description": "Show your support and stay updated",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
+      },
+      {
+        "title": "Email",
+        "description": "Contact: bu5119@hanyang.ac.kr",
+        "link": "mailto:bu5119@hanyang.ac.kr"
+      }
+    ]
+  }
+}

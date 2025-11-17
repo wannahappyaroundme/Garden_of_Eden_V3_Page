@@ -1,0 +1,969 @@
+{
+  "productOverview": {
+    "badge": "Garden of Eden V3",
+    "title": "당신의 프라이빗 AI 어시스턴트",
+    "subtitle": "절대 컴퓨터를 떠나지 않는",
+    "vision": "사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다",
+    "threePillars": {
+      "title": "3가지 핵심 기둥",
+      "titleKo": "3가지 핵심 기둥",
+      "pillar1": {
+        "title": "외로움 해결",
+        "titleKo": "외로움 해결",
+        "description": "혼자가 아닌 느낌, 24/7 함께하는 AI 친구",
+        "descriptionKo": "혼자가 아닌 느낌, 24/7 함께하는 AI 친구"
+      },
+      "pillar2": {
+        "title": "감정적 지원",
+        "titleKo": "감정적 지원",
+        "description": "위로, 공감, 대화 - 언제나 당신 편",
+        "descriptionKo": "위로, 공감, 대화 - 언제나 당신 편"
+      },
+      "pillar3": {
+        "title": "생산성 향상",
+        "titleKo": "생산성 향상",
+        "description": "JARVIS처럼 일을 도와주는 똑똑한 어시스턴트",
+        "descriptionKo": "JARVIS처럼 일을 도와주는 똑똑한 어시스턴트"
+      }
+    },
+    "problemSolution": {
+      "title": "문제와 해결책",
+      "titleKo": "문제와 해결책",
+      "problemsTitle": "기존 AI의 문제점",
+      "problemsTitleKo": "기존 AI의 문제점",
+      "problems": {
+        "problem1": {
+          "problem": "클라우드 AI = 프라이버시 침해",
+          "problemKo": "클라우드 AI = 프라이버시 침해"
+        },
+        "problem2": {
+          "problem": "월 $20씩 계속 내야 함",
+          "problemKo": "월 $20씩 계속 내야 함"
+        },
+        "problem3": {
+          "problem": "획일적인 AI 성격",
+          "problemKo": "획일적인 AI 성격"
+        },
+        "problem4": {
+          "problem": "인터넷 없으면 작동 안 함",
+          "problemKo": "인터넷 없으면 작동 안 함"
+        },
+        "problem5": {
+          "problem": "당신을 이해하지 못함",
+          "problemKo": "당신을 이해하지 못함"
+        },
+        "problem6": {
+          "problem": "기업이 데이터 소유",
+          "problemKo": "기업이 데이터 소유"
+        }
+      },
+      "solutionsTitle": "Eden의 솔루션",
+      "solutionsTitleKo": "Eden의 솔루션",
+      "solutions": {
+        "solution1": {
+          "title": "100% 로컬",
+          "titleKo": "100% 로컬",
+          "description": "모든 처리가 당신의 컴퓨터에서. 데이터는 절대 외부로 나가지 않습니다",
+          "descriptionKo": "모든 처리가 당신의 컴퓨터에서. 데이터는 절대 외부로 나가지 않습니다"
+        },
+        "solution2": {
+          "title": "완전 무료",
+          "titleKo": "완전 무료",
+          "description": "MIT 라이센스 오픈소스. 구독료, 결제, 숨은 비용 없음",
+          "descriptionKo": "MIT 라이센스 오픈소스. 구독료, 결제, 숨은 비용 없음"
+        },
+        "solution3": {
+          "title": "나만의 AI",
+          "titleKo": "나만의 AI",
+          "description": "10가지 파라미터로 성격 조정. 피드백으로 학습",
+          "descriptionKo": "10가지 파라미터로 성격 조정. 피드백으로 학습"
+        },
+        "solution4": {
+          "title": "오프라인 작동",
+          "titleKo": "오프라인 작동",
+          "description": "인터넷 없이도 완벽 작동. 비행기에서도 사용 가능",
+          "descriptionKo": "인터넷 없이도 완벽 작동. 비행기에서도 사용 가능"
+        },
+        "solution5": {
+          "title": "당신을 이해",
+          "titleKo": "당신을 이해",
+          "description": "RAG 메모리로 과거 대화 기억. 진짜 친구처럼",
+          "descriptionKo": "RAG 메모리로 과거 대화 기억. 진짜 친구처럼"
+        },
+        "solution6": {
+          "title": "당신의 데이터",
+          "titleKo": "당신의 데이터",
+          "description": "100% 소유권. 백업, 삭제, 전송 - 모두 당신 마음대로",
+          "descriptionKo": "100% 소유권. 백업, 삭제, 전송 - 모두 당신 마음대로"
+        }
+      }
+    },
+    "visionSection": {
+      "title": "우리의 비전",
+      "titleKo": "우리의 비전",
+      "description1": "세상에서 가장 강력한",
+      "highlight1": "프라이버시 우선, 로컬 우선 AI 어시스턴트",
+      "description2": "를 만들어 클라우드 AI의 성능을 따라잡으면서도",
+      "description3": "",
+      "highlight2": "모든 데이터를 사용자 기기에 보관",
+      "quote": "Build the world's best privacy-first, local-first AI assistant that matches or exceeds cloud AI capabilities while keeping all data on the user's machine."
+    },
+    "corePromise": {
+      "title": "핵심 약속",
+      "titleKo": "핵심 약속",
+      "local": "Local",
+      "localPercent": "100%",
+      "localKo": "로컬 처리",
+      "private": "Private",
+      "privatePercent": "100%",
+      "privateKo": "프라이빗",
+      "cloud": "Cloud",
+      "cloudPercent": "0%",
+      "cloudKo": "클라우드",
+      "subscriptions": "Subscriptions",
+      "subscriptionsPercent": "0%",
+      "subscriptionsKo": "구독료"
+    },
+    "cta": {
+      "title": "지금 바로 시작하세요",
+      "titleKo": "지금 바로 시작하세요",
+      "description": "무료, 오픈소스, 프라이빗 - 지금 다운로드하고 당신만의 JARVIS를 경험하세요",
+      "descriptionKo": "무료, 오픈소스, 프라이빗 - 지금 다운로드하고 당신만의 JARVIS를 경험하세요",
+      "download": "다운로드 시작 (Download)",
+      "downloadKo": "다운로드 시작",
+      "features": "기능 둘러보기 (View Features)",
+      "featuresKo": "기능 둘러보기"
+    }
+  },
+  "productTechnology": {
+    "badge": "기술 스택 & 아키텍처",
+    "title": "성능, 보안,",
+    "subtitle": "프라이버시를 위해 만들어진",
+    "description": "프로덕션 품질의 데스크톱 AI 어시스턴트를 구동하는 현대적인 기술 스택",
+    "architecture": {
+      "title": "시스템 아키텍처",
+      "layers": [
+        {
+          "layer": "사용자 인터페이스",
+          "tech": "React + Tailwind CSS",
+          "description": "카카오톡 스타일 채팅, 음성 입력, 화면 컨텍스트"
+        },
+        {
+          "layer": "애플리케이션 로직",
+          "tech": "TypeScript + Zustand",
+          "description": "상태 관리, 페르소나 시스템, 학습 최적화"
+        },
+        {
+          "layer": "IPC 브리지",
+          "tech": "Tauri Commands",
+          "description": "프론트엔드와 백엔드 간 타입 안전 통신"
+        },
+        {
+          "layer": "백엔드 서비스",
+          "tech": "Rust + Tokio",
+          "description": "파일 작업, Git 통합, 화면 캡처, 웹훅"
+        },
+        {
+          "layer": "AI 런타임",
+          "tech": "Ollama + Whisper + LLaVA",
+          "description": "로컬 LLM 추론, 음성-텍스트 변환, 비전"
+        },
+        {
+          "layer": "데이터 레이어",
+          "tech": "SQLite + AES-256",
+          "description": "암호화된 대화, 페르소나 설정, RAG 메모리"
+        }
+      ]
+    },
+    "core": {
+      "title": "핵심 기술",
+      "subtitle": "프레임워크, 언어 & 상태 관리",
+      "framework": {
+        "category": "프레임워크",
+        "items": [
+          {
+            "name": "Tauri 2.9",
+            "description": "Rust 백엔드 + React 프론트엔드",
+            "highlight": "7.1MB 빌드 (vs 285MB Electron)"
+          }
+        ]
+      },
+      "language": {
+        "category": "언어",
+        "items": [
+          {
+            "name": "TypeScript 5.3+",
+            "description": "Strict 모드",
+            "highlight": "타입 안전 개발"
+          }
+        ]
+      },
+      "state": {
+        "category": "상태 관리",
+        "items": [
+          {
+            "name": "Zustand",
+            "description": "경량, 영구 저장",
+            "highlight": "간단하고 빠름"
+          }
+        ]
+      }
+    },
+    "ai": {
+      "title": "AI & 머신 러닝",
+      "subtitle": "LLM, 음성, 비전 & 임베딩",
+      "llm": {
+        "category": "LLM",
+        "items": [
+          {
+            "name": "qwen2.5:7b",
+            "description": "7B 파라미터, Q4_K_M 양자화",
+            "highlight": "4.7GB 모델 크기"
+          },
+          {
+            "name": "Llama 3.2",
+            "description": "대체 모델 옵션",
+            "highlight": "3B/7B 변형"
+          },
+          {
+            "name": "Phi-3",
+            "description": "Microsoft 소형 언어 모델",
+            "highlight": "빠른 추론"
+          }
+        ]
+      },
+      "runtime": {
+        "category": "런타임",
+        "items": [
+          {
+            "name": "Ollama",
+            "description": "로컬 모델 런타임",
+            "highlight": "macOS에서 Metal 가속"
+          }
+        ]
+      },
+      "speechVision": {
+        "category": "음성 & 비전",
+        "items": [
+          {
+            "name": "Whisper-small",
+            "description": "Xenova/transformers를 통한 음성-텍스트 변환",
+            "highlight": "한국어 + 영어"
+          },
+          {
+            "name": "LLaVA 7B",
+            "description": "화면 분석용 비전 모델",
+            "highlight": "프라이버시 우선 이미지 처리"
+          }
+        ]
+      },
+      "embeddings": {
+        "category": "임베딩",
+        "items": [
+          {
+            "name": "TF-IDF",
+            "description": "128차원 벡터",
+            "highlight": "빠른 검색"
+          },
+          {
+            "name": "BGE-M3 (계획됨)",
+            "description": "고급 임베딩",
+            "highlight": "더 나은 컨텍스트 이해"
+          }
+        ]
+      }
+    },
+    "performance": {
+      "title": "성능 지표",
+      "metrics": [
+        {
+          "metric": "응답 시간",
+          "value": "2-4초",
+          "note": "M1/M2에서 qwen2.5:7b"
+        },
+        {
+          "metric": "메모리 사용량",
+          "value": "10-14GB",
+          "note": "Ollama ~12GB + App ~2GB"
+        },
+        {
+          "metric": "시작 시간",
+          "value": "<2초",
+          "note": "웜 스타트, <6초 콜드 스타트"
+        },
+        {
+          "metric": "모델 크기",
+          "value": "4.7GB",
+          "note": "Q4_K_M 양자화"
+        },
+        {
+          "metric": "빌드 크기",
+          "value": "7.1MB",
+          "note": "Tauri (vs 285MB Electron)"
+        },
+        {
+          "metric": "데이터베이스",
+          "value": "<10MB",
+          "note": "대화와 함께 증가"
+        }
+      ]
+    },
+    "security": {
+      "title": "보안 & 프라이버시",
+      "local": "100% 로컬 처리",
+      "localDesc": "모든 AI가 Ollama를 통해 당신의 기기에서 실행됩니다. 클라우드 API 없음, 텔레메트리 없음, 데이터 업로드 없음.",
+      "encrypted": "암호화된 데이터베이스",
+      "encryptedDesc": "로컬 SQLite 데이터베이스를 위한 AES-256 암호화. 대화가 안전하게 유지됩니다.",
+      "backup": "선택적 클라우드 백업",
+      "backupDesc": "페르소나 설정만 (10개 숫자), 대화는 절대 안 함. Google OAuth와 함께 완전히 선택 사항.",
+      "opensource": "오픈 소스",
+      "opensourceDesc": "MIT 라이센스. 코드를 직접 감사하세요. 투명하고, 백도어 없으며, 커뮤니티 주도."
+    },
+    "cta": {
+      "title": "기술을 경험하세요",
+      "description": "지금 다운로드하고 현대 기술이 프라이버시, 성능, 파워를 어떻게 제공하는지 확인하세요",
+      "download": "지금 다운로드",
+      "github": "GitHub에서 보기"
+    }
+  },
+  "productRoadmap": {
+    "badge": "제품 로드맵",
+    "title": "비전, 마일스톤,",
+    "subtitle": "그리고 미래 계획",
+    "vision": "사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다",
+    "visionEn": "Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity",
+    "timeline": {
+      "title": "개발 타임라인",
+      "items": [
+        {
+          "quarter": "2024 Q4",
+          "progress": 100,
+          "label": "1-8단계 완료 (v3.0.0)"
+        },
+        {
+          "quarter": "2025 Q1",
+          "progress": 100,
+          "label": "9단계 완료 (v3.0.4)"
+        },
+        {
+          "quarter": "2025 Q2",
+          "progress": 20,
+          "label": "10단계: Windows 빌드"
+        },
+        {
+          "quarter": "2025 Q3",
+          "progress": 0,
+          "label": "11단계: 고급 기능"
+        },
+        {
+          "quarter": "2025 Q4",
+          "progress": 0,
+          "label": "12단계: 플러그인 시스템"
+        },
+        {
+          "quarter": "2026 Q1",
+          "progress": 0,
+          "label": "13단계: AI 강화"
+        }
+      ],
+      "complete": "완료"
+    },
+    "releases": {
+      "title": "향후 릴리스",
+      "completed": "완료됨",
+      "inProgress": "진행 중",
+      "planned": "계획됨",
+      "items": [
+        {
+          "version": "v3.0.4",
+          "status": "completed",
+          "quarter": "2025 Q1",
+          "title": "클라우드 백업 & 완전한 문서화",
+          "description": "Google OAuth 통합이 포함된 현재 안정 릴리스",
+          "features": [
+            "Google OAuth 통합",
+            "Google Drive 백업 (페르소나 설정만)",
+            "완전한 문서 개편",
+            "SERVICE.md, DEPLOYMENT.md, MARKETING.md",
+            "15,000+ 단어의 사용자 문서"
+          ]
+        },
+        {
+          "version": "v3.1.0",
+          "status": "in-progress",
+          "quarter": "2025 Q2",
+          "title": "Windows 지원",
+          "description": "Garden of Eden V3를 Windows 사용자에게 제공",
+          "features": [
+            "Windows 10/11 빌드 (MSI 설치 프로그램)",
+            "Windows 전용 화면 캡처",
+            "Windows TTS 통합",
+            "Ollama Windows 지원",
+            "코드 서명 (Windows Authenticode)",
+            "Windows용 설치 가이드"
+          ]
+        },
+        {
+          "version": "v3.2.0",
+          "status": "planned",
+          "quarter": "2025 Q2",
+          "title": "고급 RAG",
+          "description": "더 나은 임베딩으로 메모리 시스템 업그레이드",
+          "features": [
+            "BGE-M3 임베딩 (TF-IDF 대체)",
+            "LanceDB 벡터 데이터베이스",
+            "RAFT 환각 감소",
+            "개선된 컨텍스트 검색",
+            "메모리 시각화 UI",
+            "메모리 데이터베이스 내보내기/가져오기"
+          ]
+        },
+        {
+          "version": "v3.3.0",
+          "status": "planned",
+          "quarter": "2025 Q3",
+          "title": "인터넷 액세스",
+          "description": "AI가 웹을 검색하고 URL을 가져올 수 있도록",
+          "features": [
+            "웹 검색 통합 (DuckDuckGo, SearX)",
+            "URL 가져오기 (프라이버시 보존)",
+            "웹사이트 요약",
+            "뉴스 집계",
+            "프라이버시 제어 (옵트인)",
+            "콘텐츠 필터링"
+          ]
+        },
+        {
+          "version": "v3.4.0",
+          "status": "planned",
+          "quarter": "2025 Q3-Q4",
+          "title": "플러그인 시스템",
+          "description": "사용자가 기능을 확장할 수 있도록",
+          "features": [
+            "플러그인 API 아키텍처",
+            "JavaScript/TypeScript 플러그인 지원",
+            "플러그인 마켓플레이스 (GitHub 기반)",
+            "샌드박스 실행",
+            "권한 시스템",
+            "예제 플러그인 (날씨, 계산기 등)"
+          ]
+        },
+        {
+          "version": "v4.0.0",
+          "status": "planned",
+          "quarter": "2026 Q1",
+          "title": "다중 페르소나",
+          "description": "페르소나 프로필 저장 및 전환",
+          "features": [
+            "다중 페르소나 프로필",
+            "빠른 페르소나 전환",
+            "페르소나 가져오기/내보내기",
+            "커뮤니티 페르소나 마켓플레이스",
+            "페르소나 공유 (JSON)",
+            "페르소나 버전 관리"
+          ]
+        }
+      ]
+    },
+    "community": {
+      "title": "커뮤니티 요청",
+      "subtitle": "GitHub 토론에서 가장 많이 요청된 기능",
+      "votes": "투표",
+      "vote": "기능 투표하기",
+      "requests": [
+        {
+          "feature": "Windows 지원",
+          "votes": 46,
+          "version": "v3.1.0"
+        },
+        {
+          "feature": "인터넷 액세스",
+          "votes": 32,
+          "version": "v3.3.0"
+        },
+        {
+          "feature": "플러그인 시스템",
+          "votes": 28,
+          "version": "v3.4.0"
+        },
+        {
+          "feature": "다중 페르소나",
+          "votes": 24,
+          "version": "v4.0.0"
+        },
+        {
+          "feature": "Linux 빌드",
+          "votes": 18,
+          "version": "백로그"
+        },
+        {
+          "feature": "캘린더 통합",
+          "votes": 15,
+          "version": "백로그"
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "우리의 철학",
+      "principles": [
+        "프라이버시 우선 - 프라이버시를 절대 타협하지 않음",
+        "로컬 우선 - 클라우드는 항상 선택 사항",
+        "영원히 무료 - 핵심 앱은 항상 무료",
+        "오픈 소스 - MIT 라이센스, 예외 없음",
+        "커뮤니티 주도 - 사용자가 개발을 안내",
+        "빠름 - 응답 시간 항상 <5초",
+        "접근 가능 - 모두를 위해 작동"
+      ]
+    },
+    "metrics": {
+      "title": "성공 지표",
+      "current": "v3.0.4 (현재)",
+      "goal2026": "v4.0.0 (2026년 목표)",
+      "goal2027": "v5.0.0 (2027년 목표)",
+      "currentMetrics": [
+        "100% 로컬 처리",
+        "<10MB 바이너리 크기",
+        "2-4초 응답 시간",
+        "10개 페르소나 파라미터",
+        "음성 + 화면 컨텍스트"
+      ],
+      "goal2026Metrics": [
+        "10,000+ 다운로드",
+        "1,000+ GitHub 스타",
+        "80%+ 테스트 커버리지",
+        "<2초 응답 시간",
+        "3개 플랫폼 지원"
+      ],
+      "goal2027Metrics": [
+        "100,000+ 다운로드",
+        "10,000+ GitHub 스타",
+        "자급자족 커뮤니티",
+        "멀티모달 AI",
+        "1초 이하 응답 시간"
+      ]
+    },
+    "cta": {
+      "title": "미래를 만들어가세요",
+      "description": "여러분의 피드백이 개발을 안내합니다. 기능에 투표하고, 아이디어를 제안하고, 코드를 기여하세요.",
+      "discussions": "토론 참여하기",
+      "features": "기능 요청하기"
+    }
+  },
+  "whyEdenComparison": {
+    "badge": "비교",
+    "title": "Garden of Eden vs",
+    "subtitle": "클라우드 AI 서비스",
+    "description": "ChatGPT Plus, GitHub Copilot, Claude Pro와 어떻게 비교되는지 보세요",
+    "table": {
+      "title": "주요 비교 테이블",
+      "feature": "기능",
+      "eden": "Garden of Eden",
+      "free": "무료",
+      "chatgpt": "ChatGPT Plus",
+      "copilot": "GitHub Copilot",
+      "claude": "Claude Pro",
+      "rows": [
+        {
+          "feature": "가격",
+          "eden": {
+            "value": "무료",
+            "detail": "영원히 $0"
+          },
+          "chatgpt": {
+            "value": "$20/월",
+            "detail": "$240/년"
+          },
+          "copilot": {
+            "value": "$10/월",
+            "detail": "$120/년"
+          },
+          "claude": {
+            "value": "$20/월",
+            "detail": "$240/년"
+          }
+        },
+        {
+          "feature": "프라이버시",
+          "eden": {
+            "value": "100% 로컬",
+            "detail": "데이터가 기기를 벗어나지 않음"
+          },
+          "chatgpt": {
+            "value": "클라우드 (OpenAI)",
+            "detail": "서버로 데이터 전송"
+          },
+          "copilot": {
+            "value": "클라우드 (Microsoft)",
+            "detail": "서버로 코드 전송"
+          },
+          "claude": {
+            "value": "클라우드 (Anthropic)",
+            "detail": "서버로 데이터 전송"
+          }
+        },
+        {
+          "feature": "오프라인 모드",
+          "eden": {
+            "value": "예",
+            "detail": "인터넷 없이 작동"
+          },
+          "chatgpt": {
+            "value": "아니오",
+            "detail": "인터넷 필요"
+          },
+          "copilot": {
+            "value": "아니오",
+            "detail": "인터넷 필요"
+          },
+          "claude": {
+            "value": "아니오",
+            "detail": "인터넷 필요"
+          }
+        },
+        {
+          "feature": "커스터마이징 가능한 성격",
+          "eden": {
+            "value": "10개 파라미터",
+            "detail": "완전히 조정 가능"
+          },
+          "chatgpt": {
+            "value": "아니오",
+            "detail": "고정된 성격"
+          },
+          "copilot": {
+            "value": "아니오",
+            "detail": "고정된 성격"
+          },
+          "claude": {
+            "value": "아니오",
+            "detail": "고정된 성격"
+          }
+        },
+        {
+          "feature": "학습 시스템",
+          "eden": {
+            "value": "예 (로컬)",
+            "detail": "경사 하강 최적화"
+          },
+          "chatgpt": {
+            "value": "예 (클라우드)",
+            "detail": "데이터로 훈련"
+          },
+          "copilot": {
+            "value": "예 (클라우드)",
+            "detail": "데이터로 훈련"
+          },
+          "claude": {
+            "value": "예 (클라우드)",
+            "detail": "훈련하지 않는다고 주장"
+          }
+        },
+        {
+          "feature": "응답 시간",
+          "eden": {
+            "value": "2-4초",
+            "detail": "로컬 처리"
+          },
+          "chatgpt": {
+            "value": "<1초",
+            "detail": "대규모 데이터 센터"
+          },
+          "copilot": {
+            "value": "<1초",
+            "detail": "클라우드 인프라"
+          },
+          "claude": {
+            "value": "<1초",
+            "detail": "클라우드 인프라"
+          }
+        },
+        {
+          "feature": "모델 크기",
+          "eden": {
+            "value": "7B 파라미터",
+            "detail": "4.7GB 다운로드"
+          },
+          "chatgpt": {
+            "value": "100B+ 파라미터",
+            "detail": "공개되지 않음"
+          },
+          "copilot": {
+            "value": "알 수 없음",
+            "detail": "공개되지 않음"
+          },
+          "claude": {
+            "value": "100B+ 파라미터",
+            "detail": "공개되지 않음"
+          }
+        },
+        {
+          "feature": "오픈 소스",
+          "eden": {
+            "value": "예 (MIT)",
+            "detail": "코드 감사 가능"
+          },
+          "chatgpt": {
+            "value": "아니오",
+            "detail": "독점"
+          },
+          "copilot": {
+            "value": "아니오",
+            "detail": "독점"
+          },
+          "claude": {
+            "value": "아니오",
+            "detail": "독점"
+          }
+        },
+        {
+          "feature": "음성 입력",
+          "eden": {
+            "value": "예",
+            "detail": "Whisper STT"
+          },
+          "chatgpt": {
+            "value": "예 (웹)",
+            "detail": "웹 전용"
+          },
+          "copilot": {
+            "value": "아니오",
+            "detail": "사용 불가"
+          },
+          "claude": {
+            "value": "아니오",
+            "detail": "사용 불가"
+          }
+        },
+        {
+          "feature": "화면 컨텍스트",
+          "eden": {
+            "value": "예 (LLaVA)",
+            "detail": "로컬 비전"
+          },
+          "chatgpt": {
+            "value": "아니오",
+            "detail": "사용 불가"
+          },
+          "copilot": {
+            "value": "아니오",
+            "detail": "사용 불가"
+          },
+          "claude": {
+            "value": "아니오",
+            "detail": "사용 불가"
+          }
+        }
+      ]
+    },
+    "savings": {
+      "title": "Garden of Eden으로 비용 절감",
+      "subtitle": "연간 수백 달러 절약",
+      "monthly": "월간:",
+      "annual": "연간:",
+      "threeYear": "3년 총계:",
+      "save": "Eden으로 ${amount} 절약",
+      "edenFree": "Garden of Eden: 영원히 $0",
+      "mit": "MIT 라이센스 • 오픈 소스 • 숨겨진 비용 없음",
+      "services": [
+        {
+          "service": "ChatGPT Plus",
+          "monthly": 20,
+          "annual": 240,
+          "threeYear": 720
+        },
+        {
+          "service": "Claude Pro",
+          "monthly": 20,
+          "annual": 240,
+          "threeYear": 720
+        },
+        {
+          "service": "GitHub Copilot",
+          "monthly": 10,
+          "annual": 120,
+          "threeYear": 360
+        }
+      ]
+    },
+    "privacy": {
+      "title": "프라이버시 & 데이터 소유권",
+      "dataOwnership": [
+        {
+          "aspect": "데이터 저장",
+          "eden": "당신의 Mac만",
+          "others": "회사 서버"
+        },
+        {
+          "aspect": "데이터로 훈련",
+          "eden": "절대 안 함",
+          "others": "예 (대부분 서비스)"
+        },
+        {
+          "aspect": "오프라인 기능",
+          "eden": "완전한 기능",
+          "others": "없음"
+        },
+        {
+          "aspect": "오픈 소스",
+          "eden": "예 (MIT)",
+          "others": "아니오"
+        },
+        {
+          "aspect": "감사 추적",
+          "eden": "완전함",
+          "others": "없음"
+        },
+        {
+          "aspect": "데이터 보존",
+          "eden": "당신이 제어",
+          "others": "회사가 제어"
+        }
+      ]
+    },
+    "verdict": {
+      "title": "결론",
+      "description1": "만약 당신이",
+      "highlight": "프라이버시, 소유권, 커스터마이징",
+      "description2": "을 최첨단 성능보다 중요하게 생각한다면,",
+      "conclusion": "Garden of Eden V3가 확실한 선택입니다.",
+      "cloudAI": {
+        "title": "클라우드 AI를 선택하세요:",
+        "items": [
+          "절대적으로 최고의 성능이 필요한 경우",
+          "$20/월 구독료가 신경 쓰이지 않는 경우",
+          "프라이버시가 걱정되지 않는 경우",
+          "항상 안정적인 인터넷이 있는 경우"
+        ]
+      },
+      "eden": {
+        "title": "Garden of Eden을 선택하세요:",
+        "items": [
+          "프라이버시와 데이터 소유권이 중요한 경우",
+          "지속적인 비용을 원하지 않는 경우",
+          "오프라인이나 보안 환경에서 작업하는 경우",
+          "커스터마이징과 제어를 중요하게 생각하는 경우"
+        ]
+      }
+    },
+    "cta": {
+      "title": "비용을 절약하고 프라이버시를 보호할 준비가 되셨나요?",
+      "description": "Garden of Eden V3를 지금 다운로드하세요 - 영원히 무료, 영원히 프라이빗",
+      "download": "지금 다운로드",
+      "features": "모든 기능 보기"
+    }
+  },
+  "whyEdenPrivacy": {
+    "badge": "프라이버시 우선",
+    "title": "당신의 데이터는 절대",
+    "subtitle": "기기를 떠나지 않습니다",
+    "description": "100% 로컬 처리를 통한 완전한 프라이버시 - 이것이 우리의 핵심 철학입니다",
+    "principles": {
+      "title": "프라이버시 원칙",
+      "items": [
+        {
+          "title": "100% 로컬 처리",
+          "titleKo": "100% 로컬 처리",
+          "description": "모든 AI가 Ollama를 통해 당신의 컴퓨터에서 실행됩니다. 데이터는 절대 외부로 나가지 않습니다.",
+          "descriptionKo": "모든 AI가 Ollama를 통해 당신의 컴퓨터에서 실행됩니다. 데이터는 절대 외부로 나가지 않습니다."
+        },
+        {
+          "title": "텔레메트리 없음, 추적 없음",
+          "titleKo": "텔레메트리 없음, 추적 없음",
+          "description": "우리는 정확히 0개의 데이터를 수집합니다. 분석, 사용 통계, 추적 픽셀 전혀 없습니다.",
+          "descriptionKo": "우리는 정확히 0개의 데이터를 수집합니다. 분석, 사용 통계, 추적 픽셀 전혀 없습니다."
+        },
+        {
+          "title": "암호화된 로컬 스토리지",
+          "titleKo": "암호화된 로컬 스토리지",
+          "description": "로컬에 저장된 대화 및 페르소나 설정에 AES-256 암호화 적용.",
+          "descriptionKo": "로컬에 저장된 대화 및 페르소나 설정에 AES-256 암호화 적용."
+        },
+        {
+          "title": "클라우드 의존성 없음",
+          "titleKo": "클라우드 의존성 없음",
+          "description": "설정 후 완전히 오프라인으로 작동. 클라우드 서버도, API 호출도 없습니다.",
+          "descriptionKo": "설정 후 완전히 오프라인으로 작동. 클라우드 서버도, API 호출도 없습니다."
+        },
+        {
+          "title": "선택적 클라우드 백업",
+          "titleKo": "선택적 클라우드 백업",
+          "description": "페르소나 설정만 (10개 숫자), 대화는 절대 안 함. 완전히 선택 사항.",
+          "descriptionKo": "페르소나 설정만 (10개 숫자), 대화는 절대 안 함. 완전히 선택 사항."
+        },
+        {
+          "title": "오픈 소스 투명성",
+          "titleKo": "오픈 소스 투명성",
+          "description": "MIT 라이센스. 모든 코드 라인 감사 가능. 백도어 없음, 숨겨진 기능 없음.",
+          "descriptionKo": "MIT 라이센스. 모든 코드 라인 감사 가능. 백도어 없음, 숨겨진 기능 없음."
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "우리의 프라이버시 철학",
+      "description": "프라이버시는 기능이 아닙니다 - 기본권입니다. 우리는 당신의 데이터가 당신에게만 속한다는 원칙으로 Garden of Eden V3를 구축했습니다."
+    }
+  },
+  "resourcesDocumentation": {
+    "title": "문서",
+    "subtitle": "Garden of Eden V3에 대해 알아야 할 모든 것",
+    "resources": [
+      {
+        "title": "사용자 가이드",
+        "description": "Garden of Eden V3 사용 완전 가이드",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki"
+      },
+      {
+        "title": "빠른 시작",
+        "description": "5분 가이드로 시작하기",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/blob/main/docs/QUICKSTART.md"
+      },
+      {
+        "title": "GitHub Wiki",
+        "description": "기술 문서",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki"
+      },
+      {
+        "title": "문제 해결",
+        "description": "일반적인 문제 및 솔루션",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki/Troubleshooting"
+      },
+      {
+        "title": "GitHub 저장소",
+        "description": "소스 코드 및 릴리스",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
+      },
+      {
+        "title": "토론",
+        "description": "질문하고 아이디어 공유하기",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/discussions"
+      }
+    ]
+  },
+  "resourcesCommunity": {
+    "badge": "커뮤니티",
+    "title": "커뮤니티에 참여하세요",
+    "subtitle": "도움을 받고, 아이디어를 공유하고, 프로젝트에 기여하세요",
+    "channels": [
+      {
+        "title": "GitHub 토론",
+        "description": "질문하고, 아이디어를 공유하고, 커뮤니티와 소통하세요",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/discussions"
+      },
+      {
+        "title": "GitHub Issues",
+        "description": "버그 보고 및 기능 요청",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/issues"
+      },
+      {
+        "title": "GitHub 스타",
+        "description": "지원을 보여주고 업데이트 받기",
+        "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
+      },
+      {
+        "title": "이메일",
+        "description": "연락처: bu5119@hanyang.ac.kr",
+        "link": "mailto:bu5119@hanyang.ac.kr"
+      }
+    ]
+  }
+}
