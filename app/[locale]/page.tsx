@@ -105,19 +105,19 @@ export default function Home() {
                 href={`/${locale}/product/overview`}
                 className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 hover:shadow-lg transition-all duration-300 text-gray-300 font-semibold hover:text-white"
               >
-                {locale === 'ko' ? '소개 →' : 'About →'}
+                {locale === "ko" ? "소개 →" : "About →"}
               </Link>
               <Link
                 href={`/${locale}/features`}
                 className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 hover:shadow-lg transition-all duration-300 text-gray-300 font-semibold hover:text-white"
               >
-                {locale === 'ko' ? '기능 →' : 'Features →'}
+                {locale === "ko" ? "기능 →" : "Features →"}
               </Link>
               <Link
                 href={`/${locale}/download`}
                 className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 hover:shadow-lg transition-all duration-300 text-gray-300 font-semibold hover:text-white"
               >
-                {locale === 'ko' ? '다운로드 →' : 'Download →'}
+                {locale === "ko" ? "다운로드 →" : "Download →"}
               </Link>
             </motion.div>
           </motion.div>
@@ -160,40 +160,41 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-bold text-center mb-16 text-white"
           >
-            {locale === 'ko' ? 'Eden을 선택해야 하는 이유' : 'Why Choose Eden'}
+            {locale === "ko" ? "Eden을 선택해야 하는 이유" : "Why Choose Eden"}
           </motion.h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: "🔒",
-                title: locale === 'ko' ? "완벽한 프라이버시" : "Perfect Privacy",
-                desc: locale === 'ko'
-                  ? "모든 데이터가 로컬에 저장되어 외부로 전송되지 않습니다"
-                  : "All data stored locally, never sent to external servers",
+                title:
+                  locale === "ko" ? "완벽한 프라이버시" : "Perfect Privacy",
+                desc:
+                  locale === "ko"
+                    ? "모든 데이터가 로컬에 저장되어 외부로 전송되지 않습니다"
+                    : "All data stored locally, never sent to external servers",
                 link: `/${locale}/features`,
               },
               {
                 icon: "💰",
-                title: locale === 'ko' ? "완전 무료" : "Completely Free",
-                desc: locale === 'ko'
-                  ? "숨겨진 비용 없이 모든 기능을 평생 무료로 사용하세요"
-                  : "Use all features forever with no hidden costs",
+                title: locale === "ko" ? "완전 무료" : "Completely Free",
+                desc:
+                  locale === "ko"
+                    ? "숨겨진 비용 없이 모든 기능을 평생 무료로 사용하세요"
+                    : "Use all features forever with no hidden costs",
                 link: `/${locale}/pricing`,
               },
               {
                 icon: "🎭",
-                title: locale === 'ko' ? "나만의 AI" : "Your Personalized AI",
-                desc: locale === 'ko'
-                  ? "6가지 페르소나와 17개 파라미터로 완벽하게 커스터마이징"
-                  : "Perfectly customizable with 6 personas and 17 parameters",
+                title: locale === "ko" ? "나만의 AI" : "Your Personalized AI",
+                desc:
+                  locale === "ko"
+                    ? "6가지 페르소나와 17개 파라미터로 완벽하게 커스터마이징"
+                    : "Perfectly customizable with 6 personas and 17 parameters",
                 link: `/${locale}/features`,
               },
             ].map((feature, idx) => (
-              <Link
-                key={idx}
-                href={feature.link}
-              >
+              <Link key={idx} href={feature.link}>
                 <motion.div
                   initial={{ opacity: 0, y: 40 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -201,7 +202,9 @@ export default function Home() {
                   transition={{ delay: idx * 0.15 }}
                   className="bg-zinc-900 p-10 rounded-2xl border border-zinc-800 hover:border-zinc-700 hover:shadow-xl hover:scale-105 transition-all duration-500 cursor-pointer"
                 >
-                  <div className="text-6xl mb-6 animate-float">{feature.icon}</div>
+                  <div className="text-6xl mb-6 animate-float">
+                    {feature.icon}
+                  </div>
                   <h3 className="text-2xl font-bold mb-4 text-white">
                     {feature.title}
                   </h3>
@@ -291,78 +294,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-neutral-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-12 mb-12">
-            <div>
-              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">
-                Garden of Eden
-              </h3>
-              <p className="text-gray-400">
-                {t("footer.tagline")}
-              </p>
-            </div>
-
-            <div>
-              <h4 className="font-bold mb-4">{t("footer.product")}</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>
-                  <Link href={`/${locale}/features`} className="hover:text-white transition-colors">
-                    {t("footer.features")}
-                  </Link>
-                </li>
-                <li>
-                  <Link href={`/${locale}/pricing`} className="hover:text-white transition-colors">
-                    {t("footer.pricing")}
-                  </Link>
-                </li>
-                <li>
-                  <Link href={`/${locale}/download`} className="hover:text-white transition-colors">
-                    {t("footer.download")}
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold mb-4">{t("footer.company")}</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>
-                  <Link href={`/${locale}/about`} className="hover:text-white transition-colors">
-                    {t("footer.about")}
-                  </Link>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-white transition-colors"
-                  >
-                    GitHub
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold mb-4">{t("footer.legal")}</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>{t("footer.license")}</li>
-                <li className="text-sm text-gray-500">
-                  {t("footer.openSource")}
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 pt-8 text-center text-gray-500">
-            <p>{t("footer.copyright")}</p>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }
