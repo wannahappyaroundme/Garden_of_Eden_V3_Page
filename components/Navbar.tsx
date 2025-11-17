@@ -27,7 +27,7 @@ export default function Navbar() {
   const locale = useLocale();
   const pathname = usePathname();
 
-  // 메뉴 항목 (다국어 + 드롭다운)
+  // 메뉴 항목 (다국어 + 드롭다운) - 5개로 간소화
   const menuItems: MenuItem[] = locale === 'ko'
     ? [
         { id: 'home', label: '홈', path: '/' },
@@ -35,48 +35,20 @@ export default function Navbar() {
           id: 'product',
           label: '제품',
           submenu: [
-            { id: 'overview', label: '개요', path: '/product/overview' },
-            { id: 'features', label: '기능', path: '/product/features' },
+            { id: 'overview', label: '소개', path: '/product/overview' },
+            { id: 'features', label: '기능', path: '/features' },
             { id: 'technology', label: '기술', path: '/product/technology' },
-            { id: 'roadmap', label: '로드맵', path: '/product/roadmap' },
           ]
         },
-        {
-          id: 'why-eden',
-          label: '왜 Eden인가?',
-          submenu: [
-            { id: 'privacy', label: '프라이버시 우선', path: '/why-eden/privacy' },
-            { id: 'comparison', label: '경쟁사 비교', path: '/why-eden/comparison' },
-            { id: 'use-cases', label: '사용 사례', path: '/why-eden/use-cases' },
-          ]
-        },
-        { id: 'pricing', label: '가격', path: '/pricing' },
+        { id: 'why-eden', label: '왜 Eden인가?', path: '/why-eden/privacy' },
         { id: 'download', label: '다운로드', path: '/download' },
         {
           id: 'resources',
           label: '리소스',
           submenu: [
             { id: 'documentation', label: '문서', path: '/resources/documentation' },
-            { id: 'community', label: '커뮤니티', path: '/resources/community' },
             { id: 'faq', label: 'FAQ', path: '/faq' },
-          ]
-        },
-        {
-          id: 'about',
-          label: '회사',
-          submenu: [
-            { id: 'vision', label: '비전', path: '/about/vision' },
-            { id: 'press', label: '언론 자료', path: '/about/press' },
             { id: 'contact', label: '문의하기', path: '/contact' },
-          ]
-        },
-        {
-          id: 'legal',
-          label: '법적 고지',
-          submenu: [
-            { id: 'privacy', label: '개인정보처리방침', path: '/legal/privacy-policy' },
-            { id: 'terms', label: '이용약관', path: '/legal/terms-of-service' },
-            { id: 'license', label: '오픈소스 라이선스', path: '/legal/license' },
           ]
         },
       ]
@@ -87,47 +59,19 @@ export default function Navbar() {
           label: 'Product',
           submenu: [
             { id: 'overview', label: 'Overview', path: '/product/overview' },
-            { id: 'features', label: 'Features', path: '/product/features' },
+            { id: 'features', label: 'Features', path: '/features' },
             { id: 'technology', label: 'Technology', path: '/product/technology' },
-            { id: 'roadmap', label: 'Roadmap', path: '/product/roadmap' },
           ]
         },
-        {
-          id: 'why-eden',
-          label: 'Why Eden?',
-          submenu: [
-            { id: 'privacy', label: 'Privacy First', path: '/why-eden/privacy' },
-            { id: 'comparison', label: 'Comparison', path: '/why-eden/comparison' },
-            { id: 'use-cases', label: 'Use Cases', path: '/why-eden/use-cases' },
-          ]
-        },
-        { id: 'pricing', label: 'Pricing', path: '/pricing' },
+        { id: 'why-eden', label: 'Why Eden?', path: '/why-eden/privacy' },
         { id: 'download', label: 'Download', path: '/download' },
         {
           id: 'resources',
           label: 'Resources',
           submenu: [
             { id: 'documentation', label: 'Documentation', path: '/resources/documentation' },
-            { id: 'community', label: 'Community', path: '/resources/community' },
             { id: 'faq', label: 'FAQ', path: '/faq' },
-          ]
-        },
-        {
-          id: 'about',
-          label: 'About',
-          submenu: [
-            { id: 'vision', label: 'Vision', path: '/about/vision' },
-            { id: 'press', label: 'Press Kit', path: '/about/press' },
             { id: 'contact', label: 'Contact', path: '/contact' },
-          ]
-        },
-        {
-          id: 'legal',
-          label: 'Legal',
-          submenu: [
-            { id: 'privacy', label: 'Privacy Policy', path: '/legal/privacy-policy' },
-            { id: 'terms', label: 'Terms of Service', path: '/legal/terms-of-service' },
-            { id: 'license', label: 'Open Source License', path: '/legal/license' },
           ]
         },
       ];
