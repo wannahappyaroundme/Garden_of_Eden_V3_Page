@@ -13,27 +13,28 @@ export default function FeaturesPage() {
   };
 
   return (
-    <main className="min-h-screen bg-neutral-50 pt-20">
+    <main className="min-h-screen bg-black pt-20">
       {/* Hero Section */}
-      <section className="relative py-32 bg-radial-at-t from-white via-purple-100/40 to-white text-gray-900 overflow-hidden">
-        <div className="absolute inset-0 opacity-20 animate-gradient-shift bg-gradient-to-r from-transparent via-purple-200/20 to-transparent" />
-        <div className="absolute inset-0 opacity-10">
+      <section className="relative py-32 bg-black text-white overflow-hidden">
+        <div className="absolute inset-0 opacity-20 animate-gradient-shift bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+        <div className="absolute inset-0 opacity-[0.03]">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
-                "radial-gradient(circle at 1px 1px, rgba(168, 85, 247, 0.3) 1px, transparent 0)",
-              backgroundSize: "50px 50px",
+                "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
+              backgroundSize: "60px 60px",
             }}
           />
         </div>
+        <div className="absolute inset-0 bg-radial-at-c from-transparent via-transparent to-black/40" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <motion.h1
             initial="hidden"
             animate="visible"
             variants={fadeInUp}
-            className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-600 bg-clip-text text-transparent"
+            className="text-5xl md:text-7xl font-bold mb-6 text-white"
           >
             {t("features.title")}
           </motion.h1>
@@ -42,7 +43,7 @@ export default function FeaturesPage() {
             animate="visible"
             variants={fadeInUp}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-2xl text-gray-700"
+            className="text-xl md:text-2xl text-gray-400"
           >
             Eden만의 특별한 기능들을 만나보세요
           </motion.p>
@@ -50,54 +51,54 @@ export default function FeaturesPage() {
       </section>
 
       {/* Features Carousel */}
-      <section className="py-32 bg-radial-at-c from-purple-50/20 via-white to-violet-50/20">
+      <section className="py-32 bg-zinc-950">
         <div className="max-w-2xl mx-auto px-6">
           <Carousel autoPlay interval={12000}>
             {/* Privacy Feature */}
-            <div className="bg-radial-at-tl from-white via-purple-50/50 to-violet-50/40 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-purple-200/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all duration-500 hover:scale-[1.02]">
+            <div className="bg-zinc-900 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-xl mx-4 border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
                 <div className="text-6xl mb-6 animate-float">🔒</div>
-                <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
+                <h3 className="text-3xl font-bold mb-6 text-white">
                   {t("features.privacy.title")}
                 </h3>
                 <ul className="space-y-3 text-left max-w-xl mx-auto">
                   <li className="flex items-start gap-3">
-                    <span className="text-green-500 text-xl flex-shrink-0">
+                    <span className="text-green-400 text-xl flex-shrink-0">
                       ✓
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.privacy.item1")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-green-500 text-xl flex-shrink-0">
+                    <span className="text-green-400 text-xl flex-shrink-0">
                       ✓
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.privacy.item2")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-green-500 text-xl flex-shrink-0">
+                    <span className="text-green-400 text-xl flex-shrink-0">
                       ✓
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.privacy.item3")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-green-500 text-xl flex-shrink-0">
+                    <span className="text-green-400 text-xl flex-shrink-0">
                       ✓
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.privacy.item4")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-green-500 text-xl flex-shrink-0">
+                    <span className="text-green-400 text-xl flex-shrink-0">
                       ✓
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.privacy.item5")}
                     </span>
                   </li>
@@ -106,42 +107,42 @@ export default function FeaturesPage() {
             </div>
 
             {/* AI Models Feature */}
-            <div className="bg-radial-at-tr from-white via-purple-50/50 to-violet-50/40 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-purple-200/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all duration-500 hover:scale-[1.02]">
+            <div className="bg-zinc-900 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-xl mx-4 border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
                 <div className="text-6xl mb-6 animate-float">🧠</div>
-                <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
+                <h3 className="text-3xl font-bold mb-6 text-white">
                   {t("features.aiModels.title")}
                 </h3>
                 <ul className="space-y-3 text-left max-w-xl mx-auto">
                   <li className="flex items-start gap-3">
-                    <span className="text-blue-500 text-xl flex-shrink-0">
+                    <span className="text-blue-400 text-xl flex-shrink-0">
                       ◆
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.aiModels.item1")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-blue-500 text-xl flex-shrink-0">
+                    <span className="text-blue-400 text-xl flex-shrink-0">
                       ◆
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.aiModels.item2")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-blue-500 text-xl flex-shrink-0">
+                    <span className="text-blue-400 text-xl flex-shrink-0">
                       ◆
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.aiModels.item3")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-blue-500 text-xl flex-shrink-0">
+                    <span className="text-blue-400 text-xl flex-shrink-0">
                       ◆
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.aiModels.item4")}
                     </span>
                   </li>
@@ -150,42 +151,42 @@ export default function FeaturesPage() {
             </div>
 
             {/* Persona Feature */}
-            <div className="bg-radial-at-bl from-white via-purple-50/50 to-violet-50/40 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-purple-200/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all duration-500 hover:scale-[1.02]">
+            <div className="bg-zinc-900 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-xl mx-4 border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
                 <div className="text-6xl mb-6 animate-float">🎭</div>
-                <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
+                <h3 className="text-3xl font-bold mb-6 text-white">
                   {t("features.persona.title")}
                 </h3>
                 <ul className="space-y-3 text-left max-w-xl mx-auto">
                   <li className="flex items-start gap-3">
-                    <span className="text-purple-500 text-xl flex-shrink-0">
+                    <span className="text-purple-400 text-xl flex-shrink-0">
                       ★
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.persona.item1")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-purple-500 text-xl flex-shrink-0">
+                    <span className="text-purple-400 text-xl flex-shrink-0">
                       ★
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.persona.item2")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-purple-500 text-xl flex-shrink-0">
+                    <span className="text-purple-400 text-xl flex-shrink-0">
                       ★
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.persona.item3")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-purple-500 text-xl flex-shrink-0">
+                    <span className="text-purple-400 text-xl flex-shrink-0">
                       ★
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.persona.item4")}
                     </span>
                   </li>
@@ -194,42 +195,42 @@ export default function FeaturesPage() {
             </div>
 
             {/* Emotional Intelligence Feature */}
-            <div className="bg-radial-at-br from-white via-purple-50/50 to-violet-50/40 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-lg mx-4 border border-purple-200/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all duration-500 hover:scale-[1.02]">
+            <div className="bg-zinc-900 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-xl mx-4 border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
                 <div className="text-6xl mb-6 animate-float">💖</div>
-                <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
+                <h3 className="text-3xl font-bold mb-6 text-white">
                   {t("features.emotional.title")}
                 </h3>
                 <ul className="space-y-3 text-left max-w-xl mx-auto">
                   <li className="flex items-start gap-3">
-                    <span className="text-pink-500 text-xl flex-shrink-0">
+                    <span className="text-pink-400 text-xl flex-shrink-0">
                       ♥
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.emotional.item1")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-pink-500 text-xl flex-shrink-0">
+                    <span className="text-pink-400 text-xl flex-shrink-0">
                       ♥
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.emotional.item2")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-pink-500 text-xl flex-shrink-0">
+                    <span className="text-pink-400 text-xl flex-shrink-0">
                       ♥
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.emotional.item3")}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-pink-500 text-xl flex-shrink-0">
+                    <span className="text-pink-400 text-xl flex-shrink-0">
                       ♥
                     </span>
-                    <span className="text-gray-700">
+                    <span className="text-gray-300">
                       {t("features.emotional.item4")}
                     </span>
                   </li>
@@ -241,13 +242,13 @@ export default function FeaturesPage() {
       </section>
 
       {/* Personas Section */}
-      <section className="py-32 bg-white">
+      <section className="py-32 bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-white"
           >
             {t("personas.title")}
           </motion.h2>
@@ -297,14 +298,14 @@ export default function FeaturesPage() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="bg-gradient-to-br from-purple-50 to-violet-50 p-8 rounded-2xl border border-purple-200 hover:shadow-xl hover:scale-105 transition-all duration-300"
+                className="bg-zinc-900 p-8 rounded-2xl border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
                 <div className="text-5xl mb-4">{persona.emoji}</div>
-                <h3 className="text-2xl font-bold mb-3 text-gray-900">
+                <h3 className="text-2xl font-bold mb-3 text-white">
                   {persona.name}
                 </h3>
-                <p className="text-gray-600 mb-3">{persona.desc}</p>
-                <p className="text-sm text-gray-500">{persona.detail}</p>
+                <p className="text-gray-300 mb-3">{persona.desc}</p>
+                <p className="text-sm text-gray-400">{persona.detail}</p>
               </motion.div>
             ))}
           </div>
@@ -312,13 +313,13 @@ export default function FeaturesPage() {
       </section>
 
       {/* Technical Features */}
-      <section className="py-32 bg-neutral-50">
+      <section className="py-32 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-white"
           >
             기술적 우수성
           </motion.h2>
@@ -328,17 +329,17 @@ export default function FeaturesPage() {
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-white/70 backdrop-blur-xl p-10 rounded-2xl border border-white/50"
+              className="bg-zinc-900 backdrop-blur-xl p-10 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all duration-300"
             >
               <div className="text-5xl mb-6">⚡</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 빠른 응답 속도
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 로컬에서 실행되어 2-4초 내 응답을 제공합니다.
                 클라우드 서비스의 네트워크 지연 없이 즉각적인 소통이 가능합니다.
               </p>
-              <ul className="space-y-2 text-sm text-gray-500">
+              <ul className="space-y-2 text-sm text-gray-400">
                 <li>• Llama 3.2 1B/3B 최적화</li>
                 <li>• Qwen 2.5 1.5B 지원</li>
                 <li>• Phi 3.5 3.8B 통합</li>
@@ -349,16 +350,16 @@ export default function FeaturesPage() {
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-white/70 backdrop-blur-xl p-10 rounded-2xl border border-white/50"
+              className="bg-zinc-900 backdrop-blur-xl p-10 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all duration-300"
             >
               <div className="text-5xl mb-6">🔧</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 완전한 커스터마이징
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 17개 이상의 파라미터를 세밀하게 조정하여 당신만의 완벽한 AI를 만들어보세요.
               </p>
-              <ul className="space-y-2 text-sm text-gray-500">
+              <ul className="space-y-2 text-sm text-gray-400">
                 <li>• Temperature, Top-P, Top-K 조정</li>
                 <li>• Repeat Penalty 설정</li>
                 <li>• Context Length 최적화</li>
@@ -370,17 +371,17 @@ export default function FeaturesPage() {
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-white/70 backdrop-blur-xl p-10 rounded-2xl border border-white/50"
+              className="bg-zinc-900 backdrop-blur-xl p-10 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all duration-300"
             >
               <div className="text-5xl mb-6">📱</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 크로스 플랫폼
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 Windows, macOS, Linux 모두 지원합니다.
                 어떤 환경에서든 동일한 경험을 제공합니다.
               </p>
-              <ul className="space-y-2 text-sm text-gray-500">
+              <ul className="space-y-2 text-sm text-gray-400">
                 <li>• Electron 기반 데스크톱 앱</li>
                 <li>• 일관된 UI/UX</li>
                 <li>• 자동 업데이트 지원</li>
@@ -391,17 +392,17 @@ export default function FeaturesPage() {
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-white/70 backdrop-blur-xl p-10 rounded-2xl border border-white/50"
+              className="bg-zinc-900 backdrop-blur-xl p-10 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all duration-300"
             >
               <div className="text-5xl mb-6">🌐</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 오프라인 작동
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 인터넷 연결 없이도 완벽하게 작동합니다.
                 비행기, 지하철, 어디서든 AI 동반자와 함께하세요.
               </p>
-              <ul className="space-y-2 text-sm text-gray-500">
+              <ul className="space-y-2 text-sm text-gray-400">
                 <li>• 모델 로컬 저장</li>
                 <li>• 대화 기록 로컬 관리</li>
                 <li>• 네트워크 불필요</li>

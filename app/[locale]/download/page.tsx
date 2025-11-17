@@ -12,27 +12,28 @@ export default function DownloadPage() {
   };
 
   return (
-    <main className="min-h-screen bg-neutral-50 pt-20">
+    <main className="min-h-screen bg-black pt-20">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-purple-500/75 via-violet-500/75 via-indigo-500/75 to-purple-600/75 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-15">
+      <section className="relative py-32 bg-black text-white overflow-hidden">
+        <div className="absolute inset-0 opacity-20 animate-gradient-shift bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+        <div className="absolute inset-0 opacity-[0.03]">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
                 "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
-              backgroundSize: "40px 40px",
+              backgroundSize: "60px 60px",
             }}
           />
         </div>
-        <div className="absolute inset-0 backdrop-blur-3xl" />
+        <div className="absolute inset-0 bg-radial-at-c from-transparent via-transparent to-black/40" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <motion.h1
             initial="hidden"
             animate="visible"
             variants={fadeInUp}
-            className="text-5xl md:text-7xl font-bold mb-6"
+            className="text-5xl md:text-7xl font-bold mb-6 text-white"
           >
             {t("finalCTA.title")}
           </motion.h1>
@@ -41,7 +42,7 @@ export default function DownloadPage() {
             animate="visible"
             variants={fadeInUp}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-2xl text-white/90 mb-12"
+            className="text-xl md:text-2xl text-gray-400 mb-12"
           >
             {t("finalCTA.description")}
           </motion.p>
@@ -57,7 +58,7 @@ export default function DownloadPage() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-purple-600 font-bold text-lg py-4 px-10 rounded-full hover:bg-purple-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+              className="bg-white text-black font-bold text-lg py-4 px-10 rounded-full hover:bg-gray-200 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
             >
               {t("finalCTA.downloadButton")}
             </a>
@@ -65,7 +66,7 @@ export default function DownloadPage() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-purple-600 transition-all duration-300"
+              className="bg-transparent border-2 border-white text-white font-bold text-lg py-4 px-10 rounded-full hover:bg-white hover:text-black transition-all duration-300"
             >
               ⭐ {t("hero.githubButton")}
             </a>
@@ -74,13 +75,13 @@ export default function DownloadPage() {
       </section>
 
       {/* Platform Downloads */}
-      <section className="py-32 bg-white">
+      <section className="py-32 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-white"
           >
             모든 플랫폼 지원
           </motion.h2>
@@ -90,31 +91,31 @@ export default function DownloadPage() {
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-blue-50 to-indigo-50 p-10 rounded-2xl border border-blue-200 hover:shadow-xl hover:scale-105 transition-all duration-300"
+              className="bg-zinc-900 p-10 rounded-2xl border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl hover:scale-105 transition-all duration-300"
             >
               <div className="text-6xl mb-6 text-center">🪟</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900 text-center">
+              <h3 className="text-2xl font-bold mb-4 text-white text-center">
                 Windows
               </h3>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500">✓</span>
-                  <span className="text-gray-600">Windows 10 이상</span>
+                  <span className="text-blue-400">✓</span>
+                  <span className="text-gray-300">Windows 10 이상</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500">✓</span>
-                  <span className="text-gray-600">.exe 설치 파일</span>
+                  <span className="text-blue-400">✓</span>
+                  <span className="text-gray-300">.exe 설치 파일</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500">✓</span>
-                  <span className="text-gray-600">자동 업데이트</span>
+                  <span className="text-blue-400">✓</span>
+                  <span className="text-gray-300">자동 업데이트</span>
                 </li>
               </ul>
               <a
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-blue-600 text-white font-bold py-3 rounded-full hover:bg-blue-700 transition-colors"
+                className="block w-full text-center bg-white text-black font-bold py-3 rounded-full hover:bg-gray-200 transition-colors"
               >
                 Download for Windows
               </a>
@@ -125,31 +126,31 @@ export default function DownloadPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="bg-gradient-to-br from-gray-50 to-slate-50 p-10 rounded-2xl border border-gray-300 hover:shadow-xl hover:scale-105 transition-all duration-300"
+              className="bg-zinc-900 p-10 rounded-2xl border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl hover:scale-105 transition-all duration-300"
             >
               <div className="text-6xl mb-6 text-center">🍎</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900 text-center">
+              <h3 className="text-2xl font-bold mb-4 text-white text-center">
                 macOS
               </h3>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-2">
-                  <span className="text-gray-500">✓</span>
-                  <span className="text-gray-600">macOS 10.15 이상</span>
+                  <span className="text-gray-400">✓</span>
+                  <span className="text-gray-300">macOS 10.15 이상</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gray-500">✓</span>
-                  <span className="text-gray-600">.dmg 설치 파일</span>
+                  <span className="text-gray-400">✓</span>
+                  <span className="text-gray-300">.dmg 설치 파일</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gray-500">✓</span>
-                  <span className="text-gray-600">Apple Silicon 지원</span>
+                  <span className="text-gray-400">✓</span>
+                  <span className="text-gray-300">Apple Silicon 지원</span>
                 </li>
               </ul>
               <a
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-gray-800 text-white font-bold py-3 rounded-full hover:bg-gray-900 transition-colors"
+                className="block w-full text-center bg-white text-black font-bold py-3 rounded-full hover:bg-gray-200 transition-colors"
               >
                 Download for macOS
               </a>
@@ -160,31 +161,31 @@ export default function DownloadPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="bg-gradient-to-br from-orange-50 to-amber-50 p-10 rounded-2xl border border-orange-200 hover:shadow-xl hover:scale-105 transition-all duration-300"
+              className="bg-zinc-900 p-10 rounded-2xl border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl hover:scale-105 transition-all duration-300"
             >
               <div className="text-6xl mb-6 text-center">🐧</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900 text-center">
+              <h3 className="text-2xl font-bold mb-4 text-white text-center">
                 Linux
               </h3>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-2">
-                  <span className="text-orange-500">✓</span>
-                  <span className="text-gray-600">Ubuntu, Debian</span>
+                  <span className="text-orange-400">✓</span>
+                  <span className="text-gray-300">Ubuntu, Debian</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-orange-500">✓</span>
-                  <span className="text-gray-600">.AppImage 파일</span>
+                  <span className="text-orange-400">✓</span>
+                  <span className="text-gray-300">.AppImage 파일</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-orange-500">✓</span>
-                  <span className="text-gray-600">다양한 배포판 지원</span>
+                  <span className="text-orange-400">✓</span>
+                  <span className="text-gray-300">다양한 배포판 지원</span>
                 </li>
               </ul>
               <a
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-orange-600 text-white font-bold py-3 rounded-full hover:bg-orange-700 transition-colors"
+                className="block w-full text-center bg-white text-black font-bold py-3 rounded-full hover:bg-gray-200 transition-colors"
               >
                 Download for Linux
               </a>
@@ -194,13 +195,13 @@ export default function DownloadPage() {
       </section>
 
       {/* System Requirements */}
-      <section className="py-32 bg-neutral-50">
+      <section className="py-32 bg-black">
         <div className="max-w-4xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-white"
           >
             시스템 요구사항
           </motion.h2>
@@ -210,27 +211,27 @@ export default function DownloadPage() {
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-white/70 backdrop-blur-xl p-8 rounded-2xl border border-white/50"
+              className="bg-zinc-900 backdrop-blur-xl p-8 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all duration-300"
             >
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">
+              <h3 className="text-2xl font-bold mb-6 text-white">
                 최소 사양 ⚡
               </h3>
-              <ul className="space-y-3 text-gray-600">
+              <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start gap-3">
-                  <span className="text-purple-500 font-bold">•</span>
-                  <span><strong>CPU:</strong> Intel i5 / AMD Ryzen 5 이상</span>
+                  <span className="text-white font-bold">•</span>
+                  <span><strong className="text-white">CPU:</strong> Intel i5 / AMD Ryzen 5 이상</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-purple-500 font-bold">•</span>
-                  <span><strong>RAM:</strong> 8GB 이상</span>
+                  <span className="text-white font-bold">•</span>
+                  <span><strong className="text-white">RAM:</strong> 8GB 이상</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-purple-500 font-bold">•</span>
-                  <span><strong>저장공간:</strong> 10GB 여유 공간</span>
+                  <span className="text-white font-bold">•</span>
+                  <span><strong className="text-white">저장공간:</strong> 10GB 여유 공간</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-purple-500 font-bold">•</span>
-                  <span><strong>GPU:</strong> 통합 그래픽 (선택사항)</span>
+                  <span className="text-white font-bold">•</span>
+                  <span><strong className="text-white">GPU:</strong> 통합 그래픽 (선택사항)</span>
                 </li>
               </ul>
             </motion.div>
@@ -239,27 +240,27 @@ export default function DownloadPage() {
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-white/70 backdrop-blur-xl p-8 rounded-2xl border border-white/50"
+              className="bg-zinc-900 backdrop-blur-xl p-8 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all duration-300"
             >
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">
+              <h3 className="text-2xl font-bold mb-6 text-white">
                 권장 사양 🚀
               </h3>
-              <ul className="space-y-3 text-gray-600">
+              <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start gap-3">
-                  <span className="text-violet-500 font-bold">•</span>
-                  <span><strong>CPU:</strong> Intel i7 / AMD Ryzen 7 이상</span>
+                  <span className="text-white font-bold">•</span>
+                  <span><strong className="text-white">CPU:</strong> Intel i7 / AMD Ryzen 7 이상</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-violet-500 font-bold">•</span>
-                  <span><strong>RAM:</strong> 16GB 이상</span>
+                  <span className="text-white font-bold">•</span>
+                  <span><strong className="text-white">RAM:</strong> 16GB 이상</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-violet-500 font-bold">•</span>
-                  <span><strong>저장공간:</strong> 20GB 여유 공간 (SSD 권장)</span>
+                  <span className="text-white font-bold">•</span>
+                  <span><strong className="text-white">저장공간:</strong> 20GB 여유 공간 (SSD 권장)</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-violet-500 font-bold">•</span>
-                  <span><strong>GPU:</strong> NVIDIA/AMD 전용 그래픽 (더 빠른 추론)</span>
+                  <span className="text-white font-bold">•</span>
+                  <span><strong className="text-white">GPU:</strong> NVIDIA/AMD 전용 그래픽 (더 빠른 추론)</span>
                 </li>
               </ul>
             </motion.div>
@@ -269,23 +270,23 @@ export default function DownloadPage() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="mt-12 text-center p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl border border-blue-200"
+            className="mt-12 text-center p-6 bg-zinc-900 rounded-2xl border border-zinc-800"
           >
-            <p className="text-lg text-gray-700">
-              💡 <strong>팁:</strong> GPU가 있으면 AI 모델 추론 속도가 2-3배 빨라집니다!
+            <p className="text-lg text-gray-300">
+              💡 <strong className="text-white">팁:</strong> GPU가 있으면 AI 모델 추론 속도가 2-3배 빨라집니다!
             </p>
           </motion.div>
         </div>
       </section>
 
       {/* Quick Start Guide */}
-      <section className="py-32 bg-white">
+      <section className="py-32 bg-zinc-950">
         <div className="max-w-4xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
+            className="text-4xl md:text-5xl font-bold text-center mb-16 text-white"
           >
             빠른 시작 가이드
           </motion.h2>
@@ -327,21 +328,21 @@ export default function DownloadPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="flex gap-6 items-start bg-gradient-to-br from-purple-50 to-violet-50 p-8 rounded-2xl border border-purple-200"
+                className="flex gap-6 items-start bg-zinc-900 p-8 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all duration-300"
               >
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-violet-600 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+                  <div className="w-16 h-16 bg-white text-black rounded-full flex items-center justify-center text-2xl font-bold">
                     {item.step}
                   </div>
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-3 mb-3">
                     <span className="text-4xl">{item.icon}</span>
-                    <h3 className="text-2xl font-bold text-gray-900">
+                    <h3 className="text-2xl font-bold text-white">
                       {item.title}
                     </h3>
                   </div>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed">
                     {item.description}
                   </p>
                 </div>
@@ -352,13 +353,13 @@ export default function DownloadPage() {
       </section>
 
       {/* Community & Support */}
-      <section className="py-32 bg-gradient-to-br from-purple-500/75 via-violet-500/75 to-indigo-500/75 text-white">
+      <section className="py-32 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold mb-8"
+            className="text-4xl md:text-5xl font-bold mb-8 text-white"
           >
             도움이 필요하신가요?
           </motion.h2>
@@ -367,7 +368,7 @@ export default function DownloadPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-xl mb-12 text-white/90"
+            className="text-xl mb-12 text-gray-400"
           >
             활발한 커뮤니티와 함께 Eden을 더 잘 활용해보세요
           </motion.p>
@@ -383,11 +384,11 @@ export default function DownloadPage() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/discussions"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/20 backdrop-blur-xl p-8 rounded-2xl border border-white/30 hover:bg-white/30 transition-all duration-300"
+              className="bg-zinc-900 backdrop-blur-xl p-8 rounded-2xl border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl transition-all duration-300"
             >
               <div className="text-5xl mb-4">💬</div>
-              <h3 className="text-2xl font-bold mb-3">커뮤니티 포럼</h3>
-              <p className="text-white/80">
+              <h3 className="text-2xl font-bold mb-3 text-white">커뮤니티 포럼</h3>
+              <p className="text-gray-300">
                 다른 사용자들과 팁을 공유하고 질문하세요
               </p>
             </a>
@@ -396,11 +397,11 @@ export default function DownloadPage() {
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/issues"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/20 backdrop-blur-xl p-8 rounded-2xl border border-white/30 hover:bg-white/30 transition-all duration-300"
+              className="bg-zinc-900 backdrop-blur-xl p-8 rounded-2xl border border-zinc-800 hover:border-zinc-700 hover:shadow-2xl transition-all duration-300"
             >
               <div className="text-5xl mb-4">🐛</div>
-              <h3 className="text-2xl font-bold mb-3">버그 리포트</h3>
-              <p className="text-white/80">
+              <h3 className="text-2xl font-bold mb-3 text-white">버그 리포트</h3>
+              <p className="text-gray-300">
                 문제를 발견하셨나요? 알려주세요!
               </p>
             </a>
