@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { locales } from '@/i18n';
 import Navbar from '@/components/Navbar';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import Footer from '@/components/Footer';
 import './globals.css';
 
 export function generateStaticParams() {
@@ -31,6 +32,7 @@ export default async function LocaleLayout({
           <Navbar />
           <LanguageSwitcher />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

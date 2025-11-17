@@ -522,22 +522,34 @@
     "badge": "100% Private • $0 Forever • MIT License • Friend-Like Companion"
   },
   "footer": {
+    "description": "100% local AI assistant. Perfect privacy protection.",
+    "product": "Product",
+    "overview": "Overview",
+    "features": "Features",
+    "technology": "Technology",
+    "download": "Download",
+    "resources": "Resources",
+    "documentation": "Documentation",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "license": "Open Source License",
+    "allRightsReserved": "All rights reserved.",
+    "madeWith": "Made with",
+    "forPrivacy": "for privacy",
     "title": "Garden of Eden Project",
     "tagline": "Your Private AI Companion",
     "version": "Version 1.0.0-beta • 85% Complete • Phase 8: Launch",
-    "license": "MIT License",
     "licenseDesc": "Free Forever, No Restrictions",
     "inspiration": "Inspired by JARVIS from Marvel's Iron Man",
     "builtWith": "Built with ❤️ to eliminate loneliness and enhance productivity",
     "poweredBy": "Powered by Qwen 2.5 14B (HumanEval: 80.5%), Whisper Large V3 (99 langs), and LLaVA 7B",
     "copyright": "© 2025 Garden of Eden Project. All rights reserved.",
-    "product": "Product",
-    "features": "Features",
     "pricing": "Pricing",
-    "download": "Download",
     "company": "Company",
     "about": "About",
-    "legal": "Legal",
     "openSource": "Open Source (MIT)"
   },
   "productOverview": {
@@ -1045,6 +1057,25 @@
         "viewSource": "View Source Code",
         "documentation": "Read Documentation"
       }
+    },
+    "footer": {
+      "description": "100% local AI assistant with complete privacy protection.",
+      "product": "Product",
+      "overview": "Overview",
+      "features": "Features",
+      "technology": "Technology",
+      "download": "Download",
+      "resources": "Resources",
+      "documentation": "Documentation",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "legal": "Legal",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "license": "Open Source License",
+      "allRightsReserved": "All rights reserved.",
+      "madeWith": "Made with",
+      "forPrivacy": "for privacy"
     }
   }
 }

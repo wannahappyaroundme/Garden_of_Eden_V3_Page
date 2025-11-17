@@ -1703,6 +1703,25 @@
         "viewSource": "소스 코드 보기",
         "documentation": "문서 읽기"
       }
+    },
+    "footer": {
+      "description": "100% 로컬에서 작동하는 AI 어시스턴트. 완벽한 프라이버시 보호.",
+      "product": "제품",
+      "overview": "소개",
+      "features": "기능",
+      "technology": "기술",
+      "download": "다운로드",
+      "resources": "리소스",
+      "documentation": "문서",
+      "faq": "FAQ",
+      "contact": "문의하기",
+      "legal": "법적 고지",
+      "privacyPolicy": "개인정보처리방침",
+      "termsOfService": "이용약관",
+      "license": "오픈소스 라이선스",
+      "allRightsReserved": "All rights reserved.",
+      "madeWith": "Made with",
+      "forPrivacy": "for privacy"
     }
   }
 }
