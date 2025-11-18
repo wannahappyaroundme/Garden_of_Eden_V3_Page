@@ -681,7 +681,7 @@ Dark Mode:
 
 - **Email:** bu5119@hanyang.ac.kr (setup if launching)
 - **Twitter:** @GardenOfEdenAI (setup if launching)
-- **Website:** https://garden-of-eden.dev (this landing page)
+- **Website:** https://garden-of-eden-v3-page.pages.dev/ (this landing page)
 
 ---
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import Link from "next/link";
@@ -25,9 +25,31 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const pathname = usePathname();
+  const nextIntlLocale = useLocale();
 
-  // Use next-intl's useLocale hook for reliable locale detection
-  const locale = useLocale();
+  // Extract locale from pathname - pathname is source of truth for static export
+  const locale = React.useMemo(() => {
+    const segments = pathname.split('/').filter(Boolean);
+    const firstSegment = segments[0];
+
+    console.log('[Navbar] pathname:', pathname);
+    console.log('[Navbar] firstSegment:', firstSegment);
+    console.log('[Navbar] nextIntlLocale:', nextIntlLocale);
+
+    // Priority: pathname first, then useLocale fallback
+    if (firstSegment === 'ko') {
+      console.log('[Navbar] Detected locale: ko');
+      return 'ko';
+    }
+    if (firstSegment === 'en') {
+      console.log('[Navbar] Detected locale: en');
+      return 'en';
+    }
+
+    // Fallback to useLocale
+    console.log('[Navbar] Using fallback locale:', nextIntlLocale);
+    return nextIntlLocale || 'en';
+  }, [pathname, nextIntlLocale]);
 
   // 메뉴 항목 (다국어 + 드롭다운) - 5개로 간소화
   const menuItems: MenuItem[] =

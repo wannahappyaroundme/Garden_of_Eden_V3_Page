@@ -1,13 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Heart, Users, Zap, Lock, Sparkles, Brain } from "lucide-react";
 import ComingSoonModal from "@/components/ComingSoonModal";
 
 export default function ProductOverviewPage() {
   const t = useTranslations();
+  const locale = useLocale();
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  console.log('[ProductOverview] Current locale:', locale);
+  console.log('[ProductOverview] threePillars.title:', t('productOverview.threePillars.title'));
 
   const pillars = [
     {
