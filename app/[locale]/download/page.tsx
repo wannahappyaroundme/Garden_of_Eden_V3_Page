@@ -1,10 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import ComingSoonModal from "@/components/ComingSoonModal";
 
 export default function DownloadPage() {
   const t = useTranslations();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 60 },
@@ -54,14 +57,12 @@ export default function DownloadPage() {
             transition={{ delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-6 justify-center"
           >
-            <a
-              href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => setIsModalOpen(true)}
               className="bg-gradient-to-r from-purple-600 to-violet-600 text-white font-bold text-lg py-4 px-10 rounded-full hover:from-purple-700 hover:to-violet-700 transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-purple-500/30 hover:scale-105"
             >
               {t("finalCTA.downloadButton")}
-            </a>
+            </button>
             <a
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
               target="_blank"
@@ -111,14 +112,12 @@ export default function DownloadPage() {
                   <span className="text-gray-700">자동 업데이트</span>
                 </li>
               </ul>
-              <a
-                href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => setIsModalOpen(true)}
                 className="block w-full text-center bg-gradient-to-r from-purple-600 to-violet-600 text-white font-bold py-3 rounded-full hover:from-purple-700 hover:to-violet-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30"
               >
                 Download for Windows
-              </a>
+              </button>
             </motion.div>
 
             <motion.div
@@ -146,14 +145,12 @@ export default function DownloadPage() {
                   <span className="text-gray-700">Apple Silicon 지원</span>
                 </li>
               </ul>
-              <a
-                href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => setIsModalOpen(true)}
                 className="block w-full text-center bg-gradient-to-r from-purple-600 to-violet-600 text-white font-bold py-3 rounded-full hover:from-purple-700 hover:to-violet-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30"
               >
                 Download for macOS
-              </a>
+              </button>
             </motion.div>
 
             <motion.div
@@ -181,18 +178,19 @@ export default function DownloadPage() {
                   <span className="text-gray-700">다양한 배포판 지원</span>
                 </li>
               </ul>
-              <a
-                href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => setIsModalOpen(true)}
                 className="block w-full text-center bg-gradient-to-r from-purple-600 to-violet-600 text-white font-bold py-3 rounded-full hover:from-purple-700 hover:to-violet-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30"
               >
                 Download for Linux
-              </a>
+              </button>
             </motion.div>
           </div>
         </div>
       </section>
+
+      {/* Coming Soon Modal */}
+      <ComingSoonModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
 
       {/* System Requirements */}
       <section className="py-32 bg-radial-white-multi">

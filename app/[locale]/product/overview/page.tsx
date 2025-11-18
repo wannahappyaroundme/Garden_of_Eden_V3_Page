@@ -1,8 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Heart, Users, Zap, Lock, Sparkles, Brain } from "lucide-react";
+import ComingSoonModal from "@/components/ComingSoonModal";
 
 export default function ProductOverviewPage() {
   const t = useTranslations();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const pillars = [
     {
@@ -257,12 +262,12 @@ export default function ProductOverviewPage() {
             {t("productOverview.cta.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/download"
+            <button
+              onClick={() => setIsModalOpen(true)}
               className="px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-xl font-semibold hover:from-purple-700 hover:to-violet-700 hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300 hover:scale-105"
             >
               {t("productOverview.cta.download")}
-            </a>
+            </button>
             <a
               href="/product/features"
               className="px-8 py-4 bg-transparent border-2 border-purple-600 text-purple-700 rounded-xl font-semibold hover:bg-purple-600 hover:text-white transition-all duration-300 hover:scale-105"
@@ -272,6 +277,9 @@ export default function ProductOverviewPage() {
           </div>
         </div>
       </section>
+
+      {/* Coming Soon Modal */}
+      <ComingSoonModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 }

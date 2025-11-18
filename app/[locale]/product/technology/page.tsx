@@ -1,8 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import { useTranslations } from 'next-intl';
 import { Code, Database, Cpu, Shield, Zap, Globe, Layers, Box } from 'lucide-react';
+import ComingSoonModal from "@/components/ComingSoonModal";
 
 export default function TechnologyPage() {
   const t = useTranslations();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const techStack = {
     core: [
@@ -316,12 +321,12 @@ export default function TechnologyPage() {
             {t('productTechnology.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/download"
+            <button
+              onClick={() => setIsModalOpen(true)}
               className="px-8 py-4 bg-black text-white rounded-xl font-semibold hover:bg-gray-900 hover:shadow-2xl transition-all hover:scale-105"
             >
               {t('productTechnology.cta.download')}
-            </a>
+            </button>
             <a
               href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
               target="_blank"
@@ -333,6 +338,9 @@ export default function TechnologyPage() {
           </div>
         </div>
       </section>
+
+      {/* Coming Soon Modal */}
+      <ComingSoonModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 }

@@ -1077,5 +1077,10 @@
       "madeWith": "Made with",
       "forPrivacy": "for privacy"
     }
+  },
+  "comingSoon": {
+    "title": "Coming Soon!",
+    "description": "We're working hard to prepare the installation files. Please check back soon!",
+    "close": "Close"
   }
 }

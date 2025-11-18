@@ -1723,5 +1723,10 @@
       "madeWith": "Made with",
       "forPrivacy": "for privacy"
     }
+  },
+  "comingSoon": {
+    "title": "아직 준비중입니다!",
+    "description": "설치 파일을 준비하고 있습니다. 조금만 기다려주세요!",
+    "close": "닫기"
   }
 }

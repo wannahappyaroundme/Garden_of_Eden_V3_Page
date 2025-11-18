@@ -1,13 +1,16 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import TypedText from "@/components/TypedText";
+import ComingSoonModal from "@/components/ComingSoonModal";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function Home() {
   const t = useTranslations();
   const locale = useLocale();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 60 },
@@ -78,14 +81,12 @@ export default function Home() {
               variants={fadeInUp}
               className="flex flex-col sm:flex-row gap-6 justify-center mb-16"
             >
-              <a
-                href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => setIsModalOpen(true)}
                 className="bg-gradient-to-r from-purple-600 to-violet-600 text-white font-bold text-lg py-4 px-10 rounded-full hover:from-purple-700 hover:to-violet-700 transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-purple-500/30 hover:scale-105"
               >
                 {t("finalCTA.downloadButton")}
-              </a>
+              </button>
               <a
                 href="https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
                 target="_blank"
@@ -285,15 +286,18 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            <Link
-              href={`/${locale}/download`}
+            <button
+              onClick={() => setIsModalOpen(true)}
               className="inline-block bg-gradient-to-r from-purple-600 to-violet-600 text-white font-bold text-xl py-5 px-12 rounded-full hover:from-purple-700 hover:to-violet-700 transition-all duration-300 shadow-2xl hover:shadow-purple-500/40 hover:scale-105"
             >
               {t("finalCTA.downloadButton")}
-            </Link>
+            </button>
           </motion.div>
         </div>
       </section>
+
+      {/* Coming Soon Modal */}
+      <ComingSoonModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </main>
   );
 }
