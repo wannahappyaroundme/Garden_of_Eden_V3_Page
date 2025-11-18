@@ -1,12 +1,13 @@
-# Garden of Eden V3 - Marketing Website
+# Eden Proejct - Marketing Website
 
 > AI 동반자 서비스 공식 웹사이트 - 완벽한 프라이버시를 보장하는 로컬 AI
 
-Next.js 15 App Router 기반 마케팅 웹사이트로, Garden of Eden V3 AI 동반자 서비스를 소개합니다.
+Next.js 15 App Router 기반 마케팅 웹사이트로, Eden Proejct AI 동반자 서비스를 소개합니다.
 
 ## 🎨 디자인 철학
 
 **시크하고 세련된 검은색/흰색 미니멀리즘**
+
 - 검은색 배경 (black, zinc-950, zinc-900)
 - 흰색 텍스트로 강력한 대비
 - gray-300/gray-400 보조 텍스트
@@ -27,29 +28,34 @@ Next.js 15 App Router 기반 마케팅 웹사이트로, Garden of Eden V3 AI 동
 ## 📄 주요 페이지
 
 ### 메인 페이지 (Home)
+
 - Hero 섹션: 검은색 배경, 흰색 그리드 패턴, 타이핑 애니메이션
 - 핵심 기능 카드 (3개)
 - 사용자 타겟 섹션 (6개)
 - Final CTA 섹션
 
 ### Features 페이지
+
 - 기능 Carousel (4개 카드: 프라이버시, AI 모델, 페르소나, 감정 지능)
 - 페르소나 그리드 (6개: 전문가, 창의적, 공감적, 선생님, 동기부여, 캐주얼)
 - 기술적 우수성 (4개 카드)
 
 ### Download 페이지
+
 - 플랫폼별 다운로드 (Windows, macOS, Linux)
 - 시스템 요구사항
 - 빠른 시작 가이드 (4단계)
 - 커뮤니티 & 지원
 
 ### Product Overview 페이지
+
 - 3대 핵심 가치
 - 문제 vs 해결책
 - 비전 섹션
 - 핵심 약속 (100% 로컬, 100% 프라이빗, 0% 클라우드, 0% 구독료)
 
 ### 기타 페이지
+
 - FAQ
 - Contact
 - Legal (Privacy Policy, Terms of Service, License)
@@ -117,6 +123,7 @@ npm run preview
 ## 🎨 디자인 시스템
 
 ### 색상 팔레트
+
 ```css
 /* 배경 */
 bg-black                 /* 순수 검은색 */
@@ -140,6 +147,7 @@ text-purple-400         /* 포인트 */
 ```
 
 ### 애니메이션
+
 ```css
 animate-fadeInUp        /* 페이드업 */
 animate-float           /* 부유 효과 */
@@ -165,6 +173,7 @@ Route (app)                              Size     First Load JS
 ## 🌐 배포
 
 ### Vercel (권장)
+
 ```bash
 # Vercel CLI 설치
 npm install -g vercel
@@ -174,6 +183,7 @@ vercel --prod
 ```
 
 ### GitHub Pages
+
 ```bash
 # 빌드
 npm run build
@@ -184,16 +194,18 @@ npm run build
 ## 📝 콘텐츠 관리
 
 ### 다국어 번역 추가
+
 1. `messages/ko.json` 또는 `messages/en.json` 편집
 2. 번역 키 추가
 3. 컴포넌트에서 `useTranslations()` 훅 사용
 
 ```tsx
 const t = useTranslations();
-<h1>{t('hero.title')}</h1>
+<h1>{t("hero.title")}</h1>;
 ```
 
 ### 새 페이지 추가
+
 1. `app/[locale]/새페이지/page.tsx` 생성
 2. Navbar에 링크 추가
 3. 번역 파일에 텍스트 추가
@@ -221,7 +233,7 @@ xl:       1280px+   (데스크톱)
 
 ## 🔗 관련 링크
 
-- **데스크톱 앱**: [Garden of Eden V3](https://github.com/wannahappyaroundme/Garden_of_Eden_V3)
+- **데스크톱 앱**: [Eden Proejct](https://github.com/wannahappyaroundme/Garden_of_Eden_V3)
 - **프로젝트 스펙**: [PROJECT_EDEN_V3_MASTER_SPEC.md](PROJECT_EDEN_V3_MASTER_SPEC.md)
 
 ## 📄 라이선스
@@ -243,4 +255,4 @@ MIT License - 자유롭게 사용, 수정, 배포 가능
 **상태**: ✅ Production Ready (검은색 테마 완료)
 **빌드**: 27 정적 페이지 성공
 
-💜 Garden of Eden V3와 함께 완벽한 프라이버시를 경험하세요
+💜 Eden Proejct와 함께 완벽한 프라이버시를 경험하세요

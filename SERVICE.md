@@ -1,10 +1,10 @@
-# 🌳 Garden of Eden V3
+# 🌳 Eden Proejct
 
 ## Your Private AI Assistant That Never Leaves Your Computer
 
 > **"사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다"**
 >
-> *"Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity"*
+> _"Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity"_
 
 ---
 
@@ -18,19 +18,20 @@
 - **Google Gemini**: Free, but trains on your data
 
 **What if you want:**
+
 - ✅ Powerful AI assistance
 - ✅ Complete privacy (nothing leaves your machine)
 - ✅ No monthly fees
 - ✅ Offline capability
 - ✅ Customizable personality
 
-**That's why we built Garden of Eden V3.**
+**That's why we built Eden Proejct.**
 
 ---
 
 ## 💡 The Solution
 
-**Garden of Eden V3 is a production-quality, privacy-first desktop AI assistant inspired by Tony Stark's JARVIS.**
+**Eden Proejct is a production-quality, privacy-first desktop AI assistant inspired by Tony Stark's JARVIS.**
 
 ### Core Promise
 
@@ -50,7 +51,7 @@ Every single byte of your data stays on your machine. No exceptions.
 
 ---
 
-## 🚀 Why Choose Garden of Eden V3?
+## 🚀 Why Choose Eden Proejct?
 
 <table>
 <tr>
@@ -124,6 +125,7 @@ Every single byte of your data stays on your machine. No exceptions.
 ## ✨ Key Features
 
 ### 🤖 AI Intelligence
+
 - **qwen2.5:7b Model** - 7B parameter LLM, 4.7GB, 2-4s responses
 - **Streaming Responses** - Real-time token-by-token output
 - **Markdown Support** - Code highlighting, tables, lists
@@ -131,7 +133,9 @@ Every single byte of your data stays on your machine. No exceptions.
 - **Learning System** - Optimizes personality based on thumbs up/down
 
 ### 🎛️ Persona Customization
+
 - **10 Adjustable Parameters**
+
   1. **Formality** - Casual ↔ Professional
   2. **Verbosity** - Concise ↔ Detailed
   3. **Humor** - Serious ↔ Playful
@@ -148,23 +152,27 @@ Every single byte of your data stays on your machine. No exceptions.
 - **Cloud Backup** - Save/restore to Google Drive (optional)
 
 ### 📸 Screen Context Analysis
+
 - **LLaVA Vision Integration** - AI can see and understand your screen
 - **Active Window Detection** - macOS/Windows support
 - **Screen Context Button** - Capture current screen in chat
 - **Privacy-First** - Images processed locally, never stored
 
 ### 🔔 Proactive AI Notifications
+
 - **Background Monitoring** - Watches for errors, warnings, TODOs
 - **Smart Interruptions** - Priority-based alerts
 - **Customizable Triggers** - Configure when AI should notify you
 
 ### 🎙️ Voice & Audio
+
 - **Speech-to-Text** - Whisper model via Xenova/transformers
 - **Voice Visualizer** - Real-time waveform animation
 - **Voice Input Button** - Click to record, auto-transcribe
 - **Korean + English** - Full bilingual support
 
 ### 💬 Chat Interface
+
 - **KakaoTalk-Style Design** - Familiar messaging UX
 - **Conversation History** - Sidebar with all past chats
 - **Real-time Typing Indicator** - See when AI is thinking
@@ -172,6 +180,7 @@ Every single byte of your data stays on your machine. No exceptions.
 - **Error Boundaries** - Graceful error handling
 
 ### ⚙️ System Integration
+
 - **File Operations** - Read, write, search files
 - **Git Integration** - Status, diff, commit, push
 - **Workspace Detection** - VSCode, IntelliJ, etc.
@@ -179,6 +188,7 @@ Every single byte of your data stays on your machine. No exceptions.
 - **Webhook Support** - POST requests to external services
 
 ### 🔐 Privacy & Security
+
 - **100% Local Processing** - No cloud APIs, no telemetry
 - **Encrypted Database** - AES-256 for local data
 - **Optional Google OAuth** - For cloud backup only (settings, not conversations)
@@ -187,48 +197,52 @@ Every single byte of your data stays on your machine. No exceptions.
 
 ---
 
-## 📊 Comparison: Garden of Eden V3 vs Alternatives
+## 📊 Comparison: Eden Proejct vs Alternatives
 
-| Feature | Garden of Eden V3 | ChatGPT Plus | GitHub Copilot | Claude Pro |
-|---------|-------------------|--------------|----------------|------------|
-| **Price** | **Free** | $20/month | $10/month | $20/month |
-| **Privacy** | **100% Local** | Cloud (OpenAI) | Cloud (Microsoft) | Cloud (Anthropic) |
-| **Offline** | **Yes** | No | No | No |
-| **Customizable** | **10 parameters** | No | No | No |
-| **Learning** | **Yes (local)** | Yes (cloud) | Yes (cloud) | Yes (cloud) |
-| **Voice Input** | **Yes** | Yes (web only) | No | No |
-| **Screen Context** | **Yes** | No | No | No |
-| **Git Integration** | **Yes** | No | Limited | No |
-| **Response Time** | 2-4s | <1s | <1s | <1s |
-| **Model Size** | 7B params | 100B+ params | Unknown | 100B+ params |
-| **Open Source** | **Yes (MIT)** | No | No | No |
-| **Data Ownership** | **100% yours** | OpenAI trains on it | Microsoft trains on it | Anthropic trains on it |
+| Feature             | Eden Proejct      | ChatGPT Plus        | GitHub Copilot         | Claude Pro             |
+| ------------------- | ----------------- | ------------------- | ---------------------- | ---------------------- |
+| **Price**           | **Free**          | $20/month           | $10/month              | $20/month              |
+| **Privacy**         | **100% Local**    | Cloud (OpenAI)      | Cloud (Microsoft)      | Cloud (Anthropic)      |
+| **Offline**         | **Yes**           | No                  | No                     | No                     |
+| **Customizable**    | **10 parameters** | No                  | No                     | No                     |
+| **Learning**        | **Yes (local)**   | Yes (cloud)         | Yes (cloud)            | Yes (cloud)            |
+| **Voice Input**     | **Yes**           | Yes (web only)      | No                     | No                     |
+| **Screen Context**  | **Yes**           | No                  | No                     | No                     |
+| **Git Integration** | **Yes**           | No                  | Limited                | No                     |
+| **Response Time**   | 2-4s              | <1s                 | <1s                    | <1s                    |
+| **Model Size**      | 7B params         | 100B+ params        | Unknown                | 100B+ params           |
+| **Open Source**     | **Yes (MIT)**     | No                  | No                     | No                     |
+| **Data Ownership**  | **100% yours**    | OpenAI trains on it | Microsoft trains on it | Anthropic trains on it |
 
-**Verdict**: If you value **privacy, ownership, and customization** over bleeding-edge performance, Garden of Eden V3 is the clear choice.
+**Verdict**: If you value **privacy, ownership, and customization** over bleeding-edge performance, Eden Proejct is the clear choice.
 
 ---
 
 ## 🎯 Who Is This For?
 
 ### 👨‍💻 Developers
+
 - **Privacy-conscious** - Don't want code uploaded to cloud
 - **Budget-conscious** - Tired of $20/month subscriptions
 - **Offline workers** - Work in secure environments or airplanes
 - **Control freaks** - Want to customize AI behavior
 
 ### 🎓 Students
+
 - **Budget-limited** - Can't afford ChatGPT Plus
 - **Privacy-aware** - Don't want essays analyzed by OpenAI
 - **Multilingual** - Need Korean + English support
 - **Tech-savvy** - Comfortable with local setup
 
 ### 💼 Professionals
+
 - **Sensitive data** - Legal, medical, financial professionals
 - **Compliance needs** - GDPR, HIPAA, SOC2 requirements
 - **Productivity-focused** - Want AI without cloud lock-in
 - **Long-term users** - Want tool that won't be shut down
 
 ### 🌏 Privacy Advocates
+
 - **Anti-surveillance** - Don't trust big tech with data
 - **Open source believers** - Want auditable, transparent AI
 - **Digital sovereignty** - Own your tools, own your data
@@ -238,12 +252,14 @@ Every single byte of your data stays on your machine. No exceptions.
 ## 💻 Tech Stack
 
 ### Core
+
 - **Framework**: Tauri 2.9 (Rust backend + React frontend)
 - **Build**: 7.1MB (vs 285MB Electron equivalent)
 - **Language**: TypeScript 5.3+ (strict mode)
 - **State**: Zustand (lightweight, persistent)
 
 ### AI & ML
+
 - **LLM**: qwen2.5:7b (14.8B params, Q4_K_M quantization, 4.7GB)
 - **Runtime**: Ollama (Metal acceleration on macOS)
 - **Speech**: Xenova/transformers (Whisper-small)
@@ -251,11 +267,13 @@ Every single byte of your data stays on your machine. No exceptions.
 - **Vision**: LLaVA 7B
 
 ### Backend (Rust)
+
 - **Database**: SQLite via rusqlite (AES-256 encrypted)
 - **Async**: Tokio runtime
 - **HTTP**: reqwest for Ollama API
 
 ### Frontend (React)
+
 - **UI**: shadcn/ui (headless, accessible)
 - **Styling**: Tailwind CSS
 - **Markdown**: react-markdown + rehype-highlight
@@ -265,26 +283,28 @@ Every single byte of your data stays on your machine. No exceptions.
 
 ## ⚡ Performance
 
-| Metric | Value | Notes |
-|--------|-------|-------|
-| **Response Time** | 2-4s | qwen2.5:7b on M1/M2 |
-| **Memory Usage** | 10-14GB | Ollama ~12GB + App ~2GB |
-| **Startup Time** | <2s | Warm start, <6s cold start |
-| **Model Size** | 4.7GB | Q4_K_M quantization |
-| **Build Size** | 7.1MB | Tauri (vs 285MB Electron) |
-| **Database** | <10MB | Grows with conversations |
+| Metric            | Value   | Notes                      |
+| ----------------- | ------- | -------------------------- |
+| **Response Time** | 2-4s    | qwen2.5:7b on M1/M2        |
+| **Memory Usage**  | 10-14GB | Ollama ~12GB + App ~2GB    |
+| **Startup Time**  | <2s     | Warm start, <6s cold start |
+| **Model Size**    | 4.7GB   | Q4_K_M quantization        |
+| **Build Size**    | 7.1MB   | Tauri (vs 285MB Electron)  |
+| **Database**      | <10MB   | Grows with conversations   |
 
 ---
 
 ## 🔧 System Requirements
 
 ### Minimum
+
 - **OS**: macOS 11 Big Sur or later
 - **RAM**: 16GB
 - **Storage**: 20GB free (for models)
 - **Processor**: Intel or Apple Silicon
 
 ### Recommended
+
 - **OS**: macOS 13 Ventura or later
 - **RAM**: 24GB+ (for optimal performance)
 - **Storage**: 50GB free
@@ -301,7 +321,7 @@ Every single byte of your data stays on your machine. No exceptions.
 brew install ollama
 brew services start ollama
 
-# 2. Download Garden of Eden V3
+# 2. Download Eden Proejct
 # Visit: https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases/latest
 # Download: Garden-of-Eden-V3-macOS-v3.0.4.dmg
 
@@ -324,6 +344,7 @@ brew services start ollama
 ## 🎨 Use Cases
 
 ### 1. Code Assistant
+
 ```
 You: "Create a React component for user login with validation"
 AI: [Generates TypeScript code with proper error handling]
@@ -331,6 +352,7 @@ You: 👍 (AI learns you like detailed code examples)
 ```
 
 ### 2. Debugging Helper
+
 ```
 You: [Clicks screen context button]
 You: "What's wrong with this error?"
@@ -338,18 +360,21 @@ AI: [Analyzes screenshot] "The error is a type mismatch on line 42..."
 ```
 
 ### 3. Writing Assistant
+
 ```
 You: "Help me write a professional email declining a job offer"
 AI: [Generates polite, professional email based on your formality setting]
 ```
 
 ### 4. Learning Companion
+
 ```
 You: "Explain React hooks to me"
 AI: [Adjusts explanation depth based on your technical_depth parameter]
 ```
 
 ### 5. Voice Productivity
+
 ```
 You: [Clicks microphone] "Create a TODO list for today's tasks"
 AI: [Transcribes voice and generates organized checklist]
@@ -377,14 +402,14 @@ AI: [Transcribes voice and generates organized checklist]
 
 ### How We're Different from Cloud AI
 
-| Aspect | Garden of Eden V3 | Cloud AI (ChatGPT, Claude, etc.) |
-|--------|-------------------|----------------------------------|
-| **Data location** | Your Mac only | Company servers |
-| **Data usage** | Never leaves machine | Used for training |
-| **Privacy policy** | None needed (local) | Long legal documents |
-| **Offline capability** | Full functionality | None |
-| **Data retention** | You control | Company controls |
-| **Audit trail** | Open source code | Black box |
+| Aspect                 | Eden Proejct         | Cloud AI (ChatGPT, Claude, etc.) |
+| ---------------------- | -------------------- | -------------------------------- |
+| **Data location**      | Your Mac only        | Company servers                  |
+| **Data usage**         | Never leaves machine | Used for training                |
+| **Privacy policy**     | None needed (local)  | Long legal documents             |
+| **Offline capability** | Full functionality   | None                             |
+| **Data retention**     | You control          | Company controls                 |
+| **Audit trail**        | Open source code     | Black box                        |
 
 ---
 
@@ -392,7 +417,7 @@ AI: [Transcribes voice and generates organized checklist]
 
 ### Why is it free?
 
-**Garden of Eden V3 is free because:**
+**Eden Proejct is free because:**
 
 1. **Open Source Philosophy** - Knowledge should be accessible
 2. **No Cloud Costs** - We don't pay for servers (you do the computing)
@@ -410,6 +435,7 @@ AI: [Transcribes voice and generates organized checklist]
 ### Will it stay free?
 
 **Yes, forever.** The core app will always be free and open-source. We may eventually offer:
+
 - Premium themes (optional)
 - Advanced plugins (optional)
 - Cloud sync service (optional)
@@ -421,6 +447,7 @@ AI: [Transcribes voice and generates organized checklist]
 ## 📈 Roadmap
 
 ### ✅ Completed (v3.0.4)
+
 - ✅ Local AI with qwen2.5:7b
 - ✅ 10-parameter persona system
 - ✅ Voice input/output
@@ -434,11 +461,13 @@ AI: [Transcribes voice and generates organized checklist]
 - ✅ Korean + English support
 
 ### 🚧 In Progress
+
 - 🚧 Windows build (Q2 2025)
 - 🚧 Plugin system architecture
 - 🚧 Advanced RAG with BGE-M3
 
 ### 🔮 Planned
+
 - 📅 LLaVA 7B full integration (deep screen analysis)
 - 📅 Internet access (web search, URL fetching)
 - 📅 Multiple persona profiles
@@ -519,18 +548,21 @@ A: Not yet. Windows build planned for Q2 2025.
 ## 📞 Support & Community
 
 ### Get Help
+
 - **Documentation**: [GitHub Wiki](https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki)
 - **Issues**: [Report a Bug](https://github.com/wannahappyaroundme/Garden_of_Eden_V3/issues)
 - **Discussions**: [Ask Questions](https://github.com/wannahappyaroundme/Garden_of_Eden_V3/discussions)
 - **Email**: bu5119@hanyang.ac.kr
 
 ### Contribute
+
 - **Code**: [Contributing Guide](../CONTRIBUTING.md)
 - **Translations**: Help us add more languages
 - **Documentation**: Improve guides and tutorials
 - **Feedback**: Share your experience
 
 ### Stay Updated
+
 - **GitHub**: [Watch releases](https://github.com/wannahappyaroundme/Garden_of_Eden_V3)
 - **Changelog**: [Version history](../CHANGELOG.md)
 - **Roadmap**: [Upcoming features](ROADMAP.md)

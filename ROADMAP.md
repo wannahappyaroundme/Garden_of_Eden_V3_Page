@@ -1,6 +1,6 @@
-# Garden of Eden V3 - Product Roadmap
+# Eden Proejct - Product Roadmap
 
-Vision, milestones, and future plans for Garden of Eden V3.
+Vision, milestones, and future plans for Eden Proejct.
 
 ---
 
@@ -8,7 +8,7 @@ Vision, milestones, and future plans for Garden of Eden V3.
 
 **"사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다"**
 
-*"Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity"*
+_"Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity"_
 
 ### Long-Term Goal
 
@@ -21,6 +21,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 ### ✅ Completed Phases
 
 #### Phase 1: Foundation (Weeks 1-2) - COMPLETE
+
 - ✅ Tauri 2.9 + React + TypeScript setup
 - ✅ SQLite database with migrations
 - ✅ IPC communication (type-safe)
@@ -28,6 +29,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - ✅ Project structure scaffolding
 
 #### Phase 2: AI Integration (Weeks 3-4) - COMPLETE
+
 - ✅ Ollama integration (qwen2.5:7b)
 - ✅ Streaming responses
 - ✅ Whisper Large V3 (speech-to-text)
@@ -36,6 +38,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - ✅ End-to-end conversation flow
 
 #### Phase 3: UI/UX (Weeks 5-6) - COMPLETE
+
 - ✅ KakaoTalk-style chat interface
 - ✅ Voice input button with visualizer
 - ✅ Dark mode support
@@ -45,6 +48,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - ✅ Keyboard shortcuts
 
 #### Phase 4: System Integration (Weeks 7-8) - COMPLETE
+
 - ✅ File system integration (read/write/search)
 - ✅ Git integration (status, diff, commit, push)
 - ✅ Workspace detection (VSCode, IntelliJ)
@@ -52,6 +56,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - ✅ Webhook system
 
 #### Phase 5: Learning System (Weeks 9-10) - COMPLETE
+
 - ✅ 10-parameter persona system
 - ✅ RAG episodic memory (TF-IDF)
 - ✅ Satisfaction feedback (thumbs up/down)
@@ -60,6 +65,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - ✅ System prompt preview
 
 #### Phase 6: Polish & Testing (Weeks 11-12) - COMPLETE
+
 - ✅ Error handling & logging
 - ✅ Loading states & skeletons
 - ✅ Performance optimization
@@ -67,12 +73,14 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - ✅ User testing
 
 #### Phase 7: Distribution (Week 13) - COMPLETE
+
 - ✅ electron-builder / Tauri bundler configuration
 - ✅ Auto-updater setup
 - ✅ First-run onboarding flow
 - ✅ Model downloader UI
 
 #### Phase 8: v3.0 Launch (Week 14) - COMPLETE
+
 - ✅ GitHub releases with binaries
 - ✅ Documentation (README, QUICKSTART, USER_GUIDE)
 - ✅ GitHub Wiki (6 pages)
@@ -80,6 +88,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - ✅ Community setup (Issues, Discussions)
 
 #### Phase 9: Cloud Backup & Docs (v3.0.4) - COMPLETE
+
 - ✅ Google OAuth integration
 - ✅ Google Drive backup (persona settings only)
 - ✅ Complete documentation overhaul
@@ -105,9 +114,10 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 
 ### v3.1.0 - Windows Support (Q2 2025)
 
-**Goal**: Bring Garden of Eden V3 to Windows users
+**Goal**: Bring Eden Proejct to Windows users
 
 **Features**:
+
 - [ ] Windows 10/11 build (MSI installer)
 - [ ] Windows-specific screen capture
 - [ ] Windows TTS integration
@@ -118,6 +128,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - [ ] Chocolatey package (future)
 
 **Technical**:
+
 - Tauri Windows build
 - Windows API integration
 - Path resolution (Windows vs Unix)
@@ -132,6 +143,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 **Goal**: Upgrade memory system with better embeddings
 
 **Features**:
+
 - [ ] BGE-M3 embeddings (replace TF-IDF)
 - [ ] LanceDB vector database (replace SQLite for vectors)
 - [ ] RAFT hallucination reduction
@@ -140,6 +152,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - [ ] Export/import memory database
 
 **Technical**:
+
 - BGE-M3 model integration (~2GB)
 - LanceDB setup
 - Vector similarity search
@@ -154,6 +167,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 **Goal**: Enable AI to search web and fetch URLs
 
 **Features**:
+
 - [ ] Web search integration (DuckDuckGo, SearX)
 - [ ] URL fetching (privacy-preserving)
 - [ ] Website summarization
@@ -162,6 +176,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - [ ] Content filtering
 
 **Technical**:
+
 - HTTP client with user-agent rotation
 - HTML parsing and cleaning
 - Content extraction
@@ -177,6 +192,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 **Goal**: Allow users to extend functionality
 
 **Features**:
+
 - [ ] Plugin API architecture
 - [ ] JavaScript/TypeScript plugin support
 - [ ] Plugin marketplace (GitHub-based)
@@ -186,6 +202,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - [ ] Example plugins (weather, calculator, etc.)
 
 **Technical**:
+
 - V8 isolate for plugins
 - IPC for plugin communication
 - Permission manifest
@@ -200,6 +217,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 **Goal**: Deep screen analysis and image understanding
 
 **Features**:
+
 - [ ] LLaVA 7B full integration
 - [ ] Multi-image conversations
 - [ ] Image editing suggestions
@@ -208,6 +226,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - [ ] Screenshot annotation
 
 **Technical**:
+
 - LLaVA 7B model (~4.4GB)
 - Image preprocessing pipeline
 - Multi-modal conversation history
@@ -222,6 +241,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 **Goal**: Save and switch between persona profiles
 
 **Features**:
+
 - [ ] Multiple persona profiles
 - [ ] Quick persona switching
 - [ ] Persona import/export
@@ -230,6 +250,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 - [ ] Persona versioning
 
 **Technical**:
+
 - Persona storage refactor
 - UI for profile management
 - Marketplace API design
@@ -296,6 +317,7 @@ Vote on features in [GitHub Discussions](https://github.com/wannahappyaroundme/G
 ## Technical Debt
 
 ### Code Quality
+
 - [ ] Increase test coverage to 80% (currently ~40%)
 - [ ] Add E2E tests with Playwright
 - [ ] Improve TypeScript strictness
@@ -303,6 +325,7 @@ Vote on features in [GitHub Discussions](https://github.com/wannahappyaroundme/G
 - [ ] Add API documentation (JSDoc)
 
 ### Performance
+
 - [ ] Optimize model loading time (<4s)
 - [ ] Reduce memory footprint (<10GB)
 - [ ] Lazy load UI components
@@ -310,6 +333,7 @@ Vote on features in [GitHub Discussions](https://github.com/wannahappyaroundme/G
 - [ ] Database query optimization
 
 ### Architecture
+
 - [ ] Service layer abstraction
 - [ ] Dependency injection
 - [ ] Event-driven architecture for plugins
@@ -332,6 +356,7 @@ Vote on features in [GitHub Discussions](https://github.com/wannahappyaroundme/G
 ## Success Metrics
 
 ### v3.0.4 (Current)
+
 - ✅ 100% local processing
 - ✅ <10MB binary size (Tauri: 7.1MB)
 - ✅ 2-4s response time
@@ -340,6 +365,7 @@ Vote on features in [GitHub Discussions](https://github.com/wannahappyaroundme/G
 - ✅ Korean + English support
 
 ### v4.0.0 (2026 Goal)
+
 - [ ] 10,000+ downloads
 - [ ] 1,000+ GitHub stars
 - [ ] 80%+ test coverage
@@ -348,6 +374,7 @@ Vote on features in [GitHub Discussions](https://github.com/wannahappyaroundme/G
 - [ ] 100+ community plugins
 
 ### v5.0.0 (2027 Goal)
+
 - [ ] 100,000+ downloads
 - [ ] 10,000+ GitHub stars
 - [ ] Self-sustaining community
@@ -436,7 +463,7 @@ A: Test, report bugs, suggest features, contribute code, share with others, writ
 
 <div align="center">
 
-**Made with ❤️ by the Garden of Eden Community**
+**Made with ❤️ by the Eden Proejct Community**
 
 **Your feedback shapes the future!**
 

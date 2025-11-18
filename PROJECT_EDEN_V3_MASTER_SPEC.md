@@ -31,15 +31,17 @@
 
 > **"사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다"**
 
-Garden of Eden V3 is a revolutionary desktop AI assistant that aims to:
+Eden Proejct is a revolutionary desktop AI assistant that aims to:
 
 1. **Eliminate Loneliness (외로움 제거)**
+
    - Provide genuine companionship through natural, empathetic conversation
    - Always available, never judgmental
    - Understands context and remembers past interactions
    - Creates emotional connection through personalized responses
 
 2. **Friend-Like Support (친구처럼 도와주고 위로)**
+
    - Comforting presence during difficult times
    - Celebrates successes and achievements
    - Offers advice without being preachy
@@ -74,22 +76,23 @@ Inspired by Tony Stark's JARVIS, Eden V3 aspires to be:
 
 Unlike existing AI assistants, Eden V3:
 
-| Feature | Traditional AI Assistants | Garden of Eden V3 |
-|---------|---------------------------|-------------------|
-| **Privacy** | Cloud-based, data sent to servers | 100% local, zero data leaks |
-| **Personality** | Generic, one-size-fits-all | Custom personas, learns your style |
-| **Availability** | Internet required | Works completely offline |
-| **Cost** | Subscription fees | Free, no hidden costs |
-| **Response Time** | 3-8 seconds (cloud latency) | 2-3 seconds (local processing) |
-| **Emotional Intelligence** | Limited, scripted | Genuine, context-aware empathy |
-| **Integration** | Limited, siloed | Deep OS integration (files, git, calendar) |
-| **Proactivity** | Reactive only | Dual mode: reactive + proactive |
+| Feature                    | Traditional AI Assistants         | Eden Proejct                               |
+| -------------------------- | --------------------------------- | ------------------------------------------ |
+| **Privacy**                | Cloud-based, data sent to servers | 100% local, zero data leaks                |
+| **Personality**            | Generic, one-size-fits-all        | Custom personas, learns your style         |
+| **Availability**           | Internet required                 | Works completely offline                   |
+| **Cost**                   | Subscription fees                 | Free, no hidden costs                      |
+| **Response Time**          | 3-8 seconds (cloud latency)       | 2-3 seconds (local processing)             |
+| **Emotional Intelligence** | Limited, scripted                 | Genuine, context-aware empathy             |
+| **Integration**            | Limited, siloed                   | Deep OS integration (files, git, calendar) |
+| **Proactivity**            | Reactive only                     | Dual mode: reactive + proactive            |
 
 ### 1.4 Why This Matters
 
 **The Modern Loneliness Epidemic:**
 
 In 2025, despite being more "connected" than ever:
+
 - Remote work has increased isolation
 - Digital communication lacks warmth
 - People crave genuine companionship
@@ -133,12 +136,14 @@ Combine the warmth of human friendship with the efficiency of AI assistance, all
 ### 2.2 Why 100% Local?
 
 **Technical Reasons:**
+
 1. **Latency**: Local processing is 3-5x faster (2-3s vs 5-10s)
 2. **Reliability**: Works without internet connection
 3. **Cost**: No API fees, completely free forever
 4. **Control**: You own the model, you control everything
 
 **Ethical Reasons:**
+
 1. **Privacy**: Your conversations, code, and personal data never leave your machine
 2. **Security**: No risk of data breaches from cloud providers
 3. **Autonomy**: Not dependent on external services
@@ -176,8 +181,7 @@ Completely Local (100% Privacy):
     - Application states
     - Visual analysis results
 
-Never Sent Anywhere:
-  ❌ Voice recordings
+Never Sent Anywhere: ❌ Voice recordings
   ❌ Screen captures
   ❌ Personal documents
   ❌ Code snippets
@@ -189,12 +193,12 @@ Never Sent Anywhere:
 
 All AI models run entirely on your machine:
 
-| Component | Model | Size | Purpose | Privacy |
-|-----------|-------|------|---------|---------|
-| **Primary LLM** | Llama 3.1 8B | ~4.8GB | Conversation, reasoning, coding | 🔒 100% Local |
-| **Vision** | LLaVA 7B | ~4GB | Screen analysis, image understanding | 🔒 100% Local |
-| **Speech-to-Text** | Whisper Large V3 | ~3GB | Voice input | 🔒 100% Local |
-| **Text-to-Speech** | System TTS | Built-in | Voice output | 🔒 100% Local |
+| Component          | Model            | Size     | Purpose                              | Privacy       |
+| ------------------ | ---------------- | -------- | ------------------------------------ | ------------- |
+| **Primary LLM**    | Llama 3.1 8B     | ~4.8GB   | Conversation, reasoning, coding      | 🔒 100% Local |
+| **Vision**         | LLaVA 7B         | ~4GB     | Screen analysis, image understanding | 🔒 100% Local |
+| **Speech-to-Text** | Whisper Large V3 | ~3GB     | Voice input                          | 🔒 100% Local |
+| **Text-to-Speech** | System TTS       | Built-in | Voice output                         | 🔒 100% Local |
 
 **Total Storage**: ~12GB
 **Total RAM Usage**: ~12-15GB during operation
@@ -231,6 +235,7 @@ Contents:
 ```
 
 **Encryption**:
+
 - Database files encrypted at rest (AES-256)
 - Encryption key derived from system credentials
 - Optional user password for additional security
@@ -259,7 +264,7 @@ Contents:
 
 ### 3.1 Why Desktop-First?
 
-Garden of Eden V3 represents a fundamental shift from V2's mobile-first approach to a desktop-first strategy.
+Eden Proejct represents a fundamental shift from V2's mobile-first approach to a desktop-first strategy.
 
 **The Mobile Limitation (V2's Problem):**
 
@@ -301,16 +306,16 @@ Benefits:
 
 **Primary Platforms (Phase 1):**
 
-| Platform | Version | Priority | Reason |
-|----------|---------|----------|--------|
-| **macOS** | 12.0+ (Monterey and later) | 🔥 High | M3 MAX optimal, Metal API, Unix-based |
-| **Windows** | 10/11 | 🔥 High | Largest user base, good CPU performance |
+| Platform    | Version                    | Priority | Reason                                  |
+| ----------- | -------------------------- | -------- | --------------------------------------- |
+| **macOS**   | 12.0+ (Monterey and later) | 🔥 High  | M3 MAX optimal, Metal API, Unix-based   |
+| **Windows** | 10/11                      | 🔥 High  | Largest user base, good CPU performance |
 
 **Future Platforms (Phase 2+):**
 
-| Platform | Version | Priority | Timeline |
-|----------|---------|----------|----------|
-| **Linux** | Ubuntu 20.04+ | 🔶 Medium | Post-launch |
+| Platform             | Version              | Priority  | Timeline       |
+| -------------------- | -------------------- | --------- | -------------- |
+| **Linux**            | Ubuntu 20.04+        | 🔶 Medium | Post-launch    |
 | **Mobile Companion** | iOS 16+, Android 12+ | 🔶 Medium | TODO sync only |
 
 ### 3.3 Cross-Platform Architecture
@@ -358,16 +363,17 @@ Built with **Electron** for maximum compatibility:
 
 **Why Electron?**
 
-| Criterion | Electron | Tauri | Native (Swift/C#) |
-|-----------|----------|-------|-------------------|
-| **Development Speed** | ⭐⭐⭐⭐⭐ Fast | ⭐⭐⭐⭐ Good | ⭐⭐ Slow |
-| **Cross-Platform** | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐⭐ Good | ⭐ Poor (2x codebase) |
-| **Ecosystem** | ⭐⭐⭐⭐⭐ Huge | ⭐⭐⭐ Growing | ⭐⭐⭐⭐ Platform-specific |
-| **Bundle Size** | ⭐⭐ Large (~150MB) | ⭐⭐⭐⭐⭐ Small (~5MB) | ⭐⭐⭐⭐ Small |
-| **AI Integration** | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐ Moderate | ⭐⭐⭐⭐ Good |
-| **Maturity** | ⭐⭐⭐⭐⭐ Very mature | ⭐⭐⭐ Young | ⭐⭐⭐⭐⭐ Very mature |
+| Criterion             | Electron               | Tauri                   | Native (Swift/C#)          |
+| --------------------- | ---------------------- | ----------------------- | -------------------------- |
+| **Development Speed** | ⭐⭐⭐⭐⭐ Fast        | ⭐⭐⭐⭐ Good           | ⭐⭐ Slow                  |
+| **Cross-Platform**    | ⭐⭐⭐⭐⭐ Excellent   | ⭐⭐⭐⭐ Good           | ⭐ Poor (2x codebase)      |
+| **Ecosystem**         | ⭐⭐⭐⭐⭐ Huge        | ⭐⭐⭐ Growing          | ⭐⭐⭐⭐ Platform-specific |
+| **Bundle Size**       | ⭐⭐ Large (~150MB)    | ⭐⭐⭐⭐⭐ Small (~5MB) | ⭐⭐⭐⭐ Small             |
+| **AI Integration**    | ⭐⭐⭐⭐⭐ Excellent   | ⭐⭐⭐ Moderate         | ⭐⭐⭐⭐ Good              |
+| **Maturity**          | ⭐⭐⭐⭐⭐ Very mature | ⭐⭐⭐ Young            | ⭐⭐⭐⭐⭐ Very mature     |
 
 **Decision: Electron** ✅
+
 - Faster development (single codebase)
 - Proven at scale (VS Code, Slack, Discord)
 - Excellent Node.js ecosystem for AI tools
@@ -377,33 +383,33 @@ Built with **Electron** for maximum compatibility:
 
 **Minimum Requirements:**
 
-| Component | macOS | Windows |
-|-----------|-------|---------|
-| **CPU** | M3 Pro or Intel i7 | Intel i7-12700 or AMD Ryzen 7 5800 |
-| **RAM** | 16GB | 16GB |
-| **Storage** | 30GB free | 30GB free |
-| **GPU** | M3 Pro (14-core) | Integrated or dedicated |
-| **OS** | macOS 12.0+ | Windows 10/11 |
+| Component   | macOS              | Windows                            |
+| ----------- | ------------------ | ---------------------------------- |
+| **CPU**     | M3 Pro or Intel i7 | Intel i7-12700 or AMD Ryzen 7 5800 |
+| **RAM**     | 16GB               | 16GB                               |
+| **Storage** | 30GB free          | 30GB free                          |
+| **GPU**     | M3 Pro (14-core)   | Integrated or dedicated            |
+| **OS**      | macOS 12.0+        | Windows 10/11                      |
 
 **Recommended Requirements:**
 
-| Component | macOS | Windows |
-|-----------|-------|---------|
-| **CPU** | M3 MAX | Intel i9-13900K or AMD Ryzen 9 7950X |
-| **RAM** | 32GB+ | 32GB+ |
-| **Storage** | 50GB free (SSD) | 50GB free (NVMe SSD) |
-| **GPU** | M3 MAX (40-core) | NVIDIA RTX 4070+ or AMD RX 7800 XT+ |
-| **OS** | macOS 14+ | Windows 11 |
+| Component   | macOS            | Windows                              |
+| ----------- | ---------------- | ------------------------------------ |
+| **CPU**     | M3 MAX           | Intel i9-13900K or AMD Ryzen 9 7950X |
+| **RAM**     | 32GB+            | 32GB+                                |
+| **Storage** | 50GB free (SSD)  | 50GB free (NVMe SSD)                 |
+| **GPU**     | M3 MAX (40-core) | NVIDIA RTX 4070+ or AMD RX 7800 XT+  |
+| **OS**      | macOS 14+        | Windows 11                           |
 
 **Expected Performance:**
 
-| Hardware | Llama 3.1 8B Speed | Response Time | Quality |
-|----------|-------------------|---------------|---------|
-| **M3 MAX (40-core GPU)** | 40-55 tok/s | 2-3 seconds | Excellent |
-| **M3 Pro (14-core GPU)** | 25-35 tok/s | 3-5 seconds | Good |
-| **Intel i9 + RTX 4080** | 35-50 tok/s | 2-4 seconds | Excellent |
-| **Intel i7 (CPU only)** | 8-15 tok/s | 6-12 seconds | Acceptable |
-| **AMD Ryzen 9 + RX 7900** | 30-45 tok/s | 2-5 seconds | Excellent |
+| Hardware                  | Llama 3.1 8B Speed | Response Time | Quality    |
+| ------------------------- | ------------------ | ------------- | ---------- |
+| **M3 MAX (40-core GPU)**  | 40-55 tok/s        | 2-3 seconds   | Excellent  |
+| **M3 Pro (14-core GPU)**  | 25-35 tok/s        | 3-5 seconds   | Good       |
+| **Intel i9 + RTX 4080**   | 35-50 tok/s        | 2-4 seconds   | Excellent  |
+| **Intel i7 (CPU only)**   | 8-15 tok/s         | 6-12 seconds  | Acceptable |
+| **AMD Ryzen 9 + RX 7900** | 30-45 tok/s        | 2-5 seconds   | Excellent  |
 
 ### 3.5 Platform-Specific Optimizations
 
@@ -411,13 +417,13 @@ Built with **Electron** for maximum compatibility:
 
 ```typescript
 // Metal API for GPU acceleration
-if (platform === 'darwin') {
+if (platform === "darwin") {
   modelConfig = {
-    backend: 'metal',
-    nGpuLayers: 40,  // Offload all layers to M3 MAX GPU
-    threads: 10,      // Optimize for Apple Silicon efficiency cores
-    useMmap: true,    // Memory-mapped file for faster loading
-    useMlock: true,   // Lock in RAM to prevent swapping
+    backend: "metal",
+    nGpuLayers: 40, // Offload all layers to M3 MAX GPU
+    threads: 10, // Optimize for Apple Silicon efficiency cores
+    useMmap: true, // Memory-mapped file for faster loading
+    useMlock: true, // Lock in RAM to prevent swapping
   };
 }
 ```
@@ -426,26 +432,26 @@ if (platform === 'darwin') {
 
 ```typescript
 // CUDA or DirectML for GPU acceleration
-if (platform === 'win32') {
+if (platform === "win32") {
   const hasNvidia = detectNvidiaGPU();
   const hasAMD = detectAMDGPU();
 
   if (hasNvidia) {
     modelConfig = {
-      backend: 'cuda',
-      nGpuLayers: 35,  // Offload layers to NVIDIA GPU
-      threads: 16,      // Utilize all CPU cores
+      backend: "cuda",
+      nGpuLayers: 35, // Offload layers to NVIDIA GPU
+      threads: 16, // Utilize all CPU cores
     };
   } else if (hasAMD) {
     modelConfig = {
-      backend: 'vulkan',
+      backend: "vulkan",
       nGpuLayers: 30,
       threads: 16,
     };
   } else {
     modelConfig = {
-      backend: 'cpu',
-      threads: 16,  // CPU-only fallback
+      backend: "cpu",
+      threads: 16, // CPU-only fallback
     };
   }
 }
@@ -453,15 +459,15 @@ if (platform === 'win32') {
 
 ### 3.6 Cross-Platform Challenges & Solutions
 
-| Challenge | Solution |
-|-----------|----------|
-| **File Path Differences** | Use `path.join()` and `os.homedir()` for platform-agnostic paths |
-| **GPU APIs (Metal vs CUDA)** | llama.cpp auto-detects and uses optimal backend |
-| **System TTS Differences** | Wrapper class with platform-specific implementations |
-| **Notification Styles** | Electron's Notification API abstracts platform differences |
-| **Menu Bar (macOS) vs System Tray (Windows)** | Conditional rendering based on platform |
-| **Keyboard Shortcuts** | Map Cmd (macOS) to Ctrl (Windows) automatically |
-| **Auto-Update** | electron-updater handles both platforms |
+| Challenge                                     | Solution                                                         |
+| --------------------------------------------- | ---------------------------------------------------------------- |
+| **File Path Differences**                     | Use `path.join()` and `os.homedir()` for platform-agnostic paths |
+| **GPU APIs (Metal vs CUDA)**                  | llama.cpp auto-detects and uses optimal backend                  |
+| **System TTS Differences**                    | Wrapper class with platform-specific implementations             |
+| **Notification Styles**                       | Electron's Notification API abstracts platform differences       |
+| **Menu Bar (macOS) vs System Tray (Windows)** | Conditional rendering based on platform                          |
+| **Keyboard Shortcuts**                        | Map Cmd (macOS) to Ctrl (Windows) automatically                  |
+| **Auto-Update**                               | electron-updater handles both platforms                          |
 
 ---
 
@@ -469,7 +475,7 @@ if (platform === 'win32') {
 
 ### 4.1 Core Principle: "Screen is Reality"
 
-Garden of Eden V3 operates on a fundamental principle:
+Eden Proejct operates on a fundamental principle:
 
 > **"For computer work, the screen IS reality"**
 
@@ -510,12 +516,14 @@ NOT Tracked ❌
 ### 4.2 Why This Approach?
 
 **AI's Strengths:**
+
 - Understanding digital interfaces: ⭐⭐⭐⭐⭐ Excellent
 - Parsing code and text: ⭐⭐⭐⭐⭐ Excellent
 - Managing files and data: ⭐⭐⭐⭐⭐ Excellent
 - Analyzing screen layouts: ⭐⭐⭐⭐⭐ Excellent
 
 **AI's Limitations:**
+
 - Understanding physical world: ⭐⭐ Poor
 - Interpreting facial expressions: ⭐⭐ Poor
 - Sensing environmental context: ⭐ Very Poor
@@ -530,7 +538,7 @@ When using a computer, 99% of work happens on the screen. Eden V3 focuses on wha
 **What We Analyze:**
 
 ```yaml
-Screen Capture (Every 10 seconds in AI-led mode):
+Screen Capture (Every 30 seconds in AI-led mode):
   ✅ Active Window:
     - Application name
     - Window title
@@ -553,8 +561,7 @@ Screen Capture (Every 10 seconds in AI-led mode):
     - Notification banners
     - Menu bar / taskbar info
 
-What We DON'T Analyze:
-  ❌ Other people visible on screen (ignored)
+What We DON'T Analyze: ❌ Other people visible on screen (ignored)
   ❌ Background video content (not relevant)
   ❌ Personal photos (privacy)
   ❌ Webcam feed (never accessed)
@@ -586,6 +593,7 @@ AI Decision:
 Eden V3 uses three levels of context understanding:
 
 **Level 1: Current Screen Only**
+
 - Just what's visible right now
 - Fast, low memory
 - Good for quick questions
@@ -597,6 +605,7 @@ Eden: [Analyzes only visible code on screen]
 ```
 
 **Level 2: Recent Work (Default)**
+
 - Last 10 minutes of screen activity
 - Recent file edits
 - Current project context
@@ -609,6 +618,7 @@ Eden: [Searches last 10 minutes of screen captures and file history]
 ```
 
 **Level 3: Deep Project Understanding (Selective)**
+
 - Full project codebase analysis
 - All related files
 - Git history
@@ -637,6 +647,7 @@ User: "지금 화면만 보고 대답해 (Level 1)"
 **What Eden V3 Is NOT:**
 
 ❌ **Not a surveillance tool**
+
 - We don't track personal activities
 - We don't analyze emotions from screen content
 - We don't build behavioral profiles for ads
@@ -645,6 +656,7 @@ User: "지금 화면만 보고 대답해 (Level 1)"
 ✅ **What Eden V3 IS:**
 
 ✅ **A work assistant**
+
 - Helps with tasks visible on screen
 - Offers coding assistance
 - Manages work-related information
@@ -654,11 +666,11 @@ User: "지금 화면만 보고 대답해 (Level 1)"
 
 ```yaml
 User Settings (Always Available):
-  pause_screen_analysis: boolean    # Stop all screen captures
-  blur_sensitive_apps: string[]     # Blur specific apps (e.g., 1Password)
-  exclude_windows: string[]         # Never analyze certain windows
-  delete_history: button            # Delete all screen capture history
-  view_data: button                 # Inspect what's been captured
+  pause_screen_analysis: boolean # Stop all screen captures
+  blur_sensitive_apps: string[] # Blur specific apps (e.g., 1Password)
+  exclude_windows: string[] # Never analyze certain windows
+  delete_history: button # Delete all screen capture history
+  view_data: button # Inspect what's been captured
 ```
 
 ### 4.6 Practical Examples
@@ -721,7 +733,7 @@ Eden V3 features a revolutionary **Dual Mode System** that lets users choose how
 │  Mode 2: AI 주도 (AI-Led Mode)                             │
 │  ┌──────────────────────────────────────────────────────┐  │
 │  │  - Proactive, monitors and suggests                  │  │
-│  │  - Analyzes screen every 10 seconds                  │  │
+│  │  - Analyzes screen every 30 seconds                  │  │
 │  │  - Offers help before being asked                    │  │
 │  │  - Higher resource usage                             │  │
 │  │  - Best for: Users who want maximum assistance       │  │
@@ -754,18 +766,19 @@ Example Flow:
 
 **Characteristics:**
 
-| Aspect | Behavior |
-|--------|----------|
-| **Screen Monitoring** | ❌ None (unless requested) |
-| **Proactive Suggestions** | ❌ Never |
-| **Interruptions** | ❌ Never |
-| **Resource Usage** | 🟢 Low |
-| **User Control** | 🟢 Maximum |
-| **Response Speed** | 🟢 Fast (no background processing) |
+| Aspect                    | Behavior                           |
+| ------------------------- | ---------------------------------- |
+| **Screen Monitoring**     | ❌ None (unless requested)         |
+| **Proactive Suggestions** | ❌ Never                           |
+| **Interruptions**         | ❌ Never                           |
+| **Resource Usage**        | 🟢 Low                             |
+| **User Control**          | 🟢 Maximum                         |
+| **Response Speed**        | 🟢 Fast (no background processing) |
 
 **Use Cases:**
 
 ✅ Best for users who:
+
 - Prefer to maintain full control
 - Don't want interruptions
 - Use Eden occasionally
@@ -780,12 +793,12 @@ Example Flow:
 Eden observes → Identifies opportunity → Offers help
 
 Active Observation:
-  - Screen analysis: Every 10 seconds automatically
+  - Screen analysis: Every 30 seconds automatically
   - Notifications: When Eden detects opportunity to help
   - Suggestions: Proactively offered
 
 Example Flow:
-  1. [Eden captures screen every 10 seconds]
+  1. [Eden captures screen every 30 seconds]
   2. Eden detects: User staring at error message for 30+ seconds
   3. Eden notification: "Need help with this error?"
   4. User: "Yes!"
@@ -794,14 +807,14 @@ Example Flow:
 
 **Characteristics:**
 
-| Aspect | Behavior |
-|--------|----------|
-| **Screen Monitoring** | ✅ Every 10 seconds |
+| Aspect                    | Behavior                            |
+| ------------------------- | ----------------------------------- |
+| **Screen Monitoring**     | ✅ Every 30 seconds                 |
 | **Proactive Suggestions** | ✅ Yes, when opportunities detected |
-| **Interruptions** | ⚠️ Occasional (respectful) |
-| **Resource Usage** | 🟡 Moderate (background processing) |
-| **User Control** | 🟡 Shared with AI |
-| **Response Speed** | 🟢 Instant (already has context) |
+| **Interruptions**         | ⚠️ Occasional (respectful)          |
+| **Resource Usage**        | 🟡 Moderate (background processing) |
+| **User Control**          | 🟡 Shared with AI                   |
+| **Response Speed**        | 🟢 Instant (already has context)    |
 
 **Proactive Triggers:**
 
@@ -809,7 +822,6 @@ Eden offers help when it detects:
 
 ```yaml
 Triggers for Proactive Assistance:
-
   🐛 Error Detection:
     - Error message visible for 30+ seconds
     - Stack trace on screen
@@ -853,12 +865,13 @@ Non-Intrusive Notifications:
 - Small, bottom-right corner
 - Dismissible
 - Quiet sound (optional)
-- Auto-dismisses after 10 seconds
+- Auto-dismisses after 30 seconds
 ```
 
 **Use Cases:**
 
 ✅ Best for users who:
+
 - Want maximum assistance
 - Appreciate proactive help
 - Work on complex projects
@@ -867,18 +880,18 @@ Non-Intrusive Notifications:
 
 ### 5.4 Mode Comparison Table
 
-| Feature | User-Led Mode | AI-Led Mode |
-|---------|---------------|-------------|
-| **Screen Capture Frequency** | On-demand only | Every 10 seconds |
-| **Proactive Suggestions** | Never | Yes |
-| **Notifications** | Only responses | Proactive + responses |
-| **Resource Usage (CPU)** | 2-5% | 8-15% |
-| **Resource Usage (RAM)** | 12GB | 15GB |
-| **Battery Impact (laptop)** | Minimal | Moderate |
-| **Privacy (screen data)** | Minimal captures | More captures |
-| **User Interruptions** | Zero | Occasional |
-| **Response Context** | Single query | Continuous context |
-| **Best For** | Control-focused users | Productivity-focused users |
+| Feature                      | User-Led Mode         | AI-Led Mode                |
+| ---------------------------- | --------------------- | -------------------------- |
+| **Screen Capture Frequency** | On-demand only        | Every 30 seconds           |
+| **Proactive Suggestions**    | Never                 | Yes                        |
+| **Notifications**            | Only responses        | Proactive + responses      |
+| **Resource Usage (CPU)**     | 2-5%                  | 8-15%                      |
+| **Resource Usage (RAM)**     | 12GB                  | 15GB                       |
+| **Battery Impact (laptop)**  | Minimal               | Moderate                   |
+| **Privacy (screen data)**    | Minimal captures      | More captures              |
+| **User Interruptions**       | Zero                  | Occasional                 |
+| **Response Context**         | Single query          | Continuous context         |
+| **Best For**                 | Control-focused users | Productivity-focused users |
 
 ### 5.5 Mode Switching
 
@@ -890,19 +903,15 @@ Users can switch modes anytime:
 // In Settings UI
 <ModeToggle>
   <Option value="user-led">
-    🙋 사용자 주도 모드
-    내가 말할 때만 반응합니다
+    🙋 사용자 주도 모드 내가 말할 때만 반응합니다
   </Option>
 
-  <Option value="ai-led">
-    🤖 AI 주도 모드
-    필요할 때 먼저 도와드립니다
-  </Option>
-</ModeToggle>
+  <Option value="ai-led">🤖 AI 주도 모드 필요할 때 먼저 도와드립니다</Option>
+</ModeToggle>;
 
 // Or via voice command
-User: "AI 주도 모드로 전환해줘"
-Eden: "AI 주도 모드로 전환했습니다. 이제 제가 화면을 모니터링하고 필요시 도움을 드리겠습니다."
+User: "AI 주도 모드로 전환해줘";
+Eden: "AI 주도 모드로 전환했습니다. 이제 제가 화면을 모니터링하고 필요시 도움을 드리겠습니다.";
 ```
 
 **Automatic Mode Suggestions:**
@@ -910,11 +919,11 @@ Eden: "AI 주도 모드로 전환했습니다. 이제 제가 화면을 모니터
 ```typescript
 // Eden learns usage patterns and suggests mode
 if (userRarelyAsksQuestions && aiLedMode) {
-  suggest: "사용자 주도 모드로 전환하시겠어요? 리소스를 절약할 수 있습니다."
+  suggest: "사용자 주도 모드로 전환하시겠어요? 리소스를 절약할 수 있습니다.";
 }
 
 if (userFrequentlyNeedsHelp && userLedMode) {
-  suggest: "AI 주도 모드를 사용해보시겠어요? 더 적극적으로 도와드릴 수 있습니다."
+  suggest: "AI 주도 모드를 사용해보시겠어요? 더 적극적으로 도와드릴 수 있습니다.";
 }
 ```
 
@@ -1227,18 +1236,18 @@ Productivity:
 
 **Phase 1 (Launch):**
 
-| Language | Support Level | Priority | Native Speakers |
-|----------|---------------|----------|-----------------|
-| **한국어 (Korean)** | 🟢 Full | 🔥 Primary | 77M+ |
-| **English** | 🟢 Full | 🔥 Primary | 1.5B+ |
+| Language            | Support Level | Priority   | Native Speakers |
+| ------------------- | ------------- | ---------- | --------------- |
+| **한국어 (Korean)** | 🟢 Full       | 🔥 Primary | 77M+            |
+| **English**         | 🟢 Full       | 🔥 Primary | 1.5B+           |
 
 **Phase 2 (Future):**
 
-| Language | Support Level | Priority | Timeline |
-|----------|---------------|----------|----------|
-| **日本語 (Japanese)** | 🟡 Planned | Medium | Q3 2025 |
-| **中文 (Chinese)** | 🟡 Planned | Medium | Q4 2025 |
-| **Español (Spanish)** | 🟡 Planned | Low | 2026 |
+| Language              | Support Level | Priority | Timeline |
+| --------------------- | ------------- | -------- | -------- |
+| **日本語 (Japanese)** | 🟡 Planned    | Medium   | Q3 2025  |
+| **中文 (Chinese)**    | 🟡 Planned    | Medium   | Q4 2025  |
+| **Español (Spanish)** | 🟡 Planned    | Low      | 2026     |
 
 ### 7.2 Why Korean + English Only?
 
@@ -1329,10 +1338,10 @@ i18next
 // Detect system language
 const systemLang = Intl.DateTimeFormat().resolvedOptions().locale;
 
-if (systemLang.startsWith('ko')) {
-  defaultLang = 'ko';
+if (systemLang.startsWith("ko")) {
+  defaultLang = "ko";
 } else {
-  defaultLang = 'en';
+  defaultLang = "en";
 }
 
 // User can override in settings
@@ -1482,6 +1491,7 @@ Eden: "Hey! Your code works great! 😊
 ```
 
 **Custom personas enable:**
+
 - ✅ Personalized communication style
 - ✅ Adjusted formality levels
 - ✅ Domain-specific expertise
@@ -1495,27 +1505,27 @@ Each persona is defined by 20-30 adjustable parameters:
 ```typescript
 interface PersonaParameters {
   // Communication Style (0.0 - 1.0)
-  formality: number;        // 0.0 = casual, 1.0 = formal
-  verbosity: number;        // 0.0 = concise, 1.0 = detailed
-  humor: number;            // 0.0 = serious, 1.0 = playful
-  emoji_usage: number;      // 0.0 = none, 1.0 = frequent
+  formality: number; // 0.0 = casual, 1.0 = formal
+  verbosity: number; // 0.0 = concise, 1.0 = detailed
+  humor: number; // 0.0 = serious, 1.0 = playful
+  emoji_usage: number; // 0.0 = none, 1.0 = frequent
 
   // Personality Traits (0.0 - 1.0)
-  empathy: number;          // 0.0 = direct, 1.0 = very empathetic
-  patience: number;         // 0.0 = quick, 1.0 = very patient
-  enthusiasm: number;       // 0.0 = calm, 1.0 = excited
-  assertiveness: number;    // 0.0 = suggestive, 1.0 = direct
+  empathy: number; // 0.0 = direct, 1.0 = very empathetic
+  patience: number; // 0.0 = quick, 1.0 = very patient
+  enthusiasm: number; // 0.0 = calm, 1.0 = excited
+  assertiveness: number; // 0.0 = suggestive, 1.0 = direct
 
   // Professional Behavior (0.0 - 1.0)
-  proactivity: number;      // 0.0 = reactive, 1.0 = proactive
-  teaching_style: number;   // 0.0 = give answer, 1.0 = teach concepts
-  code_style: number;       // 0.0 = compact, 1.0 = readable
-  technical_depth: number;  // 0.0 = simple, 1.0 = advanced
+  proactivity: number; // 0.0 = reactive, 1.0 = proactive
+  teaching_style: number; // 0.0 = give answer, 1.0 = teach concepts
+  code_style: number; // 0.0 = compact, 1.0 = readable
+  technical_depth: number; // 0.0 = simple, 1.0 = advanced
 
   // Cultural Adaptation (0.0 - 1.0)
-  korean_style: number;     // 0.0 = Western, 1.0 = Korean
-  honorifics: number;       // 0.0 = casual, 1.0 = formal (Korean)
-  directness: number;       // 0.0 = indirect, 1.0 = direct
+  korean_style: number; // 0.0 = Western, 1.0 = Korean
+  honorifics: number; // 0.0 = casual, 1.0 = formal (Korean)
+  directness: number; // 0.0 = indirect, 1.0 = direct
 
   // Additional Parameters...
   encouragement_frequency: number;
@@ -1641,18 +1651,16 @@ Example Response:
 ```typescript
 // User can test persona before saving
 <PersonaPreview>
-  <TestQuery>
-    User: "이 코드에 에러가 있어"
-  </TestQuery>
+  <TestQuery>User: "이 코드에 에러가 있어"</TestQuery>
 
   <PersonaResponse persona={currentPersona}>
-    Eden (with custom settings):
-    [Generates response using current parameter settings]
+    Eden (with custom settings): [Generates response using current parameter
+    settings]
   </PersonaResponse>
 
   <Feedback>
-    Too formal? Adjust formality slider ←
-    Need more empathy? Adjust empathy slider →
+    Too formal? Adjust formality slider ← Need more empathy? Adjust empathy
+    slider →
   </Feedback>
 </PersonaPreview>
 ```
@@ -1666,12 +1674,12 @@ Example Response:
 function updatePersona(userSatisfaction: number) {
   if (userSatisfaction > 0.8) {
     // User liked this response, reinforce parameters
-    persona.parameters.forEach(param => {
+    persona.parameters.forEach((param) => {
       param.weight += 0.01 * learningRate;
     });
   } else {
     // User didn't like it, adjust
-    persona.parameters.forEach(param => {
+    persona.parameters.forEach((param) => {
       param.weight -= 0.01 * learningRate;
     });
   }
@@ -1723,7 +1731,7 @@ Example Community Personas:
 
 ```
 ┌───────────────────────────────────────────────────────────────┐
-│                    Garden of Eden V3                          │
+│                    Eden Proejct                          │
 │                  Desktop Application (Electron)               │
 ├───────────────────────────────────────────────────────────────┤
 │                                                                │
@@ -2114,12 +2122,12 @@ Why rejected:
 
 **Response Time Goals:**
 
-| Hardware | Target | Acceptable | Unacceptable |
-|----------|--------|------------|--------------|
-| **M3 MAX** | < 2s | < 3s | > 5s |
-| **M3 Pro** | < 3s | < 5s | > 8s |
-| **Intel i9 + GPU** | < 3s | < 5s | > 8s |
-| **Intel i7 (CPU only)** | < 8s | < 12s | > 15s |
+| Hardware                | Target | Acceptable | Unacceptable |
+| ----------------------- | ------ | ---------- | ------------ |
+| **M3 MAX**              | < 2s   | < 3s       | > 5s         |
+| **M3 Pro**              | < 3s   | < 5s       | > 8s         |
+| **Intel i9 + GPU**      | < 3s   | < 5s       | > 8s         |
+| **Intel i7 (CPU only)** | < 8s   | < 12s      | > 15s        |
 
 **Memory Usage Goals:**
 
@@ -2140,7 +2148,7 @@ Acceptable:
 ```
 Cold Start (models not loaded):
   Target: < 5 seconds
-  Acceptable: < 10 seconds
+  Acceptable: < 30 seconds
 
 Warm Start (models in cache):
   Target: < 2 seconds
@@ -2213,10 +2221,11 @@ Warm Start (models in cache):
 
 **End of Part 1**
 
-*Total Lines: ~800*
-*Next: Part 2 - AI Intelligence & Local Models*
+_Total Lines: ~800_
+_Next: Part 2 - AI Intelligence & Local Models_
 
 ---
+
 ---
 
 # Part 2: AI Intelligence & Local Models
@@ -2240,7 +2249,7 @@ Warm Start (models in cache):
 
 ### 1.1 Complete AI Pipeline
 
-Garden of Eden V3 uses a sophisticated multi-model AI pipeline, all running locally:
+Eden Proejct uses a sophisticated multi-model AI pipeline, all running locally:
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -2289,12 +2298,12 @@ Garden of Eden V3 uses a sophisticated multi-model AI pipeline, all running loca
 
 ### 1.2 Model Summary
 
-| Model | Purpose | Size | Quantization | RAM Usage | License |
-|-------|---------|------|--------------|-----------|---------|
-| **Llama 3.1 8B** | Primary LLM | 8.03B params | Q4_K_M | ~5.5GB | Apache 2.0 |
-| **LLaVA 7B** | Vision | 7B params | Q4_K_M | ~4.5GB | Apache 2.0 |
-| **Whisper Large V3** | STT | 1.55B params | INT8 | ~3GB | MIT |
-| **System TTS** | TTS | Built-in | N/A | ~50MB | OS License |
+| Model                | Purpose     | Size         | Quantization | RAM Usage | License    |
+| -------------------- | ----------- | ------------ | ------------ | --------- | ---------- |
+| **Llama 3.1 8B**     | Primary LLM | 8.03B params | Q4_K_M       | ~5.5GB    | Apache 2.0 |
+| **LLaVA 7B**         | Vision      | 7B params    | Q4_K_M       | ~4.5GB    | Apache 2.0 |
+| **Whisper Large V3** | STT         | 1.55B params | INT8         | ~3GB      | MIT        |
+| **System TTS**       | TTS         | Built-in     | N/A          | ~50MB     | OS License |
 
 **Total Storage**: ~13GB (models only)
 **Total RAM**: ~13-15GB (all models loaded)
@@ -2303,6 +2312,7 @@ Garden of Eden V3 uses a sophisticated multi-model AI pipeline, all running loca
 ### 1.3 Why These Models?
 
 **Llama 3.1 8B**:
+
 - ✅ Best balance: performance vs size
 - ✅ 80.5% HumanEval (excellent coding)
 - ✅ Superior conversation quality
@@ -2310,18 +2320,21 @@ Garden of Eden V3 uses a sophisticated multi-model AI pipeline, all running loca
 - ✅ Runs smoothly on consumer hardware
 
 **LLaVA 7B**:
+
 - ✅ State-of-the-art vision understanding
 - ✅ Built on Llama architecture (compatibility)
 - ✅ Excellent at UI/screen analysis
 - ✅ Open-source, well-documented
 
 **Whisper Large V3**:
+
 - ✅ Best open-source STT model
 - ✅ Near-human accuracy
 - ✅ Excellent Korean + English support
 - ✅ Robust to noise and accents
 
 **System TTS**:
+
 - ✅ Already installed (zero download)
 - ✅ Natural-sounding voices
 - ✅ Zero latency
@@ -2351,13 +2364,13 @@ Performance:
 
 **Why llama.cpp over alternatives?**
 
-| Feature | llama.cpp | PyTorch/TensorFlow | Ollama |
-|---------|-----------|-------------------|---------|
-| **Speed** | ⭐⭐⭐⭐⭐ Fastest | ⭐⭐⭐ Good | ⭐⭐⭐⭐ Fast |
-| **Memory** | ⭐⭐⭐⭐⭐ Minimal | ⭐⭐ High | ⭐⭐⭐⭐ Low |
-| **Setup** | ⭐⭐⭐⭐ Easy | ⭐⭐ Complex | ⭐⭐⭐⭐⭐ Very Easy |
-| **Control** | ⭐⭐⭐⭐⭐ Full | ⭐⭐⭐⭐⭐ Full | ⭐⭐⭐ Limited |
-| **Cross-platform** | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐⭐ Good | ⭐⭐⭐⭐ Good |
+| Feature            | llama.cpp            | PyTorch/TensorFlow | Ollama               |
+| ------------------ | -------------------- | ------------------ | -------------------- |
+| **Speed**          | ⭐⭐⭐⭐⭐ Fastest   | ⭐⭐⭐ Good        | ⭐⭐⭐⭐ Fast        |
+| **Memory**         | ⭐⭐⭐⭐⭐ Minimal   | ⭐⭐ High          | ⭐⭐⭐⭐ Low         |
+| **Setup**          | ⭐⭐⭐⭐ Easy        | ⭐⭐ Complex       | ⭐⭐⭐⭐⭐ Very Easy |
+| **Control**        | ⭐⭐⭐⭐⭐ Full      | ⭐⭐⭐⭐⭐ Full    | ⭐⭐⭐ Limited       |
+| **Cross-platform** | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐⭐ Good      | ⭐⭐⭐⭐ Good        |
 
 **Decision**: llama.cpp for performance + control
 
@@ -2388,6 +2401,7 @@ Quantization (for Eden V3):
 ### 2.2 Performance Benchmarks
 
 **Coding (HumanEval)**:
+
 - Score: **80.5%** (pass@1)
 - Comparison:
   - GPT-4: 85%
@@ -2396,14 +2410,17 @@ Quantization (for Eden V3):
   - Llama 3.1 8B: **80.5%** ← Eden V3's choice
 
 **General Knowledge (MMLU)**:
+
 - Score: **69.4%** (5-shot)
 - Excellent for general assistance
 
 **Math Reasoning (MATH)**:
+
 - Score: **51.9%**
 - Good for technical discussions
 
 **Instruction Following (IFEval)**:
+
 - Score: **80.4%**
 - Excellent at understanding user intent
 
@@ -2475,10 +2492,10 @@ const contextWindow = 128000;
 
 // Example: Full project in context
 const projectContext = {
-  codeFiles: 50,  // ~50K tokens
-  docs: 10,       // ~20K tokens
+  codeFiles: 50, // ~50K tokens
+  docs: 10, // ~20K tokens
   conversation: 100, // ~30K tokens
-  gitHistory: true,  // ~10K tokens
+  gitHistory: true, // ~10K tokens
   // Total: ~110K tokens
   // Still has 18K tokens for current query!
 };
@@ -2512,7 +2529,7 @@ Your personality:
 - Technical depth: ${persona.technical_depth}
 
 Guidelines:
-1. Be ${persona.formality > 0.5 ? 'formal' : 'casual'} in Korean
+1. Be ${persona.formality > 0.5 ? "formal" : "casual"} in Korean
 2. Provide emotional support when user is frustrated
 3. Celebrate user's successes enthusiastically
 4. Give clear, actionable technical advice
@@ -2531,28 +2548,28 @@ Respond in ${language} language.`;
 
 ```typescript
 interface GenerationParams {
-  temperature: number;      // 0.7 (balanced creativity)
-  top_p: number;           // 0.9 (nucleus sampling)
-  top_k: number;           // 40 (top-k sampling)
-  repeat_penalty: number;  // 1.1 (avoid repetition)
-  max_tokens: number;      // 2048 (response length)
-  stop: string[];          // ['<|eot_id|>', '\n\nUser:']
+  temperature: number; // 0.7 (balanced creativity)
+  top_p: number; // 0.9 (nucleus sampling)
+  top_k: number; // 40 (top-k sampling)
+  repeat_penalty: number; // 1.1 (avoid repetition)
+  max_tokens: number; // 2048 (response length)
+  stop: string[]; // ['<|eot_id|>', '\n\nUser:']
 }
 
 // Adjust based on task
 const params = {
   conversation: {
-    temperature: 0.8,  // More creative
-    max_tokens: 512,   // Shorter responses
+    temperature: 0.8, // More creative
+    max_tokens: 512, // Shorter responses
   },
   coding: {
-    temperature: 0.3,  // More deterministic
-    max_tokens: 2048,  // Longer code blocks
+    temperature: 0.3, // More deterministic
+    max_tokens: 2048, // Longer code blocks
   },
   explanation: {
-    temperature: 0.5,  // Balanced
-    max_tokens: 1024,  // Medium length
-  }
+    temperature: 0.5, // Balanced
+    max_tokens: 1024, // Medium length
+  },
 };
 ```
 
@@ -2563,7 +2580,7 @@ const params = {
 ```
 Tokens/second: 45-55 tok/s
 Response time (100 tokens): ~2 seconds
-Response time (500 tokens): ~10 seconds
+Response time (500 tokens): ~30 seconds
 Quality: Excellent
 Battery impact: Moderate (plugged in recommended)
 
@@ -2587,7 +2604,7 @@ Power: ~150W GPU + ~100W CPU = 250W
 
 ```
 Tokens/second: 8-12 tok/s (CPU)
-Response time (100 tokens): ~10 seconds
+Response time (100 tokens): ~30 seconds
 Response time (500 tokens): ~45 seconds
 Quality: Same (no quality loss)
 Usable: Yes, but slower
@@ -2605,12 +2622,12 @@ class LlamaManager {
 
     // Memory-mapped file (fast loading)
     this.model = await loadModel({
-      modelPath: '/path/to/llama-3.1-8b-q4.gguf',
-      useMmap: true,      // Map file to memory
-      useMlock: true,     // Lock in RAM (no swapping)
-      nGpuLayers: 40,     // Offload to GPU (if available)
-      nCtx: 8192,         // Context window (start small)
-      nThreads: 10,       // CPU threads
+      modelPath: "/path/to/llama-3.1-8b-q4.gguf",
+      useMmap: true, // Map file to memory
+      useMlock: true, // Lock in RAM (no swapping)
+      nGpuLayers: 40, // Offload to GPU (if available)
+      nCtx: 8192, // Context window (start small)
+      nThreads: 10, // CPU threads
     });
 
     this.loaded = true;
@@ -2635,6 +2652,7 @@ class LlamaManager {
 ### 2.9 Strengths & Limitations
 
 **Strengths**:
+
 ```
 ✅ Natural conversation (feels human)
 ✅ Emotional intelligence (empathy)
@@ -2648,6 +2666,7 @@ class LlamaManager {
 ```
 
 **Limitations**:
+
 ```
 ❌ Not as good as GPT-4/Claude at:
    - Very complex coding tasks
@@ -2670,6 +2689,7 @@ class LlamaManager {
 **Acceptable Trade-offs**:
 
 For Eden V3's use case (companion + productivity), these limitations are acceptable because:
+
 1. 80% of tasks are conversation (Llama excels)
 2. 20% of coding tasks at 80.5% quality is excellent
 3. Privacy > absolute performance
@@ -2691,13 +2711,12 @@ Context: Images + text
 Training: Visual instruction tuning
 License: Apache 2.0
 
-Components:
-  1. CLIP ViT-L/14 (Visual Encoder)
-     - Processes images into embeddings
+Components: 1. CLIP ViT-L/14 (Visual Encoder)
+  - Processes images into embeddings
   2. Projection Layer
-     - Maps visual → text space
+  - Maps visual → text space
   3. Llama 2 7B (Language Model)
-     - Generates text responses
+  - Generates text responses
 
 Quantization (for Eden V3):
   Format: GGUF (Q4_K_M)
@@ -2724,8 +2743,7 @@ Example:
 **UI Element Detection**:
 
 ```yaml
-Can identify:
-  ✅ Buttons, forms, inputs
+Can identify: ✅ Buttons, forms, inputs
   ✅ Error messages (red text)
   ✅ Success indicators (green)
   ✅ Modal dialogs
@@ -2745,7 +2763,7 @@ class ScreenAnalyzer {
 
     // 2. Preprocess
     const resized = await resizeImage(screenshot, {
-      maxWidth: 1344,   // LLaVA optimal size
+      maxWidth: 1344, // LLaVA optimal size
       maxHeight: 768,
       maintainAspect: true,
     });
@@ -2778,15 +2796,15 @@ Be concise and technical.`;
 
 ```typescript
 interface ScreenContext {
-  application: string;          // "VS Code"
-  task: string;                 // "Editing TypeScript file"
-  errors: ErrorInfo[];          // [{line: 45, message: "..."}]
-  stuck: boolean;               // Is user stuck?
+  application: string; // "VS Code"
+  task: string; // "Editing TypeScript file"
+  errors: ErrorInfo[]; // [{line: 45, message: "..."}]
+  stuck: boolean; // Is user stuck?
   helpOpportunity: string | null; // "Offer to fix type error"
   codeVisible: {
-    language: string;           // "typescript"
-    lineCount: number;          // 50
-    hasErrors: boolean;         // true
+    language: string; // "typescript"
+    lineCount: number; // 50
+    hasErrors: boolean; // true
   };
 }
 ```
@@ -2796,7 +2814,7 @@ interface ScreenContext {
 **Use Case 1: Error Detection**
 
 ```
-AI-Led Mode, every 10 seconds:
+AI-Led Mode, every 30 seconds:
   1. Capture screen
   2. LLaVA analyzes
   3. Detects: "Red error message, user not moving cursor"
@@ -2867,13 +2885,11 @@ Quality:
 **Screen Capture Privacy**:
 
 ```yaml
-What is captured:
-  ✅ Active window content
+What is captured: ✅ Active window content
   ✅ Visible UI elements
   ✅ Error messages
 
-What is NOT captured:
-  ❌ Notifications from other apps (blurred)
+What is NOT captured: ❌ Notifications from other apps (blurred)
   ❌ Password managers (excluded by default)
   ❌ Personal photos (ignored by LLaVA)
 
@@ -2900,14 +2916,14 @@ Screen → PNG file (temp) → LLaVA (local) → Analysis → JSON
 async function respondToUser(userMessage: string) {
   // 1. Get visual context (if AI-Led mode)
   let visualContext = null;
-  if (mode === 'ai-led') {
+  if (mode === "ai-led") {
     visualContext = await screenAnalyzer.analyzeScreen();
   }
 
   // 2. Build prompt for Llama
   const prompt = buildPrompt({
     user: userMessage,
-    visual: visualContext,      // ← LLaVA's output
+    visual: visualContext, // ← LLaVA's output
     conversation: history,
     persona: activePersona,
   });
@@ -2966,14 +2982,15 @@ Quantization:
 
 **Comparison**:
 
-| Model | WER | Korean Support | Size | License |
-|-------|-----|---------------|------|---------|
-| **Whisper Large V3** | 3-5% | ⭐⭐⭐⭐⭐ | 3GB | MIT ✅ |
-| Whisper Medium | 5-8% | ⭐⭐⭐⭐ | 1.5GB | MIT |
-| Google STT API | 3-4% | ⭐⭐⭐⭐⭐ | Cloud | Proprietary ❌ |
-| Wav2Vec 2.0 | 6-10% | ⭐⭐⭐ | 1GB | MIT |
+| Model                | WER   | Korean Support | Size  | License        |
+| -------------------- | ----- | -------------- | ----- | -------------- |
+| **Whisper Large V3** | 3-5%  | ⭐⭐⭐⭐⭐     | 3GB   | MIT ✅         |
+| Whisper Medium       | 5-8%  | ⭐⭐⭐⭐       | 1.5GB | MIT            |
+| Google STT API       | 3-4%  | ⭐⭐⭐⭐⭐     | Cloud | Proprietary ❌ |
+| Wav2Vec 2.0          | 6-10% | ⭐⭐⭐         | 1GB   | MIT            |
 
 **Decision**: Whisper Large V3
+
 - Best accuracy (3-5% WER)
 - Excellent Korean support
 - 100% local (privacy!)
@@ -2999,8 +3016,8 @@ Other STT systems:
 
 ```typescript
 const result = await whisper.transcribe(audioBuffer, {
-  language: 'auto',  // Auto-detect Korean or English
-  task: 'transcribe',
+  language: "auto", // Auto-detect Korean or English
+  task: "transcribe",
 });
 
 // result.language: 'ko' or 'en' or 'mixed'
@@ -3014,16 +3031,16 @@ class VoiceInputHandler {
   async processVoiceInput(audioStream: AudioStream) {
     // 1. Record audio
     const audioBuffer = await recordAudio({
-      sampleRate: 16000,  // Whisper requires 16kHz
-      channels: 1,        // Mono
-      format: 'wav',
+      sampleRate: 16000, // Whisper requires 16kHz
+      channels: 1, // Mono
+      format: "wav",
     });
 
     // 2. Transcribe with Whisper
     const transcription = await whisper.transcribe(audioBuffer, {
-      language: 'auto',
-      temperature: 0.0,   // Deterministic
-      bestOf: 1,          // Single beam search
+      language: "auto",
+      temperature: 0.0, // Deterministic
+      bestOf: 1, // Single beam search
     });
 
     // 3. Return text
@@ -3043,11 +3060,11 @@ class VoiceInputHandler {
 ```
 M3 MAX:
   Real-time factor: 0.1x (10x faster than real-time)
-  Example: 10 seconds of speech → 1 second to transcribe
+  Example: 30 seconds of speech → 1 second to transcribe
 
 Intel i9 (CPU):
   Real-time factor: 0.3x (3x faster than real-time)
-  Example: 10 seconds of speech → 3 seconds to transcribe
+  Example: 30 seconds of speech → 3 seconds to transcribe
 
 Acceptable latency: <1 second for short queries
 ```
@@ -3080,18 +3097,18 @@ Noisy environment:
 class VoiceActivityDetector {
   async detectSpeech(audioStream: AudioStream) {
     // Silero VAD (lightweight, accurate)
-    const vad = await loadVAD('silero_vad_v4');
+    const vad = await loadVAD("silero_vad_v4");
 
     let isSpeaking = false;
     let silenceDuration = 0;
 
-    audioStream.on('data', async (chunk) => {
+    audioStream.on("data", async (chunk) => {
       const speechProb = await vad.predict(chunk);
 
       if (speechProb > 0.5) {
         // Speech detected
         if (!isSpeaking) {
-          this.emit('speech_start');
+          this.emit("speech_start");
           isSpeaking = true;
         }
         silenceDuration = 0;
@@ -3101,7 +3118,7 @@ class VoiceActivityDetector {
 
         if (silenceDuration > 1000 && isSpeaking) {
           // 1 second of silence after speech
-          this.emit('speech_end');
+          this.emit("speech_end");
           isSpeaking = false;
         }
       }
@@ -3116,14 +3133,14 @@ class VoiceActivityDetector {
 
 ```typescript
 // Porcupine wake word detection
-const wakeWord = await loadWakeWord('hey_eden.ppn');
+const wakeWord = await loadWakeWord("hey_eden.ppn");
 
-micStream.on('data', async (audio) => {
+micStream.on("data", async (audio) => {
   const detected = await wakeWord.process(audio);
 
   if (detected) {
-    console.log('Wake word detected!');
-    startListening();  // Begin Whisper transcription
+    console.log("Wake word detected!");
+    startListening(); // Begin Whisper transcription
   }
 });
 ```
@@ -3149,13 +3166,13 @@ micStream.on('data', async (audio) => {
 **macOS TTS**:
 
 ```typescript
-import { exec } from 'child_process';
+import { exec } from "child_process";
 
 class MacOSTTS {
   async speak(text: string, options: TTSOptions) {
     // Use macOS 'say' command
-    const voice = options.voice || 'Yuna';  // Korean female voice
-    const rate = options.rate || 200;        // Words per minute
+    const voice = options.voice || "Yuna"; // Korean female voice
+    const rate = options.rate || 200; // Words per minute
 
     await exec(`say -v ${voice} -r ${rate} "${text}"`);
   }
@@ -3163,9 +3180,9 @@ class MacOSTTS {
   getVoices() {
     // Available Korean voices on macOS
     return [
-      { name: 'Yuna', language: 'ko-KR', gender: 'female' },
-      { name: 'Sora', language: 'en-US', gender: 'female' },
-      { name: 'Samantha', language: 'en-US', gender: 'female' },
+      { name: "Yuna", language: "ko-KR", gender: "female" },
+      { name: "Sora", language: "en-US", gender: "female" },
+      { name: "Samantha", language: "en-US", gender: "female" },
     ];
   }
 }
@@ -3174,7 +3191,7 @@ class MacOSTTS {
 **Windows TTS**:
 
 ```typescript
-import say from 'say';  // npm package wrapping Windows SAPI
+import say from "say"; // npm package wrapping Windows SAPI
 
 class WindowsTTS {
   async speak(text: string, options: TTSOptions) {
@@ -3189,9 +3206,9 @@ class WindowsTTS {
   getVoices() {
     // Windows 10/11 includes Korean voices
     return [
-      { name: 'Heami', language: 'ko-KR', gender: 'female' },
-      { name: 'David', language: 'en-US', gender: 'male' },
-      { name: 'Zira', language: 'en-US', gender: 'female' },
+      { name: "Heami", language: "ko-KR", gender: "female" },
+      { name: "David", language: "en-US", gender: "male" },
+      { name: "Zira", language: "en-US", gender: "female" },
     ];
   }
 }
@@ -3232,13 +3249,13 @@ Decision: System TTS ✅
 ```typescript
 const defaultVoices = {
   macOS: {
-    ko: 'Yuna',      // Korean female, natural
-    en: 'Samantha',  // English female, clear
+    ko: "Yuna", // Korean female, natural
+    en: "Samantha", // English female, clear
   },
   windows: {
-    ko: 'Heami',     // Korean female
-    en: 'David',     // English male
-  }
+    ko: "Heami", // Korean female
+    en: "David", // English male
+  },
 };
 
 // Auto-select based on message language
@@ -3254,7 +3271,7 @@ function selectVoice(text: string): Voice {
 
 **Smart TTS Usage**:
 
-```typescript
+````typescript
 class TTSManager {
   private enabled: boolean = true;
   private queue: string[] = [];
@@ -3263,17 +3280,17 @@ class TTSManager {
     if (!this.enabled) return;
 
     // Don't speak code blocks
-    if (text.includes('```')) {
-      console.log('Skipping TTS for code block');
+    if (text.includes("```")) {
+      console.log("Skipping TTS for code block");
       return;
     }
 
     // Don't speak very long responses
     if (text.length > 500) {
       // Speak first sentence only
-      const firstSentence = text.split('.')[0] + '.';
+      const firstSentence = text.split(".")[0] + ".";
       await this.tts.speak(firstSentence);
-      console.log('Long response, spoke first sentence only');
+      console.log("Long response, spoke first sentence only");
       return;
     }
 
@@ -3285,7 +3302,7 @@ class TTSManager {
     this.enabled = !this.enabled;
   }
 }
-```
+````
 
 **User Controls**:
 
@@ -3306,6 +3323,7 @@ Settings:
 ### 6.1 The "Backpropagation-Inspired" Learning System
 
 Eden V3 uses a revolutionary learning approach that combines:
+
 1. **RAG (Retrieval-Augmented Generation)**: For episodic memory
 2. **Parameter-Based Learning**: For personality adaptation
 
@@ -3324,7 +3342,7 @@ Eden learns similarly:
 ```typescript
 interface PersonaParameters {
   // Communication Style (20 parameters)
-  formality: number;              // 0.0-1.0
+  formality: number; // 0.0-1.0
   verbosity: number;
   humor: number;
   emoji_usage: number;
@@ -3333,23 +3351,23 @@ interface PersonaParameters {
   patience: number;
   assertiveness: number;
   technical_depth: number;
-  explanation_style: number;      // 0=concise, 1=detailed
-  question_frequency: number;     // How often to ask clarifying questions
+  explanation_style: number; // 0=concise, 1=detailed
+  question_frequency: number; // How often to ask clarifying questions
   encouragement_frequency: number;
 
   // Behavioral Patterns (10 parameters)
-  proactivity: number;            // How proactive to be
-  teaching_vs_solving: number;    // 0=give answer, 1=teach
-  code_verbosity: number;         // 0=compact, 1=readable with comments
-  error_handling_tone: number;    // 0=direct, 1=gentle
-  celebration_level: number;      // How much to celebrate successes
+  proactivity: number; // How proactive to be
+  teaching_vs_solving: number; // 0=give answer, 1=teach
+  code_verbosity: number; // 0=compact, 1=readable with comments
+  error_handling_tone: number; // 0=direct, 1=gentle
+  celebration_level: number; // How much to celebrate successes
   interruption_willingness: number;
 
   // Cultural Adaptation (10 parameters)
-  honorifics_level: number;       // Korean formality
-  directness: number;             // 0=indirect, 1=direct
+  honorifics_level: number; // Korean formality
+  directness: number; // 0=indirect, 1=direct
   korean_style_preference: number; // 0=Western, 1=Korean
-  emoji_type: number;             // 0=none, 0.5=text, 1=emoji
+  emoji_type: number; // 0=none, 0.5=text, 1=emoji
 
   // Domain Expertise (adjust focus)
   frontend_expertise: number;
@@ -3367,15 +3385,15 @@ interface PersonaParameters {
 
 ```typescript
 class PersonaLearner {
-  private learningRate = 0.01;  // Small updates per interaction
+  private learningRate = 0.01; // Small updates per interaction
 
   updateParameters(
     persona: PersonaParameters,
-    satisfaction: number,  // -1.0 to +1.0
+    satisfaction: number, // -1.0 to +1.0
     interactionType: string
   ): PersonaParameters {
     // Calculate "error" (how far from ideal)
-    const error = 1.0 - satisfaction;  // 0 = perfect, 2 = terrible
+    const error = 1.0 - satisfaction; // 0 = perfect, 2 = terrible
 
     // Update each parameter based on context
     const updated = { ...persona };
@@ -3406,34 +3424,34 @@ class PersonaLearner {
 
 ```typescript
 enum ExplicitFeedback {
-  THUMBS_UP = 1.0,        // Very positive
-  THUMBS_DOWN = -1.0,     // Very negative
-  PERFECT = 1.5,          // Exceptional
-  COPY_RESPONSE = 0.8,    // User found it useful
-  EDIT_RESPONSE = -0.3,   // User had to fix it
-  REGENERATE = -0.5,      // User wanted different response
+  THUMBS_UP = 1.0, // Very positive
+  THUMBS_DOWN = -1.0, // Very negative
+  PERFECT = 1.5, // Exceptional
+  COPY_RESPONSE = 0.8, // User found it useful
+  EDIT_RESPONSE = -0.3, // User had to fix it
+  REGENERATE = -0.5, // User wanted different response
 }
 
 // User clicks thumbs up
-personaLearner.updateParameters(persona, 1.0, 'code_generation');
+personaLearner.updateParameters(persona, 1.0, "code_generation");
 ```
 
 **Implicit Signals** (Weak but frequent):
 
 ```typescript
 enum ImplicitFeedback {
-  QUICK_ACCEPTANCE = 0.5,     // User used suggestion immediately
-  LONG_READ = 0.3,            // User spent time reading
-  IGNORED = -0.2,             // User dismissed notification
+  QUICK_ACCEPTANCE = 0.5, // User used suggestion immediately
+  LONG_READ = 0.3, // User spent time reading
+  IGNORED = -0.2, // User dismissed notification
   ASKED_CLARIFICATION = -0.1, // Response wasn't clear
   CONTINUED_CONVERSATION = 0.4, // User engaged further
-  SWITCHED_TOPIC = -0.1,      // User changed subject
+  SWITCHED_TOPIC = -0.1, // User changed subject
 }
 
 // Automatically detect and log
-conversationManager.on('user_response', (timing, action) => {
-  if (timing < 5_000 && action === 'accept') {
-    personaLearner.updateParameters(persona, 0.5, 'quick_acceptance');
+conversationManager.on("user_response", (timing, action) => {
+  if (timing < 5_000 && action === "accept") {
+    personaLearner.updateParameters(persona, 0.5, "quick_acceptance");
   }
 });
 ```
@@ -3489,8 +3507,8 @@ interface ConversationEpisode {
     filesAccessed: string[];
     codeGenerated?: string;
   };
-  satisfaction: number;  // User feedback
-  embedding: number[];   // Vector for similarity search
+  satisfaction: number; // User feedback
+  embedding: number[]; // Vector for similarity search
 }
 
 // Store in Vector DB (ChromaDB)
@@ -3509,7 +3527,10 @@ class EpisodicMemory {
     });
   }
 
-  async retrieveRelevant(query: string, topK = 5): Promise<ConversationEpisode[]> {
+  async retrieveRelevant(
+    query: string,
+    topK = 5
+  ): Promise<ConversationEpisode[]> {
     // Find similar past conversations
     const queryEmbedding = await this.embed(query);
 
@@ -3518,7 +3539,7 @@ class EpisodicMemory {
       nResults: topK,
     });
 
-    return results.map(r => r.metadata);
+    return results.map((r) => r.metadata);
   }
 }
 ```
@@ -3534,11 +3555,15 @@ async function generateResponse(userMessage: string) {
   const context = `
 Previous similar conversations:
 
-${relevant.map((ep, i) => `
+${relevant
+  .map(
+    (ep, i) => `
 ${i + 1}. User: ${ep.userMessage}
    Eden: ${ep.edenResponse}
-   Result: ${ep.satisfaction > 0.5 ? 'Helpful' : 'Not helpful'}
-`).join('\n')}
+   Result: ${ep.satisfaction > 0.5 ? "Helpful" : "Not helpful"}
+`
+  )
+  .join("\n")}
 
 Current user query: ${userMessage}
 
@@ -3568,8 +3593,8 @@ class AdaptiveLearningSystem {
     // 3. Build prompt with both
     const prompt = this.buildPrompt({
       userMessage,
-      pastExperiences,  // ← RAG
-      persona,          // ← Parameters
+      pastExperiences, // ← RAG
+      persona, // ← Parameters
       currentContext,
     });
 
@@ -3591,6 +3616,7 @@ class AdaptiveLearningSystem {
 **End of Part 2**
 
 ---
+
 ---
 
 # Part 3: Architecture & System Integration
@@ -3616,18 +3642,19 @@ class AdaptiveLearningSystem {
 
 **Decision Matrix** (revisited with technical depth):
 
-| Criterion | Electron | Tauri | Native (Swift/C#) |
-|-----------|----------|-------|-------------------|
-| **Cross-platform** | ⭐⭐⭐⭐⭐ Same code | ⭐⭐⭐⭐ Same code | ⭐ Need separate codebases |
-| **Development Speed** | ⭐⭐⭐⭐⭐ Very fast | ⭐⭐⭐⭐ Fast | ⭐⭐ Slow (2x platforms) |
-| **Ecosystem** | ⭐⭐⭐⭐⭐ Massive | ⭐⭐⭐ Growing | ⭐⭐⭐⭐ Platform-specific |
-| **App Size** | ⭐⭐ ~150MB | ⭐⭐⭐⭐⭐ ~15MB | ⭐⭐⭐⭐ ~50MB |
-| **RAM Usage** | ⭐⭐⭐ ~100MB | ⭐⭐⭐⭐ ~50MB | ⭐⭐⭐⭐⭐ ~30MB |
-| **System Access** | ⭐⭐⭐⭐ Good (Node.js) | ⭐⭐⭐⭐⭐ Excellent (Rust) | ⭐⭐⭐⭐⭐ Native |
-| **Maturity** | ⭐⭐⭐⭐⭐ 10+ years | ⭐⭐⭐ 3 years | ⭐⭐⭐⭐⭐ Decades |
-| **AI Model Size** | 12GB models dwarf 150MB overhead ✅ | Same | Same |
+| Criterion             | Electron                            | Tauri                       | Native (Swift/C#)          |
+| --------------------- | ----------------------------------- | --------------------------- | -------------------------- |
+| **Cross-platform**    | ⭐⭐⭐⭐⭐ Same code                | ⭐⭐⭐⭐ Same code          | ⭐ Need separate codebases |
+| **Development Speed** | ⭐⭐⭐⭐⭐ Very fast                | ⭐⭐⭐⭐ Fast               | ⭐⭐ Slow (2x platforms)   |
+| **Ecosystem**         | ⭐⭐⭐⭐⭐ Massive                  | ⭐⭐⭐ Growing              | ⭐⭐⭐⭐ Platform-specific |
+| **App Size**          | ⭐⭐ ~150MB                         | ⭐⭐⭐⭐⭐ ~15MB            | ⭐⭐⭐⭐ ~50MB             |
+| **RAM Usage**         | ⭐⭐⭐ ~100MB                       | ⭐⭐⭐⭐ ~50MB              | ⭐⭐⭐⭐⭐ ~30MB           |
+| **System Access**     | ⭐⭐⭐⭐ Good (Node.js)             | ⭐⭐⭐⭐⭐ Excellent (Rust) | ⭐⭐⭐⭐⭐ Native          |
+| **Maturity**          | ⭐⭐⭐⭐⭐ 10+ years                | ⭐⭐⭐ 3 years              | ⭐⭐⭐⭐⭐ Decades         |
+| **AI Model Size**     | 12GB models dwarf 150MB overhead ✅ | Same                        | Same                       |
 
 **Verdict**: Electron wins for Eden V3 because:
+
 - ✅ Development speed is critical (solo developer)
 - ✅ Cross-platform support out of the box
 - ✅ Rich ecosystem (React, TypeScript, Node.js)
@@ -3765,6 +3792,7 @@ garden-of-eden-v3/
 ### 1.4 Technology Stack
 
 **Main Process**:
+
 - **Runtime**: Node.js 20+
 - **Language**: TypeScript 5.0+
 - **AI Engine**: llama.cpp (via N-API bindings)
@@ -3774,6 +3802,7 @@ garden-of-eden-v3/
 - **Screen Capture**: screenshot-desktop (macOS/Windows)
 
 **Renderer Process**:
+
 - **Framework**: React 18+
 - **Language**: TypeScript 5.0+
 - **State**: Zustand (lightweight, simple)
@@ -3783,6 +3812,7 @@ garden-of-eden-v3/
 - **Build Tool**: Vite (fast HMR)
 
 **Preload**:
+
 - **API Exposure**: contextBridge (secure)
 
 ---
@@ -3798,49 +3828,49 @@ Eden V3 uses **typed IPC channels** for type-safe communication between processe
 
 export interface IPCChannel {
   // AI Operations
-  'ai:chat': {
+  "ai:chat": {
     request: { message: string; context?: ScreenContext };
     response: { text: string; conversationId: string };
   };
-  'ai:voice-input': {
+  "ai:voice-input": {
     request: { audioBuffer: ArrayBuffer };
     response: { transcription: string };
   };
-  'ai:speak': {
-    request: { text: string; voice: 'male' | 'female' };
+  "ai:speak": {
+    request: { text: string; voice: "male" | "female" };
     response: { audioBuffer: ArrayBuffer };
   };
 
   // File Operations
-  'file:read': {
+  "file:read": {
     request: { path: string };
     response: { content: string; encoding: string };
   };
-  'file:write': {
+  "file:write": {
     request: { path: string; content: string };
     response: { success: boolean };
   };
-  'file:watch': {
+  "file:watch": {
     request: { path: string };
-    response: { event: 'change' | 'add' | 'unlink'; path: string };
+    response: { event: "change" | "add" | "unlink"; path: string };
   };
 
   // Git Operations
-  'git:status': {
+  "git:status": {
     request: { repoPath: string };
     response: { branch: string; changes: GitChange[] };
   };
-  'git:commit': {
+  "git:commit": {
     request: { repoPath: string; message: string; files: string[] };
     response: { hash: string };
   };
 
   // System Operations
-  'system:screenshot': {
+  "system:screenshot": {
     request: { display?: number };
     response: { image: Buffer; width: number; height: number };
   };
-  'system:notify': {
+  "system:notify": {
     request: { title: string; body: string };
     response: { clicked: boolean };
   };
@@ -3854,9 +3884,9 @@ export interface IPCChannel {
 ```typescript
 // main/ipc/ai.handler.ts
 
-import { ipcMain } from 'electron';
-import { LlamaService } from '../services/ai/llama.service';
-import type { IPCChannel } from '../../shared/types/ipc.types';
+import { ipcMain } from "electron";
+import { LlamaService } from "../services/ai/llama.service";
+import type { IPCChannel } from "../../shared/types/ipc.types";
 
 export class AIIPCHandler {
   constructor(private llama: LlamaService) {}
@@ -3864,24 +3894,29 @@ export class AIIPCHandler {
   register() {
     // Type-safe handler
     ipcMain.handle(
-      'ai:chat',
-      async (event, request: IPCChannel['ai:chat']['request']) => {
-        const response = await this.llama.chat(request.message, request.context);
+      "ai:chat",
+      async (event, request: IPCChannel["ai:chat"]["request"]) => {
+        const response = await this.llama.chat(
+          request.message,
+          request.context
+        );
 
         return {
           text: response.text,
           conversationId: response.id,
-        } satisfies IPCChannel['ai:chat']['response'];
+        } satisfies IPCChannel["ai:chat"]["response"];
       }
     );
 
     ipcMain.handle(
-      'ai:voice-input',
-      async (event, request: IPCChannel['ai:voice-input']['request']) => {
+      "ai:voice-input",
+      async (event, request: IPCChannel["ai:voice-input"]["request"]) => {
         const whisper = this.llama.whisper;
         const transcription = await whisper.transcribe(request.audioBuffer);
 
-        return { transcription } satisfies IPCChannel['ai:voice-input']['response'];
+        return {
+          transcription,
+        } satisfies IPCChannel["ai:voice-input"]["response"];
       }
     );
   }
@@ -3893,51 +3928,73 @@ export class AIIPCHandler {
 ```typescript
 // preload/index.ts
 
-import { contextBridge, ipcRenderer } from 'electron';
-import type { IPCChannel } from '../shared/types/ipc.types';
+import { contextBridge, ipcRenderer } from "electron";
+import type { IPCChannel } from "../shared/types/ipc.types";
 
 // Type-safe API factory
 function createIPCAPI<K extends keyof IPCChannel>(channel: K) {
-  return (request: IPCChannel[K]['request']): Promise<IPCChannel[K]['response']> => {
+  return (
+    request: IPCChannel[K]["request"]
+  ): Promise<IPCChannel[K]["response"]> => {
     return ipcRenderer.invoke(channel, request);
   };
 }
 
 // Expose to renderer
-contextBridge.exposeInMainWorld('electronAPI', {
+contextBridge.exposeInMainWorld("electronAPI", {
   // AI
-  aiChat: createIPCAPI('ai:chat'),
-  aiVoiceInput: createIPCAPI('ai:voice-input'),
-  aiSpeak: createIPCAPI('ai:speak'),
+  aiChat: createIPCAPI("ai:chat"),
+  aiVoiceInput: createIPCAPI("ai:voice-input"),
+  aiSpeak: createIPCAPI("ai:speak"),
 
   // File
-  fileRead: createIPCAPI('file:read'),
-  fileWrite: createIPCAPI('file:write'),
-  fileWatch: createIPCAPI('file:watch'),
+  fileRead: createIPCAPI("file:read"),
+  fileWrite: createIPCAPI("file:write"),
+  fileWatch: createIPCAPI("file:watch"),
 
   // Git
-  gitStatus: createIPCAPI('git:status'),
-  gitCommit: createIPCAPI('git:commit'),
+  gitStatus: createIPCAPI("git:status"),
+  gitCommit: createIPCAPI("git:commit"),
 
   // System
-  systemScreenshot: createIPCAPI('system:screenshot'),
-  systemNotify: createIPCAPI('system:notify'),
+  systemScreenshot: createIPCAPI("system:screenshot"),
+  systemNotify: createIPCAPI("system:notify"),
 });
 
 // Type declaration for renderer
 declare global {
   interface Window {
     electronAPI: {
-      aiChat: (req: IPCChannel['ai:chat']['request']) => Promise<IPCChannel['ai:chat']['response']>;
-      aiVoiceInput: (req: IPCChannel['ai:voice-input']['request']) => Promise<IPCChannel['ai:voice-input']['response']>;
-      aiSpeak: (req: IPCChannel['ai:speak']['request']) => Promise<IPCChannel['ai:speak']['response']>;
-      fileRead: (req: IPCChannel['file:read']['request']) => Promise<IPCChannel['file:read']['response']>;
-      fileWrite: (req: IPCChannel['file:write']['request']) => Promise<IPCChannel['file:write']['response']>;
-      fileWatch: (req: IPCChannel['file:watch']['request']) => Promise<IPCChannel['file:watch']['response']>;
-      gitStatus: (req: IPCChannel['git:status']['request']) => Promise<IPCChannel['git:status']['response']>;
-      gitCommit: (req: IPCChannel['git:commit']['request']) => Promise<IPCChannel['git:commit']['response']>;
-      systemScreenshot: (req: IPCChannel['system:screenshot']['request']) => Promise<IPCChannel['system:screenshot']['response']>;
-      systemNotify: (req: IPCChannel['system:notify']['request']) => Promise<IPCChannel['system:notify']['response']>;
+      aiChat: (
+        req: IPCChannel["ai:chat"]["request"]
+      ) => Promise<IPCChannel["ai:chat"]["response"]>;
+      aiVoiceInput: (
+        req: IPCChannel["ai:voice-input"]["request"]
+      ) => Promise<IPCChannel["ai:voice-input"]["response"]>;
+      aiSpeak: (
+        req: IPCChannel["ai:speak"]["request"]
+      ) => Promise<IPCChannel["ai:speak"]["response"]>;
+      fileRead: (
+        req: IPCChannel["file:read"]["request"]
+      ) => Promise<IPCChannel["file:read"]["response"]>;
+      fileWrite: (
+        req: IPCChannel["file:write"]["request"]
+      ) => Promise<IPCChannel["file:write"]["response"]>;
+      fileWatch: (
+        req: IPCChannel["file:watch"]["request"]
+      ) => Promise<IPCChannel["file:watch"]["response"]>;
+      gitStatus: (
+        req: IPCChannel["git:status"]["request"]
+      ) => Promise<IPCChannel["git:status"]["response"]>;
+      gitCommit: (
+        req: IPCChannel["git:commit"]["request"]
+      ) => Promise<IPCChannel["git:commit"]["response"]>;
+      systemScreenshot: (
+        req: IPCChannel["system:screenshot"]["request"]
+      ) => Promise<IPCChannel["system:screenshot"]["response"]>;
+      systemNotify: (
+        req: IPCChannel["system:notify"]["request"]
+      ) => Promise<IPCChannel["system:notify"]["response"]>;
     };
   }
 }
@@ -3972,31 +4029,34 @@ For real-time AI responses (token-by-token streaming):
 // Use event-based streaming instead of invoke
 
 // Preload
-contextBridge.exposeInMainWorld('electronAPI', {
+contextBridge.exposeInMainWorld("electronAPI", {
   // ...existing APIs
 
-  aiChatStream: (request: IPCChannel['ai:chat']['request'], onToken: (token: string) => void) => {
+  aiChatStream: (
+    request: IPCChannel["ai:chat"]["request"],
+    onToken: (token: string) => void
+  ) => {
     const channel = `ai:chat-stream:${Date.now()}`;
 
     ipcRenderer.on(channel, (event, token: string) => {
       onToken(token);
     });
 
-    ipcRenderer.send('ai:chat-stream-start', { channel, ...request });
+    ipcRenderer.send("ai:chat-stream-start", { channel, ...request });
 
     return () => ipcRenderer.removeAllListeners(channel);
   },
 });
 
 // Main Process
-ipcMain.on('ai:chat-stream-start', async (event, data) => {
+ipcMain.on("ai:chat-stream-start", async (event, data) => {
   const { channel, message, context } = data;
 
   await llama.chatStream(message, context, (token) => {
     event.sender.send(channel, token);
   });
 
-  event.sender.send(channel, '[DONE]');
+  event.sender.send(channel, "[DONE]");
 });
 ```
 
@@ -4011,25 +4071,25 @@ ipcMain.on('ai:chat-stream-start', async (event, data) => {
 ```typescript
 // main/services/integration/file.service.ts
 
-import fs from 'fs/promises';
-import path from 'path';
-import { watch } from 'chokidar';
+import fs from "fs/promises";
+import path from "path";
+import { watch } from "chokidar";
 
 export class FileService {
   private watchers = new Map<string, ReturnType<typeof watch>>();
 
   async read(filePath: string): Promise<{ content: string; encoding: string }> {
-    const content = await fs.readFile(filePath, 'utf-8');
-    return { content, encoding: 'utf-8' };
+    const content = await fs.readFile(filePath, "utf-8");
+    return { content, encoding: "utf-8" };
   }
 
   async write(filePath: string, content: string): Promise<void> {
-    await fs.writeFile(filePath, content, 'utf-8');
+    await fs.writeFile(filePath, content, "utf-8");
   }
 
   async readDirectory(dirPath: string): Promise<string[]> {
     const entries = await fs.readdir(dirPath, { withFileTypes: true });
-    return entries.map(e => e.name);
+    return entries.map((e) => e.name);
   }
 
   async getProjectStructure(rootPath: string): Promise<FileTree> {
@@ -4039,14 +4099,14 @@ export class FileService {
     const entries = await fs.readdir(rootPath, { withFileTypes: true });
 
     for (const entry of entries) {
-      if (entry.name.startsWith('.')) continue; // Skip hidden
+      if (entry.name.startsWith(".")) continue; // Skip hidden
 
       const fullPath = path.join(rootPath, entry.name);
 
       if (entry.isDirectory()) {
         tree.children.push(await this.getProjectStructure(fullPath));
       } else {
-        tree.children.push({ name: entry.name, type: 'file' });
+        tree.children.push({ name: entry.name, type: "file" });
       }
     }
 
@@ -4056,7 +4116,7 @@ export class FileService {
   watchFile(filePath: string, callback: (event: string) => void): string {
     const watcherId = Date.now().toString();
 
-    const watcher = watch(filePath).on('all', (event, path) => {
+    const watcher = watch(filePath).on("all", (event, path) => {
       callback(event);
     });
 
@@ -4075,7 +4135,7 @@ export class FileService {
 
 interface FileTree {
   name: string;
-  type?: 'file' | 'directory';
+  type?: "file" | "directory";
   children?: FileTree[];
 }
 ```
@@ -4101,7 +4161,7 @@ AI Flow:
 ```typescript
 // main/services/integration/git.service.ts
 
-import simpleGit, { SimpleGit, StatusResult } from 'simple-git';
+import simpleGit, { SimpleGit, StatusResult } from "simple-git";
 
 export class GitService {
   private git: SimpleGit;
@@ -4114,7 +4174,7 @@ export class GitService {
     const status: StatusResult = await this.git.status();
 
     return {
-      branch: status.current || 'unknown',
+      branch: status.current || "unknown",
       ahead: status.ahead,
       behind: status.behind,
       modified: status.modified,
@@ -4128,7 +4188,7 @@ export class GitService {
     if (files && files.length > 0) {
       await this.git.add(files);
     } else {
-      await this.git.add('.');
+      await this.git.add(".");
     }
 
     const result = await this.git.commit(message);
@@ -4143,11 +4203,11 @@ export class GitService {
     await this.git.checkout(branchName);
   }
 
-  async push(remote = 'origin', branch?: string): Promise<void> {
+  async push(remote = "origin", branch?: string): Promise<void> {
     await this.git.push(remote, branch);
   }
 
-  async pull(remote = 'origin', branch?: string): Promise<void> {
+  async pull(remote = "origin", branch?: string): Promise<void> {
     await this.git.pull(remote, branch);
   }
 
@@ -4161,7 +4221,7 @@ export class GitService {
   async getLog(count = 10): Promise<GitCommit[]> {
     const log = await this.git.log({ maxCount: count });
 
-    return log.all.map(commit => ({
+    return log.all.map((commit) => ({
       hash: commit.hash,
       message: commit.message,
       author: commit.author_name,
@@ -4224,8 +4284,8 @@ AI: [Executes gitCommit]
 ```typescript
 // main/services/integration/calendar.service.ts
 
-import ical from 'node-ical';
-import fetch from 'node-fetch';
+import ical from "node-ical";
+import fetch from "node-fetch";
 
 export class CalendarService {
   private events: CalendarEvent[] = [];
@@ -4238,8 +4298,8 @@ export class CalendarService {
     const parsed = ical.sync.parseICS(icsData);
 
     this.events = Object.values(parsed)
-      .filter(event => event.type === 'VEVENT')
-      .map(event => ({
+      .filter((event) => event.type === "VEVENT")
+      .map((event) => ({
         id: event.uid,
         title: event.summary,
         start: event.start,
@@ -4256,7 +4316,7 @@ export class CalendarService {
     const tomorrow = new Date(today);
     tomorrow.setDate(tomorrow.getDate() + 1);
 
-    return this.events.filter(event => {
+    return this.events.filter((event) => {
       const eventDate = new Date(event.start);
       return eventDate >= today && eventDate < tomorrow;
     });
@@ -4266,7 +4326,7 @@ export class CalendarService {
     const now = new Date();
     const future = new Date(now.getTime() + hours * 60 * 60 * 1000);
 
-    return this.events.filter(event => {
+    return this.events.filter((event) => {
       const eventDate = new Date(event.start);
       return eventDate >= now && eventDate <= future;
     });
@@ -4275,8 +4335,10 @@ export class CalendarService {
   getFreeSlots(date: Date): TimeSlot[] {
     // Find gaps between events = free time
     const dayEvents = this.events
-      .filter(e => new Date(e.start).toDateString() === date.toDateString())
-      .sort((a, b) => new Date(a.start).getTime() - new Date(b.start).getTime());
+      .filter((e) => new Date(e.start).toDateString() === date.toDateString())
+      .sort(
+        (a, b) => new Date(a.start).getTime() - new Date(b.start).getTime()
+      );
 
     const slots: TimeSlot[] = [];
     let lastEnd = new Date(date);
@@ -4372,7 +4434,7 @@ export class EmailService {
   async suggestReply(emailId: string): Promise<string> {
     // Use LLM to generate contextual reply
     // TODO
-    return '';
+    return "";
   }
 }
 ```
@@ -4388,7 +4450,7 @@ export class EmailService {
 ```typescript
 // main/services/webhook/webhook.service.ts
 
-import axios from 'axios';
+import axios from "axios";
 
 export class WebhookService {
   private webhooks = new Map<string, WebhookConfig>();
@@ -4418,26 +4480,26 @@ export class WebhookService {
 
   // Pre-configured webhooks
   async notifySlack(message: string, channel?: string): Promise<void> {
-    const slackWebhook = this.webhooks.get('slack');
+    const slackWebhook = this.webhooks.get("slack");
     if (!slackWebhook) return;
 
-    await this.trigger('slack', {
+    await this.trigger("slack", {
       text: message,
-      channel: channel || '#general',
+      channel: channel || "#general",
     });
   }
 
   async notifyDiscord(message: string): Promise<void> {
-    const discordWebhook = this.webhooks.get('discord');
+    const discordWebhook = this.webhooks.get("discord");
     if (!discordWebhook) return;
 
-    await this.trigger('discord', {
+    await this.trigger("discord", {
       content: message,
     });
   }
 
   async appendToNotion(databaseId: string, properties: any): Promise<void> {
-    const notionWebhook = this.webhooks.get('notion');
+    const notionWebhook = this.webhooks.get("notion");
     if (!notionWebhook) return;
 
     await axios.post(
@@ -4448,9 +4510,9 @@ export class WebhookService {
       },
       {
         headers: {
-          'Authorization': `Bearer ${notionWebhook.headers?.['Authorization']}`,
-          'Notion-Version': '2022-06-28',
-          'Content-Type': 'application/json',
+          Authorization: `Bearer ${notionWebhook.headers?.["Authorization"]}`,
+          "Notion-Version": "2022-06-28",
+          "Content-Type": "application/json",
         },
       }
     );
@@ -4550,7 +4612,7 @@ export interface PluginCommand {
 
 export interface PluginUIComponent {
   id: string;
-  location: 'sidebar' | 'settings' | 'chat';
+  location: "sidebar" | "settings" | "chat";
   component: string; // Path to React component
 }
 ```
@@ -4560,13 +4622,13 @@ export interface PluginUIComponent {
 ```typescript
 // plugins/github-plugin/index.ts
 
-import { EdenPlugin, PluginContext } from '../plugin.interface';
-import { Octokit } from '@octokit/rest';
+import { EdenPlugin, PluginContext } from "../plugin.interface";
+import { Octokit } from "@octokit/rest";
 
 export class GitHubPlugin implements EdenPlugin {
-  name = 'github-integration';
-  version = '1.0.0';
-  description = 'GitHub API integration for Eden';
+  name = "github-integration";
+  version = "1.0.0";
+  description = "GitHub API integration for Eden";
 
   private octokit?: Octokit;
   private context?: PluginContext;
@@ -4575,47 +4637,48 @@ export class GitHubPlugin implements EdenPlugin {
     this.context = context;
 
     // Get GitHub token from plugin storage
-    const token = await context.storage.get('github_token');
+    const token = await context.storage.get("github_token");
     if (token) {
       this.octokit = new Octokit({ auth: token });
-      context.logger.info('GitHub plugin loaded successfully');
+      context.logger.info("GitHub plugin loaded successfully");
     }
   }
 
   commands = [
     {
-      name: 'github-issues',
-      description: 'List open issues in a repository',
+      name: "github-issues",
+      description: "List open issues in a repository",
       execute: async (args: string[]) => {
-        if (!this.octokit) return 'GitHub not configured. Please add your token in settings.';
+        if (!this.octokit)
+          return "GitHub not configured. Please add your token in settings.";
 
-        const [owner, repo] = args[0].split('/');
+        const [owner, repo] = args[0].split("/");
 
         const { data: issues } = await this.octokit.issues.listForRepo({
           owner,
           repo,
-          state: 'open',
+          state: "open",
         });
 
-        return issues.map(i => `#${i.number}: ${i.title}`).join('\n');
+        return issues.map((i) => `#${i.number}: ${i.title}`).join("\n");
       },
     },
     {
-      name: 'github-create-pr',
-      description: 'Create a pull request',
+      name: "github-create-pr",
+      description: "Create a pull request",
       execute: async (args: string[]) => {
         // Implementation...
-        return 'PR created!';
+        return "PR created!";
       },
     },
   ];
 
   ipcHandlers = {
-    'github:repos': async () => {
+    "github:repos": async () => {
       if (!this.octokit) return [];
 
       const { data } = await this.octokit.repos.listForAuthenticatedUser();
-      return data.map(r => ({ name: r.name, url: r.html_url }));
+      return data.map((r) => ({ name: r.name, url: r.html_url }));
     },
   };
 }
@@ -4626,12 +4689,12 @@ export class GitHubPlugin implements EdenPlugin {
 ```typescript
 // main/plugins/plugin-manager.ts
 
-import fs from 'fs/promises';
-import path from 'path';
+import fs from "fs/promises";
+import path from "path";
 
 export class PluginManager {
   private plugins = new Map<string, EdenPlugin>();
-  private pluginDir = path.join(app.getPath('userData'), 'plugins');
+  private pluginDir = path.join(app.getPath("userData"), "plugins");
 
   async loadPlugins(context: PluginContext): Promise<void> {
     await fs.mkdir(this.pluginDir, { recursive: true });
@@ -4640,7 +4703,7 @@ export class PluginManager {
 
     for (const dir of pluginDirs) {
       try {
-        const pluginPath = path.join(this.pluginDir, dir, 'index.js');
+        const pluginPath = path.join(this.pluginDir, dir, "index.js");
         const pluginModule = await import(pluginPath);
         const plugin: EdenPlugin = new pluginModule.default();
 
@@ -4699,13 +4762,13 @@ export class WorkspaceService {
     // Detect project type by files
     const files = await fs.readdir(rootPath);
 
-    if (files.includes('package.json')) return 'nodejs';
-    if (files.includes('requirements.txt')) return 'python';
-    if (files.includes('Cargo.toml')) return 'rust';
-    if (files.includes('go.mod')) return 'go';
-    if (files.includes('pom.xml')) return 'java';
+    if (files.includes("package.json")) return "nodejs";
+    if (files.includes("requirements.txt")) return "python";
+    if (files.includes("Cargo.toml")) return "rust";
+    if (files.includes("go.mod")) return "go";
+    if (files.includes("pom.xml")) return "java";
 
-    return 'generic';
+    return "generic";
   }
 
   private async detectGitRepo(rootPath: string): Promise<string | undefined> {
@@ -4749,7 +4812,7 @@ interface Workspace {
   gitRepo?: string;
 }
 
-type WorkspaceType = 'nodejs' | 'python' | 'rust' | 'go' | 'java' | 'generic';
+type WorkspaceType = "nodejs" | "python" | "rust" | "go" | "java" | "generic";
 
 interface WorkspaceContext {
   hasWorkspace: boolean;
@@ -4822,13 +4885,16 @@ Generate only the commit message, no explanation.`;
     return response.trim();
   }
 
-  async generatePRDescription(branch: string, commits: GitCommit[]): Promise<string> {
+  async generatePRDescription(
+    branch: string,
+    commits: GitCommit[]
+  ): Promise<string> {
     const prompt = `Generate a GitHub Pull Request description.
 
 Branch: ${branch}
 
 Commits:
-${commits.map(c => `- ${c.message}`).join('\n')}
+${commits.map((c) => `- ${c.message}`).join("\n")}
 
 Generate a PR description with:
 1. Summary (what changed)
@@ -4883,11 +4949,14 @@ async function suggestWorkTime() {
     slot.duration > max.duration ? slot : max
   );
 
-  if (longestSlot.duration >= 120) { // 2+ hours
+  if (longestSlot.duration >= 120) {
+    // 2+ hours
     await notifyUser({
-      title: 'Optimal Coding Time Available',
-      body: `You have a ${longestSlot.duration}min block from ${formatTime(longestSlot.start)}. Perfect for deep work!`,
-      action: 'Start Focus Mode',
+      title: "Optimal Coding Time Available",
+      body: `You have a ${longestSlot.duration}min block from ${formatTime(
+        longestSlot.start
+      )}. Perfect for deep work!`,
+      action: "Start Focus Mode",
     });
   }
 }
@@ -4904,8 +4973,8 @@ async function suggestWorkTime() {
 ```typescript
 // main/services/screen/capture.service.ts
 
-import screenshot from 'screenshot-desktop';
-import sharp from 'sharp';
+import screenshot from "screenshot-desktop";
+import sharp from "sharp";
 
 export class ScreenCaptureService {
   async captureScreen(display = 0): Promise<ScreenCapture> {
@@ -4914,7 +4983,7 @@ export class ScreenCaptureService {
 
     // Resize for LLaVA (max 1024x1024)
     const resized = await sharp(imgBuffer)
-      .resize(1024, 1024, { fit: 'inside' })
+      .resize(1024, 1024, { fit: "inside" })
       .jpeg({ quality: 85 })
       .toBuffer();
 
@@ -4930,7 +4999,7 @@ export class ScreenCaptureService {
     // macOS: use CGWindowListCreateImage
     // Windows: use Windows API
     // TODO: Implement
-    throw new Error('Not implemented');
+    throw new Error("Not implemented");
   }
 
   async analyzeScreen(): Promise<ScreenAnalysis> {
@@ -4938,7 +5007,8 @@ export class ScreenCaptureService {
 
     // Send to LLaVA for vision analysis
     const analysis = await llavaService.analyze(capture.image, {
-      prompt: 'Describe what you see on this screen. Identify any code, terminal output, error messages, or UI elements.',
+      prompt:
+        "Describe what you see on this screen. Identify any code, terminal output, error messages, or UI elements.",
     });
 
     return {
@@ -4966,7 +5036,7 @@ interface ScreenAnalysis {
 }
 
 interface ScreenElement {
-  type: 'code' | 'error' | 'terminal' | 'browser' | 'ui';
+  type: "code" | "error" | "terminal" | "browser" | "ui";
   content?: string;
   confidence: number;
 }
@@ -4980,7 +5050,7 @@ interface ScreenElement {
 // Settings
 interface ScreenCaptureSettings {
   enabled: boolean;
-  mode: 'manual' | 'auto' | 'disabled';
+  mode: "manual" | "auto" | "disabled";
   captureFrequency?: number; // seconds (if auto)
   excludedApps?: string[]; // Never capture these apps
   blurSensitiveInfo?: boolean; // Blur passwords, emails, etc.
@@ -4988,6 +5058,7 @@ interface ScreenCaptureSettings {
 ```
 
 **UI Indicator**:
+
 ```
 When screen capture is active:
 - Show 🔴 red dot in tray icon
@@ -5006,20 +5077,20 @@ When screen capture is active:
 ```typescript
 // main/processes/ai-worker.ts
 
-import { fork } from 'child_process';
+import { fork } from "child_process";
 
 export class AIWorkerProcess {
   private worker: ReturnType<typeof fork> | null = null;
 
   start(): void {
-    this.worker = fork(path.join(__dirname, 'ai-worker-script.js'));
+    this.worker = fork(path.join(__dirname, "ai-worker-script.js"));
 
-    this.worker.on('message', (message) => {
+    this.worker.on("message", (message) => {
       this.handleWorkerMessage(message);
     });
 
-    this.worker.on('error', (error) => {
-      console.error('AI worker error:', error);
+    this.worker.on("error", (error) => {
+      console.error("AI worker error:", error);
       this.restart();
     });
   }
@@ -5029,28 +5100,28 @@ export class AIWorkerProcess {
       const requestId = Date.now().toString();
 
       this.worker?.send({
-        type: 'generate',
+        type: "generate",
         requestId,
         prompt,
       });
 
       const handler = (message: any) => {
         if (message.requestId === requestId) {
-          if (message.type === 'result') {
+          if (message.type === "result") {
             resolve(message.text);
-          } else if (message.type === 'error') {
+          } else if (message.type === "error") {
             reject(new Error(message.error));
           }
-          this.worker?.off('message', handler);
+          this.worker?.off("message", handler);
         }
       };
 
-      this.worker?.on('message', handler);
+      this.worker?.on("message", handler);
     });
   }
 
   private restart(): void {
-    console.log('Restarting AI worker...');
+    console.log("Restarting AI worker...");
     this.worker?.kill();
     this.start();
   }
@@ -5062,25 +5133,25 @@ export class AIWorkerProcess {
 ```typescript
 // main/processes/ai-worker-script.ts
 
-import { LlamaCpp } from '../services/ai/llama.service';
+import { LlamaCpp } from "../services/ai/llama.service";
 
 const llama = new LlamaCpp({
-  modelPath: './resources/models/llama-3.1-8b.gguf',
+  modelPath: "./resources/models/llama-3.1-8b.gguf",
 });
 
-process.on('message', async (message: any) => {
-  if (message.type === 'generate') {
+process.on("message", async (message: any) => {
+  if (message.type === "generate") {
     try {
       const result = await llama.generate(message.prompt);
 
       process.send?.({
-        type: 'result',
+        type: "result",
         requestId: message.requestId,
         text: result,
       });
     } catch (error) {
       process.send?.({
-        type: 'error',
+        type: "error",
         requestId: message.requestId,
         error: error.message,
       });
@@ -5094,7 +5165,7 @@ process.on('message', async (message: any) => {
 ```typescript
 // Monitor CPU/RAM usage
 
-import os from 'os';
+import os from "os";
 
 export class ResourceMonitor {
   getSystemInfo() {
@@ -5141,7 +5212,7 @@ const mainWindow = new BrowserWindow({
   webPreferences: {
     contextIsolation: true, // ✅ Isolated
     nodeIntegration: false, // ✅ Disabled
-    preload: path.join(__dirname, 'preload.js'),
+    preload: path.join(__dirname, "preload.js"),
   },
 });
 ```
@@ -5156,9 +5227,9 @@ const mainWindow = new BrowserWindow({
 export function validateIPCRequest(channel: string, data: any): boolean {
   // Whitelist allowed channels
   const allowedChannels = [
-    'ai:chat',
-    'file:read',
-    'git:status',
+    "ai:chat",
+    "file:read",
+    "git:status",
     // ... etc
   ];
 
@@ -5187,10 +5258,10 @@ export class FileAccessControl {
   async requestAccess(path: string): Promise<boolean> {
     // Show dialog to user
     const { response } = await dialog.showMessageBox({
-      type: 'question',
-      buttons: ['Allow', 'Deny'],
+      type: "question",
+      buttons: ["Allow", "Deny"],
       message: `Eden wants to access:\n${path}`,
-      detail: 'This will allow Eden to read and write files in this directory.',
+      detail: "This will allow Eden to read and write files in this directory.",
     });
 
     if (response === 0) {
@@ -5217,10 +5288,11 @@ export class FileAccessControl {
 
 **End of Part 3**
 
-*Lines: ~1400*
-*Next: Part 4 - UI/UX & Features*
+_Lines: ~1400_
+_Next: Part 4 - UI/UX & Features_
 
 ---
+
 ---
 
 # Part 4: UI/UX & Features (EXPANDED VERSION)
@@ -5247,6 +5319,7 @@ export class FileAccessControl {
 **Design Philosophy**: Familiar, conversational, warm
 
 Korean users are deeply familiar with KakaoTalk's UI:
+
 - ✅ Speech bubbles (left = AI, right = user)
 - ✅ Timestamps above bubbles
 - ✅ Profile pictures
@@ -5257,6 +5330,7 @@ Korean users are deeply familiar with KakaoTalk's UI:
 This creates **instant familiarity** and reduces learning curve.
 
 **Psychological Benefits**:
+
 - Warm colors reduce stress
 - Familiar patterns increase comfort
 - Conversational style feels personal
@@ -5266,7 +5340,7 @@ This creates **instant familiarity** and reduces learning curve.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  🌿 Garden of Eden                    [User-Led ▾] [−] [□] [×]         │
+│  🌿 Eden Proejct                    [User-Led ▾] [−] [□] [×]         │
 ├─────────────────────────────────────────────────────────────────────────┤
 │  │                                                                  │    │
 │  │  ┌────────────────────────────────────────────────────────────┐ │    │
@@ -5310,24 +5384,24 @@ This creates **instant familiarity** and reduces learning curve.
 ```tsx
 // renderer/components/chat/ChatBubble.tsx
 
-import React from 'react';
-import { cn } from '@/lib/utils';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
-import { formatTime, formatDate, isToday, isSameDay } from '@/utils/time';
-import ReactMarkdown from 'react-markdown';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import { Copy, Check } from 'lucide-react';
+import React from "react";
+import { cn } from "@/lib/utils";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { formatTime, formatDate, isToday, isSameDay } from "@/utils/time";
+import ReactMarkdown from "react-markdown";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { Copy, Check } from "lucide-react";
 
 interface ChatBubbleProps {
   message: string;
-  sender: 'user' | 'assistant' | 'system';
+  sender: "user" | "assistant" | "system";
   timestamp: Date;
   avatar?: string;
   isStreaming?: boolean;
   showAvatar?: boolean;
   showTimestamp?: boolean;
-  groupWithPrevious?: boolean;  // Same sender, within 1 minute
+  groupWithPrevious?: boolean; // Same sender, within 1 minute
 }
 
 export function ChatBubble({
@@ -5338,11 +5412,11 @@ export function ChatBubble({
   isStreaming = false,
   showAvatar = true,
   showTimestamp = true,
-  groupWithPrevious = false
+  groupWithPrevious = false,
 }: ChatBubbleProps) {
   const [copied, setCopied] = React.useState(false);
-  const isAI = sender === 'assistant';
-  const isUser = sender === 'user';
+  const isAI = sender === "assistant";
+  const isUser = sender === "user";
 
   const handleCopyCode = (code: string) => {
     navigator.clipboard.writeText(code);
@@ -5351,28 +5425,34 @@ export function ChatBubble({
   };
 
   return (
-    <div className={cn(
-      'flex gap-3 px-4',
-      groupWithPrevious ? 'mt-1' : 'mt-4',
-      isAI && 'justify-start',
-      isUser && 'justify-end'
-    )}>
+    <div
+      className={cn(
+        "flex gap-3 px-4",
+        groupWithPrevious ? "mt-1" : "mt-4",
+        isAI && "justify-start",
+        isUser && "justify-end"
+      )}
+    >
       {/* AI Avatar (left) */}
       {isAI && showAvatar && (
         <Avatar className="w-10 h-10 flex-shrink-0">
-          <AvatarImage src={avatar || '/avatars/eden-ai.png'} alt="Eden AI" />
-          <AvatarFallback className="bg-yellow-400 text-gray-900">🌿</AvatarFallback>
+          <AvatarImage src={avatar || "/avatars/eden-ai.png"} alt="Eden AI" />
+          <AvatarFallback className="bg-yellow-400 text-gray-900">
+            🌿
+          </AvatarFallback>
         </Avatar>
       )}
 
       {/* Spacer when grouped */}
       {isAI && !showAvatar && <div className="w-10 flex-shrink-0" />}
 
-      <div className={cn(
-        'flex flex-col max-w-[65%]',
-        isAI && 'items-start',
-        isUser && 'items-end'
-      )}>
+      <div
+        className={cn(
+          "flex flex-col max-w-[65%]",
+          isAI && "items-start",
+          isUser && "items-end"
+        )}
+      >
         {/* Timestamp (shown above first message in group) */}
         {showTimestamp && !groupWithPrevious && (
           <div className="text-xs text-gray-500 mb-1 px-1">
@@ -5381,27 +5461,34 @@ export function ChatBubble({
         )}
 
         {/* Bubble */}
-        <div className={cn(
-          'px-4 py-2.5 rounded-2xl shadow-sm transition-all',
-          isAI && 'bg-white text-gray-900 rounded-tl-none border border-gray-100',
-          isUser && 'bg-yellow-400 text-gray-900 rounded-tr-none',
-          isStreaming && 'animate-pulse-subtle'
-        )}>
+        <div
+          className={cn(
+            "px-4 py-2.5 rounded-2xl shadow-sm transition-all",
+            isAI &&
+              "bg-white text-gray-900 rounded-tl-none border border-gray-100",
+            isUser && "bg-yellow-400 text-gray-900 rounded-tr-none",
+            isStreaming && "animate-pulse-subtle"
+          )}
+        >
           {isStreaming ? (
             <div className="flex items-center gap-2">
               <span className="whitespace-pre-wrap break-words">{message}</span>
-              <span className="inline-block w-0.5 h-4 bg-current animate-pulse">▌</span>
+              <span className="inline-block w-0.5 h-4 bg-current animate-pulse">
+                ▌
+              </span>
             </div>
           ) : (
-            <div className={cn(
-              'prose prose-sm max-w-none',
-              isUser && 'prose-p:my-1'
-            )}>
+            <div
+              className={cn(
+                "prose prose-sm max-w-none",
+                isUser && "prose-p:my-1"
+              )}
+            >
               <ReactMarkdown
                 components={{
                   code({ node, inline, className, children, ...props }) {
-                    const match = /language-(\w+)/.exec(className || '');
-                    const codeString = String(children).replace(/\n$/, '');
+                    const match = /language-(\w+)/.exec(className || "");
+                    const codeString = String(children).replace(/\n$/, "");
 
                     return !inline && match ? (
                       <div className="relative group">
@@ -5426,10 +5513,13 @@ export function ChatBubble({
                         </button>
                       </div>
                     ) : (
-                      <code className={cn(
-                        className,
-                        'px-1.5 py-0.5 bg-gray-100 rounded text-sm'
-                      )} {...props}>
+                      <code
+                        className={cn(
+                          className,
+                          "px-1.5 py-0.5 bg-gray-100 rounded text-sm"
+                        )}
+                        {...props}
+                      >
                         {children}
                       </code>
                     );
@@ -5444,16 +5534,14 @@ export function ChatBubble({
 
         {/* Read receipt (for user messages) */}
         {isUser && !isStreaming && (
-          <div className="text-xs text-gray-400 mt-0.5 px-1">
-            읽음 · Read
-          </div>
+          <div className="text-xs text-gray-400 mt-0.5 px-1">읽음 · Read</div>
         )}
       </div>
 
       {/* User Avatar (right) */}
       {isUser && showAvatar && (
         <Avatar className="w-10 h-10 flex-shrink-0">
-          <AvatarImage src={avatar || '/avatars/user-default.png'} alt="User" />
+          <AvatarImage src={avatar || "/avatars/user-default.png"} alt="User" />
           <AvatarFallback className="bg-gray-200">👤</AvatarFallback>
         </Avatar>
       )}
@@ -5472,7 +5560,7 @@ export function ChatBubble({
 
 export interface GroupedMessage {
   messages: Message[];
-  sender: 'user' | 'assistant';
+  sender: "user" | "assistant";
   timestamp: Date;
 }
 
@@ -5481,7 +5569,7 @@ const GROUP_THRESHOLD_MS = 60000; // 1 minute
 export function groupMessages(messages: Message[]): GroupedMessage[] {
   const groups: GroupedMessage[] = [];
   let currentGroup: Message[] = [];
-  let currentSender: 'user' | 'assistant' | null = null;
+  let currentSender: "user" | "assistant" | null = null;
 
   for (let i = 0; i < messages.length; i++) {
     const message = messages[i];
@@ -5490,7 +5578,8 @@ export function groupMessages(messages: Message[]): GroupedMessage[] {
     const shouldStartNewGroup =
       !prevMessage ||
       message.sender !== currentSender ||
-      (message.timestamp.getTime() - prevMessage.timestamp.getTime()) > GROUP_THRESHOLD_MS;
+      message.timestamp.getTime() - prevMessage.timestamp.getTime() >
+        GROUP_THRESHOLD_MS;
 
     if (shouldStartNewGroup) {
       if (currentGroup.length > 0) {
@@ -5524,7 +5613,7 @@ export function groupMessages(messages: Message[]): GroupedMessage[] {
 ```tsx
 // renderer/components/chat/TypingIndicator.tsx
 
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export function TypingIndicator() {
   return (
@@ -5538,15 +5627,15 @@ export function TypingIndicator() {
         <div className="flex gap-1.5">
           <span
             className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"
-            style={{ animationDelay: '0ms', animationDuration: '1.4s' }}
+            style={{ animationDelay: "0ms", animationDuration: "1.4s" }}
           />
           <span
             className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"
-            style={{ animationDelay: '200ms', animationDuration: '1.4s' }}
+            style={{ animationDelay: "200ms", animationDuration: "1.4s" }}
           />
           <span
             className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"
-            style={{ animationDelay: '400ms', animationDuration: '1.4s' }}
+            style={{ animationDelay: "400ms", animationDuration: "1.4s" }}
           />
         </div>
       </div>
@@ -5560,28 +5649,35 @@ export function TypingIndicator() {
 ```tsx
 // renderer/components/chat/InputBox.tsx
 
-import React, { useState, useRef, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import { Mic, Paperclip, Send, Smile, Search, Settings } from 'lucide-react';
-import { useAI } from '@/hooks/useAI';
-import { useVoice } from '@/hooks/useVoice';
-import { cn } from '@/lib/utils';
-import EmojiPicker from 'emoji-picker-react';
+import React, { useState, useRef, useEffect } from "react";
+import { Button } from "@/components/ui/button";
+import { Mic, Paperclip, Send, Smile, Search, Settings } from "lucide-react";
+import { useAI } from "@/hooks/useAI";
+import { useVoice } from "@/hooks/useVoice";
+import { cn } from "@/lib/utils";
+import EmojiPicker from "emoji-picker-react";
 
 export function InputBox() {
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState("");
   const [isRecording, setIsRecording] = useState(false);
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const { sendMessage, isProcessing } = useAI();
-  const { startRecording, stopRecording, isSupported: isVoiceSupported } = useVoice();
+  const {
+    startRecording,
+    stopRecording,
+    isSupported: isVoiceSupported,
+  } = useVoice();
 
   // Auto-resize textarea
   useEffect(() => {
     if (textareaRef.current) {
-      textareaRef.current.style.height = 'auto';
-      textareaRef.current.style.height = `${Math.min(textareaRef.current.scrollHeight, 120)}px`;
+      textareaRef.current.style.height = "auto";
+      textareaRef.current.style.height = `${Math.min(
+        textareaRef.current.scrollHeight,
+        120
+      )}px`;
     }
   }, [message]);
 
@@ -5589,13 +5685,13 @@ export function InputBox() {
     if (!message.trim() || isProcessing) return;
 
     const messageToSend = message;
-    setMessage('');
+    setMessage("");
 
     await sendMessage(messageToSend);
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
+    if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       handleSend();
     }
@@ -5603,13 +5699,13 @@ export function InputBox() {
 
   const handleVoiceClick = async () => {
     if (!isVoiceSupported) {
-      alert('Voice input is not supported on this device');
+      alert("Voice input is not supported on this device");
       return;
     }
 
     if (isRecording) {
       const transcription = await stopRecording();
-      setMessage(prev => prev + (prev ? ' ' : '') + transcription);
+      setMessage((prev) => prev + (prev ? " " : "") + transcription);
       setIsRecording(false);
     } else {
       await startRecording();
@@ -5618,7 +5714,7 @@ export function InputBox() {
   };
 
   const handleEmojiClick = (emojiObject: any) => {
-    setMessage(prev => prev + emojiObject.emoji);
+    setMessage((prev) => prev + emojiObject.emoji);
     setShowEmojiPicker(false);
     textareaRef.current?.focus();
   };
@@ -5627,7 +5723,7 @@ export function InputBox() {
     const result = await window.electronAPI.selectFile();
     if (result.filePath) {
       // Handle file attachment
-      console.log('File selected:', result.filePath);
+      console.log("File selected:", result.filePath);
     }
   };
 
@@ -5644,11 +5740,11 @@ export function InputBox() {
             placeholder="메시지를 입력하세요... Type a message..."
             disabled={isProcessing || isRecording}
             className={cn(
-              'w-full px-4 py-3 pr-12 border border-gray-300 rounded-xl resize-none',
-              'focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent',
-              'dark:bg-gray-800 dark:border-gray-600 dark:text-white',
-              'disabled:bg-gray-50 disabled:cursor-not-allowed',
-              'transition-all'
+              "w-full px-4 py-3 pr-12 border border-gray-300 rounded-xl resize-none",
+              "focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent",
+              "dark:bg-gray-800 dark:border-gray-600 dark:text-white",
+              "disabled:bg-gray-50 disabled:cursor-not-allowed",
+              "transition-all"
             )}
             rows={1}
             maxLength={4000}
@@ -5660,12 +5756,12 @@ export function InputBox() {
               onClick={handleVoiceClick}
               disabled={isProcessing}
               className={cn(
-                'absolute right-3 top-3 p-2 rounded-full transition-all',
+                "absolute right-3 top-3 p-2 rounded-full transition-all",
                 isRecording
-                  ? 'bg-red-500 text-white animate-pulse scale-110'
-                  : 'text-gray-400 hover:text-gray-600 hover:bg-gray-100'
+                  ? "bg-red-500 text-white animate-pulse scale-110"
+                  : "text-gray-400 hover:text-gray-600 hover:bg-gray-100"
               )}
-              aria-label={isRecording ? 'Stop recording' : 'Start recording'}
+              aria-label={isRecording ? "Stop recording" : "Start recording"}
             >
               <Mic className="w-5 h-5" />
             </button>
@@ -5673,10 +5769,12 @@ export function InputBox() {
 
           {/* Character count */}
           {message.length > 3500 && (
-            <div className={cn(
-              'absolute bottom-2 left-3 text-xs',
-              message.length >= 4000 ? 'text-red-500' : 'text-gray-400'
-            )}>
+            <div
+              className={cn(
+                "absolute bottom-2 left-3 text-xs",
+                message.length >= 4000 ? "text-red-500" : "text-gray-400"
+              )}
+            >
               {message.length}/4000
             </div>
           )}
@@ -5716,9 +5814,9 @@ export function InputBox() {
             onClick={handleSend}
             disabled={!message.trim() || isProcessing}
             className={cn(
-              'bg-yellow-400 hover:bg-yellow-500 text-gray-900',
-              'disabled:opacity-50 disabled:cursor-not-allowed',
-              'transition-all'
+              "bg-yellow-400 hover:bg-yellow-500 text-gray-900",
+              "disabled:opacity-50 disabled:cursor-not-allowed",
+              "transition-all"
             )}
             aria-label="Send message"
           >
@@ -5731,7 +5829,9 @@ export function InputBox() {
       {isRecording && (
         <div className="px-4 pb-3 flex items-center gap-2 text-red-500 animate-fade-in">
           <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
-          <span className="text-sm font-medium">Recording... Click mic to stop</span>
+          <span className="text-sm font-medium">
+            Recording... Click mic to stop
+          </span>
         </div>
       )}
     </div>
@@ -5744,7 +5844,7 @@ export function InputBox() {
 ```typescript
 // hooks/useAutoScroll.ts
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 export function useAutoScroll(messages: Message[]) {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -5761,8 +5861,8 @@ export function useAutoScroll(messages: Message[]) {
       userScrolledUp.current = !isNearBottom;
     };
 
-    scrollRef.current?.addEventListener('scroll', handleScroll);
-    return () => scrollRef.current?.removeEventListener('scroll', handleScroll);
+    scrollRef.current?.addEventListener("scroll", handleScroll);
+    return () => scrollRef.current?.removeEventListener("scroll", handleScroll);
   }, []);
 
   // Auto-scroll on new messages
@@ -5770,7 +5870,7 @@ export function useAutoScroll(messages: Message[]) {
     if (!userScrolledUp.current && scrollRef.current) {
       scrollRef.current.scrollTo({
         top: scrollRef.current.scrollHeight,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   }, [messages]);
@@ -5794,97 +5894,94 @@ module.exports = {
       colors: {
         // KakaoTalk Yellow (Primary)
         kakao: {
-          50: '#FEF9E7',
-          100: '#FEF3CE',
-          200: '#FDE89D',
-          300: '#FCDC6C',
-          400: '#FAE100',  // Main KakaoTalk yellow
-          500: '#E1CA00',
-          600: '#B8A600',
-          700: '#8F8100',
-          800: '#665C00',
-          900: '#3D3700',
+          50: "#FEF9E7",
+          100: "#FEF3CE",
+          200: "#FDE89D",
+          300: "#FCDC6C",
+          400: "#FAE100", // Main KakaoTalk yellow
+          500: "#E1CA00",
+          600: "#B8A600",
+          700: "#8F8100",
+          800: "#665C00",
+          900: "#3D3700",
         },
 
         // Warm Neutral
         warm: {
-          50: '#FAFAF9',   // Background primary (light)
-          100: '#F5F5F4',  // Background secondary
-          200: '#E7E5E4',  // Border light / Chat bg
-          300: '#D6D3D1',  // Border default
-          400: '#A8A29E',  // Text muted
-          500: '#78716C',  // Text secondary
-          600: '#57534E',  // Text primary (dark mode)
-          700: '#44403C',  // Background secondary (dark)
-          800: '#292524',  // Background primary (dark)
-          900: '#1C1917',  // Deepest dark
+          50: "#FAFAF9", // Background primary (light)
+          100: "#F5F5F4", // Background secondary
+          200: "#E7E5E4", // Border light / Chat bg
+          300: "#D6D3D1", // Border default
+          400: "#A8A29E", // Text muted
+          500: "#78716C", // Text secondary
+          600: "#57534E", // Text primary (dark mode)
+          700: "#44403C", // Background secondary (dark)
+          800: "#292524", // Background primary (dark)
+          900: "#1C1917", // Deepest dark
         },
 
         // Semantic Colors
         success: {
-          light: '#86EFAC',
-          DEFAULT: '#22C55E',
-          dark: '#16A34A',
+          light: "#86EFAC",
+          DEFAULT: "#22C55E",
+          dark: "#16A34A",
         },
         error: {
-          light: '#FCA5A5',
-          DEFAULT: '#EF4444',
-          dark: '#DC2626',
+          light: "#FCA5A5",
+          DEFAULT: "#EF4444",
+          dark: "#DC2626",
         },
         warning: {
-          light: '#FDE047',
-          DEFAULT: '#EAB308',
-          dark: '#CA8A04',
+          light: "#FDE047",
+          DEFAULT: "#EAB308",
+          dark: "#CA8A04",
         },
         info: {
-          light: '#93C5FD',
-          DEFAULT: '#3B82F6',
-          dark: '#2563EB',
+          light: "#93C5FD",
+          DEFAULT: "#3B82F6",
+          dark: "#2563EB",
         },
       },
 
       // Custom animations
       animation: {
-        'fade-in': 'fadeIn 0.2s ease-in',
-        'fade-out': 'fadeOut 0.2s ease-out',
-        'slide-up': 'slideUp 0.3s ease-out',
-        'slide-down': 'slideDown 0.3s ease-out',
-        'pulse-subtle': 'pulseSubtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        "fade-in": "fadeIn 0.2s ease-in",
+        "fade-out": "fadeOut 0.2s ease-out",
+        "slide-up": "slideUp 0.3s ease-out",
+        "slide-down": "slideDown 0.3s ease-out",
+        "pulse-subtle": "pulseSubtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
 
       keyframes: {
         fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
         },
         fadeOut: {
-          '0%': { opacity: '1' },
-          '100%': { opacity: '0' },
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
         },
         slideUp: {
-          '0%': { transform: 'translateY(10px)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
+          "0%": { transform: "translateY(10px)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
         },
         slideDown: {
-          '0%': { transform: 'translateY(-10px)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
+          "0%": { transform: "translateY(-10px)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
         },
         pulseSubtle: {
-          '0%, 100%': { opacity: '1' },
-          '50%': { opacity: '0.95' },
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.95" },
         },
       },
 
       // Border radius
       borderRadius: {
-        'kakao': '1.5rem', // 24px - KakaoTalk bubble radius
+        kakao: "1.5rem", // 24px - KakaoTalk bubble radius
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-  ],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
 ```
 
@@ -5893,23 +5990,23 @@ module.exports = {
 ```css
 /* styles/typography.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap");
 
 :root {
   /* Font Family */
-  --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                system-ui, sans-serif;
-  --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace;
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+    sans-serif;
+  --font-mono: "SF Mono", "Monaco", "Inconsolata", "Fira Code", monospace;
 
   /* Font Sizes */
-  --text-xs: 0.75rem;      /* 12px */
-  --text-sm: 0.875rem;     /* 14px */
-  --text-base: 1rem;       /* 16px */
-  --text-lg: 1.125rem;     /* 18px */
-  --text-xl: 1.25rem;      /* 20px */
-  --text-2xl: 1.5rem;      /* 24px */
-  --text-3xl: 1.875rem;    /* 30px */
-  --text-4xl: 2.25rem;     /* 36px */
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.125rem; /* 18px */
+  --text-xl: 1.25rem; /* 20px */
+  --text-2xl: 1.5rem; /* 24px */
+  --text-3xl: 1.875rem; /* 30px */
+  --text-4xl: 2.25rem; /* 36px */
 
   /* Line Heights */
   --leading-none: 1;
@@ -5983,60 +6080,63 @@ pre {
 ```typescript
 // renderer/providers/ThemeProvider.tsx
 
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from "react";
 
-type Theme = 'light' | 'dark' | 'system';
+type Theme = "light" | "dark" | "system";
 
 interface ThemeContextType {
   theme: Theme;
-  effectiveTheme: 'light' | 'dark';
+  effectiveTheme: "light" | "dark";
   setTheme: (theme: Theme) => void;
 }
 
 const ThemeContext = createContext<ThemeContextType>({
-  theme: 'system',
-  effectiveTheme: 'light',
+  theme: "system",
+  effectiveTheme: "light",
   setTheme: () => {},
 });
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('system');
-  const [effectiveTheme, setEffectiveTheme] = useState<'light' | 'dark'>('light');
+  const [theme, setTheme] = useState<Theme>("system");
+  const [effectiveTheme, setEffectiveTheme] = useState<"light" | "dark">(
+    "light"
+  );
 
   useEffect(() => {
     // Load saved theme
-    const savedTheme = localStorage.getItem('theme') as Theme || 'system';
+    const savedTheme = (localStorage.getItem("theme") as Theme) || "system";
     setTheme(savedTheme);
   }, []);
 
   useEffect(() => {
     const root = window.document.documentElement;
 
-    const updateTheme = (newTheme: 'light' | 'dark') => {
-      root.classList.remove('light', 'dark');
+    const updateTheme = (newTheme: "light" | "dark") => {
+      root.classList.remove("light", "dark");
       root.classList.add(newTheme);
       setEffectiveTheme(newTheme);
     };
 
-    if (theme === 'system') {
-      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
-        ? 'dark'
-        : 'light';
+    if (theme === "system") {
+      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+        .matches
+        ? "dark"
+        : "light";
       updateTheme(systemTheme);
 
       // Listen for system theme changes
-      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
       const handler = (e: MediaQueryListEvent) => {
-        updateTheme(e.matches ? 'dark' : 'light');
+        updateTheme(e.matches ? "dark" : "light");
       };
-      mediaQuery.addEventListener('change', handler);
-      return () => mediaQuery.removeEventListener('change', handler);
+      mediaQuery.addEventListener("change", handler);
+      return () => mediaQuery.removeEventListener("change", handler);
     } else {
       updateTheme(theme);
     }
 
     // Save theme
-    localStorage.setItem('theme', theme);
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   return (
@@ -6056,28 +6156,28 @@ export const useTheme = () => useContext(ThemeContext);
 
 .dark {
   /* Background */
-  --bg-primary: #1C1917;
+  --bg-primary: #1c1917;
   --bg-secondary: #292524;
-  --bg-tertiary: #44403C;
+  --bg-tertiary: #44403c;
   --bg-chat: #292524;
 
   /* Text */
-  --text-primary: #FAFAF9;
-  --text-secondary: #D6D3D1;
-  --text-muted: #A8A29E;
+  --text-primary: #fafaf9;
+  --text-secondary: #d6d3d1;
+  --text-muted: #a8a29e;
 
   /* Bubbles */
-  --bubble-ai: #44403C;
-  --bubble-ai-border: #57534E;
-  --bubble-user: #B8A600;  /* Darker yellow for dark mode */
+  --bubble-ai: #44403c;
+  --bubble-ai-border: #57534e;
+  --bubble-user: #b8a600; /* Darker yellow for dark mode */
 
   /* Borders */
-  --border-light: #44403C;
-  --border-default: #57534E;
+  --border-light: #44403c;
+  --border-default: #57534e;
 
   /* Interactive */
-  --interactive-hover: #3D3700;
-  --interactive-active: #8F8100;
+  --interactive-hover: #3d3700;
+  --interactive-active: #8f8100;
 
   /* Shadows */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
@@ -6087,7 +6187,8 @@ export const useTheme = () => useContext(ThemeContext);
 
 /* Smooth transition */
 * {
-  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease;
 }
 ```
 
@@ -6100,13 +6201,13 @@ export const useTheme = () => useContext(ThemeContext);
 ```typescript
 // renderer/i18n/config.ts
 
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
-import Backend from 'i18next-http-backend';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import Backend from "i18next-http-backend";
 
-import en from './locales/en.json';
-import ko from './locales/ko.json';
+import en from "./locales/en.json";
+import ko from "./locales/ko.json";
 
 i18n
   .use(Backend)
@@ -6117,16 +6218,16 @@ i18n
       en: { translation: en },
       ko: { translation: ko },
     },
-    fallbackLng: 'en',
-    supportedLngs: ['en', 'ko'],
+    fallbackLng: "en",
+    supportedLngs: ["en", "ko"],
 
     interpolation: {
       escapeValue: false, // React already escapes
     },
 
     detection: {
-      order: ['localStorage', 'navigator'],
-      caches: ['localStorage'],
+      order: ["localStorage", "navigator"],
+      caches: ["localStorage"],
     },
 
     react: {
@@ -6279,7 +6380,7 @@ export default i18n;
 ```json
 {
   "app": {
-    "name": "Garden of Eden",
+    "name": "Eden Proejct",
     "tagline": "Your AI Companion",
     "version": "Version {{version}}"
   },
@@ -6414,7 +6515,7 @@ export default i18n;
 ```tsx
 // renderer/pages/Chat.tsx
 
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 export function Chat() {
   const { t, i18n } = useTranslation();
@@ -6425,18 +6526,16 @@ export function Chat() {
 
   return (
     <div>
-      <h1>{t('app.name')}</h1>
-      <p>{t('app.tagline')}</p>
+      <h1>{t("app.name")}</h1>
+      <p>{t("app.tagline")}</p>
 
-      <input
-        placeholder={t('chat.input_placeholder')}
-      />
+      <input placeholder={t("chat.input_placeholder")} />
 
-      <button onClick={() => changeLanguage('ko')}>
-        {t('settings.language_korean')}
+      <button onClick={() => changeLanguage("ko")}>
+        {t("settings.language_korean")}
       </button>
-      <button onClick={() => changeLanguage('en')}>
-        {t('settings.language_english')}
+      <button onClick={() => changeLanguage("en")}>
+        {t("settings.language_english")}
       </button>
     </div>
   );
@@ -6454,9 +6553,9 @@ export function Chat() {
 ```tsx
 // renderer/components/voice/VoiceRecordButton.tsx
 
-import { Mic, MicOff, Loader2 } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { useState, useEffect } from 'react';
+import { Mic, MicOff, Loader2 } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { useState, useEffect } from "react";
 
 interface VoiceRecordButtonProps {
   isRecording: boolean;
@@ -6469,7 +6568,7 @@ export function VoiceRecordButton({
   isRecording,
   isProcessing,
   onToggle,
-  disabled = false
+  disabled = false,
 }: VoiceRecordButtonProps) {
   const [audioLevel, setAudioLevel] = useState(0);
 
@@ -6492,14 +6591,16 @@ export function VoiceRecordButton({
       onClick={onToggle}
       disabled={disabled || isProcessing}
       className={cn(
-        'relative p-4 rounded-full transition-all duration-200',
-        'focus:outline-none focus:ring-4 focus:ring-offset-2',
-        isRecording && 'bg-red-500 text-white scale-110 shadow-lg',
-        !isRecording && !isProcessing && 'bg-gray-200 text-gray-700 hover:bg-gray-300',
-        isProcessing && 'bg-gray-300 cursor-wait',
-        disabled && 'opacity-50 cursor-not-allowed'
+        "relative p-4 rounded-full transition-all duration-200",
+        "focus:outline-none focus:ring-4 focus:ring-offset-2",
+        isRecording && "bg-red-500 text-white scale-110 shadow-lg",
+        !isRecording &&
+          !isProcessing &&
+          "bg-gray-200 text-gray-700 hover:bg-gray-300",
+        isProcessing && "bg-gray-300 cursor-wait",
+        disabled && "opacity-50 cursor-not-allowed"
       )}
-      aria-label={isRecording ? 'Stop recording' : 'Start recording'}
+      aria-label={isRecording ? "Stop recording" : "Start recording"}
     >
       {isProcessing ? (
         <Loader2 className="w-6 h-6 animate-spin" />
@@ -6507,10 +6608,13 @@ export function VoiceRecordButton({
         <>
           <MicOff className="w-6 h-6" />
           {/* Audio level indicator */}
-          <div className="absolute inset-0 rounded-full border-4 border-white animate-ping" style={{
-            animationDuration: '1s',
-            opacity: audioLevel / 200
-          }} />
+          <div
+            className="absolute inset-0 rounded-full border-4 border-white animate-ping"
+            style={{
+              animationDuration: "1s",
+              opacity: audioLevel / 200,
+            }}
+          />
         </>
       ) : (
         <Mic className="w-6 h-6" />
@@ -6525,21 +6629,24 @@ export function VoiceRecordButton({
 ```tsx
 // renderer/components/voice/WaveformVisualizer.tsx
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 interface WaveformVisualizerProps {
-  audioData: number[];  // 0-255 values
+  audioData: number[]; // 0-255 values
   isActive: boolean;
 }
 
-export function WaveformVisualizer({ audioData, isActive }: WaveformVisualizerProps) {
+export function WaveformVisualizer({
+  audioData,
+  isActive,
+}: WaveformVisualizerProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
     // Clear canvas
@@ -6558,15 +6665,15 @@ export function WaveformVisualizer({ audioData, isActive }: WaveformVisualizerPr
 
       // Gradient fill
       const gradient = ctx.createLinearGradient(0, y, 0, y + barHeight);
-      gradient.addColorStop(0, '#FAE100');
-      gradient.addColorStop(1, '#E1CA00');
+      gradient.addColorStop(0, "#FAE100");
+      gradient.addColorStop(1, "#E1CA00");
 
       ctx.fillStyle = gradient;
       ctx.fillRect(x, y, barWidth - barGap, barHeight);
 
       // Add glow effect
       ctx.shadowBlur = 10;
-      ctx.shadowColor = '#FAE100';
+      ctx.shadowColor = "#FAE100";
     });
   }, [audioData, isActive]);
 
@@ -6593,9 +6700,9 @@ export function WaveformVisualizer({ audioData, isActive }: WaveformVisualizerPr
 ```tsx
 // renderer/components/voice/TTSPlayer.tsx
 
-import { Play, Pause, Volume2, VolumeX } from 'lucide-react';
-import { useState, useEffect, useRef } from 'react';
-import { Slider } from '@/components/ui/slider';
+import { Play, Pause, Volume2, VolumeX } from "lucide-react";
+import { useState, useEffect, useRef } from "react";
+import { Slider } from "@/components/ui/slider";
 
 interface TTSPlayerProps {
   text: string;
@@ -6603,7 +6710,11 @@ interface TTSPlayerProps {
   onComplete?: () => void;
 }
 
-export function TTSPlayer({ text, autoPlay = false, onComplete }: TTSPlayerProps) {
+export function TTSPlayer({
+  text,
+  autoPlay = false,
+  onComplete,
+}: TTSPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [volume, setVolume] = useState(0.8);
@@ -6622,19 +6733,21 @@ export function TTSPlayer({ text, autoPlay = false, onComplete }: TTSPlayerProps
     // Use Web Speech API or call IPC for better quality
     const audioBuffer = await window.electronAPI.aiSpeak({
       text,
-      voice: 'female',  // or from settings
+      voice: "female", // or from settings
     });
 
     // Play audio
     const audio = new Audio();
-    audio.src = URL.createObjectURL(new Blob([audioBuffer], { type: 'audio/wav' }));
+    audio.src = URL.createObjectURL(
+      new Blob([audioBuffer], { type: "audio/wav" })
+    );
     audio.volume = isMuted ? 0 : volume;
 
-    audio.addEventListener('timeupdate', () => {
+    audio.addEventListener("timeupdate", () => {
       setProgress((audio.currentTime / audio.duration) * 100);
     });
 
-    audio.addEventListener('ended', () => {
+    audio.addEventListener("ended", () => {
       setIsPlaying(false);
       setProgress(0);
       onComplete?.();
@@ -6710,10 +6823,10 @@ export function TTSPlayer({ text, autoPlay = false, onComplete }: TTSPlayerProps
 ```tsx
 // renderer/components/ModeSwitcher.tsx
 
-import { User, Sparkles } from 'lucide-react';
-import { useSettingsStore } from '@/stores/settingsStore';
-import { useTranslation } from 'react-i18next';
-import { cn } from '@/lib/utils';
+import { User, Sparkles } from "lucide-react";
+import { useSettingsStore } from "@/stores/settingsStore";
+import { useTranslation } from "react-i18next";
+import { cn } from "@/lib/utils";
 
 export function ModeSwitcher() {
   const { t } = useTranslation();
@@ -6722,29 +6835,29 @@ export function ModeSwitcher() {
   return (
     <div className="inline-flex gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-lg">
       <button
-        onClick={() => setMode('user-led')}
+        onClick={() => setMode("user-led")}
         className={cn(
-          'flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-all',
-          mode === 'user-led'
-            ? 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
-            : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+          "flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-all",
+          mode === "user-led"
+            ? "bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm"
+            : "text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
         )}
       >
         <User className="w-4 h-4" />
-        <span>{t('settings.mode_user_led')}</span>
+        <span>{t("settings.mode_user_led")}</span>
       </button>
 
       <button
-        onClick={() => setMode('ai-led')}
+        onClick={() => setMode("ai-led")}
         className={cn(
-          'flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-all',
-          mode === 'ai-led'
-            ? 'bg-yellow-400 text-gray-900 shadow-sm'
-            : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+          "flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-all",
+          mode === "ai-led"
+            ? "bg-yellow-400 text-gray-900 shadow-sm"
+            : "text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
         )}
       >
         <Sparkles className="w-4 h-4" />
-        <span>{t('settings.mode_ai_led')}</span>
+        <span>{t("settings.mode_ai_led")}</span>
       </button>
     </div>
   );
@@ -6757,12 +6870,12 @@ export function ModeSwitcher() {
 // main/services/proactive/proactive-manager.ts
 
 export class ProactiveManager {
-  private mode: 'user-led' | 'ai-led' = 'user-led';
+  private mode: "user-led" | "ai-led" = "user-led";
   private enabled = false;
 
-  setMode(mode: 'user-led' | 'ai-led') {
+  setMode(mode: "user-led" | "ai-led") {
     this.mode = mode;
-    this.enabled = mode === 'ai-led';
+    this.enabled = mode === "ai-led";
 
     if (this.enabled) {
       this.startMonitoring();
@@ -6791,12 +6904,12 @@ export class ProactiveManager {
 
     if (status.modified.length > 5) {
       this.sendNotification({
-        type: 'git-uncommitted',
-        title: 'Uncommitted Changes',
+        type: "git-uncommitted",
+        title: "Uncommitted Changes",
         message: `You have ${status.modified.length} modified files. Would you like to create a commit?`,
         actions: [
-          { label: 'Create commit', action: 'git-commit' },
-          { label: 'Not now', action: 'dismiss' },
+          { label: "Create commit", action: "git-commit" },
+          { label: "Not now", action: "dismiss" },
         ],
       });
     }
@@ -6808,12 +6921,12 @@ export class ProactiveManager {
     if (events.length > 0) {
       const event = events[0];
       this.sendNotification({
-        type: 'calendar-reminder',
-        title: 'Upcoming Event',
+        type: "calendar-reminder",
+        title: "Upcoming Event",
         message: `"${event.title}" starts in ${formatDuration(event.start)}`,
         actions: [
-          { label: 'Prepare', action: 'calendar-prepare' },
-          { label: 'Snooze', action: 'snooze' },
+          { label: "Prepare", action: "calendar-prepare" },
+          { label: "Snooze", action: "snooze" },
         ],
       });
     }
@@ -6830,10 +6943,10 @@ export class ProactiveManager {
 ```tsx
 // renderer/components/notifications/ProactiveNotification.tsx
 
-import { X, CheckCircle, Sparkles, AlertCircle, Info } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { X, CheckCircle, Sparkles, AlertCircle, Info } from "lucide-react";
+import { cn } from "@/lib/utils";
 
-type NotificationType = 'success' | 'info' | 'warning' | 'error' | 'proactive';
+type NotificationType = "success" | "info" | "warning" | "error" | "proactive";
 
 interface ProactiveNotificationProps {
   id: string;
@@ -6843,10 +6956,10 @@ interface ProactiveNotificationProps {
   actions?: Array<{
     label: string;
     onClick: () => void;
-    variant?: 'primary' | 'secondary' | 'danger';
+    variant?: "primary" | "secondary" | "danger";
   }>;
   onDismiss: () => void;
-  autoClose?: number;  // ms
+  autoClose?: number; // ms
 }
 
 export function ProactiveNotification({
@@ -6887,17 +7000,17 @@ export function ProactiveNotification({
   return (
     <div
       className={cn(
-        'fixed bottom-4 right-4 w-96 bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4',
-        'border border-gray-200 dark:border-gray-700',
-        'transition-all duration-200',
-        isExiting ? 'animate-slide-out-right opacity-0' : 'animate-slide-in-right'
+        "fixed bottom-4 right-4 w-96 bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4",
+        "border border-gray-200 dark:border-gray-700",
+        "transition-all duration-200",
+        isExiting
+          ? "animate-slide-out-right opacity-0"
+          : "animate-slide-in-right"
       )}
     >
       <div className="flex items-start gap-3">
         {/* Icon */}
-        <div className="flex-shrink-0 mt-0.5">
-          {icons[type]}
-        </div>
+        <div className="flex-shrink-0 mt-0.5">{icons[type]}</div>
 
         {/* Content */}
         <div className="flex-1 min-w-0">
@@ -6928,11 +7041,13 @@ export function ProactiveNotification({
                     handleDismiss();
                   }}
                   className={cn(
-                    'px-4 py-2 rounded-lg text-sm font-medium transition-colors',
-                    action.variant === 'primary' && 'bg-yellow-400 hover:bg-yellow-500 text-gray-900',
-                    action.variant === 'danger' && 'bg-red-500 hover:bg-red-600 text-white',
-                    (!action.variant || action.variant === 'secondary') &&
-                      'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-white'
+                    "px-4 py-2 rounded-lg text-sm font-medium transition-colors",
+                    action.variant === "primary" &&
+                      "bg-yellow-400 hover:bg-yellow-500 text-gray-900",
+                    action.variant === "danger" &&
+                      "bg-red-500 hover:bg-red-600 text-white",
+                    (!action.variant || action.variant === "secondary") &&
+                      "bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-white"
                   )}
                 >
                   {action.label}
@@ -7078,11 +7193,11 @@ export function ProactiveNotification({
 ```typescript
 // stores/notificationStore.ts
 
-import { create } from 'zustand';
+import { create } from "zustand";
 
 interface Notification {
   id: string;
-  type: 'success' | 'info' | 'warning' | 'error' | 'proactive';
+  type: "success" | "info" | "warning" | "error" | "proactive";
   title: string;
   message: string;
   actions?: any[];
@@ -7091,7 +7206,7 @@ interface Notification {
 
 interface NotificationStore {
   notifications: Notification[];
-  add: (notification: Omit<Notification, 'id' | 'timestamp'>) => void;
+  add: (notification: Omit<Notification, "id" | "timestamp">) => void;
   remove: (id: string) => void;
   clear: () => void;
 }
@@ -7099,17 +7214,22 @@ interface NotificationStore {
 export const useNotificationStore = create<NotificationStore>((set) => ({
   notifications: [],
 
-  add: (notification) => set((state) => ({
-    notifications: [...state.notifications, {
-      ...notification,
-      id: crypto.randomUUID(),
-      timestamp: new Date(),
-    }],
-  })),
+  add: (notification) =>
+    set((state) => ({
+      notifications: [
+        ...state.notifications,
+        {
+          ...notification,
+          id: crypto.randomUUID(),
+          timestamp: new Date(),
+        },
+      ],
+    })),
 
-  remove: (id) => set((state) => ({
-    notifications: state.notifications.filter(n => n.id !== id),
-  })),
+  remove: (id) =>
+    set((state) => ({
+      notifications: state.notifications.filter((n) => n.id !== id),
+    })),
 
   clear: () => set({ notifications: [] }),
 }));
@@ -7124,14 +7244,14 @@ export const useNotificationStore = create<NotificationStore>((set) => ({
 ```tsx
 // renderer/pages/Settings.tsx
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { GeneralSettings } from '@/components/settings/GeneralSettings';
-import { PersonaSettings } from '@/components/settings/PersonaSettings';
-import { PrivacySettings } from '@/components/settings/PrivacySettings';
-import { AdvancedSettings } from '@/components/settings/AdvancedSettings';
-import { AboutSettings } from '@/components/settings/AboutSettings';
-import { useTranslation } from 'react-i18next';
-import { Settings as SettingsIcon } from 'lucide-react';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { GeneralSettings } from "@/components/settings/GeneralSettings";
+import { PersonaSettings } from "@/components/settings/PersonaSettings";
+import { PrivacySettings } from "@/components/settings/PrivacySettings";
+import { AdvancedSettings } from "@/components/settings/AdvancedSettings";
+import { AboutSettings } from "@/components/settings/AboutSettings";
+import { useTranslation } from "react-i18next";
+import { Settings as SettingsIcon } from "lucide-react";
 
 export function Settings() {
   const { t } = useTranslation();
@@ -7141,17 +7261,17 @@ export function Settings() {
       {/* Header */}
       <div className="flex items-center gap-3 mb-8">
         <SettingsIcon className="w-8 h-8 text-yellow-500" />
-        <h1 className="text-3xl font-bold">{t('settings.title')}</h1>
+        <h1 className="text-3xl font-bold">{t("settings.title")}</h1>
       </div>
 
       {/* Tabs */}
       <Tabs defaultValue="general" className="w-full">
         <TabsList className="grid grid-cols-5 w-full mb-8">
-          <TabsTrigger value="general">{t('settings.general')}</TabsTrigger>
-          <TabsTrigger value="persona">{t('settings.persona')}</TabsTrigger>
-          <TabsTrigger value="privacy">{t('settings.privacy')}</TabsTrigger>
-          <TabsTrigger value="advanced">{t('settings.advanced')}</TabsTrigger>
-          <TabsTrigger value="about">{t('settings.about')}</TabsTrigger>
+          <TabsTrigger value="general">{t("settings.general")}</TabsTrigger>
+          <TabsTrigger value="persona">{t("settings.persona")}</TabsTrigger>
+          <TabsTrigger value="privacy">{t("settings.privacy")}</TabsTrigger>
+          <TabsTrigger value="advanced">{t("settings.advanced")}</TabsTrigger>
+          <TabsTrigger value="about">{t("settings.about")}</TabsTrigger>
         </TabsList>
 
         <TabsContent value="general" className="space-y-6">
@@ -7184,56 +7304,57 @@ export function Settings() {
 ```tsx
 // renderer/components/settings/PersonaSettings.tsx
 
-import { Slider } from '@/components/ui/slider';
-import { Button } from '@/components/ui/button';
-import { usePersonaStore } from '@/stores/personaStore';
-import { useTranslation } from 'react-i18next';
-import { RotateCcw, Save, Sparkles } from 'lucide-react';
+import { Slider } from "@/components/ui/slider";
+import { Button } from "@/components/ui/button";
+import { usePersonaStore } from "@/stores/personaStore";
+import { useTranslation } from "react-i18next";
+import { RotateCcw, Save, Sparkles } from "lucide-react";
 
 export function PersonaSettings() {
   const { t } = useTranslation();
-  const { persona, updatePersona, resetPersona, savePersona, isSaving } = usePersonaStore();
+  const { persona, updatePersona, resetPersona, savePersona, isSaving } =
+    usePersonaStore();
 
   const parameters = [
     {
-      key: 'warmth',
-      icon: '🤗',
-      labels: ['Cold', 'Warm'],
+      key: "warmth",
+      icon: "🤗",
+      labels: ["Cold", "Warm"],
     },
     {
-      key: 'formality',
-      icon: '👔',
-      labels: ['Casual', 'Formal'],
+      key: "formality",
+      icon: "👔",
+      labels: ["Casual", "Formal"],
     },
     {
-      key: 'humor',
-      icon: '😄',
-      labels: ['Serious', 'Playful'],
+      key: "humor",
+      icon: "😄",
+      labels: ["Serious", "Playful"],
     },
     {
-      key: 'verbosity',
-      icon: '💬',
-      labels: ['Concise', 'Detailed'],
+      key: "verbosity",
+      icon: "💬",
+      labels: ["Concise", "Detailed"],
     },
     {
-      key: 'proactivity',
-      icon: '🚀',
-      labels: ['Reactive', 'Proactive'],
+      key: "proactivity",
+      icon: "🚀",
+      labels: ["Reactive", "Proactive"],
     },
     {
-      key: 'creativity',
-      icon: '🎨',
-      labels: ['Conservative', 'Creative'],
+      key: "creativity",
+      icon: "🎨",
+      labels: ["Conservative", "Creative"],
     },
     {
-      key: 'empathy',
-      icon: '❤️',
-      labels: ['Logical', 'Empathetic'],
+      key: "empathy",
+      icon: "❤️",
+      labels: ["Logical", "Empathetic"],
     },
     {
-      key: 'directness',
-      icon: '🎯',
-      labels: ['Indirect', 'Direct'],
+      key: "directness",
+      icon: "🎯",
+      labels: ["Indirect", "Direct"],
     },
   ];
 
@@ -7243,10 +7364,10 @@ export function PersonaSettings() {
       <div>
         <div className="flex items-center gap-2 mb-2">
           <Sparkles className="w-6 h-6 text-yellow-500" />
-          <h2 className="text-2xl font-semibold">{t('persona.title')}</h2>
+          <h2 className="text-2xl font-semibold">{t("persona.title")}</h2>
         </div>
         <p className="text-gray-600 dark:text-gray-400">
-          {t('persona.description')}
+          {t("persona.description")}
         </p>
       </div>
 
@@ -7254,7 +7375,7 @@ export function PersonaSettings() {
       <div className="p-6 bg-gradient-to-br from-yellow-50 to-yellow-100 dark:from-gray-800 dark:to-gray-700 rounded-xl border border-yellow-200 dark:border-gray-600">
         <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
           <span>🌿</span>
-          {t('persona.current_persona')}
+          {t("persona.current_persona")}
         </h3>
         <p className="text-sm text-gray-700 dark:text-gray-300">
           {getPersonaDescription(persona)}
@@ -7263,7 +7384,7 @@ export function PersonaSettings() {
 
       {/* Parameter Sliders */}
       <div className="grid gap-8">
-        {parameters.map(param => (
+        {parameters.map((param) => (
           <div key={param.key} className="space-y-3">
             <div className="flex items-center justify-between">
               <label className="flex items-center gap-2 text-sm font-medium">
@@ -7277,7 +7398,9 @@ export function PersonaSettings() {
 
             <Slider
               value={[persona[param.key] * 100]}
-              onValueChange={([value]) => updatePersona({ [param.key]: value / 100 })}
+              onValueChange={([value]) =>
+                updatePersona({ [param.key]: value / 100 })
+              }
               min={0}
               max={100}
               step={5}
@@ -7300,7 +7423,7 @@ export function PersonaSettings() {
           className="flex items-center gap-2"
         >
           <RotateCcw className="w-4 h-4" />
-          {t('persona.reset')}
+          {t("persona.reset")}
         </Button>
 
         <Button
@@ -7309,7 +7432,7 @@ export function PersonaSettings() {
           className="flex items-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900"
         >
           <Save className="w-4 h-4" />
-          {isSaving ? 'Saving...' : t('persona.save')}
+          {isSaving ? "Saving..." : t("persona.save")}
         </Button>
       </div>
     </div>
@@ -7319,21 +7442,20 @@ export function PersonaSettings() {
 function getPersonaDescription(persona: PersonaParameters): string {
   const traits = [];
 
-  if (persona.warmth > 0.7) traits.push('warm and friendly');
-  if (persona.formality > 0.7) traits.push('professional');
-  else if (persona.formality < 0.3) traits.push('casual');
-  if (persona.humor > 0.7) traits.push('playful');
-  if (persona.proactivity > 0.7) traits.push('proactive');
-  if (persona.empathy > 0.7) traits.push('empathetic');
+  if (persona.warmth > 0.7) traits.push("warm and friendly");
+  if (persona.formality > 0.7) traits.push("professional");
+  else if (persona.formality < 0.3) traits.push("casual");
+  if (persona.humor > 0.7) traits.push("playful");
+  if (persona.proactivity > 0.7) traits.push("proactive");
+  if (persona.empathy > 0.7) traits.push("empathetic");
 
-  return `A ${traits.join(', ')} AI assistant that adapts to your style.`;
+  return `A ${traits.join(", ")} AI assistant that adapts to your style.`;
 }
 ```
 
 ---
 
 (Continuing with sections 8-10...)
-
 
 ## 8. Conversation History
 
@@ -7342,20 +7464,20 @@ function getPersonaDescription(persona: PersonaParameters): string {
 ```tsx
 // renderer/pages/History.tsx
 
-import { useState, useEffect } from 'react';
-import { Search, Calendar, Filter, Trash2, Download } from 'lucide-react';
-import { ConversationCard } from '@/components/history/ConversationCard';
-import { useTranslation } from 'react-i18next';
-import { Input } from '@/components/ui/input';
-import { Select } from '@/components/ui/select';
+import { useState, useEffect } from "react";
+import { Search, Calendar, Filter, Trash2, Download } from "lucide-react";
+import { ConversationCard } from "@/components/history/ConversationCard";
+import { useTranslation } from "react-i18next";
+import { Input } from "@/components/ui/input";
+import { Select } from "@/components/ui/select";
 
-type FilterPeriod = 'all' | 'today' | 'week' | 'month';
+type FilterPeriod = "all" | "today" | "week" | "month";
 
 export function History() {
   const { t } = useTranslation();
   const [conversations, setConversations] = useState([]);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [filter, setFilter] = useState<FilterPeriod>('all');
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filter, setFilter] = useState<FilterPeriod>("all");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -7369,16 +7491,19 @@ export function History() {
     setLoading(false);
   };
 
-  const filteredConversations = conversations.filter(conv =>
-    searchQuery === '' ||
-    conv.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    conv.messages.some(m => m.content.toLowerCase().includes(searchQuery.toLowerCase()))
+  const filteredConversations = conversations.filter(
+    (conv) =>
+      searchQuery === "" ||
+      conv.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      conv.messages.some((m) =>
+        m.content.toLowerCase().includes(searchQuery.toLowerCase())
+      )
   );
 
   const handleDelete = async (id: string) => {
-    if (confirm(t('history.delete_confirm'))) {
+    if (confirm(t("history.delete_confirm"))) {
       await window.electronAPI.deleteConversation(id);
-      setConversations(conversations.filter(c => c.id !== id));
+      setConversations(conversations.filter((c) => c.id !== id));
     }
   };
 
@@ -7390,7 +7515,7 @@ export function History() {
     <div className="max-w-6xl mx-auto p-8">
       {/* Header */}
       <div className="flex items-center justify-between mb-8">
-        <h1 className="text-3xl font-bold">{t('history.title')}</h1>
+        <h1 className="text-3xl font-bold">{t("history.title")}</h1>
 
         <div className="flex gap-2">
           <button
@@ -7409,7 +7534,7 @@ export function History() {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
           <Input
             type="text"
-            placeholder={t('history.search_placeholder')}
+            placeholder={t("history.search_placeholder")}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="pl-10"
@@ -7422,17 +7547,20 @@ export function History() {
           onChange={(e) => setFilter(e.target.value as FilterPeriod)}
           className="w-48"
         >
-          <option value="all">{t('history.filter_all')}</option>
-          <option value="today">{t('history.filter_today')}</option>
-          <option value="week">{t('history.filter_week')}</option>
-          <option value="month">{t('history.filter_month')}</option>
+          <option value="all">{t("history.filter_all")}</option>
+          <option value="today">{t("history.filter_today")}</option>
+          <option value="week">{t("history.filter_week")}</option>
+          <option value="month">{t("history.filter_month")}</option>
         </Select>
       </div>
 
       {/* Results count */}
       {!loading && (
         <div className="text-sm text-gray-500 mb-4">
-          {filteredConversations.length} {filteredConversations.length === 1 ? 'conversation' : 'conversations'}
+          {filteredConversations.length}{" "}
+          {filteredConversations.length === 1
+            ? "conversation"
+            : "conversations"}
         </div>
       )}
 
@@ -7448,10 +7576,12 @@ export function History() {
         <div className="text-center py-12">
           <Calendar className="w-16 h-16 text-gray-300 mx-auto mb-4" />
           <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-2">
-            {searchQuery ? t('history.no_results') : 'No conversations yet'}
+            {searchQuery ? t("history.no_results") : "No conversations yet"}
           </h3>
           <p className="text-gray-500">
-            {searchQuery ? 'Try a different search term' : 'Start chatting to see your history here'}
+            {searchQuery
+              ? "Try a different search term"
+              : "Start chatting to see your history here"}
           </p>
         </div>
       )}
@@ -7479,9 +7609,15 @@ export function History() {
 ```tsx
 // renderer/components/history/ConversationCard.tsx
 
-import { MessageCircle, Calendar, Trash2, Download, ChevronRight } from 'lucide-react';
-import { formatDistanceToNow, format } from 'date-fns';
-import { useNavigate } from 'react-router-dom';
+import {
+  MessageCircle,
+  Calendar,
+  Trash2,
+  Download,
+  ChevronRight,
+} from "lucide-react";
+import { formatDistanceToNow, format } from "date-fns";
+import { useNavigate } from "react-router-dom";
 
 interface ConversationCardProps {
   conversation: {
@@ -7496,12 +7632,18 @@ interface ConversationCardProps {
   onExport: () => void;
 }
 
-export function ConversationCard({ conversation, onDelete, onExport }: ConversationCardProps) {
+export function ConversationCard({
+  conversation,
+  onDelete,
+  onExport,
+}: ConversationCardProps) {
   const navigate = useNavigate();
 
   const getPreview = () => {
-    const firstUserMessage = conversation.messages.find(m => m.role === 'user');
-    return firstUserMessage?.content.slice(0, 150) || 'No messages';
+    const firstUserMessage = conversation.messages.find(
+      (m) => m.role === "user"
+    );
+    return firstUserMessage?.content.slice(0, 150) || "No messages";
   };
 
   return (
@@ -7514,7 +7656,7 @@ export function ConversationCard({ conversation, onDelete, onExport }: Conversat
         <div className="flex items-center gap-3 flex-1 min-w-0">
           <MessageCircle className="w-5 h-5 text-yellow-500 flex-shrink-0" />
           <h3 className="font-semibold text-gray-900 dark:text-white truncate">
-            {conversation.title || 'Untitled conversation'}
+            {conversation.title || "Untitled conversation"}
           </h3>
         </div>
 
@@ -7560,7 +7702,9 @@ export function ConversationCard({ conversation, onDelete, onExport }: Conversat
         <span>•</span>
         <span className="flex items-center gap-1">
           <Calendar className="w-3 h-3" />
-          {formatDistanceToNow(new Date(conversation.createdAt), { addSuffix: true })}
+          {formatDistanceToNow(new Date(conversation.createdAt), {
+            addSuffix: true,
+          })}
         </span>
         <span>•</span>
         <span className="text-gray-400">{conversation.model}</span>
@@ -7583,19 +7727,23 @@ export function searchConversations(
 
   const lowercaseQuery = query.toLowerCase();
 
-  return conversations.filter(conv => {
+  return conversations.filter((conv) => {
     // Search in title
     if (conv.title?.toLowerCase().includes(lowercaseQuery)) {
       return true;
     }
 
     // Search in messages
-    if (conv.messages.some(m => m.content.toLowerCase().includes(lowercaseQuery))) {
+    if (
+      conv.messages.some((m) =>
+        m.content.toLowerCase().includes(lowercaseQuery)
+      )
+    ) {
       return true;
     }
 
     // Search by date
-    const dateStr = format(new Date(conv.createdAt), 'PPP').toLowerCase();
+    const dateStr = format(new Date(conv.createdAt), "PPP").toLowerCase();
     if (dateStr.includes(lowercaseQuery)) {
       return true;
     }
@@ -7609,14 +7757,12 @@ export function fuzzySearchConversations(
   conversations: Conversation[],
   query: string
 ): Array<{ conversation: Conversation; score: number }> {
-  const results = conversations.map(conv => ({
+  const results = conversations.map((conv) => ({
     conversation: conv,
     score: calculateRelevanceScore(conv, query),
   }));
 
-  return results
-    .filter(r => r.score > 0)
-    .sort((a, b) => b.score - a.score);
+  return results.filter((r) => r.score > 0).sort((a, b) => b.score - a.score);
 }
 
 function calculateRelevanceScore(conv: Conversation, query: string): number {
@@ -7629,13 +7775,14 @@ function calculateRelevanceScore(conv: Conversation, query: string): number {
   }
 
   // Message match
-  const messageMatches = conv.messages.filter(m =>
+  const messageMatches = conv.messages.filter((m) =>
     m.content.toLowerCase().includes(lowercaseQuery)
   ).length;
   score += messageMatches * 2;
 
   // Recency bonus
-  const daysSinceCreated = (Date.now() - new Date(conv.createdAt).getTime()) / (1000 * 60 * 60 * 24);
+  const daysSinceCreated =
+    (Date.now() - new Date(conv.createdAt).getTime()) / (1000 * 60 * 60 * 24);
   if (daysSinceCreated < 7) score += 3;
   else if (daysSinceCreated < 30) score += 1;
 
@@ -7652,97 +7799,99 @@ function calculateRelevanceScore(conv: Conversation, query: string): number {
 ```typescript
 // hooks/useKeyboardShortcuts.ts
 
-import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export function useKeyboardShortcuts() {
   const navigate = useNavigate();
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+      const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
       const modifier = isMac ? e.metaKey : e.ctrlKey;
 
       // Cmd/Ctrl + K: Focus search
-      if (modifier && e.key === 'k') {
+      if (modifier && e.key === "k") {
         e.preventDefault();
-        document.getElementById('search-input')?.focus();
+        document.getElementById("search-input")?.focus();
       }
 
       // Cmd/Ctrl + N: New conversation
-      if (modifier && e.key === 'n') {
+      if (modifier && e.key === "n") {
         e.preventDefault();
-        navigate('/chat/new');
+        navigate("/chat/new");
       }
 
       // Cmd/Ctrl + ,: Open settings
-      if (modifier && e.key === ',') {
+      if (modifier && e.key === ",") {
         e.preventDefault();
-        navigate('/settings');
+        navigate("/settings");
       }
 
       // Cmd/Ctrl + H: Show history
-      if (modifier && e.key === 'h') {
+      if (modifier && e.key === "h") {
         e.preventDefault();
-        navigate('/history');
+        navigate("/history");
       }
 
       // Cmd/Ctrl + Shift + V: Toggle voice input
-      if (modifier && e.shiftKey && e.key === 'V') {
+      if (modifier && e.shiftKey && e.key === "V") {
         e.preventDefault();
         // Trigger voice input
-        document.dispatchEvent(new CustomEvent('toggle-voice'));
+        document.dispatchEvent(new CustomEvent("toggle-voice"));
       }
 
       // Cmd/Ctrl + /: Show keyboard shortcuts
-      if (modifier && e.key === '/') {
+      if (modifier && e.key === "/") {
         e.preventDefault();
         // Show shortcuts modal
-        document.dispatchEvent(new CustomEvent('show-shortcuts'));
+        document.dispatchEvent(new CustomEvent("show-shortcuts"));
       }
 
       // Escape: Close modal/dismiss notification
-      if (e.key === 'Escape') {
-        document.dispatchEvent(new CustomEvent('close-modal'));
+      if (e.key === "Escape") {
+        document.dispatchEvent(new CustomEvent("close-modal"));
       }
 
       // Cmd/Ctrl + D: Toggle dark mode
-      if (modifier && e.key === 'd') {
+      if (modifier && e.key === "d") {
         e.preventDefault();
-        document.dispatchEvent(new CustomEvent('toggle-theme'));
+        document.dispatchEvent(new CustomEvent("toggle-theme"));
       }
 
       // Cmd/Ctrl + 1-5: Switch tabs (in settings)
-      if (modifier && e.key >= '1' && e.key <= '5') {
+      if (modifier && e.key >= "1" && e.key <= "5") {
         e.preventDefault();
         const tabIndex = parseInt(e.key) - 1;
-        document.dispatchEvent(new CustomEvent('switch-tab', { detail: { tabIndex } }));
+        document.dispatchEvent(
+          new CustomEvent("switch-tab", { detail: { tabIndex } })
+        );
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, [navigate]);
 }
 ```
 
 ### 9.2 Keyboard Shortcuts Reference
 
-| Shortcut | Action | Context |
-|----------|--------|---------|
-| `Cmd+K` / `Ctrl+K` | Focus search | Global |
-| `Cmd+N` / `Ctrl+N` | New conversation | Global |
-| `Cmd+,` / `Ctrl+,` | Open settings | Global |
-| `Cmd+H` / `Ctrl+H` | Show history | Global |
-| `Cmd+Shift+V` | Toggle voice input | Chat |
-| `Cmd+D` / `Ctrl+D` | Toggle dark mode | Global |
-| `Cmd+/` / `Ctrl+/` | Show shortcuts | Global |
-| `Cmd+1-5` / `Ctrl+1-5` | Switch setting tabs | Settings |
-| `Enter` | Send message | Chat input |
-| `Shift+Enter` | New line | Chat input |
-| `Escape` | Close modal/notification | Global |
-| `↑` / `↓` | Navigate history | Chat input (empty) |
-| `Cmd+F` / `Ctrl+F` | Search in conversation | Chat |
+| Shortcut               | Action                   | Context            |
+| ---------------------- | ------------------------ | ------------------ |
+| `Cmd+K` / `Ctrl+K`     | Focus search             | Global             |
+| `Cmd+N` / `Ctrl+N`     | New conversation         | Global             |
+| `Cmd+,` / `Ctrl+,`     | Open settings            | Global             |
+| `Cmd+H` / `Ctrl+H`     | Show history             | Global             |
+| `Cmd+Shift+V`          | Toggle voice input       | Chat               |
+| `Cmd+D` / `Ctrl+D`     | Toggle dark mode         | Global             |
+| `Cmd+/` / `Ctrl+/`     | Show shortcuts           | Global             |
+| `Cmd+1-5` / `Ctrl+1-5` | Switch setting tabs      | Settings           |
+| `Enter`                | Send message             | Chat input         |
+| `Shift+Enter`          | New line                 | Chat input         |
+| `Escape`               | Close modal/notification | Global             |
+| `↑` / `↓`              | Navigate history         | Chat input (empty) |
+| `Cmd+F` / `Ctrl+F`     | Search in conversation   | Chat               |
 
 ### 9.3 Accessibility Implementation
 
@@ -7752,7 +7901,7 @@ export function useKeyboardShortcuts() {
 // 1. Semantic HTML
 <main role="main" aria-label="Chat interface">
   <header role="banner">
-    <h1>Garden of Eden</h1>
+    <h1>Eden Proejct</h1>
   </header>
 
   <nav role="navigation" aria-label="Main navigation">
@@ -7849,31 +7998,31 @@ button:focus-visible {
 ```tsx
 // renderer/components/ShortcutsModal.tsx
 
-import { Dialog } from '@/components/ui/dialog';
-import { useEffect, useState } from 'react';
+import { Dialog } from "@/components/ui/dialog";
+import { useEffect, useState } from "react";
 
 export function ShortcutsModal() {
   const [isOpen, setIsOpen] = useState(false);
-  const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
-  const modifierKey = isMac ? '⌘' : 'Ctrl';
+  const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
+  const modifierKey = isMac ? "⌘" : "Ctrl";
 
   useEffect(() => {
     const handleShow = () => setIsOpen(true);
-    document.addEventListener('show-shortcuts', handleShow);
-    return () => document.removeEventListener('show-shortcuts', handleShow);
+    document.addEventListener("show-shortcuts", handleShow);
+    return () => document.removeEventListener("show-shortcuts", handleShow);
   }, []);
 
   const shortcuts = [
-    { keys: [`${modifierKey}`, 'K'], action: 'Focus search' },
-    { keys: [`${modifierKey}`, 'N'], action: 'New conversation' },
-    { keys: [`${modifierKey}`, ','], action: 'Open settings' },
-    { keys: [`${modifierKey}`, 'H'], action: 'Show history' },
-    { keys: [`${modifierKey}`, 'Shift', 'V'], action: 'Toggle voice input' },
-    { keys: [`${modifierKey}`, 'D'], action: 'Toggle dark mode' },
-    { keys: [`${modifierKey}`, '/'], action: 'Show this help' },
-    { keys: ['Enter'], action: 'Send message' },
-    { keys: ['Shift', 'Enter'], action: 'New line' },
-    { keys: ['Esc'], action: 'Close modal' },
+    { keys: [`${modifierKey}`, "K"], action: "Focus search" },
+    { keys: [`${modifierKey}`, "N"], action: "New conversation" },
+    { keys: [`${modifierKey}`, ","], action: "Open settings" },
+    { keys: [`${modifierKey}`, "H"], action: "Show history" },
+    { keys: [`${modifierKey}`, "Shift", "V"], action: "Toggle voice input" },
+    { keys: [`${modifierKey}`, "D"], action: "Toggle dark mode" },
+    { keys: [`${modifierKey}`, "/"], action: "Show this help" },
+    { keys: ["Enter"], action: "Send message" },
+    { keys: ["Shift", "Enter"], action: "New line" },
+    { keys: ["Esc"], action: "Close modal" },
   ];
 
   return (
@@ -7883,8 +8032,13 @@ export function ShortcutsModal() {
 
         <div className="space-y-2">
           {shortcuts.map((shortcut, index) => (
-            <div key={index} className="flex items-center justify-between py-2 border-b border-gray-200 dark:border-gray-700">
-              <span className="text-gray-700 dark:text-gray-300">{shortcut.action}</span>
+            <div
+              key={index}
+              className="flex items-center justify-between py-2 border-b border-gray-200 dark:border-gray-700"
+            >
+              <span className="text-gray-700 dark:text-gray-300">
+                {shortcut.action}
+              </span>
               <div className="flex gap-1">
                 {shortcut.keys.map((key, i) => (
                   <kbd
@@ -7913,8 +8067,8 @@ export function ShortcutsModal() {
 ```typescript
 // main/tray.ts
 
-import { Tray, Menu, nativeImage, BrowserWindow, app } from 'electron';
-import path from 'path';
+import { Tray, Menu, nativeImage, BrowserWindow, app } from "electron";
+import path from "path";
 
 export class TrayManager {
   private tray: Tray | null = null;
@@ -7925,7 +8079,7 @@ export class TrayManager {
   }
 
   create() {
-    const iconPath = path.join(__dirname, '../resources/icons/tray-icon.png');
+    const iconPath = path.join(__dirname, "../resources/icons/tray-icon.png");
     const icon = nativeImage.createFromPath(iconPath);
 
     // Create tray with icon
@@ -7934,72 +8088,72 @@ export class TrayManager {
     // Build context menu
     const contextMenu = Menu.buildFromTemplate([
       {
-        label: 'Show Garden of Eden',
+        label: "Show Eden Proejct",
         click: () => this.mainWindow.show(),
       },
       {
-        label: 'New Conversation',
-        accelerator: 'CmdOrCtrl+N',
+        label: "New Conversation",
+        accelerator: "CmdOrCtrl+N",
         click: () => {
           this.mainWindow.show();
-          this.mainWindow.webContents.send('new-conversation');
+          this.mainWindow.webContents.send("new-conversation");
         },
       },
-      { type: 'separator' },
+      { type: "separator" },
       {
-        label: 'Mode',
+        label: "Mode",
         submenu: [
           {
-            label: 'User-Led',
-            type: 'radio',
-            click: () => this.setMode('user-led'),
+            label: "User-Led",
+            type: "radio",
+            click: () => this.setMode("user-led"),
           },
           {
-            label: 'AI-Led',
-            type: 'radio',
-            click: () => this.setMode('ai-led'),
+            label: "AI-Led",
+            type: "radio",
+            click: () => this.setMode("ai-led"),
           },
         ],
       },
-      { type: 'separator' },
+      { type: "separator" },
       {
-        label: 'Settings',
-        accelerator: 'CmdOrCtrl+,',
+        label: "Settings",
+        accelerator: "CmdOrCtrl+,",
         click: () => {
           this.mainWindow.show();
-          this.mainWindow.webContents.send('navigate-to', '/settings');
+          this.mainWindow.webContents.send("navigate-to", "/settings");
         },
       },
       {
-        label: 'History',
-        accelerator: 'CmdOrCtrl+H',
+        label: "History",
+        accelerator: "CmdOrCtrl+H",
         click: () => {
           this.mainWindow.show();
-          this.mainWindow.webContents.send('navigate-to', '/history');
+          this.mainWindow.webContents.send("navigate-to", "/history");
         },
       },
-      { type: 'separator' },
+      { type: "separator" },
       {
-        label: 'Check for Updates',
+        label: "Check for Updates",
         click: () => this.checkForUpdates(),
       },
       {
-        label: 'About',
+        label: "About",
         click: () => this.showAbout(),
       },
-      { type: 'separator' },
+      { type: "separator" },
       {
-        label: 'Quit',
-        accelerator: 'CmdOrCtrl+Q',
+        label: "Quit",
+        accelerator: "CmdOrCtrl+Q",
         click: () => app.quit(),
       },
     ]);
 
     this.tray.setContextMenu(contextMenu);
-    this.tray.setToolTip('Garden of Eden - Your AI Companion');
+    this.tray.setToolTip("Eden Proejct - Your AI Companion");
 
     // Click to show/hide window (Windows/Linux)
-    this.tray.on('click', () => {
+    this.tray.on("click", () => {
       if (this.mainWindow.isVisible()) {
         this.mainWindow.hide();
       } else {
@@ -8008,21 +8162,24 @@ export class TrayManager {
     });
 
     // Double-click to show window (macOS)
-    this.tray.on('double-click', () => {
+    this.tray.on("double-click", () => {
       this.mainWindow.show();
     });
   }
 
-  updateIcon(status: 'idle' | 'processing' | 'recording') {
+  updateIcon(status: "idle" | "processing" | "recording") {
     if (!this.tray) return;
 
     const iconMap = {
-      idle: 'tray-icon.png',
-      processing: 'tray-icon-processing.png',
-      recording: 'tray-icon-recording.png',
+      idle: "tray-icon.png",
+      processing: "tray-icon-processing.png",
+      recording: "tray-icon-recording.png",
     };
 
-    const iconPath = path.join(__dirname, `../resources/icons/${iconMap[status]}`);
+    const iconPath = path.join(
+      __dirname,
+      `../resources/icons/${iconMap[status]}`
+    );
     const icon = nativeImage.createFromPath(iconPath);
 
     this.tray.setImage(icon.resize({ width: 16, height: 16 }));
@@ -8033,18 +8190,18 @@ export class TrayManager {
     this.tray.setToolTip(message);
   }
 
-  private setMode(mode: 'user-led' | 'ai-led') {
-    this.mainWindow.webContents.send('set-mode', mode);
+  private setMode(mode: "user-led" | "ai-led") {
+    this.mainWindow.webContents.send("set-mode", mode);
   }
 
   private checkForUpdates() {
     // Trigger auto-updater
-    this.mainWindow.webContents.send('check-updates');
+    this.mainWindow.webContents.send("check-updates");
   }
 
   private showAbout() {
     this.mainWindow.show();
-    this.mainWindow.webContents.send('show-about');
+    this.mainWindow.webContents.send("show-about");
   }
 
   destroy() {
@@ -8061,9 +8218,9 @@ export class TrayManager {
 ```typescript
 // main/window-manager.ts
 
-import { BrowserWindow, screen, app } from 'electron';
-import path from 'path';
-import Store from 'electron-store';
+import { BrowserWindow, screen, app } from "electron";
+import path from "path";
+import Store from "electron-store";
 
 interface WindowBounds {
   x: number;
@@ -8082,7 +8239,9 @@ export class WindowManager {
 
   create(): BrowserWindow {
     // Get saved window bounds or use defaults
-    const savedBounds = this.store.get('windowBounds') as WindowBounds | undefined;
+    const savedBounds = this.store.get("windowBounds") as
+      | WindowBounds
+      | undefined;
     const { width, height } = screen.getPrimaryDisplay().workAreaSize;
 
     const defaultBounds = {
@@ -8099,43 +8258,43 @@ export class WindowManager {
       minWidth: 800,
       minHeight: 600,
       show: false, // Don't show until ready-to-show
-      backgroundColor: '#FAFAF9',
-      titleBarStyle: process.platform === 'darwin' ? 'hiddenInset' : 'default',
+      backgroundColor: "#FAFAF9",
+      titleBarStyle: process.platform === "darwin" ? "hiddenInset" : "default",
       frame: true,
       webPreferences: {
         contextIsolation: true,
         nodeIntegration: false,
-        preload: path.join(__dirname, 'preload.js'),
+        preload: path.join(__dirname, "preload.js"),
         devTools: !app.isPackaged,
       },
     });
 
     // Load URL
     if (app.isPackaged) {
-      this.mainWindow.loadFile(path.join(__dirname, '../renderer/index.html'));
+      this.mainWindow.loadFile(path.join(__dirname, "../renderer/index.html"));
     } else {
-      this.mainWindow.loadURL('http://localhost:5173'); // Vite dev server
+      this.mainWindow.loadURL("http://localhost:5173"); // Vite dev server
     }
 
     // Show when ready (prevents flash of white)
-    this.mainWindow.once('ready-to-show', () => {
+    this.mainWindow.once("ready-to-show", () => {
       this.mainWindow?.show();
       this.mainWindow?.focus();
     });
 
     // Save window bounds on resize/move
-    this.mainWindow.on('resize', () => this.saveBounds());
-    this.mainWindow.on('move', () => this.saveBounds());
+    this.mainWindow.on("resize", () => this.saveBounds());
+    this.mainWindow.on("move", () => this.saveBounds());
 
     // Handle close
-    this.mainWindow.on('close', (e) => {
-      if (process.platform === 'darwin') {
+    this.mainWindow.on("close", (e) => {
+      if (process.platform === "darwin") {
         // On macOS, hide instead of close
         e.preventDefault();
         this.mainWindow?.hide();
       } else {
         // On Windows/Linux, minimize to tray
-        const minimizeToTray = this.store.get('minimizeToTray', true);
+        const minimizeToTray = this.store.get("minimizeToTray", true);
         if (minimizeToTray) {
           e.preventDefault();
           this.mainWindow?.hide();
@@ -8144,7 +8303,7 @@ export class WindowManager {
     });
 
     // Cleanup on closed
-    this.mainWindow.on('closed', () => {
+    this.mainWindow.on("closed", () => {
       this.mainWindow = null;
     });
 
@@ -8155,7 +8314,7 @@ export class WindowManager {
     if (!this.mainWindow) return;
 
     const bounds = this.mainWindow.getBounds();
-    this.store.set('windowBounds', bounds);
+    this.store.set("windowBounds", bounds);
   }
 
   restore() {
@@ -8207,27 +8366,27 @@ export class WindowManager {
 ```typescript
 // main/dock.ts (macOS only)
 
-import { app, Menu } from 'electron';
+import { app, Menu } from "electron";
 
 export class DockManager {
   setup() {
-    if (process.platform !== 'darwin') return;
+    if (process.platform !== "darwin") return;
 
     // Set dock menu
     const dockMenu = Menu.buildFromTemplate([
       {
-        label: 'New Conversation',
+        label: "New Conversation",
         click: () => {
           // Send event to main window
           const windows = BrowserWindow.getAllWindows();
-          windows[0]?.webContents.send('new-conversation');
+          windows[0]?.webContents.send("new-conversation");
         },
       },
       {
-        label: 'Show History',
+        label: "Show History",
         click: () => {
           const windows = BrowserWindow.getAllWindows();
-          windows[0]?.webContents.send('navigate-to', '/history');
+          windows[0]?.webContents.send("navigate-to", "/history");
         },
       },
     ]);
@@ -8236,17 +8395,17 @@ export class DockManager {
   }
 
   setBadge(count: number) {
-    if (process.platform !== 'darwin') return;
+    if (process.platform !== "darwin") return;
 
     if (count > 0) {
       app.dock.setBadge(count.toString());
     } else {
-      app.dock.setBadge('');
+      app.dock.setBadge("");
     }
   }
 
-  bounce(type: 'critical' | 'informational' = 'informational') {
-    if (process.platform !== 'darwin') return;
+  bounce(type: "critical" | "informational" = "informational") {
+    if (process.platform !== "darwin") return;
 
     app.dock.bounce(type);
   }
@@ -8258,7 +8417,7 @@ export class DockManager {
 ```tsx
 // renderer/components/WindowControls.tsx (for frameless window)
 
-import { Minimize, Maximize, X } from 'lucide-react';
+import { Minimize, Maximize, X } from "lucide-react";
 
 export function WindowControls() {
   const handleMinimize = () => {
@@ -8307,8 +8466,8 @@ export function WindowControls() {
 
 **End of Part 4 (EXPANDED)**
 
-*Total Lines: ~2100*
-*Status: Complete - Production Ready*
+_Total Lines: ~2100_
+_Status: Complete - Production Ready_
 
 ---
 
@@ -8351,6 +8510,7 @@ Part 4 now includes **complete, production-ready implementations** for:
 ### 1.1 Database Architecture
 
 **Why SQLite?**
+
 - ✅ 100% local (no server)
 - ✅ Zero-configuration
 - ✅ Fast (ACID compliant)
@@ -8473,9 +8633,9 @@ CREATE INDEX idx_notifications_created ON notifications(created_at DESC);
 ```typescript
 // main/database/migrations.ts
 
-import Database from 'better-sqlite3';
-import fs from 'fs';
-import path from 'path';
+import Database from "better-sqlite3";
+import fs from "fs";
+import path from "path";
 
 export class MigrationManager {
   constructor(private db: Database.Database) {}
@@ -8490,19 +8650,23 @@ export class MigrationManager {
       );
     `);
 
-    const migrationFiles = fs.readdirSync(path.join(__dirname, 'migrations'))
-      .filter(f => f.endsWith('.sql'))
+    const migrationFiles = fs
+      .readdirSync(path.join(__dirname, "migrations"))
+      .filter((f) => f.endsWith(".sql"))
       .sort();
 
     for (const file of migrationFiles) {
-      const executed = this.db.prepare(
-        'SELECT 1 FROM migrations WHERE name = ?'
-      ).get(file);
+      const executed = this.db
+        .prepare("SELECT 1 FROM migrations WHERE name = ?")
+        .get(file);
 
       if (!executed) {
-        const sql = fs.readFileSync(path.join(__dirname, 'migrations', file), 'utf-8');
+        const sql = fs.readFileSync(
+          path.join(__dirname, "migrations", file),
+          "utf-8"
+        );
         this.db.exec(sql);
-        this.db.prepare('INSERT INTO migrations (name) VALUES (?)').run(file);
+        this.db.prepare("INSERT INTO migrations (name) VALUES (?)").run(file);
         console.log(`✅ Executed migration: ${file}`);
       }
     }
@@ -8532,7 +8696,7 @@ export interface Conversation {
 export interface Message {
   id: string;
   conversationId: string;
-  role: 'user' | 'assistant' | 'system';
+  role: "user" | "assistant" | "system";
   content: string;
   tokens?: number;
   createdAt: Date;
@@ -8540,14 +8704,14 @@ export interface Message {
 }
 
 export interface PersonaParameters {
-  warmth: number;        // 0-1: Cold → Warm
-  formality: number;     // 0-1: Casual → Formal
-  humor: number;         // 0-1: Serious → Playful
-  verbosity: number;     // 0-1: Concise → Detailed
-  proactivity: number;   // 0-1: Reactive → Proactive
-  creativity: number;    // 0-1: Conservative → Creative
-  empathy: number;       // 0-1: Logical → Empathetic
-  directness: number;    // 0-1: Indirect → Direct
+  warmth: number; // 0-1: Cold → Warm
+  formality: number; // 0-1: Casual → Formal
+  humor: number; // 0-1: Serious → Playful
+  verbosity: number; // 0-1: Concise → Detailed
+  proactivity: number; // 0-1: Reactive → Proactive
+  creativity: number; // 0-1: Conservative → Creative
+  empathy: number; // 0-1: Logical → Empathetic
+  directness: number; // 0-1: Indirect → Direct
 }
 
 export interface EpisodicMemory {
@@ -8564,7 +8728,7 @@ export interface Workspace {
   id: string;
   rootPath: string;
   name: string;
-  type: 'nodejs' | 'python' | 'rust' | 'go' | 'java' | 'generic';
+  type: "nodejs" | "python" | "rust" | "go" | "java" | "generic";
   gitRepo?: string;
   lastOpened: Date;
   metadata?: Record<string, any>;
@@ -8575,7 +8739,7 @@ export interface ProactiveNotification {
   type: string;
   title: string;
   message: string;
-  actionTaken?: 'accepted' | 'dismissed' | 'ignored';
+  actionTaken?: "accepted" | "dismissed" | "ignored";
   createdAt: Date;
   resolvedAt?: Date;
   metadata?: Record<string, any>;
@@ -8587,70 +8751,93 @@ export interface ProactiveNotification {
 ```typescript
 // main/database/repositories/conversation.repository.ts
 
-import Database from 'better-sqlite3';
-import { Conversation, Message } from '@/shared/types/models';
+import Database from "better-sqlite3";
+import { Conversation, Message } from "@/shared/types/models";
 
 export class ConversationRepository {
   constructor(private db: Database.Database) {}
 
-  create(conversation: Omit<Conversation, 'id' | 'createdAt' | 'updatedAt'>): Conversation {
+  create(
+    conversation: Omit<Conversation, "id" | "createdAt" | "updatedAt">
+  ): Conversation {
     const id = crypto.randomUUID();
     const now = new Date().toISOString();
 
-    this.db.prepare(`
+    this.db
+      .prepare(
+        `
       INSERT INTO conversations (id, title, model, created_at, updated_at, message_count, metadata)
       VALUES (?, ?, ?, ?, ?, ?, ?)
-    `).run(
-      id,
-      conversation.title || null,
-      conversation.model,
-      now,
-      now,
-      0,
-      JSON.stringify(conversation.metadata || {})
-    );
+    `
+      )
+      .run(
+        id,
+        conversation.title || null,
+        conversation.model,
+        now,
+        now,
+        0,
+        JSON.stringify(conversation.metadata || {})
+      );
 
     return this.findById(id)!;
   }
 
   findById(id: string): Conversation | null {
-    const row = this.db.prepare('SELECT * FROM conversations WHERE id = ?').get(id);
+    const row = this.db
+      .prepare("SELECT * FROM conversations WHERE id = ?")
+      .get(id);
     return row ? this.mapRow(row) : null;
   }
 
   findAll(limit = 50, offset = 0): Conversation[] {
-    const rows = this.db.prepare(`
+    const rows = this.db
+      .prepare(
+        `
       SELECT * FROM conversations
       ORDER BY updated_at DESC
       LIMIT ? OFFSET ?
-    `).all(limit, offset);
+    `
+      )
+      .all(limit, offset);
 
-    return rows.map(row => this.mapRow(row));
+    return rows.map((row) => this.mapRow(row));
   }
 
-  addMessage(conversationId: string, message: Omit<Message, 'id' | 'createdAt'>): Message {
+  addMessage(
+    conversationId: string,
+    message: Omit<Message, "id" | "createdAt">
+  ): Message {
     const id = crypto.randomUUID();
     const now = new Date().toISOString();
 
-    this.db.prepare(`
+    this.db
+      .prepare(
+        `
       INSERT INTO messages (id, conversation_id, role, content, tokens, created_at, metadata)
       VALUES (?, ?, ?, ?, ?, ?, ?)
-    `).run(
-      id,
-      conversationId,
-      message.role,
-      message.content,
-      message.tokens || null,
-      now,
-      JSON.stringify(message.metadata || {})
-    );
+    `
+      )
+      .run(
+        id,
+        conversationId,
+        message.role,
+        message.content,
+        message.tokens || null,
+        now,
+        JSON.stringify(message.metadata || {})
+      );
 
     // Update conversation message count and updated_at
-    this.db.prepare(`
+    this.db
+      .prepare(
+        `
       UPDATE conversations
       SET message_count = message_count + 1, updated_at = ?
       WHERE id = ?
-    `).run(now, conversationId);
+    `
+      )
+      .run(now, conversationId);
 
     return {
       id,
@@ -8686,6 +8873,7 @@ export class ConversationRepository {
 **Goal**: Basic Electron app with database
 
 **Tasks**:
+
 - ✅ Setup Electron + React + TypeScript project
 - ✅ Configure Vite for renderer
 - ✅ Setup SQLite database
@@ -8704,6 +8892,7 @@ export class ConversationRepository {
 **Goal**: Local AI models working
 
 **Tasks**:
+
 - ✅ Download and setup llama.cpp
 - ✅ Integrate Llama 3.1 8B model
 - ✅ Integrate Whisper Large V3 for STT
@@ -8721,6 +8910,7 @@ export class ConversationRepository {
 **Goal**: Beautiful, functional UI
 
 **Tasks**:
+
 - ✅ Implement KakaoTalk-style chat interface
 - ✅ Chat bubbles, typing indicator
 - ✅ Input box with voice button
@@ -8739,6 +8929,7 @@ export class ConversationRepository {
 **Goal**: AI can access system
 
 **Tasks**:
+
 - ✅ File system integration
 - ✅ Git integration
 - ✅ Workspace detection
@@ -8756,6 +8947,7 @@ export class ConversationRepository {
 **Goal**: Persona adapts over time
 
 **Tasks**:
+
 - ✅ Persona parameter system
 - ✅ RAG episodic memory
 - ✅ Satisfaction feedback loop
@@ -8772,6 +8964,7 @@ export class ConversationRepository {
 **Goal**: Production-ready
 
 **Tasks**:
+
 - ✅ Comprehensive error handling
 - ✅ Loading states
 - ✅ Keyboard shortcuts
@@ -8790,6 +8983,7 @@ export class ConversationRepository {
 **Goal**: Packaged for distribution
 
 **Tasks**:
+
 - ✅ electron-builder configuration
 - ✅ Code signing (macOS + Windows)
 - ✅ Auto-updater setup
@@ -8807,6 +9001,7 @@ export class ConversationRepository {
 **Goal**: Public release
 
 **Tasks**:
+
 - ✅ Create landing page
 - ✅ Write documentation
 - ✅ Record demo video
@@ -8828,7 +9023,7 @@ export class ConversationRepository {
 
 {
   "appId": "com.garden-of-eden.app",
-  "productName": "Garden of Eden",
+  "productName": "Eden Proejct",
   "copyright": "Copyright © 2025",
   "directories": {
     "output": "dist"
@@ -8869,31 +9064,33 @@ export class ConversationRepository {
 ```typescript
 // main/updater.ts
 
-import { autoUpdater } from 'electron-updater';
+import { autoUpdater } from "electron-updater";
 
 export class AutoUpdaterService {
   init() {
     autoUpdater.checkForUpdatesAndNotify();
 
-    autoUpdater.on('update-available', () => {
+    autoUpdater.on("update-available", () => {
       dialog.showMessageBox({
-        type: 'info',
-        title: 'Update Available',
-        message: 'A new version is available. Downloading...',
+        type: "info",
+        title: "Update Available",
+        message: "A new version is available. Downloading...",
       });
     });
 
-    autoUpdater.on('update-downloaded', () => {
-      dialog.showMessageBox({
-        type: 'info',
-        title: 'Update Ready',
-        message: 'Update downloaded. Restart to install?',
-        buttons: ['Restart', 'Later'],
-      }).then((result) => {
-        if (result.response === 0) {
-          autoUpdater.quitAndInstall();
-        }
-      });
+    autoUpdater.on("update-downloaded", () => {
+      dialog
+        .showMessageBox({
+          type: "info",
+          title: "Update Ready",
+          message: "Update downloaded. Restart to install?",
+          buttons: ["Restart", "Later"],
+        })
+        .then((result) => {
+          if (result.response === 0) {
+            autoUpdater.quitAndInstall();
+          }
+        });
     });
   }
 }
@@ -8910,13 +9107,17 @@ export function ModelDownloader() {
   const [progress, setProgress] = useState(0);
 
   const downloadModels = async () => {
-    await window.electronAPI.downloadModel('llama-3.1-8b', (p) => setProgress(p));
-    await window.electronAPI.downloadModel('whisper-large-v3', (p) => setProgress(p));
+    await window.electronAPI.downloadModel("llama-3.1-8b", (p) =>
+      setProgress(p)
+    );
+    await window.electronAPI.downloadModel("whisper-large-v3", (p) =>
+      setProgress(p)
+    );
   };
 
   return (
     <div>
-      <h1>Welcome to Garden of Eden</h1>
+      <h1>Welcome to Eden Proejct</h1>
       <p>Downloading AI models (12GB)...</p>
       <ProgressBar value={progress} />
     </div>
@@ -8933,28 +9134,28 @@ export function ModelDownloader() {
 ```typescript
 // __tests__/database/conversation.repository.test.ts
 
-import { ConversationRepository } from '@/main/database/repositories';
-import Database from 'better-sqlite3';
+import { ConversationRepository } from "@/main/database/repositories";
+import Database from "better-sqlite3";
 
-describe('ConversationRepository', () => {
+describe("ConversationRepository", () => {
   let db: Database.Database;
   let repo: ConversationRepository;
 
   beforeEach(() => {
-    db = new Database(':memory:');
+    db = new Database(":memory:");
     // Run migrations
     repo = new ConversationRepository(db);
   });
 
-  test('creates conversation', () => {
+  test("creates conversation", () => {
     const conv = repo.create({
-      title: 'Test',
-      model: 'llama-3.1-8b',
+      title: "Test",
+      model: "llama-3.1-8b",
       messageCount: 0,
     });
 
     expect(conv.id).toBeDefined();
-    expect(conv.title).toBe('Test');
+    expect(conv.title).toBe("Test");
   });
 });
 ```
@@ -8973,30 +9174,33 @@ Use Playwright to test UI flows.
 
 ### 6.1 Target Metrics
 
-| Metric | Target | Acceptable |
-|--------|--------|------------|
-| App Launch | < 2s | < 5s |
-| LLM First Token | < 500ms | < 2s |
-| LLM Full Response | < 3s | < 8s |
-| STT Transcription | < 1s | < 3s |
-| TTS Generation | < 500ms | < 2s |
-| Screen Capture | < 200ms | < 500ms |
-| Database Query | < 10ms | < 50ms |
-| Memory Usage | < 1.5GB | < 2.5GB |
+| Metric            | Target  | Acceptable |
+| ----------------- | ------- | ---------- |
+| App Launch        | < 2s    | < 5s       |
+| LLM First Token   | < 500ms | < 2s       |
+| LLM Full Response | < 3s    | < 8s       |
+| STT Transcription | < 1s    | < 3s       |
+| TTS Generation    | < 500ms | < 2s       |
+| Screen Capture    | < 200ms | < 500ms    |
+| Database Query    | < 10ms  | < 50ms     |
+| Memory Usage      | < 1.5GB | < 2.5GB    |
 
 ### 6.2 Optimization Strategies
 
 **LLM**:
+
 - Use Q4 quantization (5.5GB vs 16GB)
 - GPU acceleration (Metal/CUDA)
 - Context caching
 
 **Database**:
+
 - Indexes on all queries
 - Connection pooling
 - Batch inserts
 
 **UI**:
+
 - Virtual scrolling for history
 - Lazy loading
 - React.memo for expensive components
@@ -9031,6 +9235,7 @@ Use Playwright to test UI flows.
 ### 8.2 Hardware Requirements
 
 **Minimum**:
+
 - RAM: 16GB
 - Storage: 20GB free
 - CPU: 4 cores
@@ -9109,7 +9314,7 @@ Use Playwright to test UI flows.
 
 ## Conclusion
 
-**Garden of Eden V3** is an ambitious but achievable project:
+**Eden Proejct** is an ambitious but achievable project:
 
 ✅ **100% Local AI** - No privacy concerns, no subscriptions
 ✅ **Desktop-First** - Powerful system integrations
@@ -9120,6 +9325,7 @@ Use Playwright to test UI flows.
 **Total Development Time**: 14 weeks (3.5 months)
 
 **Tech Stack**:
+
 - Electron + React + TypeScript
 - Llama 3.1 8B (via llama.cpp)
 - Whisper Large V3 (STT)
@@ -9127,6 +9333,7 @@ Use Playwright to test UI flows.
 - shadcn/ui (components)
 
 **Target Users**:
+
 - Solo developers
 - Remote workers
 - Students
@@ -9140,18 +9347,18 @@ Use Playwright to test UI flows.
 
 **End of Part 5**
 
-*Total Lines Part 5: ~800*
-*Total Lines V3 Spec: ~5500*
+_Total Lines Part 5: ~800_
+_Total Lines V3 Spec: ~5500_
 
 ---
 
-**End of Garden of Eden V3 Master Specification**
+**End of Eden Proejct Master Specification**
 
-*Version 3.0.0 Complete*
-*Last Updated: 2025-01-11*
-
+_Version 3.0.0 Complete_
+_Last Updated: 2025-01-11_
 
 ---
+
 ---
 
 # Part 6: API Reference & Developer Documentation
@@ -9176,6 +9383,7 @@ Use Playwright to test UI flows.
 Send a chat message to the AI.
 
 **Request**:
+
 ```typescript
 {
   message: string;
@@ -9188,6 +9396,7 @@ Send a chat message to the AI.
 ```
 
 **Response**:
+
 ```typescript
 {
   text: string;
@@ -9197,12 +9406,13 @@ Send a chat message to the AI.
 ```
 
 **Example**:
+
 ```typescript
 const response = await window.electronAPI.aiChat({
   message: "Explain React hooks",
   context: {
     workspaceInfo: await getWorkspaceContext(),
-  }
+  },
 });
 
 console.log(response.text);
@@ -9215,6 +9425,7 @@ console.log(response.text);
 Stream AI responses token-by-token.
 
 **Request**:
+
 ```typescript
 {
   message: string;
@@ -9223,6 +9434,7 @@ Stream AI responses token-by-token.
 ```
 
 **Response**: Event stream
+
 ```typescript
 onToken: (token: string) => void
 onComplete: () => void
@@ -9230,6 +9442,7 @@ onError: (error: Error) => void
 ```
 
 **Example**:
+
 ```typescript
 const cleanup = window.electronAPI.aiChatStream(
   { message: "Write a function to sort an array" },
@@ -9248,6 +9461,7 @@ const cleanup = window.electronAPI.aiChatStream(
 Transcribe audio to text using Whisper.
 
 **Request**:
+
 ```typescript
 {
   audioBuffer: ArrayBuffer;  // WAV/MP3
@@ -9256,10 +9470,11 @@ Transcribe audio to text using Whisper.
 ```
 
 **Response**:
+
 ```typescript
 {
   transcription: string;
-  confidence: number;  // 0-1
+  confidence: number; // 0-1
   language: string;
 }
 ```
@@ -9271,6 +9486,7 @@ Transcribe audio to text using Whisper.
 Generate speech from text using TTS.
 
 **Request**:
+
 ```typescript
 {
   text: string;
@@ -9280,10 +9496,11 @@ Generate speech from text using TTS.
 ```
 
 **Response**:
+
 ```typescript
 {
-  audioBuffer: ArrayBuffer;  // WAV
-  duration: number;  // seconds
+  audioBuffer: ArrayBuffer; // WAV
+  duration: number; // seconds
 }
 ```
 
@@ -9296,6 +9513,7 @@ Generate speech from text using TTS.
 Read file contents.
 
 **Request**:
+
 ```typescript
 {
   path: string;  // Absolute path
@@ -9304,11 +9522,12 @@ Read file contents.
 ```
 
 **Response**:
+
 ```typescript
 {
   content: string | Buffer;
   encoding: string;
-  size: number;  // bytes
+  size: number; // bytes
 }
 ```
 
@@ -9319,6 +9538,7 @@ Read file contents.
 Write file contents.
 
 **Request**:
+
 ```typescript
 {
   path: string;
@@ -9328,6 +9548,7 @@ Write file contents.
 ```
 
 **Response**:
+
 ```typescript
 {
   success: boolean;
@@ -9342,6 +9563,7 @@ Write file contents.
 Watch file for changes.
 
 **Request**:
+
 ```typescript
 {
   path: string;
@@ -9349,9 +9571,10 @@ Watch file for changes.
 ```
 
 **Response**: Event stream
+
 ```typescript
 {
-  event: 'change' | 'add' | 'unlink';
+  event: "change" | "add" | "unlink";
   path: string;
   timestamp: Date;
 }
@@ -9366,6 +9589,7 @@ Watch file for changes.
 Get repository status.
 
 **Request**:
+
 ```typescript
 {
   repoPath: string;
@@ -9373,6 +9597,7 @@ Get repository status.
 ```
 
 **Response**:
+
 ```typescript
 {
   branch: string;
@@ -9392,6 +9617,7 @@ Get repository status.
 Create a commit.
 
 **Request**:
+
 ```typescript
 {
   repoPath: string;
@@ -9401,6 +9627,7 @@ Create a commit.
 ```
 
 **Response**:
+
 ```typescript
 {
   hash: string;
@@ -9415,6 +9642,7 @@ Create a commit.
 Get diff for file or all files.
 
 **Request**:
+
 ```typescript
 {
   repoPath: string;
@@ -9423,9 +9651,10 @@ Get diff for file or all files.
 ```
 
 **Response**:
+
 ```typescript
 {
-  diff: string;  // Unified diff format
+  diff: string; // Unified diff format
 }
 ```
 
@@ -9438,6 +9667,7 @@ Get diff for file or all files.
 Capture screenshot.
 
 **Request**:
+
 ```typescript
 {
   display?: number;  // Display index (default: 0)
@@ -9445,9 +9675,10 @@ Capture screenshot.
 ```
 
 **Response**:
+
 ```typescript
 {
-  image: Buffer;  // PNG
+  image: Buffer; // PNG
   width: number;
   height: number;
   display: number;
@@ -9461,6 +9692,7 @@ Capture screenshot.
 Show system notification.
 
 **Request**:
+
 ```typescript
 {
   title: string;
@@ -9471,6 +9703,7 @@ Show system notification.
 ```
 
 **Response**:
+
 ```typescript
 {
   clicked: boolean;
@@ -9487,6 +9720,7 @@ Show system notification.
 Get setting value.
 
 **Request**:
+
 ```typescript
 {
   key: string;
@@ -9494,6 +9728,7 @@ Get setting value.
 ```
 
 **Response**:
+
 ```typescript
 {
   value: any;
@@ -9507,6 +9742,7 @@ Get setting value.
 Set setting value.
 
 **Request**:
+
 ```typescript
 {
   key: string;
@@ -9515,6 +9751,7 @@ Set setting value.
 ```
 
 **Response**:
+
 ```typescript
 {
   success: boolean;
@@ -9532,10 +9769,7 @@ class LlamaService {
   constructor(config: LlamaConfig);
 
   // Generate text
-  async generate(
-    prompt: string,
-    options?: GenerateOptions
-  ): Promise<string>;
+  async generate(prompt: string, options?: GenerateOptions): Promise<string>;
 
   // Generate with streaming
   async generateStream(
@@ -9564,41 +9798,42 @@ class LlamaService {
 }
 
 interface GenerateOptions {
-  maxTokens?: number;       // Default: 2048
-  temperature?: number;     // 0-2, default: 0.7
-  topP?: number;           // 0-1, default: 0.9
-  topK?: number;           // Default: 40
-  repeatPenalty?: number;  // Default: 1.1
+  maxTokens?: number; // Default: 2048
+  temperature?: number; // 0-2, default: 0.7
+  topP?: number; // 0-1, default: 0.9
+  topK?: number; // Default: 40
+  repeatPenalty?: number; // Default: 1.1
   stopSequences?: string[];
 }
 
 interface ChatMessage {
-  role: 'user' | 'assistant' | 'system';
+  role: "user" | "assistant" | "system";
   content: string;
 }
 
 interface ModelInfo {
   name: string;
-  size: number;  // bytes
-  parameters: string;  // e.g., "8B"
-  quantization: string;  // e.g., "Q4_K_M"
+  size: number; // bytes
+  parameters: string; // e.g., "8B"
+  quantization: string; // e.g., "Q4_K_M"
   contextLength: number;
 }
 ```
 
 **Usage Example**:
+
 ```typescript
 const llama = new LlamaService({
-  modelPath: './models/llama-3.1-8b.gguf',
+  modelPath: "./models/llama-3.1-8b.gguf",
   nGpuLayers: 35,
 });
 
 await llama.loadModel();
 
-const response = await llama.generate(
-  "Explain React hooks in simple terms",
-  { maxTokens: 500, temperature: 0.7 }
-);
+const response = await llama.generate("Explain React hooks in simple terms", {
+  maxTokens: 500,
+  temperature: 0.7,
+});
 
 console.log(response);
 ```
@@ -9629,13 +9864,13 @@ class WhisperService {
 
 interface WhisperConfig {
   modelPath: string;
-  language?: 'en' | 'ko' | 'auto';
-  device?: 'cpu' | 'gpu';
+  language?: "en" | "ko" | "auto";
+  device?: "cpu" | "gpu";
 }
 
 interface TranscribeOptions {
   language?: string;
-  task?: 'transcribe' | 'translate';
+  task?: "transcribe" | "translate";
   temperature?: number;
 }
 
@@ -9643,7 +9878,7 @@ interface TranscriptionResult {
   text: string;
   segments: Array<{
     text: string;
-    start: number;  // seconds
+    start: number; // seconds
     end: number;
     confidence: number;
   }>;
@@ -9685,7 +9920,7 @@ class FileService {
 
 interface FileTree {
   name: string;
-  type: 'file' | 'directory';
+  type: "file" | "directory";
   children?: FileTree[];
   size?: number;
 }
@@ -9855,48 +10090,51 @@ CREATE INDEX idx_notifications_type ON notifications(type);
 ### 3.2 Table Descriptions
 
 #### `conversations`
+
 Stores all chat conversations.
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | TEXT | UUID primary key |
-| `title` | TEXT | User-defined or auto-generated title |
-| `model` | TEXT | AI model used (e.g., "llama-3.1-8b") |
-| `created_at` | DATETIME | Creation timestamp |
-| `updated_at` | DATETIME | Last update timestamp |
-| `message_count` | INTEGER | Number of messages in conversation |
-| `metadata` | JSON | Additional metadata |
+| Column          | Type     | Description                          |
+| --------------- | -------- | ------------------------------------ |
+| `id`            | TEXT     | UUID primary key                     |
+| `title`         | TEXT     | User-defined or auto-generated title |
+| `model`         | TEXT     | AI model used (e.g., "llama-3.1-8b") |
+| `created_at`    | DATETIME | Creation timestamp                   |
+| `updated_at`    | DATETIME | Last update timestamp                |
+| `message_count` | INTEGER  | Number of messages in conversation   |
+| `metadata`      | JSON     | Additional metadata                  |
 
 ---
 
 #### `messages`
+
 Stores individual messages within conversations.
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | TEXT | UUID primary key |
-| `conversation_id` | TEXT | Foreign key to conversations |
-| `role` | TEXT | 'user', 'assistant', or 'system' |
-| `content` | TEXT | Message text |
-| `tokens` | INTEGER | Token count (optional) |
-| `created_at` | DATETIME | Creation timestamp |
-| `metadata` | JSON | Additional metadata |
+| Column            | Type     | Description                      |
+| ----------------- | -------- | -------------------------------- |
+| `id`              | TEXT     | UUID primary key                 |
+| `conversation_id` | TEXT     | Foreign key to conversations     |
+| `role`            | TEXT     | 'user', 'assistant', or 'system' |
+| `content`         | TEXT     | Message text                     |
+| `tokens`          | INTEGER  | Token count (optional)           |
+| `created_at`      | DATETIME | Creation timestamp               |
+| `metadata`        | JSON     | Additional metadata              |
 
 ---
 
 #### `persona_parameters`
+
 Stores AI personality settings.
 
-| Column | Type | Range | Default | Description |
-|--------|------|-------|---------|-------------|
-| `warmth` | REAL | 0-1 | 0.7 | Cold ← → Warm |
-| `formality` | REAL | 0-1 | 0.5 | Casual ← → Formal |
-| `humor` | REAL | 0-1 | 0.6 | Serious ← → Playful |
-| `verbosity` | REAL | 0-1 | 0.5 | Concise ← → Detailed |
-| `proactivity` | REAL | 0-1 | 0.5 | Reactive ← → Proactive |
-| `creativity` | REAL | 0-1 | 0.7 | Conservative ← → Creative |
-| `empathy` | REAL | 0-1 | 0.8 | Logical ← → Empathetic |
-| `directness` | REAL | 0-1 | 0.6 | Indirect ← → Direct |
+| Column        | Type | Range | Default | Description               |
+| ------------- | ---- | ----- | ------- | ------------------------- |
+| `warmth`      | REAL | 0-1   | 0.7     | Cold ← → Warm             |
+| `formality`   | REAL | 0-1   | 0.5     | Casual ← → Formal         |
+| `humor`       | REAL | 0-1   | 0.6     | Serious ← → Playful       |
+| `verbosity`   | REAL | 0-1   | 0.5     | Concise ← → Detailed      |
+| `proactivity` | REAL | 0-1   | 0.5     | Reactive ← → Proactive    |
+| `creativity`  | REAL | 0-1   | 0.7     | Conservative ← → Creative |
+| `empathy`     | REAL | 0-1   | 0.8     | Logical ← → Empathetic    |
+| `directness`  | REAL | 0-1   | 0.6     | Indirect ← → Direct       |
 
 ---
 
@@ -9919,7 +10157,7 @@ export interface Conversation {
 export interface Message {
   id: string;
   conversationId: string;
-  role: 'user' | 'assistant' | 'system';
+  role: "user" | "assistant" | "system";
   content: string;
   tokens?: number;
   createdAt: Date;
@@ -9928,14 +10166,14 @@ export interface Message {
 
 // Persona types
 export interface PersonaParameters {
-  warmth: number;        // 0-1
-  formality: number;     // 0-1
-  humor: number;         // 0-1
-  verbosity: number;     // 0-1
-  proactivity: number;   // 0-1
-  creativity: number;    // 0-1
-  empathy: number;       // 0-1
-  directness: number;    // 0-1
+  warmth: number; // 0-1
+  formality: number; // 0-1
+  humor: number; // 0-1
+  verbosity: number; // 0-1
+  proactivity: number; // 0-1
+  creativity: number; // 0-1
+  empathy: number; // 0-1
+  directness: number; // 0-1
 }
 
 // Memory types
@@ -9945,7 +10183,7 @@ export interface EpisodicMemory {
   userMessage: string;
   assistantResponse: string;
   embedding?: Float32Array;
-  satisfactionScore?: number;  // 0-1
+  satisfactionScore?: number; // 0-1
   createdAt: Date;
 }
 
@@ -9954,7 +10192,7 @@ export interface Workspace {
   id: string;
   rootPath: string;
   name: string;
-  type: 'nodejs' | 'python' | 'rust' | 'go' | 'java' | 'generic';
+  type: "nodejs" | "python" | "rust" | "go" | "java" | "generic";
   gitRepo?: string;
   lastOpened: Date;
   metadata?: Record<string, any>;
@@ -9971,10 +10209,10 @@ export interface WorkspaceContext {
 // Notification types
 export interface ProactiveNotification {
   id: string;
-  type: 'success' | 'info' | 'warning' | 'error' | 'proactive';
+  type: "success" | "info" | "warning" | "error" | "proactive";
   title: string;
   message: string;
-  actionTaken?: 'accepted' | 'dismissed' | 'ignored';
+  actionTaken?: "accepted" | "dismissed" | "ignored";
   createdAt: Date;
   resolvedAt?: Date;
   metadata?: Record<string, any>;
@@ -10000,9 +10238,9 @@ export interface GitCommit {
 }
 
 // Settings types
-export type Theme = 'light' | 'dark' | 'system';
-export type Language = 'en' | 'ko';
-export type Mode = 'user-led' | 'ai-led';
+export type Theme = "light" | "dark" | "system";
+export type Language = "en" | "ko";
+export type Mode = "user-led" | "ai-led";
 
 export interface UserSettings {
   language: Language;
@@ -10019,35 +10257,35 @@ export interface UserSettings {
 
 ```typescript
 export interface IPCChannel {
-  'ai:chat': {
+  "ai:chat": {
     request: { message: string; context?: ScreenContext };
     response: { text: string; conversationId: string };
   };
-  'ai:voice-input': {
+  "ai:voice-input": {
     request: { audioBuffer: ArrayBuffer };
     response: { transcription: string };
   };
-  'file:read': {
+  "file:read": {
     request: { path: string };
     response: { content: string; encoding: string };
   };
-  'file:write': {
+  "file:write": {
     request: { path: string; content: string };
     response: { success: boolean };
   };
-  'git:status': {
+  "git:status": {
     request: { repoPath: string };
     response: GitStatus;
   };
-  'git:commit': {
+  "git:commit": {
     request: { repoPath: string; message: string; files: string[] };
     response: { hash: string };
   };
-  'system:screenshot': {
+  "system:screenshot": {
     request: { display?: number };
     response: { image: Buffer; width: number; height: number };
   };
-  'system:notify': {
+  "system:notify": {
     request: { title: string; body: string };
     response: { clicked: boolean };
   };
@@ -10065,37 +10303,39 @@ Create a plugin by implementing the `EdenPlugin` interface:
 ```typescript
 // my-plugin/index.ts
 
-import { EdenPlugin, PluginContext } from '@/main/plugins/plugin.interface';
+import { EdenPlugin, PluginContext } from "@/main/plugins/plugin.interface";
 
 export class MyPlugin implements EdenPlugin {
-  name = 'my-plugin';
-  version = '1.0.0';
-  description = 'My custom Eden plugin';
+  name = "my-plugin";
+  version = "1.0.0";
+  description = "My custom Eden plugin";
 
   async onLoad(context: PluginContext) {
-    console.log('Plugin loaded!');
-    
+    console.log("Plugin loaded!");
+
     // Access core services
-    const workspaceInfo = await context.file.getProjectStructure('/path/to/project');
-    console.log('Workspace:', workspaceInfo);
+    const workspaceInfo = await context.file.getProjectStructure(
+      "/path/to/project"
+    );
+    console.log("Workspace:", workspaceInfo);
   }
 
   async onUnload() {
-    console.log('Plugin unloaded!');
+    console.log("Plugin unloaded!");
   }
 
   commands = [
     {
-      name: 'my-command',
-      description: 'My custom command',
+      name: "my-command",
+      description: "My custom command",
       execute: async (args: string[], context: PluginContext) => {
-        return `Command executed with args: ${args.join(', ')}`;
+        return `Command executed with args: ${args.join(", ")}`;
       },
     },
   ];
 
   ipcHandlers = {
-    'my-plugin:custom-action': async (request: any) => {
+    "my-plugin:custom-action": async (request: any) => {
       // Handle custom IPC
       return { success: true };
     },
@@ -10108,11 +10348,13 @@ export default MyPlugin;
 ### 5.2 Plugin Installation
 
 1. Create plugin directory:
+
 ```bash
 mkdir ~/Library/Application\ Support/garden-of-eden/plugins/my-plugin
 ```
 
 2. Add `index.js` (compiled TypeScript):
+
 ```bash
 cp dist/index.js ~/Library/Application\ Support/garden-of-eden/plugins/my-plugin/
 ```
@@ -10123,14 +10365,14 @@ cp dist/index.js ~/Library/Application\ Support/garden-of-eden/plugins/my-plugin
 
 ```typescript
 interface PluginContext {
-  ai: AIServiceAPI;          // Access to Llama, Whisper
-  file: FileService;         // File operations
-  git: GitService;          // Git operations
+  ai: AIServiceAPI; // Access to Llama, Whisper
+  file: FileService; // File operations
+  git: GitService; // Git operations
   calendar: CalendarService; // Calendar access
-  webhook: WebhookService;  // Webhook triggers
-  db: Database;             // SQLite database
-  storage: PluginStorage;   // Plugin-specific storage
-  logger: Logger;           // Logging
+  webhook: WebhookService; // Webhook triggers
+  db: Database; // SQLite database
+  storage: PluginStorage; // Plugin-specific storage
+  logger: Logger; // Logging
 }
 ```
 
@@ -10163,15 +10405,15 @@ From plugin or service:
 
 ```typescript
 // Trigger Slack webhook
-await webhookService.notifySlack('Hello from Eden!', '#general');
+await webhookService.notifySlack("Hello from Eden!", "#general");
 
 // Trigger Discord webhook
-await webhookService.notifyDiscord('New commit created!');
+await webhookService.notifyDiscord("New commit created!");
 
 // Custom webhook
-await webhookService.trigger('custom-webhook', {
-  event: 'conversation_completed',
-  data: { conversationId: '123' },
+await webhookService.trigger("custom-webhook", {
+  event: "conversation_completed",
+  data: { conversationId: "123" },
 });
 ```
 
@@ -10188,16 +10430,16 @@ await webhookService.trigger('custom-webhook', {
 
 **End of Part 6**
 
-*Lines: ~800*
-*Next: Part 7 - User & Developer Guide*
+_Lines: ~800_
+_Next: Part 7 - User & Developer Guide_
 
 ---
----
 
+---
 
 # Part 7: User & Developer Guide
 
-*Complete guide for users and developers working with Garden of Eden V3*
+_Complete guide for users and developers working with Eden Proejct_
 
 ---
 
@@ -10206,6 +10448,7 @@ await webhookService.trigger('custom-webhook', {
 ### 1.1 System Requirements
 
 **Minimum Requirements:**
+
 - **OS**: Windows 10 (64-bit) or macOS 11.0+
 - **RAM**: 16 GB (8 GB usable for app)
 - **Storage**: 20 GB free space
@@ -10213,6 +10456,7 @@ await webhookService.trigger('custom-webhook', {
 - **GPU**: Optional (NVIDIA RTX series for GPU acceleration)
 
 **Recommended:**
+
 - **OS**: Windows 11 or macOS 13.0+
 - **RAM**: 32 GB
 - **Storage**: 50 GB SSD
@@ -10245,18 +10489,21 @@ GardenOfEden-Setup-v3.0.0.exe /S /D=C:\Program Files\GardenOfEden
 ```bash
 # Command line install
 hdiutil attach GardenOfEden-v3.0.0.dmg
-cp -R "/Volumes/Garden of Eden/Garden of Eden.app" /Applications/
-hdiutil detach "/Volumes/Garden of Eden"
+cp -R "/Volumes/Eden Proejct/Eden Proejct.app" /Applications/
+hdiutil detach "/Volumes/Eden Proejct"
 ```
 
 #### Linux Installation (AppImage)
 
 1. **Download**: Get `GardenOfEden-v3.0.0.AppImage`
 2. **Make Executable**:
+
 ```bash
 chmod +x GardenOfEden-v3.0.0.AppImage
 ```
+
 3. **Run**:
+
 ```bash
 ./GardenOfEden-v3.0.0.AppImage
 ```
@@ -10265,12 +10512,13 @@ chmod +x GardenOfEden-v3.0.0.AppImage
 
 ### 1.3 First Run & Model Download
 
-When you first launch Garden of Eden, you'll see the **Model Download Wizard**.
+When you first launch Eden Proejct, you'll see the **Model Download Wizard**.
 
 #### Step 1: Welcome Screen
+
 ```
 ┌─────────────────────────────────────────┐
-│  Welcome to Garden of Eden V3           │
+│  Welcome to Eden Proejct           │
 │                                          │
 │  Your personal AI assistant              │
 │  100% local, 100% private                │
@@ -10283,6 +10531,7 @@ When you first launch Garden of Eden, you'll see the **Model Download Wizard**.
 ```
 
 #### Step 2: Model Selection
+
 ```
 Select models to download:
 
@@ -10300,6 +10549,7 @@ Download location:
 ```
 
 #### Step 3: Download Progress
+
 ```
 Downloading models...
 
@@ -10319,7 +10569,9 @@ Time remaining: ~8 minutes
 ```
 
 #### Step 4: Model Verification
+
 After download, models are verified for integrity:
+
 ```
 Verifying models...
 
@@ -10337,9 +10589,11 @@ All models ready!
 ### 1.4 Initial Configuration
 
 #### Welcome Tutorial
+
 First-time users see a 5-step tutorial:
 
 **Step 1: Chat Interface**
+
 ```
 This is your chat interface!
 
@@ -10352,6 +10606,7 @@ This is your chat interface!
 ```
 
 **Step 2: Voice Input**
+
 ```
 Click the microphone icon to speak
 
@@ -10364,6 +10619,7 @@ Or click once to start, click again to stop
 ```
 
 **Step 3: Persona Configuration**
+
 ```
 Configure AI personality in Settings
 
@@ -10376,6 +10632,7 @@ Adjust 8 parameters:
 ```
 
 **Step 4: Dual Mode**
+
 ```
 Switch between two modes:
 
@@ -10388,6 +10645,7 @@ Toggle in the top-right corner
 ```
 
 **Step 5: Privacy**
+
 ```
 Everything stays on your computer
 
@@ -10405,11 +10663,13 @@ Everything stays on your computer
 ### 2.1 Chat Interface Basics
 
 #### Sending Messages
+
 1. **Text**: Type in the input box at bottom, press Enter
 2. **Voice**: Click 🎤 microphone icon, speak, click again to send
 3. **Multiline**: Press Shift+Enter for new line without sending
 
 #### Message Features
+
 - **Markdown Support**: Use `**bold**`, `*italic*`, `code`, etc.
 - **Code Blocks**: Syntax highlighting for 50+ languages
 - **Copy Code**: Hover over code block, click copy icon
@@ -10417,10 +10677,11 @@ Everything stays on your computer
 - **Delete Messages**: Right-click message → Delete
 
 #### Example Chat Session
-```
+
+````
 You: Hello! Can you help me write a Python function?
 
-AI: Of course! I'd be happy to help you write a Python 
+AI: Of course! I'd be happy to help you write a Python
     function. What should the function do?
 
 You: Calculate the factorial of a number
@@ -10435,14 +10696,14 @@ AI: Here's a Python function to calculate factorial:
         if n == 0 or n == 1:
             return 1
         return n * factorial(n - 1)
-    
+
     # Example usage
     print(factorial(5))  # Output: 120
     ```
 
-    This uses recursion. Would you like an iterative 
+    This uses recursion. Would you like an iterative
     version instead?
-```
+````
 
 ---
 
@@ -10451,18 +10712,21 @@ AI: Here's a Python function to calculate factorial:
 #### Voice Input (Speech-to-Text)
 
 **Method 1: Click-and-Hold**
+
 1. Click and hold 🎤 microphone button
 2. Speak your message
 3. Release button to process
 4. Text appears in input box
 
 **Method 2: Click-to-Toggle**
+
 1. Click 🎤 once to start recording
 2. Speak your message
 3. Click 🎤 again to stop
 4. Text appears in input box
 
 **Visual Feedback:**
+
 ```
 Recording...
 🎤 [████████████░░░░] 12s / 60s max
@@ -10472,6 +10736,7 @@ Recording...
 ```
 
 **Supported Languages:**
+
 - 🇰🇷 Korean (한국어)
 - 🇺🇸 English
 - 🇯🇵 Japanese (日本語)
@@ -10490,6 +10755,7 @@ Settings → Voice → Enable auto-playback ✓
 Click 🔊 speaker icon on any AI message
 
 **TTS Player UI:**
+
 ```
 ┌────────────────────────────────┐
 │ 🔊 Playing AI response...      │
@@ -10499,6 +10765,7 @@ Click 🔊 speaker icon on any AI message
 ```
 
 **TTS Settings:**
+
 - **Speed**: 0.5x - 2.0x
 - **Voice**: System default or custom
 - **Auto-play**: On/Off
@@ -10515,6 +10782,7 @@ The AI's personality is controlled by 8 adjustable parameters.
 #### 8 Persona Parameters
 
 **1. Warmth (온기)**
+
 ```
 Cold ◄──────●────────► Warm
      0      0.7      1.0
@@ -10524,6 +10792,7 @@ Warm:  Friendly, caring, emotionally present
 ```
 
 **2. Formality (격식)**
+
 ```
 Casual ◄──────●──────► Formal
        0     0.3      1.0
@@ -10533,6 +10802,7 @@ Formal: Professional, proper grammar
 ```
 
 **3. Humor (유머)**
+
 ```
 Serious ◄───●─────────► Playful
         0   0.2       1.0
@@ -10542,6 +10812,7 @@ Playful: Witty, uses humor appropriately
 ```
 
 **4. Verbosity (상세함)**
+
 ```
 Concise ◄─────●───────► Detailed
         0    0.5       1.0
@@ -10551,6 +10822,7 @@ Detailed: Thorough explanations
 ```
 
 **5. Proactivity (주도성)**
+
 ```
 Reactive ◄─────●──────► Proactive
          0    0.6      1.0
@@ -10560,6 +10832,7 @@ Proactive: Suggests actions, asks questions
 ```
 
 **6. Creativity (창의성)**
+
 ```
 Practical ◄────●──────► Creative
           0   0.4      1.0
@@ -10569,6 +10842,7 @@ Creative:  Novel, unconventional ideas
 ```
 
 **7. Empathy (공감)**
+
 ```
 Objective ◄────●──────► Empathetic
           0   0.6      1.0
@@ -10578,6 +10852,7 @@ Empathetic: Acknowledge feelings, supportive
 ```
 
 **8. Directness (직설성)**
+
 ```
 Indirect ◄──────●─────► Direct
          0     0.7     1.0
@@ -10589,6 +10864,7 @@ Direct:   Clear, straightforward, honest
 #### Example Personas
 
 **Preset 1: Professional Assistant**
+
 ```yaml
 warmth: 0.5
 formality: 0.8
@@ -10601,6 +10877,7 @@ directness: 0.8
 ```
 
 **Preset 2: Friendly Companion**
+
 ```yaml
 warmth: 0.9
 formality: 0.2
@@ -10613,6 +10890,7 @@ directness: 0.5
 ```
 
 **Preset 3: Technical Expert**
+
 ```yaml
 warmth: 0.3
 formality: 0.6
@@ -10631,22 +10909,25 @@ directness: 0.9
 #### User-Led Mode 👤
 
 **Behavior:**
+
 - AI waits for your input
 - Responds only when asked
 - Does not interrupt
 - Does not suggest unprompted actions
 
 **Best For:**
+
 - Focused work sessions
 - When you know what you need
 - Minimal distractions
 - Traditional chat experience
 
 **Example:**
+
 ```
 You: What's the weather?
-AI:  I'm a local AI without internet access, 
-     so I can't check live weather. Would you 
+AI:  I'm a local AI without internet access,
+     so I can't check live weather. Would you
      like me to help with something else?
 
 [AI waits for next input]
@@ -10655,6 +10936,7 @@ AI:  I'm a local AI without internet access,
 #### AI-Led Mode 🤖
 
 **Behavior:**
+
 - AI actively monitors context
 - Suggests actions proactively
 - Sends notifications
@@ -10662,24 +10944,27 @@ AI:  I'm a local AI without internet access,
 - Initiates helpful conversations
 
 **Best For:**
+
 - Exploratory work
 - Learning new topics
 - Getting suggestions
 - Productivity assistance
 
 **Example:**
+
 ```
 [System detects: package.json modified]
 
-AI: 🔔 I noticed you updated package.json 
-    with a new dependency. Would you like 
+AI: 🔔 I noticed you updated package.json
+    with a new dependency. Would you like
     me to run `npm install`?
-    
+
     [Yes] [No] [Dismiss]
 ```
 
 **Toggle Mode:**
 Click mode switcher in top-right:
+
 ```
 ┌────────────────┐
 │ Mode: User-Led │ ← Click to toggle
@@ -10699,32 +10984,35 @@ Changes to:
 #### File System Integration
 
 **Reading Files:**
+
 ```
 You: Read the README.md file
 
 AI:  [Reads file automatically]
      Here's the content of README.md:
-     
+
      # My Project
      This is a sample project...
 ```
 
 **Writing Files:**
-```
-You: Create a new Python file called hello.py 
+
+````
+You: Create a new Python file called hello.py
      with a hello world program
 
 AI:  I'll create hello.py for you:
-     
+
      ```python
      # hello.py
      print("Hello, World!")
      ```
-     
+
      ✓ File created at ~/Desktop/hello.py
-```
+````
 
 **File Operations:**
+
 - ✅ Read files
 - ✅ Write files
 - ✅ List directories
@@ -10735,37 +11023,40 @@ AI:  I'll create hello.py for you:
 #### Git Integration
 
 **Status Check:**
+
 ```
 You: What's my git status?
 
 AI:  Current branch: main
-     
+
      Modified files:
      • src/app.ts (3 changes)
      • README.md (1 change)
-     
+
      Untracked files:
      • test/new-test.ts
-     
+
      You're 2 commits ahead of origin/main.
 ```
 
 **Commit:**
+
 ```
-You: Commit these changes with message 
+You: Commit these changes with message
      "Add new feature"
 
 AI:  I'll commit the modified files:
-     
+
      $ git add src/app.ts README.md
      $ git commit -m "Add new feature"
-     
+
      ✓ Committed as 8a3f2b1
-     
+
      Would you like me to push to remote?
 ```
 
 **Git Operations:**
+
 - ✅ Status check
 - ✅ Diff viewing
 - ✅ Commit (with confirmation)
@@ -10781,43 +11072,45 @@ Right-click any message → Copy
 
 **Paste into Chat:**
 AI can read clipboard when needed:
-```
+
+````
 You: Fix the code in my clipboard
 
 AI:  [Reads clipboard automatically]
      I see this JavaScript code:
-     
+
      ```javascript
      function add(a, b) {
        return a + b
      }
      ```
-     
-     The code looks good! Did you want me 
+
+     The code looks good! Did you want me
      to add error handling or type checking?
-```
+````
 
 #### Screen Context (Vision)
 
 **Screenshot Analysis:**
-```
+
+````
 You: [Paste screenshot] What's wrong here?
 
 AI:  [Analyzes screenshot with LLaVA]
-     I can see a JavaScript error in your 
+     I can see a JavaScript error in your
      browser console:
-     
-     "TypeError: Cannot read property 'map' 
+
+     "TypeError: Cannot read property 'map'
       of undefined"
-     
-     This suggests `items` is undefined when 
+
+     This suggests `items` is undefined when
      you try to call .map() on it. Add a check:
-     
+
      ```javascript
      const items = data?.items || [];
      items.map(...)
      ```
-```
+````
 
 ---
 
@@ -10872,14 +11165,17 @@ Results (3):
 Right-click any conversation → Export
 
 **Export Formats:**
+
 - **JSON**: Full conversation data
 - **Markdown**: Readable text format
 - **TXT**: Plain text
 - **PDF**: Formatted document (requires plugin)
 
 **Example Markdown Export:**
+
 ```markdown
 # Conversation: Python Debugging Help
+
 Date: 2024-01-12 14:30
 Model: Llama 3.1 8B
 Messages: 8
@@ -10895,7 +11191,7 @@ There are several ways to debug Python:
 1. **Print statements**: Simple but effective
 2. **pdb debugger**: Built-in Python debugger
 3. **IDE debuggers**: VS Code, PyCharm
-...
+   ...
 ```
 
 ---
@@ -10935,7 +11231,7 @@ Primary LLM: [Llama 3.1 8B ▼]
 
 Temperature: ◄────●──────► 0.7
              0.0   0.7   1.0
-             
+
 Max Tokens:  [2048        ]
 
 Context Window: [8192      ]
@@ -11000,6 +11296,7 @@ Quit                  Cmd/Ctrl+Q
 #### Prerequisites
 
 **Required:**
+
 - Node.js 18+ (LTS recommended)
 - npm 9+ or yarn 1.22+
 - Git
@@ -11008,15 +11305,18 @@ Quit                  Cmd/Ctrl+Q
 
 **Platform-Specific:**
 
-*Windows:*
+_Windows:_
+
 - Visual Studio 2019+ (Build Tools)
 - Windows SDK
 
-*macOS:*
+_macOS:_
+
 - Xcode Command Line Tools
 - Homebrew (recommended)
 
-*Linux:*
+_Linux:_
+
 - GCC 9+ or Clang 10+
 - Build essentials
 
@@ -11201,6 +11501,7 @@ garden-of-eden-v3/
 #### Data Flow
 
 **Chat Message Flow:**
+
 ```
 1. User types → ChatInput component
 2. ChatInput → useChatStore.sendMessage()
@@ -11220,11 +11521,12 @@ garden-of-eden-v3/
 #### Example: Adding a New IPC Channel
 
 **1. Define types** (`src/shared/types/ipc.ts`):
+
 ```typescript
 export interface IPCChannel {
   // ... existing channels
-  
-  'system:screenshot': {
+
+  "system:screenshot": {
     request: { saveToFile?: boolean };
     response: { base64: string; path?: string };
   };
@@ -11232,28 +11534,30 @@ export interface IPCChannel {
 ```
 
 **2. Create handler** (`src/main/ipc/system.ts`):
+
 ```typescript
-import { ipcMain } from 'electron';
-import { screenshot } from 'screenshot-desktop';
+import { ipcMain } from "electron";
+import { screenshot } from "screenshot-desktop";
 
 export function registerSystemHandlers() {
-  ipcMain.handle('system:screenshot', async (event, req) => {
+  ipcMain.handle("system:screenshot", async (event, req) => {
     const img = await screenshot();
-    const base64 = img.toString('base64');
-    
+    const base64 = img.toString("base64");
+
     if (req.saveToFile) {
       const path = await saveScreenshot(img);
       return { base64, path };
     }
-    
+
     return { base64 };
   });
 }
 ```
 
 **3. Register in main** (`src/main/index.ts`):
+
 ```typescript
-import { registerSystemHandlers } from './ipc/system';
+import { registerSystemHandlers } from "./ipc/system";
 
 app.whenReady().then(() => {
   registerAIHandlers();
@@ -11264,34 +11568,36 @@ app.whenReady().then(() => {
 ```
 
 **4. Expose in preload** (`src/preload/index.ts`):
+
 ```typescript
-contextBridge.exposeInMainWorld('electronAPI', {
+contextBridge.exposeInMainWorld("electronAPI", {
   // ... existing APIs
-  
-  takeScreenshot: (saveToFile?: boolean) => 
-    ipcRenderer.invoke('system:screenshot', { saveToFile }),
+
+  takeScreenshot: (saveToFile?: boolean) =>
+    ipcRenderer.invoke("system:screenshot", { saveToFile }),
 });
 ```
 
 **5. Use in renderer** (`src/renderer/components/ScreenshotButton.tsx`):
+
 ```typescript
 export function ScreenshotButton() {
   const [loading, setLoading] = useState(false);
-  
+
   const handleClick = async () => {
     setLoading(true);
     try {
       const { base64, path } = await window.electronAPI.takeScreenshot(true);
-      console.log('Screenshot saved:', path);
+      console.log("Screenshot saved:", path);
       // Show screenshot in chat...
     } finally {
       setLoading(false);
     }
   };
-  
+
   return (
     <button onClick={handleClick} disabled={loading}>
-      {loading ? 'Capturing...' : '📸 Screenshot'}
+      {loading ? "Capturing..." : "📸 Screenshot"}
     </button>
   );
 }
@@ -11301,7 +11607,7 @@ export function ScreenshotButton() {
 
 ### 3.5 Plugin Development
 
-Plugins extend Garden of Eden functionality without modifying core code.
+Plugins extend Eden Proejct functionality without modifying core code.
 
 #### Plugin Structure
 
@@ -11322,11 +11628,7 @@ my-plugin/
   "description": "My awesome plugin",
   "author": "Your Name",
   "main": "index.js",
-  "permissions": [
-    "fs:read",
-    "fs:write",
-    "network:fetch"
-  ],
+  "permissions": ["fs:read", "fs:write", "network:fetch"],
   "hooks": {
     "onMessageSent": true,
     "onMessageReceived": true,
@@ -11342,39 +11644,39 @@ class MyPlugin {
   constructor(api) {
     this.api = api;
   }
-  
+
   async onActivate() {
-    console.log('MyPlugin activated!');
-    
+    console.log("MyPlugin activated!");
+
     // Register command
-    this.api.commands.register('my-command', async (args) => {
-      await this.api.chat.sendMessage('Hello from plugin!');
+    this.api.commands.register("my-command", async (args) => {
+      await this.api.chat.sendMessage("Hello from plugin!");
     });
-    
+
     // Add menu item
     this.api.menu.addItem({
-      label: 'My Plugin Action',
+      label: "My Plugin Action",
       action: () => this.doSomething(),
     });
   }
-  
+
   async onMessageSent(message) {
     // Hook: triggered when user sends message
-    console.log('User sent:', message.content);
+    console.log("User sent:", message.content);
   }
-  
+
   async onMessageReceived(message) {
     // Hook: triggered when AI responds
-    console.log('AI responded:', message.content);
+    console.log("AI responded:", message.content);
   }
-  
+
   async doSomething() {
-    const result = await this.api.fs.readFile('/path/to/file');
+    const result = await this.api.fs.readFile("/path/to/file");
     await this.api.chat.sendMessage(`File contents: ${result}`);
   }
-  
+
   async onDeactivate() {
-    console.log('MyPlugin deactivated!');
+    console.log("MyPlugin deactivated!");
   }
 }
 
@@ -11384,36 +11686,41 @@ module.exports = MyPlugin;
 #### Plugin API Reference
 
 **api.chat**
+
 ```javascript
-api.chat.sendMessage(content)           // Send message to chat
-api.chat.getCurrentConversation()       // Get active conversation
-api.chat.getHistory(limit)              // Get conversation history
+api.chat.sendMessage(content); // Send message to chat
+api.chat.getCurrentConversation(); // Get active conversation
+api.chat.getHistory(limit); // Get conversation history
 ```
 
 **api.fs**
+
 ```javascript
-api.fs.readFile(path)                   // Read file
-api.fs.writeFile(path, content)         // Write file
-api.fs.listDir(path)                    // List directory
-api.fs.fileExists(path)                 // Check if file exists
+api.fs.readFile(path); // Read file
+api.fs.writeFile(path, content); // Write file
+api.fs.listDir(path); // List directory
+api.fs.fileExists(path); // Check if file exists
 ```
 
 **api.commands**
+
 ```javascript
-api.commands.register(name, handler)    // Register slash command
-api.commands.unregister(name)           // Unregister command
+api.commands.register(name, handler); // Register slash command
+api.commands.unregister(name); // Unregister command
 ```
 
 **api.menu**
+
 ```javascript
-api.menu.addItem({ label, action })     // Add menu item
-api.menu.removeItem(id)                 // Remove menu item
+api.menu.addItem({ label, action }); // Add menu item
+api.menu.removeItem(id); // Remove menu item
 ```
 
 **api.settings**
+
 ```javascript
-api.settings.get(key)                   // Get setting value
-api.settings.set(key, value)            // Set setting value
+api.settings.get(key); // Get setting value
+api.settings.set(key, value); // Set setting value
 ```
 
 ---
@@ -11424,36 +11731,36 @@ api.settings.set(key, value)            // Set setting value
 
 ```typescript
 // tests/unit/services/llama.test.ts
-import { LlamaService } from '@/main/services/llama';
+import { LlamaService } from "@/main/services/llama";
 
-describe('LlamaService', () => {
+describe("LlamaService", () => {
   let service: LlamaService;
-  
+
   beforeEach(() => {
     service = new LlamaService({
-      modelPath: './models/test-model.gguf',
+      modelPath: "./models/test-model.gguf",
     });
   });
-  
+
   afterEach(async () => {
     await service.dispose();
   });
-  
-  test('should generate response', async () => {
+
+  test("should generate response", async () => {
     const response = await service.generateResponse({
-      messages: [{ role: 'user', content: 'Hello' }],
+      messages: [{ role: "user", content: "Hello" }],
     });
-    
+
     expect(response.content).toBeTruthy();
     expect(response.content.length).toBeGreaterThan(0);
   });
-  
-  test('should respect max tokens', async () => {
+
+  test("should respect max tokens", async () => {
     const response = await service.generateResponse({
-      messages: [{ role: 'user', content: 'Count to 100' }],
+      messages: [{ role: "user", content: "Count to 100" }],
       maxTokens: 20,
     });
-    
+
     expect(response.tokens).toBeLessThanOrEqual(20);
   });
 });
@@ -11463,56 +11770,56 @@ describe('LlamaService', () => {
 
 ```typescript
 // tests/integration/chat-flow.test.ts
-import { app } from 'electron';
-import { Database } from '@/main/services/db';
-import { LlamaService } from '@/main/services/llama';
+import { app } from "electron";
+import { Database } from "@/main/services/db";
+import { LlamaService } from "@/main/services/llama";
 
-describe('Chat Flow Integration', () => {
+describe("Chat Flow Integration", () => {
   let db: Database;
   let llama: LlamaService;
-  
+
   beforeAll(async () => {
     await app.whenReady();
-    db = new Database(':memory:');
-    llama = new LlamaService({ modelPath: './models/test.gguf' });
+    db = new Database(":memory:");
+    llama = new LlamaService({ modelPath: "./models/test.gguf" });
   });
-  
+
   afterAll(async () => {
     await db.close();
     await llama.dispose();
   });
-  
-  test('complete chat flow', async () => {
+
+  test("complete chat flow", async () => {
     // Create conversation
     const conv = await db.createConversation({
-      title: 'Test Chat',
-      model: 'llama-3.1-8b',
+      title: "Test Chat",
+      model: "llama-3.1-8b",
     });
-    
+
     // Send message
     const userMsg = await db.createMessage({
       conversationId: conv.id,
-      role: 'user',
-      content: 'What is 2+2?',
+      role: "user",
+      content: "What is 2+2?",
     });
-    
+
     // Generate AI response
     const aiResponse = await llama.generateResponse({
-      messages: [{ role: 'user', content: userMsg.content }],
+      messages: [{ role: "user", content: userMsg.content }],
     });
-    
+
     // Save AI message
     const aiMsg = await db.createMessage({
       conversationId: conv.id,
-      role: 'assistant',
+      role: "assistant",
       content: aiResponse.content,
     });
-    
+
     // Verify conversation
     const messages = await db.getMessages(conv.id);
     expect(messages).toHaveLength(2);
-    expect(messages[0].role).toBe('user');
-    expect(messages[1].role).toBe('assistant');
+    expect(messages[0].role).toBe("user");
+    expect(messages[1].role).toBe("assistant");
   });
 });
 ```
@@ -11521,14 +11828,14 @@ describe('Chat Flow Integration', () => {
 
 ```typescript
 // tests/e2e/chat-ui.test.ts
-import { ElectronApplication, Page, _electron } from 'playwright';
-import { test, expect } from '@playwright/test';
+import { ElectronApplication, Page, _electron } from "playwright";
+import { test, expect } from "@playwright/test";
 
 let app: ElectronApplication;
 let page: Page;
 
 test.beforeAll(async () => {
-  app = await _electron.launch({ args: ['.'] });
+  app = await _electron.launch({ args: ["."] });
   page = await app.firstWindow();
 });
 
@@ -11536,18 +11843,18 @@ test.afterAll(async () => {
   await app.close();
 });
 
-test('should send and receive message', async () => {
+test("should send and receive message", async () => {
   // Type message
-  await page.fill('[data-testid="chat-input"]', 'Hello AI!');
-  
+  await page.fill('[data-testid="chat-input"]', "Hello AI!");
+
   // Send message
-  await page.press('[data-testid="chat-input"]', 'Enter');
-  
+  await page.press('[data-testid="chat-input"]', "Enter");
+
   // Wait for user message to appear
   await page.waitForSelector('[data-testid="user-message"]');
   const userMsg = await page.textContent('[data-testid="user-message"]');
-  expect(userMsg).toContain('Hello AI!');
-  
+  expect(userMsg).toContain("Hello AI!");
+
   // Wait for AI response
   await page.waitForSelector('[data-testid="ai-message"]', { timeout: 30000 });
   const aiMsg = await page.textContent('[data-testid="ai-message"]');
@@ -11555,18 +11862,18 @@ test('should send and receive message', async () => {
   expect(aiMsg.length).toBeGreaterThan(0);
 });
 
-test('should toggle dual mode', async () => {
+test("should toggle dual mode", async () => {
   // Click mode toggle
   await page.click('[data-testid="mode-toggle"]');
-  
+
   // Verify mode changed
   const modeText = await page.textContent('[data-testid="current-mode"]');
-  expect(modeText).toContain('AI-Led');
-  
+  expect(modeText).toContain("AI-Led");
+
   // Toggle back
   await page.click('[data-testid="mode-toggle"]');
   const newModeText = await page.textContent('[data-testid="current-mode"]');
-  expect(newModeText).toContain('User-Led');
+  expect(newModeText).toContain("User-Led");
 });
 ```
 
@@ -11577,6 +11884,7 @@ test('should toggle dual mode', async () => {
 #### Contribution Guidelines
 
 1. **Fork & Clone**
+
    ```bash
    git clone https://github.com/yourusername/garden-of-eden-v3.git
    cd garden-of-eden-v3
@@ -11584,16 +11892,19 @@ test('should toggle dual mode', async () => {
    ```
 
 2. **Create Feature Branch**
+
    ```bash
    git checkout -b feature/my-new-feature
    ```
 
 3. **Make Changes**
+
    - Write code
    - Add tests
    - Update documentation
 
 4. **Run Tests & Linting**
+
    ```bash
    npm run lint
    npm run test
@@ -11601,6 +11912,7 @@ test('should toggle dual mode', async () => {
    ```
 
 5. **Commit with Conventional Commits**
+
    ```bash
    git commit -m "feat: add screenshot capture feature"
    git commit -m "fix: resolve memory leak in LlamaService"
@@ -11616,6 +11928,7 @@ test('should toggle dual mode', async () => {
 #### Code Style
 
 **TypeScript:**
+
 ```typescript
 // ✅ Good
 export async function generateResponse(
@@ -11623,29 +11936,30 @@ export async function generateResponse(
   options?: GenerateOptions
 ): Promise<Response> {
   const { maxTokens = 2048, temperature = 0.7 } = options ?? {};
-  
+
   // Implementation...
 }
 
 // ❌ Bad
 export async function generateResponse(messages, options) {
-  let maxTokens = options?.maxTokens || 2048
+  let maxTokens = options?.maxTokens || 2048;
   // No types, inconsistent formatting
 }
 ```
 
 **React Components:**
+
 ```tsx
 // ✅ Good
 interface ChatBubbleProps {
   message: string;
-  sender: 'user' | 'ai';
+  sender: "user" | "ai";
   timestamp: Date;
 }
 
 export function ChatBubble({ message, sender, timestamp }: ChatBubbleProps) {
   return (
-    <div className={cn('chat-bubble', sender)}>
+    <div className={cn("chat-bubble", sender)}>
       <p>{message}</p>
       <time>{formatTime(timestamp)}</time>
     </div>
@@ -11654,7 +11968,7 @@ export function ChatBubble({ message, sender, timestamp }: ChatBubbleProps) {
 
 // ❌ Bad
 export default function ChatBubble(props) {
-  return <div>{props.message}</div>
+  return <div>{props.message}</div>;
 }
 ```
 
@@ -11662,21 +11976,25 @@ export default function ChatBubble(props) {
 
 ```markdown
 ## Description
+
 Brief description of changes
 
 ## Type of Change
+
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Breaking change
 - [ ] Documentation update
 
 ## Testing
+
 - [ ] Unit tests added/updated
 - [ ] Integration tests added/updated
 - [ ] E2E tests added/updated
 - [ ] Manual testing completed
 
 ## Checklist
+
 - [ ] Code follows style guidelines
 - [ ] Self-review completed
 - [ ] Comments added for complex code
@@ -11696,6 +12014,7 @@ Brief description of changes
 #### Issue: App won't start
 
 **Symptoms:**
+
 - App crashes on launch
 - White screen
 - "Application Error" dialog
@@ -11703,40 +12022,44 @@ Brief description of changes
 **Solutions:**
 
 1. **Check logs:**
+
    ```bash
    # macOS
    ~/Library/Logs/GardenOfEden/main.log
-   
+
    # Windows
    %APPDATA%\GardenOfEden\logs\main.log
-   
+
    # Linux
    ~/.config/GardenOfEden/logs/main.log
    ```
 
 2. **Clear cache:**
+
    ```bash
    # macOS
    rm -rf ~/Library/Application\ Support/GardenOfEden/cache
-   
+
    # Windows
    rmdir /s "%APPDATA%\GardenOfEden\cache"
-   
+
    # Linux
    rm -rf ~/.config/GardenOfEden/cache
    ```
 
 3. **Reinstall models:**
+
    ```bash
    # Delete models
    rm -rf ~/Library/Application\ Support/GardenOfEden/models
-   
+
    # Relaunch app to trigger download wizard
    ```
 
 #### Issue: Slow AI responses
 
 **Symptoms:**
+
 - AI takes 30+ seconds to respond
 - Responses timeout
 - High CPU usage
@@ -11761,6 +12084,7 @@ Brief description of changes
 #### Issue: Voice input not working
 
 **Symptoms:**
+
 - Microphone button grayed out
 - No waveform animation
 - "Microphone not available" error
@@ -11768,17 +12092,19 @@ Brief description of changes
 **Solutions:**
 
 1. **Grant microphone permission:**
-   - macOS: System Preferences → Security & Privacy → Microphone → Garden of Eden ✓
+
+   - macOS: System Preferences → Security & Privacy → Microphone → Eden Proejct ✓
    - Windows: Settings → Privacy → Microphone → Allow apps ✓
 
 2. **Check microphone:**
    Settings → Voice → Input Device: [Select microphone]
 
 3. **Restart audio service:**
+
    ```bash
    # macOS
    sudo killall coreaudiod
-   
+
    # Windows
    Restart-Service -Name "Audiosrv"
    ```
@@ -11786,6 +12112,7 @@ Brief description of changes
 #### Issue: Git integration not working
 
 **Symptoms:**
+
 - "Git not found" error
 - Commands fail silently
 - No repository detected
@@ -11793,23 +12120,25 @@ Brief description of changes
 **Solutions:**
 
 1. **Install Git:**
+
    ```bash
    # macOS (Homebrew)
    brew install git
-   
+
    # Windows (Chocolatey)
    choco install git
-   
+
    # Linux
    sudo apt install git  # Debian/Ubuntu
    sudo yum install git  # RHEL/CentOS
    ```
 
 2. **Add Git to PATH:**
+
    ```bash
    # Verify Git is accessible
    git --version
-   
+
    # If not, add to PATH:
    # Windows: Add C:\Program Files\Git\bin to PATH
    # macOS/Linux: Usually automatic after install
@@ -11831,6 +12160,7 @@ Brief description of changes
    Settings → Privacy → Auto-delete after 30 days ✓
 
 2. **Disable unnecessary features:**
+
    - Settings → Voice → Auto-TTS ❌ (if not needed)
    - Settings → Vision → LLaVA Model ❌ (if not using vision)
 
@@ -11841,17 +12171,18 @@ Brief description of changes
 
 1. **Use smaller model:**
    Settings → Model → Primary LLM: Llama 3.1 3B (instead of 8B)
-   
+
    Note: Smaller model = faster but less capable
 
 2. **Reduce max tokens:**
    Settings → Model → Max Tokens: 1024 (instead of 2048)
 
 3. **Enable metal/CUDA:**
+
    ```bash
    # macOS (Metal)
    Settings → Model → GPU: Metal ✓
-   
+
    # Windows/Linux (CUDA)
    Settings → Model → GPU: CUDA ✓
    ```
@@ -11895,7 +12226,7 @@ garden-of-eden export --format json --output ~/Desktop/conversations.json
 
 ### General
 
-**Q: Is Garden of Eden really 100% local?**
+**Q: Is Eden Proejct really 100% local?**
 A: Yes! After initial model download, everything runs on your computer. No internet required.
 
 **Q: What's the difference between User-Led and AI-Led mode?**
@@ -11904,7 +12235,7 @@ A: User-Led is reactive (AI waits for you), AI-Led is proactive (AI suggests act
 **Q: Can I use my own AI models?**
 A: Yes! Place GGUF format models in the models directory and select them in Settings.
 
-**Q: Does Garden of Eden work offline?**
+**Q: Does Eden Proejct work offline?**
 A: Yes, completely offline after setup.
 
 ### Privacy & Security
@@ -11944,19 +12275,21 @@ A: Yes, Light/Dark/Auto modes. Custom themes via plugins.
 
 **End of Part 7**
 
-*Lines: ~1500*
-*Total Specification: ~11,700 lines*
+_Lines: ~1500_
+_Total Specification: ~11,700 lines_
 
 ---
+
 ---
 
 # Epilogue
 
-**Garden of Eden V3** represents a complete vision for a desktop-first, privacy-focused, locally-powered AI assistant.
+**Eden Proejct** represents a complete vision for a desktop-first, privacy-focused, locally-powered AI assistant.
 
 This specification covers:
+
 - ✅ Part 1: Vision & Philosophy
-- ✅ Part 2: AI Intelligence & Local Models  
+- ✅ Part 2: AI Intelligence & Local Models
 - ✅ Part 3: Architecture & System Integration
 - ✅ Part 4: UI/UX & Features (Expanded)
 - ✅ Part 5: Implementation & Data Models
@@ -11965,12 +12298,12 @@ This specification covers:
 
 **Total: ~11,700 lines of comprehensive documentation**
 
-All information needed to understand, build, use, and extend Garden of Eden V3 is now contained in this single master specification document.
+All information needed to understand, build, use, and extend Eden Proejct is now contained in this single master specification document.
 
 Ready to build the future of personal AI assistants.
 
 ---
 
-*Document Version: 3.0*
-*Last Updated: 2025-01-12*
-*Status: Complete*
+_Document Version: 3.0_
+_Last Updated: 2025-01-12_
+_Status: Complete_

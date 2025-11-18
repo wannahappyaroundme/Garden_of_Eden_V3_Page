@@ -1,6 +1,6 @@
 # 콘텐츠 수정 가이드 (Content Editing Guide)
 
-Garden of Eden V3 웹사이트의 콘텐츠를 수정하는 방법을 안내합니다.
+Eden Proejct 웹사이트의 콘텐츠를 수정하는 방법을 안내합니다.
 
 ---
 
@@ -39,9 +39,9 @@ Garden of Eden V3 웹사이트의 콘텐츠를 수정하는 방법을 안내합�
 ```json
 {
   "hero": {
-    "title": "완전한 프라이버시를 가진 AI",  // ← 이 부분을 수정
+    "title": "완전한 프라이버시를 가진 AI", // ← 이 부분을 수정
     "subtitle": "당신의",
-    "description": "Garden of Eden V3는 100% 로컬에서 작동하는 AI 어시스턴트입니다."
+    "description": "Eden Proejct는 100% 로컬에서 작동하는 AI 어시스턴트입니다."
   }
 }
 ```
@@ -51,23 +51,23 @@ Garden of Eden V3 웹사이트의 콘텐츠를 수정하는 방법을 안내합�
 ```json
 {
   "hero": {
-    "title": "AI with Complete Privacy",  // ← 이 부분을 수정
+    "title": "AI with Complete Privacy", // ← 이 부분을 수정
     "subtitle": "Your",
-    "description": "Garden of Eden V3 is an AI assistant that runs 100% locally."
+    "description": "Eden Proejct is an AI assistant that runs 100% locally."
   }
 }
 ```
 
 ### 🔑 주요 섹션별 키 구조
 
-| 페이지/섹션 | JSON 키 | 설명 |
-|------------|---------|------|
-| 메인 페이지 | `hero.*` | 히어로 섹션 (제목, 부제목, 설명) |
-| 기능 소개 | `features.*` | 주요 기능 설명 |
-| 제품 개요 | `productOverview.*` | 제품 소개 페이지 |
-| FAQ | `faq.*` | 자주 묻는 질문 |
-| 법적 고지 | `legal.*` | 개인정보처리방침, 이용약관 등 |
-| 연락처 | `contact.*` | 문의하기 페이지 |
+| 페이지/섹션 | JSON 키             | 설명                             |
+| ----------- | ------------------- | -------------------------------- |
+| 메인 페이지 | `hero.*`            | 히어로 섹션 (제목, 부제목, 설명) |
+| 기능 소개   | `features.*`        | 주요 기능 설명                   |
+| 제품 개요   | `productOverview.*` | 제품 소개 페이지                 |
+| FAQ         | `faq.*`             | 자주 묻는 질문                   |
+| 법적 고지   | `legal.*`           | 개인정보처리방침, 이용약관 등    |
+| 연락처      | `contact.*`         | 문의하기 페이지                  |
 
 ---
 
@@ -86,17 +86,19 @@ Garden of Eden V3 웹사이트의 콘텐츠를 수정하는 방법을 안내합�
 파일을 열고 13-16번째 줄의 배열을 수정하세요:
 
 ```tsx
-const words = locale === 'ko'
-  ? ['동반자', '절친', '동료', '반쪽']  // ← 한국어 단어 수정
-  : ['companion', 'best friend', 'colleague', 'other half'];  // ← 영어 단어 수정
+const words =
+  locale === "ko"
+    ? ["동반자", "절친", "동료", "반쪽"] // ← 한국어 단어 수정
+    : ["companion", "best friend", "colleague", "other half"]; // ← 영어 단어 수정
 ```
 
 ### 예시: 단어 추가/변경
 
 ```tsx
-const words = locale === 'ko'
-  ? ['친구', '파트너', '조력자', '협력자', '동료']  // 5개로 늘림
-  : ['friend', 'partner', 'helper', 'collaborator', 'ally'];
+const words =
+  locale === "ko"
+    ? ["친구", "파트너", "조력자", "협력자", "동료"] // 5개로 늘림
+    : ["friend", "partner", "helper", "collaborator", "ally"];
 ```
 
 ### ⚙️ 애니메이션 속도 조절
@@ -106,13 +108,13 @@ const words = locale === 'ko'
 ```tsx
 typed.current = new Typed(el.current, {
   strings: words,
-  typeSpeed: 100,        // 타이핑 속도 (숫자가 작을수록 빠름)
-  backSpeed: 50,         // 삭제 속도 (숫자가 작을수록 빠름)
-  backDelay: 2000,       // 삭제 전 대기 시간 (밀리초)
-  startDelay: 1000,      // 시작 전 대기 시간 (밀리초)
+  typeSpeed: 100, // 타이핑 속도 (숫자가 작을수록 빠름)
+  backSpeed: 50, // 삭제 속도 (숫자가 작을수록 빠름)
+  backDelay: 2000, // 삭제 전 대기 시간 (밀리초)
+  startDelay: 1000, // 시작 전 대기 시간 (밀리초)
   loop: true,
   showCursor: true,
-  cursorChar: '|',       // 커서 모양 변경 가능 (예: '_', '▌')
+  cursorChar: "|", // 커서 모양 변경 가능 (예: '_', '▌')
 });
 ```
 
@@ -121,51 +123,53 @@ typed.current = new Typed(el.current, {
 ## 3. 주요 페이지별 파일 위치
 
 ### 🏠 메인 페이지
+
 **파일**: `/app/[locale]/page.tsx`
+
 - 히어로 섹션 (Hero Section)
 - CTA 버튼
 - 주요 기능 카드
 
 ### 📄 제품 (Product) 페이지
 
-| 페이지 | 파일 경로 |
-|--------|----------|
-| 제품 개요 | `/app/[locale]/product/overview/page.tsx` |
-| 주요 기능 | `/app/[locale]/features/page.tsx` |
+| 페이지    | 파일 경로                                   |
+| --------- | ------------------------------------------- |
+| 제품 개요 | `/app/[locale]/product/overview/page.tsx`   |
+| 주요 기능 | `/app/[locale]/features/page.tsx`           |
 | 기술 스택 | `/app/[locale]/product/technology/page.tsx` |
-| 로드맵 | `/app/[locale]/product/roadmap/page.tsx` |
+| 로드맵    | `/app/[locale]/product/roadmap/page.tsx`    |
 
 ### 🔐 왜 Eden인가? (Why Eden) 페이지
 
-| 페이지 | 파일 경로 |
-|--------|----------|
-| 프라이버시 우선 | `/app/[locale]/why-eden/privacy/page.tsx` |
-| 경쟁사 비교 | `/app/[locale]/why-eden/comparison/page.tsx` |
+| 페이지          | 파일 경로                                    |
+| --------------- | -------------------------------------------- |
+| 프라이버시 우선 | `/app/[locale]/why-eden/privacy/page.tsx`    |
+| 경쟁사 비교     | `/app/[locale]/why-eden/comparison/page.tsx` |
 
 ### 📚 리소스 (Resources) 페이지
 
-| 페이지 | 파일 경로 |
-|--------|----------|
-| 문서 | `/app/[locale]/resources/documentation/page.tsx` |
-| 커뮤니티 | `/app/[locale]/resources/community/page.tsx` |
-| FAQ | `/app/[locale]/faq/page.tsx` |
+| 페이지   | 파일 경로                                        |
+| -------- | ------------------------------------------------ |
+| 문서     | `/app/[locale]/resources/documentation/page.tsx` |
+| 커뮤니티 | `/app/[locale]/resources/community/page.tsx`     |
+| FAQ      | `/app/[locale]/faq/page.tsx`                     |
 
 ### ⚖️ 법적 고지 (Legal) 페이지
 
-| 페이지 | 파일 경로 |
-|--------|----------|
-| 개인정보처리방침 | `/app/[locale]/legal/privacy-policy/page.tsx` |
-| 이용약관 | `/app/[locale]/legal/terms-of-service/page.tsx` |
-| 오픈소스 라이선스 | `/app/[locale]/legal/license/page.tsx` |
+| 페이지            | 파일 경로                                       |
+| ----------------- | ----------------------------------------------- |
+| 개인정보처리방침  | `/app/[locale]/legal/privacy-policy/page.tsx`   |
+| 이용약관          | `/app/[locale]/legal/terms-of-service/page.tsx` |
+| 오픈소스 라이선스 | `/app/[locale]/legal/license/page.tsx`          |
 
 ### 📞 기타 페이지
 
-| 페이지 | 파일 경로 |
-|--------|----------|
-| 문의하기 | `/app/[locale]/contact/page.tsx` |
-| 가격 | `/app/[locale]/pricing/page.tsx` |
-| 다운로드 | `/app/[locale]/download/page.tsx` |
-| 회사 소개 | `/app/[locale]/about/page.tsx` |
+| 페이지    | 파일 경로                         |
+| --------- | --------------------------------- |
+| 문의하기  | `/app/[locale]/contact/page.tsx`  |
+| 가격      | `/app/[locale]/pricing/page.tsx`  |
+| 다운로드  | `/app/[locale]/download/page.tsx` |
+| 회사 소개 | `/app/[locale]/about/page.tsx`    |
 
 ---
 
@@ -200,33 +204,44 @@ npm run start
 ## 5. 자주 묻는 질문
 
 ### Q1. 번역 파일을 수정했는데 반영이 안 돼요
+
 **A**: 개발 서버를 재시작하세요:
+
 1. 터미널에서 `Ctrl+C`로 서버 중지
 2. `npm run dev`로 다시 실행
 
 ### Q2. 새로운 페이지를 추가하고 싶어요
+
 **A**:
+
 1. `/app/[locale]/새폴더/page.tsx` 파일 생성
 2. `/messages/ko.json`과 `/messages/en.json`에 번역 추가
 3. `/components/Navbar.tsx`의 메뉴에 링크 추가
 
 ### Q3. 이미지를 변경하고 싶어요
+
 **A**: `/public/` 폴더에 이미지를 넣고, 페이지에서 다음과 같이 사용:
+
 ```tsx
 <img src="/your-image.png" alt="설명" />
 ```
 
 ### Q4. 색상을 변경하고 싶어요
+
 **A**:
+
 - **보라색 계열**: `purple-600`, `violet-600` 클래스 사용 중
 - **그라데이션**: `from-purple-600 to-violet-600`
 - Tailwind CSS 클래스를 각 페이지의 `className`에서 수정
 
 ### Q5. 글꼴(폰트)를 변경하고 싶어요
+
 **A**: `/app/[locale]/layout.tsx` 파일에서 폰트 설정 변경
 
 ### Q6. 언어 토글 위치를 변경하고 싶어요
+
 **A**: `/components/LanguageSwitcher.tsx`의 16번째 줄:
+
 - **중앙**: `left-1/2 -translate-x-1/2`
 - **우측**: `right-4`
 - **좌측**: `left-4`
@@ -242,4 +257,4 @@ npm run start
 ---
 
 **마지막 업데이트**: 2025년 1월
-**버전**: Garden of Eden V3 Website 2.0
+**버전**: Eden Proejct Website 2.0

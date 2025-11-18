@@ -1,6 +1,6 @@
 # Marketing Materials
 
-Marketing copy, launch announcements, and promotional content for Garden of Eden V3.
+Marketing copy, launch announcements, and promotional content for Eden Proejct.
 
 ---
 
@@ -22,13 +22,13 @@ Marketing copy, launch announcements, and promotional content for Garden of Eden
 
 ### 30-Second Pitch
 
-"Garden of Eden V3 is a free, open-source AI assistant that runs 100% on your Mac. Unlike ChatGPT or Claude, all AI processing happens locally - your data never leaves your machine. It's powered by qwen2.5:7b via Ollama, features 10 customizable personality parameters, and works completely offline. Think Tony Stark's JARVIS, but private and free forever."
+"Eden Proejct is a free, open-source AI assistant that runs 100% on your Mac. Unlike ChatGPT or Claude, all AI processing happens locally - your data never leaves your machine. It's powered by qwen2.5:7b via Ollama, features 10 customizable personality parameters, and works completely offline. Think Tony Stark's JARVIS, but private and free forever."
 
 ### 60-Second Pitch
 
 "ChatGPT costs $20/month and uploads your conversations to OpenAI servers. GitHub Copilot costs $10/month and sends your code to Microsoft. Every cloud AI service forces you to choose between power and privacy.
 
-Garden of Eden V3 changes that. It's a production-quality desktop AI assistant that runs 100% locally via Ollama. All processing happens on your Mac using the qwen2.5:7b model - no data ever leaves your machine. You get:
+Eden Proejct changes that. It's a production-quality desktop AI assistant that runs 100% locally via Ollama. All processing happens on your Mac using the qwen2.5:7b model - no data ever leaves your machine. You get:
 
 - Complete privacy (works offline)
 - Zero subscription fees (free forever, MIT license)
@@ -43,7 +43,7 @@ It's open source, it's fast (2-4 second responses), and it respects your privacy
 
 "The AI revolution has a dark side: every powerful AI assistant requires you to upload your data to the cloud. ChatGPT, Claude, Gemini - they all train on your conversations. Your private thoughts, your code, your creative work - all processed on someone else's servers.
 
-Garden of Eden V3 was built to solve this problem. It's a privacy-first desktop AI assistant inspired by Tony Stark's JARVIS, but designed for everyone.
+Eden Proejct was built to solve this problem. It's a privacy-first desktop AI assistant inspired by Tony Stark's JARVIS, but designed for everyone.
 
 **Here's how it works:**
 
@@ -62,7 +62,7 @@ Fourth, it's free forever. No subscriptions, no trials, no paid tiers. MIT licen
 - Professionals handling sensitive data (legal, medical, financial)
 - Anyone tired of big tech surveillance
 
-Garden of Eden V3 proves you don't have to sacrifice privacy for AI power. Download it today and experience AI on your terms."
+Eden Proejct proves you don't have to sacrifice privacy for AI power. Download it today and experience AI on your terms."
 
 ---
 
@@ -98,33 +98,37 @@ Garden of Eden V3 proves you don't have to sacrifice privacy for AI power. Downl
 
 ### Core Value Props
 
-| Feature | Benefit | Proof Point |
-|---------|---------|-------------|
-| **100% Local** | Your data never leaves your machine | Open source code, no network calls |
-| **Free Forever** | No subscriptions, ever | MIT license, community-funded |
-| **Customizable** | AI that matches your style | 10 personality parameters + learning |
-| **Fast** | 2-4 second responses | qwen2.5:7b on Apple Silicon |
-| **Private** | No tracking, no telemetry | AES-256 encrypted local storage |
-| **Offline** | Works without internet | All processing local via Ollama |
-| **Open Source** | Audit every line of code | GitHub, MIT license |
-| **Voice-Enabled** | Speak to your AI | Whisper STT, Korean + English |
+| Feature           | Benefit                             | Proof Point                          |
+| ----------------- | ----------------------------------- | ------------------------------------ |
+| **100% Local**    | Your data never leaves your machine | Open source code, no network calls   |
+| **Free Forever**  | No subscriptions, ever              | MIT license, community-funded        |
+| **Customizable**  | AI that matches your style          | 10 personality parameters + learning |
+| **Fast**          | 2-4 second responses                | qwen2.5:7b on Apple Silicon          |
+| **Private**       | No tracking, no telemetry           | AES-256 encrypted local storage      |
+| **Offline**       | Works without internet              | All processing local via Ollama      |
+| **Open Source**   | Audit every line of code            | GitHub, MIT license                  |
+| **Voice-Enabled** | Speak to your AI                    | Whisper STT, Korean + English        |
 
 ### Unique Selling Points vs Competitors
 
 **vs ChatGPT Plus ($20/month)**
-- Garden of Eden: Free, private, offline
+
+- Eden Proejct: Free, private, offline
 - ChatGPT: Paid, cloud-only, always online
 
 **vs GitHub Copilot ($10/month)**
-- Garden of Eden: Free, general-purpose, private
+
+- Eden Proejct: Free, general-purpose, private
 - Copilot: Paid, code-only, sends code to Microsoft
 
 **vs Claude Pro ($20/month)**
-- Garden of Eden: Free, customizable personality, local
+
+- Eden Proejct: Free, customizable personality, local
 - Claude: Paid, fixed personality, cloud-only
 
 **vs Local LLaMA/Ollama CLI**
-- Garden of Eden: Full GUI, voice, screen context, persona
+
+- Eden Proejct: Full GUI, voice, screen context, persona
 - LLaMA CLI: Command line only, no GUI
 
 ---
@@ -133,42 +137,42 @@ Garden of Eden V3 proves you don't have to sacrifice privacy for AI power. Downl
 
 ### Cost Comparison (Annual)
 
-| Service | Annual Cost | Total 3-Year Cost |
-|---------|-------------|-------------------|
-| **Garden of Eden V3** | **$0** | **$0** |
-| ChatGPT Plus | $240 | $720 |
-| GitHub Copilot | $120 | $360 |
-| Claude Pro | $240 | $720 |
-| Gemini Advanced | $240 | $720 |
+| Service          | Annual Cost | Total 3-Year Cost |
+| ---------------- | ----------- | ----------------- |
+| **Eden Proejct** | **$0**      | **$0**            |
+| ChatGPT Plus     | $240        | $720              |
+| GitHub Copilot   | $120        | $360              |
+| Claude Pro       | $240        | $720              |
+| Gemini Advanced  | $240        | $720              |
 
-**Savings with Garden of Eden V3**: **$720 over 3 years** (vs ChatGPT Plus)
+**Savings with Eden Proejct**: **$720 over 3 years** (vs ChatGPT Plus)
 
 ### Privacy Comparison
 
-| Feature | Garden of Eden | ChatGPT | Copilot | Claude |
-|---------|----------------|---------|---------|--------|
-| **Data Storage** | Your Mac only | OpenAI servers | Microsoft servers | Anthropic servers |
-| **Training on Your Data** | Never | Yes | Yes | No (claimed) |
-| **Offline Mode** | Full functionality | None | None | None |
-| **Open Source** | Yes (MIT) | No | No | No |
-| **Audit Trail** | Complete | None | None | None |
-| **Data Retention** | You control | 30+ days | Unknown | Unknown |
+| Feature                   | Eden Proejct       | ChatGPT        | Copilot           | Claude            |
+| ------------------------- | ------------------ | -------------- | ----------------- | ----------------- |
+| **Data Storage**          | Your Mac only      | OpenAI servers | Microsoft servers | Anthropic servers |
+| **Training on Your Data** | Never              | Yes            | Yes               | No (claimed)      |
+| **Offline Mode**          | Full functionality | None           | None              | None              |
+| **Open Source**           | Yes (MIT)          | No             | No                | No                |
+| **Audit Trail**           | Complete           | None           | None              | None              |
+| **Data Retention**        | You control        | 30+ days       | Unknown           | Unknown           |
 
 ### Feature Comparison
 
-| Feature | Garden of Eden | ChatGPT Plus | GitHub Copilot | Claude Pro |
-|---------|----------------|--------------|----------------|------------|
-| **Price** | Free | $20/mo | $10/mo | $20/mo |
-| **Privacy** | 100% local | Cloud | Cloud | Cloud |
-| **Offline** | Yes | No | No | No |
-| **Voice Input** | Yes | Yes (web) | No | No |
-| **Screen Analysis** | Yes (LLaVA) | No | No | No |
-| **Git Integration** | Yes | No | Limited | No |
-| **Customizable Persona** | 10 parameters | No | No | No |
-| **Learning System** | Yes (local) | Yes (cloud) | Yes (cloud) | Yes (cloud) |
-| **Response Time** | 2-4s | <1s | <1s | <1s |
-| **Model Size** | 7B | 100B+ | Unknown | 100B+ |
-| **Context Window** | 32K tokens | 128K tokens | 8K tokens | 200K tokens |
+| Feature                  | Eden Proejct  | ChatGPT Plus | GitHub Copilot | Claude Pro  |
+| ------------------------ | ------------- | ------------ | -------------- | ----------- |
+| **Price**                | Free          | $20/mo       | $10/mo         | $20/mo      |
+| **Privacy**              | 100% local    | Cloud        | Cloud          | Cloud       |
+| **Offline**              | Yes           | No           | No             | No          |
+| **Voice Input**          | Yes           | Yes (web)    | No             | No          |
+| **Screen Analysis**      | Yes (LLaVA)   | No           | No             | No          |
+| **Git Integration**      | Yes           | No           | Limited        | No          |
+| **Customizable Persona** | 10 parameters | No           | No             | No          |
+| **Learning System**      | Yes (local)   | Yes (cloud)  | Yes (cloud)    | Yes (cloud) |
+| **Response Time**        | 2-4s          | <1s          | <1s            | <1s         |
+| **Model Size**           | 7B            | 100B+        | Unknown        | 100B+       |
+| **Context Window**       | 32K tokens    | 128K tokens  | 8K tokens      | 200K tokens |
 
 ---
 
@@ -176,13 +180,13 @@ Garden of Eden V3 proves you don't have to sacrifice privacy for AI power. Downl
 
 ### FOR IMMEDIATE RELEASE
 
-**Garden of Eden V3: Open-Source, Privacy-First AI Assistant Launches - No Cloud, No Subscriptions, No Compromises**
+**Eden Proejct: Open-Source, Privacy-First AI Assistant Launches - No Cloud, No Subscriptions, No Compromises**
 
-*Free Desktop Application Brings JARVIS-like AI to Everyone While Keeping Data 100% Local*
+_Free Desktop Application Brings JARVIS-like AI to Everyone While Keeping Data 100% Local_
 
-**Seoul, South Korea - January 16, 2025** - Today marks the launch of Garden of Eden V3, a production-quality desktop AI assistant that runs entirely on users' computers. Unlike cloud-based alternatives like ChatGPT, Claude, or Gemini, Garden of Eden V3 processes all data locally, ensuring complete privacy while eliminating subscription fees.
+**Seoul, South Korea - January 16, 2025** - Today marks the launch of Eden Proejct, a production-quality desktop AI assistant that runs entirely on users' computers. Unlike cloud-based alternatives like ChatGPT, Claude, or Gemini, Eden Proejct processes all data locally, ensuring complete privacy while eliminating subscription fees.
 
-"The AI industry has conditioned users to accept a false choice between power and privacy," says Matthew, creator of Garden of Eden V3. "We built this to prove you can have both. Your conversations, your code, your creative work - it all stays on your machine, forever."
+"The AI industry has conditioned users to accept a false choice between power and privacy," says Matthew, creator of Eden Proejct. "We built this to prove you can have both. Your conversations, your code, your creative work - it all stays on your machine, forever."
 
 **Key Features:**
 
@@ -197,15 +201,16 @@ Garden of Eden V3 proves you don't have to sacrifice privacy for AI power. Downl
 
 **Technical Specifications:**
 
-Garden of Eden V3 is built with Tauri 2.9 (Rust + React), producing a lightweight 7.1MB application - 97% smaller than equivalent Electron builds. The qwen2.5:7b language model provides responses in 2-4 seconds on Apple Silicon Macs with Metal acceleration.
+Eden Proejct is built with Tauri 2.9 (Rust + React), producing a lightweight 7.1MB application - 97% smaller than equivalent Electron builds. The qwen2.5:7b language model provides responses in 2-4 seconds on Apple Silicon Macs with Metal acceleration.
 
 The application includes a unique 10-parameter persona system, allowing users to customize formality, verbosity, humor, emoji usage, and six other behavioral traits. A gradient-based learning system optimizes these parameters based on user feedback, all processed locally.
 
 **Availability:**
 
-Garden of Eden V3 is available now for macOS (Intel and Apple Silicon) as a free download from GitHub. Windows support is planned for Q2 2025. The application requires macOS 11 or later, 16GB RAM minimum (24GB recommended), and 20GB free disk space for AI models.
+Eden Proejct is available now for macOS (Intel and Apple Silicon) as a free download from GitHub. Windows support is planned for Q2 2025. The application requires macOS 11 or later, 16GB RAM minimum (24GB recommended), and 20GB free disk space for AI models.
 
 **System Requirements:**
+
 - macOS 11 Big Sur or later
 - 16GB RAM (24GB recommended)
 - 20GB free disk space
@@ -219,11 +224,12 @@ https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases
 
 **About the Project:**
 
-Garden of Eden V3 was created to address growing privacy concerns around cloud-based AI services. Inspired by Tony Stark's JARVIS, the project aims to bring powerful AI assistance to everyone while maintaining absolute privacy and zero cost.
+Eden Proejct was created to address growing privacy concerns around cloud-based AI services. Inspired by Tony Stark's JARVIS, the project aims to bring powerful AI assistance to everyone while maintaining absolute privacy and zero cost.
 
 "사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다" ("Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity")
 
 **For More Information:**
+
 - Website: https://github.com/wannahappyaroundme/Garden_of_Eden_V3
 - Documentation: https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki
 - Contact: bu5119@hanyang.ac.kr
@@ -244,7 +250,7 @@ GitHub: @wannahappyaroundme
 #### Launch Tweet (280 characters)
 
 ```
-🚀 Garden of Eden V3 is LIVE!
+🚀 Eden Proejct is LIVE!
 
 Your private AI assistant:
 ✅ 100% local (no cloud)
@@ -263,10 +269,11 @@ Download: [link]
 #### Feature Highlight Tweets
 
 **Privacy Focus:**
+
 ```
 Stop uploading your conversations to cloud AI.
 
-Garden of Eden V3 runs 100% on your Mac:
+Eden Proejct runs 100% on your Mac:
 • qwen2.5:7b via Ollama
 • 2-4s responses
 • Works offline
@@ -279,12 +286,13 @@ Your data never leaves your machine.
 ```
 
 **Cost Savings:**
+
 ```
 ChatGPT Plus: $20/month = $720 over 3 years
 GitHub Copilot: $10/month = $360 over 3 years
 Claude Pro: $20/month = $720 over 3 years
 
-Garden of Eden V3: $0 forever
+Eden Proejct: $0 forever
 
 Same AI power. Zero cost. Complete privacy.
 
@@ -292,10 +300,11 @@ Same AI power. Zero cost. Complete privacy.
 ```
 
 **Customization:**
+
 ```
 Tired of AI that talks the same to everyone?
 
-Garden of Eden V3 has 10 personality sliders:
+Eden Proejct has 10 personality sliders:
 • Formality
 • Verbosity
 • Humor
@@ -312,15 +321,16 @@ AI that matches YOUR style.
 
 #### r/LocalLLaMA Post
 
-**Title**: [Release] Garden of Eden V3 - Privacy-first desktop AI with GUI, voice, and 10-parameter persona system
+**Title**: [Release] Eden Proejct - Privacy-first desktop AI with GUI, voice, and 10-parameter persona system
 
 **Body**:
+
 ```markdown
 Hey r/LocalLLaMA! I built a production-quality desktop AI assistant that I think you'll love.
 
 ## What is it?
 
-Garden of Eden V3 is a Tauri-based (Rust + React) desktop app that brings a ChatGPT-like experience, but 100% local via Ollama.
+Eden Proejct is a Tauri-based (Rust + React) desktop app that brings a ChatGPT-like experience, but 100% local via Ollama.
 
 ## Key Features
 
@@ -343,6 +353,7 @@ Garden of Eden V3 is a Tauri-based (Rust + React) desktop app that brings a Chat
 ## Why I built this
 
 I was tired of choosing between ChatGPT's power and privacy. I wanted:
+
 - No subscriptions
 - No cloud
 - Customizable AI personality
@@ -374,13 +385,15 @@ Feedback welcome! Let me know if you hit any issues.
 
 #### r/MacApps Post
 
-**Title**: Garden of Eden V3 - Free, privacy-first AI assistant for Mac (like JARVIS)
+**Title**: Eden Proejct - Free, privacy-first AI assistant for Mac (like JARVIS)
 
 **Body**:
+
 ```markdown
 Built a native macOS AI assistant that's 100% local - no cloud, no subscriptions.
 
 **What it does:**
+
 - Chat with AI (qwen2.5:7b via Ollama)
 - Voice input/output
 - Understands your screen (LLaVA vision)
@@ -389,6 +402,7 @@ Built a native macOS AI assistant that's 100% local - no cloud, no subscriptions
 - 10 customizable personality traits
 
 **Why it's different:**
+
 - FREE (MIT open source)
 - PRIVATE (all processing on your Mac)
 - OFFLINE (works without internet)
@@ -398,6 +412,7 @@ Built a native macOS AI assistant that's 100% local - no cloud, no subscriptions
 https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases
 
 **Requirements:**
+
 - macOS 11+
 - 16GB RAM
 - Apple Silicon or Intel
@@ -407,15 +422,17 @@ Inspired by Tony Stark's JARVIS but built for privacy and freedom.
 
 #### r/PrivacyGuides Post
 
-**Title**: Finally, an AI assistant that doesn't upload your data (Garden of Eden V3)
+**Title**: Finally, an AI assistant that doesn't upload your data (Eden Proejct)
 
 **Body**:
+
 ```markdown
 Sick of ChatGPT analyzing your conversations? Tired of $20/month for Claude?
 
-Garden of Eden V3 is a desktop AI assistant that runs 100% locally:
+Eden Proejct is a desktop AI assistant that runs 100% locally:
 
 **Privacy features:**
+
 - All AI processing via Ollama (local)
 - No telemetry or tracking
 - AES-256 encrypted local database
@@ -424,6 +441,7 @@ Garden of Eden V3 is a desktop AI assistant that runs 100% locally:
 - Optional cloud backup (settings only, not conversations)
 
 **Features:**
+
 - qwen2.5:7b language model
 - Voice input/output
 - Screen context analysis (LLaVA)
@@ -442,9 +460,10 @@ Your data never leaves your machine. No compromises.
 
 ### Hacker News
 
-**Title**: Garden of Eden V3 – Privacy-first AI assistant (100% local, free, open source)
+**Title**: Eden Proejct – Privacy-first AI assistant (100% local, free, open source)
 
 **Body**:
+
 ```
 I built a desktop AI assistant that runs entirely on your Mac using Ollama + qwen2.5:7b.
 
@@ -468,18 +487,19 @@ Feedback welcome!
 
 ### Blog Post / GitHub Discussion
 
-**Title**: Introducing Garden of Eden V3: Your Private AI Assistant
+**Title**: Introducing Eden Proejct: Your Private AI Assistant
 
 **Body**:
 
 ```markdown
-# Introducing Garden of Eden V3: Your Private AI Assistant
+# Introducing Eden Proejct: Your Private AI Assistant
 
-Today, I'm excited to announce the release of Garden of Eden V3 - a production-quality, privacy-first desktop AI assistant.
+Today, I'm excited to announce the release of Eden Proejct - a production-quality, privacy-first desktop AI assistant.
 
 ## The Problem
 
 Every powerful AI assistant today requires you to upload your data to the cloud:
+
 - ChatGPT costs $20/month and trains on your conversations
 - GitHub Copilot sends your code to Microsoft
 - Claude, Gemini, and others all process data on remote servers
@@ -488,7 +508,7 @@ For many of us, this isn't acceptable. We want AI assistance, but not at the cos
 
 ## The Solution
 
-Garden of Eden V3 changes this equation. It's a desktop application that runs AI completely on your Mac using Ollama and the qwen2.5:7b model.
+Eden Proejct changes this equation. It's a desktop application that runs AI completely on your Mac using Ollama and the qwen2.5:7b model.
 
 **Your data never leaves your machine.**
 
@@ -505,6 +525,7 @@ No subscriptions, no paid tiers, no trials. MIT license, completely open source.
 ### 3. Customizable Personality
 
 Unlike one-size-fits-all cloud AIs, you control 10 personality parameters:
+
 - Formality (casual ↔ professional)
 - Verbosity (concise ↔ detailed)
 - Humor, emoji usage, technical depth, and more
@@ -521,6 +542,7 @@ The AI learns from your feedback using gradient descent, optimizing its behavior
 ### 5. Actually Usable
 
 This isn't a CLI tool. It's a full GUI with:
+
 - KakaoTalk-style chat interface
 - Conversation history
 - Real-time streaming responses
@@ -555,11 +577,13 @@ This isn't a CLI tool. It's a full GUI with:
 ## What's Next?
 
 **Short-term**:
+
 - Windows build (Q2 2025)
 - Plugin system
 - Advanced RAG with BGE-M3
 
 **Long-term**:
+
 - Internet access (web search)
 - Multiple persona profiles
 - Plugin marketplace
@@ -573,6 +597,7 @@ This isn't a CLI tool. It's a full GUI with:
 ## Feedback Welcome
 
 This is a community project. If you find bugs, have feature requests, or want to contribute:
+
 - **Issues**: https://github.com/wannahappyaroundme/Garden_of_Eden_V3/issues
 - **Discussions**: https://github.com/wannahappyaroundme/Garden_of_Eden_V3/discussions
 - **Email**: bu5119@hanyang.ac.kr
@@ -582,7 +607,7 @@ Thank you for supporting privacy-first AI! 🌳
 ---
 
 **Matthew**
-Creator, Garden of Eden V3
+Creator, Eden Proejct
 ```
 
 ---
@@ -591,15 +616,16 @@ Creator, Garden of Eden V3
 
 ### Email Template for Tech Bloggers
 
-**Subject**: New privacy-first AI assistant - Garden of Eden V3 (100% local, free)
+**Subject**: New privacy-first AI assistant - Eden Proejct (100% local, free)
 
 **Body**:
+
 ```
 Hi [Name],
 
 I wanted to share a project I've been working on that I think would interest [Publication] readers.
 
-Garden of Eden V3 is a desktop AI assistant that runs 100% locally - no cloud, no subscriptions, completely private.
+Eden Proejct is a desktop AI assistant that runs 100% locally - no cloud, no subscriptions, completely private.
 
 Unlike ChatGPT or Claude:
 - All AI processing happens on the user's Mac (via Ollama + qwen2.5:7b)
@@ -650,7 +676,7 @@ A: 7.1MB vs 285MB builds. Rust security. Better performance. Modern architecture
 A: Q2 2025. macOS first because that's where our users are (developers, creatives).
 
 **Q: Can you really customize AI personality?**
-A: Yes, 10 sliders control formality, verbosity, humor, etc. Learning system optimizes based on feedback. Unique to Garden of Eden V3.
+A: Yes, 10 sliders control formality, verbosity, humor, etc. Learning system optimizes based on feedback. Unique to Eden Proejct.
 
 ---
 

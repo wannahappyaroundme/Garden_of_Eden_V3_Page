@@ -1,6 +1,6 @@
 # Deployment Guide
 
-Complete guide to deploying Garden of Eden V3 to production.
+Complete guide to deploying Eden Proejct to production.
 
 ---
 
@@ -22,7 +22,8 @@ Complete guide to deploying Garden of Eden V3 to production.
 
 ### Build Architecture
 
-Garden of Eden V3 uses:
+Eden Proejct uses:
+
 - **Framework**: Tauri 2.9
 - **Build System**: Tauri CLI + cargo
 - **Platforms**: macOS (Intel + Apple Silicon universal binary)
@@ -123,7 +124,7 @@ export CSC_IDENTITY_AUTO_DISCOVERY=false  # Disable auto signing (we'll sign man
 npm run build:mac
 ```
 
-**Output**: `src-tauri/target/release/bundle/dmg/Garden of Eden V3_[version]_aarch64.dmg`
+**Output**: `src-tauri/target/release/bundle/dmg/Eden Proejct_[version]_aarch64.dmg`
 
 ### 4. Build for Windows (Future)
 
@@ -132,7 +133,7 @@ npm run build:mac
 npm run build:win
 ```
 
-**Output**: `src-tauri/target/release/bundle/msi/Garden of Eden V3_[version]_x64.msi`
+**Output**: `src-tauri/target/release/bundle/msi/Eden Proejct_[version]_x64.msi`
 
 ---
 
@@ -160,7 +161,7 @@ security find-identity -v -p codesigning
 
 ```bash
 # Define variables
-DMG_PATH="src-tauri/target/release/bundle/dmg/Garden of Eden V3_3.0.4_aarch64.dmg"
+DMG_PATH="src-tauri/target/release/bundle/dmg/Eden Proejct_3.0.4_aarch64.dmg"
 IDENTITY="Developer ID Application: Your Name (TEAM_ID)"
 
 # Sign the DMG
@@ -215,7 +216,7 @@ spctl --assess --type open --context context:primary-signature "$DMG_PATH"
 
 ```bash
 # Use SignTool from Windows SDK
-signtool sign /f certificate.pfx /p password /t http://timestamp.digicert.com "Garden of Eden V3.msi"
+signtool sign /f certificate.pfx /p password /t http://timestamp.digicert.com "Eden Proejct.msi"
 ```
 
 ---
@@ -254,7 +255,7 @@ git push origin v3.0.4
 ```bash
 # Create release
 gh release create v3.0.4 \
-  --title "Garden of Eden V3 - v3.0.4" \
+  --title "Eden Proejct - v3.0.4" \
   --notes "$(cat RELEASE_NOTES.md)" \
   release/v3.0.4/*.dmg \
   release/v3.0.4/SHA256SUMS.txt
@@ -265,7 +266,7 @@ gh release create v3.0.4 \
 1. Go to https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases
 2. Click "Draft a new release"
 3. Tag: `v3.0.4`
-4. Title: `Garden of Eden V3 - v3.0.4`
+4. Title: `Eden Proejct - v3.0.4`
 5. Description: Paste from `RELEASE_NOTES.md`
 6. Upload files:
    - `Garden-of-Eden-V3-macOS-v3.0.4.dmg`
@@ -276,7 +277,7 @@ gh release create v3.0.4 \
 ### 4. Release Notes Template
 
 ```markdown
-# 🌳 Garden of Eden V3 - v3.0.4
+# 🌳 Eden Proejct - v3.0.4
 
 ## 🎉 What's New
 
@@ -303,21 +304,25 @@ gh release create v3.0.4 \
 ## 📦 Downloads
 
 ### macOS
+
 - **Apple Silicon (M1/M2/M3)**: `Garden-of-Eden-V3-macOS-v3.0.4.dmg` (7.1 MB)
 - **Intel**: Same universal binary
 
 ### System Requirements
+
 - macOS 11 Big Sur or later
 - 16GB RAM minimum, 24GB recommended
 - 20GB free disk space
 
 ### Installation
+
 1. Download DMG file
 2. Open DMG
-3. Drag "Garden of Eden V3" to Applications
+3. Drag "Eden Proejct" to Applications
 4. Launch and follow onboarding
 
 ### Verification
+
 SHA256 checksum available in `SHA256SUMS.txt`
 
 ## 📖 Documentation
@@ -349,6 +354,7 @@ SHA256 checksum available in `SHA256SUMS.txt`
 **URL**: https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases
 
 **Pros**:
+
 - ✅ Free hosting
 - ✅ Unlimited downloads
 - ✅ Version history
@@ -372,11 +378,11 @@ cask "garden-of-eden" do
   sha256 "abc123..."
 
   url "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases/download/v#{version}/Garden-of-Eden-V3-macOS-v#{version}.dmg"
-  name "Garden of Eden V3"
+  name "Eden Proejct"
   desc "100% local, privacy-first AI assistant"
   homepage "https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
 
-  app "Garden of Eden V3.app"
+  app "Eden Proejct.app"
 end
 ```
 
@@ -409,10 +415,10 @@ hdiutil attach test.dmg
 
 # Copy to Applications (in test folder)
 mkdir -p ~/Desktop/TestInstall
-cp -R "/Volumes/Garden of Eden V3/Garden of Eden V3.app" ~/Desktop/TestInstall/
+cp -R "/Volumes/Eden Proejct/Eden Proejct.app" ~/Desktop/TestInstall/
 
 # Unmount
-hdiutil detach "/Volumes/Garden of Eden V3"
+hdiutil detach "/Volumes/Eden Proejct"
 
 # Launch
 open ~/Desktop/TestInstall/Garden\ of\ Eden\ V3.app
@@ -479,6 +485,7 @@ npm run build:mac
 ### Communication
 
 **Announce rollback immediately**:
+
 - GitHub Discussions post
 - Update README with warning
 - Close issues related to broken release
@@ -497,7 +504,7 @@ name: Release Build
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   build-macos:
@@ -509,7 +516,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install Rust
         uses: actions-rs/toolchain@v1
@@ -567,7 +574,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: npm install
@@ -710,6 +717,7 @@ gh auth login
 ## Checklist: Complete Release Process
 
 - [ ] **Pre-release**
+
   - [ ] Code freeze
   - [ ] All tests passing
   - [ ] Version bumped in all files
@@ -717,17 +725,20 @@ gh auth login
   - [ ] Documentation updated
 
 - [ ] **Build**
+
   - [ ] Clean build
   - [ ] macOS universal binary created
   - [ ] File size verified (<10MB)
 
 - [ ] **Code Signing**
+
   - [ ] DMG signed with Developer ID
   - [ ] Notarized by Apple
   - [ ] Stapled notarization ticket
   - [ ] Gatekeeper test passed
 
 - [ ] **Release**
+
   - [ ] Git tag created and pushed
   - [ ] GitHub Release created
   - [ ] DMG uploaded
@@ -735,12 +746,14 @@ gh auth login
   - [ ] Release notes complete
 
 - [ ] **Verification**
+
   - [ ] Download test
   - [ ] Installation test
   - [ ] Functional test
   - [ ] No security warnings
 
 - [ ] **Announcement**
+
   - [ ] GitHub Discussions post
   - [ ] README badge updated
   - [ ] Social media (if applicable)
