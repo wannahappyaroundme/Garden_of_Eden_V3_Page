@@ -679,7 +679,7 @@ Dark Mode:
 
 ### Contact
 
-- **Email:** support@garden-of-eden.dev (setup if launching)
+- **Email:** bu5119@hanyang.ac.kr (setup if launching)
 - **Twitter:** @GardenOfEdenAI (setup if launching)
 - **Website:** https://garden-of-eden.dev (this landing page)
 

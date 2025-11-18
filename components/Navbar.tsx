@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useLocale } from "next-intl";
 import { usePathname } from "next/navigation";
+import { useLocale } from "next-intl";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
@@ -24,8 +24,10 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const locale = useLocale();
   const pathname = usePathname();
+
+  // Use next-intl's useLocale hook for reliable locale detection
+  const locale = useLocale();
 
   // 메뉴 항목 (다국어 + 드롭다운) - 5개로 간소화
   const menuItems: MenuItem[] =

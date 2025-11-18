@@ -563,52 +563,36 @@
     "problemSolution": {
       "title": "문제와 해결책",
       "problemsTitle": "기존 AI의 문제점",
-      "problems": {
-        "problem1": {
-          "problem": "클라우드 AI = 프라이버시 침해"
-        },
-        "problem2": {
-          "problem": "월 $20씩 계속 내야 함"
-        },
-        "problem3": {
-          "problem": "획일적인 AI 성격"
-        },
-        "problem4": {
-          "problem": "인터넷 없으면 작동 안 함"
-        },
-        "problem5": {
-          "problem": "당신을 이해하지 못함"
-        },
-        "problem6": {
-          "problem": "기업이 데이터 소유"
-        }
-      },
+      "problem1": "클라우드 AI = 프라이버시 침해",
+      "problem2": "월 $20씩 계속 내야 함",
+      "problem3": "획일적인 AI 성격",
+      "problem4": "인터넷 없으면 작동 안 함",
+      "problem5": "당신을 이해하지 못함",
+      "problem6": "기업이 데이터 소유",
       "solutionsTitle": "Eden의 솔루션",
-      "solutions": {
-        "solution1": {
-          "title": "100% 로컬",
-          "description": "모든 처리가 당신의 컴퓨터에서. 데이터는 절대 외부로 나가지 않습니다"
-        },
-        "solution2": {
-          "title": "완전 무료",
-          "description": "MIT 라이센스 오픈소스. 구독료, 결제, 숨은 비용 없음"
-        },
-        "solution3": {
-          "title": "나만의 AI",
-          "description": "10가지 파라미터로 성격 조정. 피드백으로 학습"
-        },
-        "solution4": {
-          "title": "오프라인 작동",
-          "description": "인터넷 없이도 완벽 작동. 비행기에서도 사용 가능"
-        },
-        "solution5": {
-          "title": "당신을 이해",
-          "description": "RAG 메모리로 과거 대화 기억. 진짜 친구처럼"
-        },
-        "solution6": {
-          "title": "당신의 데이터",
-          "description": "100% 소유권. 백업, 삭제, 전송 - 모두 당신 마음대로"
-        }
+      "solution1": {
+        "title": "100% 로컬",
+        "description": "모든 처리가 당신의 컴퓨터에서. 데이터는 절대 외부로 나가지 않습니다"
+      },
+      "solution2": {
+        "title": "완전 무료",
+        "description": "MIT 라이센스 오픈소스. 구독료, 결제, 숨은 비용 없음"
+      },
+      "solution3": {
+        "title": "나만의 AI",
+        "description": "10가지 파라미터로 성격 조정. 피드백으로 학습"
+      },
+      "solution4": {
+        "title": "오프라인 작동",
+        "description": "인터넷 없이도 완벽 작동. 비행기에서도 사용 가능"
+      },
+      "solution5": {
+        "title": "당신을 이해",
+        "description": "RAG 메모리로 과거 대화 기억. 진짜 친구처럼"
+      },
+      "solution6": {
+        "title": "당신의 데이터",
+        "description": "100% 소유권. 백업, 삭제, 전송 - 모두 당신 마음대로"
       }
     },
     "visionSection": {
