@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { HelpCircle, Plus, Minus } from 'lucide-react';
+import { HelpCircle, Plus, Minus, Star, Settings, Lock } from 'lucide-react';
 import { useState } from 'react';
 import ComingSoonModal from "@/components/ComingSoonModal";
 
@@ -26,17 +26,17 @@ export default function FAQPage() {
   const categories = [
     {
       title: 'faq.categories.general',
-      icon: '🌟',
+      icon: Star,
       faqs: faqs.slice(0, 3),
     },
     {
       title: 'faq.categories.technical',
-      icon: '⚙️',
+      icon: Settings,
       faqs: faqs.slice(3, 6),
     },
     {
       title: 'faq.categories.privacy',
-      icon: '🔒',
+      icon: Lock,
       faqs: faqs.slice(6, 10),
     },
   ];
@@ -64,7 +64,9 @@ export default function FAQPage() {
         <section key={catIndex} className={`py-16 px-6 ${catIndex % 2 === 0 ? 'bg-radial-white-purple' : 'bg-radial-white-multi'}`}>
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <span className="text-4xl animate-float">{category.icon}</span>
+              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center animate-float">
+                <category.icon className="w-7 h-7 text-purple-700" />
+              </div>
               <h2 className="text-3xl font-bold text-gray-900">{t(category.title)}</h2>
             </div>
             <div className="space-y-4">

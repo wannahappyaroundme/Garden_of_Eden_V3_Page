@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { Heart, Users, Zap, Lock, Sparkles, Brain } from "lucide-react";
+import { Heart, Users, Zap, Lock, Sparkles, Brain, DollarSign, Bot, Radio, Target, Building2, TreePine } from "lucide-react";
 import ComingSoonModal from "@/components/ComingSoonModal";
 
 export default function ProductOverviewPage() {
@@ -26,12 +26,12 @@ export default function ProductOverviewPage() {
   ];
 
   const problems = [
-    { icon: "🔒" },
-    { icon: "💰" },
-    { icon: "🤖" },
-    { icon: "📡" },
-    { icon: "🎯" },
-    { icon: "🏢" },
+    { icon: Lock },
+    { icon: DollarSign },
+    { icon: Bot },
+    { icon: Radio },
+    { icon: Target },
+    { icon: Building2 },
   ];
 
   const solutions = [
@@ -67,9 +67,11 @@ export default function ProductOverviewPage() {
       <section className="pt-32 pb-20 px-6 bg-radial-white-center">
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100/50 backdrop-blur-sm border border-purple-200/60 rounded-full mb-6">
+            <TreePine className="w-4 h-4 text-purple-700" />
             <span className="text-purple-900 font-semibold">
-              🌳 {t("productOverview.badge")} 🌳
+              {t("productOverview.badge")}
             </span>
+            <TreePine className="w-4 h-4 text-purple-700" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             {t("productOverview.title")}
@@ -137,7 +139,9 @@ export default function ProductOverviewPage() {
                   key={index}
                   className="p-6 rounded-xl bg-white/80 backdrop-blur-sm border border-red-200/60"
                 >
-                  <div className="text-4xl mb-3">{item.icon}</div>
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-red-100 to-red-200 flex items-center justify-center mb-3">
+                    <item.icon className="w-6 h-6 text-red-700" />
+                  </div>
                   <p className="font-semibold text-red-700">
                     {t(`productOverview.problemSolution.problem${index + 1}`)}
                   </p>

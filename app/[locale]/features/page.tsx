@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Carousel from "@/components/Carousel";
+import { Lock, Zap, Wrench, Palette, Smile, Briefcase, Heart, GraduationCap, Sparkles as SparklesIcon, Gamepad2 } from "lucide-react";
 
 export default function FeaturesPage() {
   const t = useTranslations();
@@ -57,7 +58,9 @@ export default function FeaturesPage() {
             {/* Privacy Feature */}
             <div className="bg-white/80 backdrop-blur-xl p-12 rounded-2xl md:rounded-[40px] shadow-xl mx-4 border border-purple-200/60 hover:border-purple-300 hover:shadow-2xl hover:shadow-purple-200/50 transition-all duration-500 hover:scale-[1.02]">
               <div className="text-center">
-                <div className="text-6xl mb-6 animate-float">🔒</div>
+                <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center mb-6 animate-float mx-auto">
+                  <Lock className="w-10 h-10 text-purple-700" />
+                </div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-900">
                   {t("features.privacy.title")}
                 </h3>
@@ -256,37 +259,37 @@ export default function FeaturesPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                emoji: "💼",
+                icon: Briefcase,
                 name: t("personas.professional.name"),
                 desc: t("personas.professional.description"),
                 detail: "업무 효율성에 집중하며, 전문적이고 정확한 답변을 제공합니다.",
               },
               {
-                emoji: "🎨",
+                icon: Palette,
                 name: t("personas.creative.name"),
                 desc: t("personas.creative.description"),
                 detail: "창의적 사고를 자극하고, 혁신적인 아이디어를 함께 발전시킵니다.",
               },
               {
-                emoji: "🤗",
+                icon: Heart,
                 name: t("personas.empathetic.name"),
                 desc: t("personas.empathetic.description"),
                 detail: "따뜻하고 공감적인 대화로 정서적 지원을 제공합니다.",
               },
               {
-                emoji: "🎓",
+                icon: GraduationCap,
                 name: t("personas.teacher.name"),
                 desc: t("personas.teacher.description"),
                 detail: "복잡한 개념을 쉽게 설명하고, 학습을 효과적으로 돕습니다.",
               },
               {
-                emoji: "🧘",
+                icon: SparklesIcon,
                 name: t("personas.motivator.name"),
                 desc: t("personas.motivator.description"),
                 detail: "긍정적인 에너지로 목표 달성을 응원하고 격려합니다.",
               },
               {
-                emoji: "🎮",
+                icon: Gamepad2,
                 name: t("personas.casual.name"),
                 desc: t("personas.casual.description"),
                 detail: "편안하고 친근한 톤으로 일상적인 대화를 나눕니다.",
@@ -300,7 +303,9 @@ export default function FeaturesPage() {
                 transition={{ delay: idx * 0.1 }}
                 className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl border border-purple-200/60 hover:border-purple-300 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-105 transition-all duration-300"
               >
-                <div className="text-5xl mb-4">{persona.emoji}</div>
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center mb-4">
+                  <persona.icon className="w-8 h-8 text-purple-700" />
+                </div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-900">
                   {persona.name}
                 </h3>
@@ -331,7 +336,9 @@ export default function FeaturesPage() {
               viewport={{ once: true }}
               className="bg-white/80 backdrop-blur-xl p-10 rounded-2xl border border-purple-200/60 hover:border-purple-300 transition-all duration-300"
             >
-              <div className="text-5xl mb-6">⚡</div>
+              <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center mb-6">
+                <Zap className="w-8 h-8 text-purple-700" />
+              </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
                 빠른 응답 속도
               </h3>
@@ -352,7 +359,9 @@ export default function FeaturesPage() {
               viewport={{ once: true }}
               className="bg-white/80 backdrop-blur-xl p-10 rounded-2xl border border-purple-200/60 hover:border-purple-300 transition-all duration-300"
             >
-              <div className="text-5xl mb-6">🔧</div>
+              <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center mb-6">
+                <Wrench className="w-8 h-8 text-purple-700" />
+              </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
                 완전한 커스터마이징
               </h3>

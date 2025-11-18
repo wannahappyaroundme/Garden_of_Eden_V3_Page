@@ -6,6 +6,7 @@ import TypedText from "@/components/TypedText";
 import ComingSoonModal from "@/components/ComingSoonModal";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { Lock, DollarSign, Sparkles } from "lucide-react";
 
 export default function Home() {
   const t = useTranslations();
@@ -57,7 +58,7 @@ export default function Home() {
               variants={fadeInUp}
               className="inline-flex items-center gap-2 bg-purple-100/50 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-purple-200/60"
             >
-              <span className="text-2xl">🔒</span>
+              <Lock className="w-5 h-5 text-purple-700" />
               <span className="text-sm font-semibold text-purple-900">
                 {t("hero.privacyBadge")}
               </span>
@@ -167,19 +168,19 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: "🔒",
+                icon: Lock,
                 titleKey: "keyFeatures.feature1.title",
                 descKey: "keyFeatures.feature1.description",
                 link: `/${locale}/features`,
               },
               {
-                icon: "💰",
+                icon: DollarSign,
                 titleKey: "keyFeatures.feature2.title",
                 descKey: "keyFeatures.feature2.description",
                 link: `/${locale}/pricing`,
               },
               {
-                icon: "🎭",
+                icon: Sparkles,
                 titleKey: "keyFeatures.feature3.title",
                 descKey: "keyFeatures.feature3.description",
                 link: `/${locale}/features`,
@@ -193,8 +194,8 @@ export default function Home() {
                   transition={{ delay: idx * 0.15 }}
                   className="bg-white/80 backdrop-blur-sm p-10 rounded-2xl border border-purple-200/60 hover:border-purple-300 hover:shadow-xl hover:shadow-purple-200/50 hover:scale-105 transition-all duration-500 cursor-pointer"
                 >
-                  <div className="text-6xl mb-6 animate-float">
-                    {feature.icon}
+                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center mb-6 animate-float">
+                    <feature.icon className="w-8 h-8 text-purple-700" />
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-gray-900">
                     {t(feature.titleKey)}

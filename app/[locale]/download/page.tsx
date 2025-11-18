@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import ComingSoonModal from "@/components/ComingSoonModal";
+import { Zap } from "lucide-react";
 
 export default function DownloadPage() {
   const t = useTranslations();
@@ -211,9 +212,12 @@ export default function DownloadPage() {
               viewport={{ once: true }}
               className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl border border-purple-200/60 hover:border-purple-300 hover:shadow-xl hover:shadow-purple-200/50 transition-all duration-300"
             >
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">
-                최소 사양 ⚡
-              </h3>
+              <div className="flex items-center gap-3 mb-6">
+                <h3 className="text-2xl font-bold text-gray-900">
+                  최소 사양
+                </h3>
+                <Zap className="w-6 h-6 text-purple-700" />
+              </div>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
                   <span className="text-purple-600 font-bold">•</span>
