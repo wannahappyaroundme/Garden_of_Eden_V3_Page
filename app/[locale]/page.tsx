@@ -161,37 +161,27 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
           >
-            {locale === "ko" ? "Eden을 선택해야 하는 이유" : "Why Choose Eden"}
+            {t("keyFeatures.title")}
           </motion.h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: "🔒",
-                title:
-                  locale === "ko" ? "완벽한 프라이버시" : "Perfect Privacy",
-                desc:
-                  locale === "ko"
-                    ? "모든 데이터가 로컬에 저장되어 외부로 전송되지 않습니다"
-                    : "All data stored locally, never sent to external servers",
+                titleKey: "keyFeatures.feature1.title",
+                descKey: "keyFeatures.feature1.description",
                 link: `/${locale}/features`,
               },
               {
                 icon: "💰",
-                title: locale === "ko" ? "완전 무료" : "Completely Free",
-                desc:
-                  locale === "ko"
-                    ? "숨겨진 비용 없이 모든 기능을 평생 무료로 사용하세요"
-                    : "Use all features forever with no hidden costs",
+                titleKey: "keyFeatures.feature2.title",
+                descKey: "keyFeatures.feature2.description",
                 link: `/${locale}/pricing`,
               },
               {
                 icon: "🎭",
-                title: locale === "ko" ? "나만의 AI" : "Your Personalized AI",
-                desc:
-                  locale === "ko"
-                    ? "6가지 페르소나와 17개 파라미터로 완벽하게 커스터마이징"
-                    : "Perfectly customizable with 6 personas and 17 parameters",
+                titleKey: "keyFeatures.feature3.title",
+                descKey: "keyFeatures.feature3.description",
                 link: `/${locale}/features`,
               },
             ].map((feature, idx) => (
@@ -207,9 +197,9 @@ export default function Home() {
                     {feature.icon}
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                    {feature.title}
+                    {t(feature.titleKey)}
                   </h3>
-                  <p className="text-gray-600">{feature.desc}</p>
+                  <p className="text-gray-600">{t(feature.descKey)}</p>
                 </motion.div>
               </Link>
             ))}

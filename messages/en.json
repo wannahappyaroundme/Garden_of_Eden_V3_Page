@@ -1082,5 +1082,20 @@
     "title": "Coming Soon!",
     "description": "We're working hard to prepare the installation files. Please check back soon!",
     "close": "Close"
+  },
+  "keyFeatures": {
+    "title": "Why Choose Eden",
+    "feature1": {
+      "title": "Perfect Privacy",
+      "description": "All data stored locally, never sent to external servers"
+    },
+    "feature2": {
+      "title": "Completely Free",
+      "description": "Use all features forever with no hidden costs"
+    },
+    "feature3": {
+      "title": "Your Personalized AI",
+      "description": "Perfectly customizable with 6 personas and 17 parameters"
+    }
   }
 }

@@ -10,9 +10,6 @@ export default function ProductOverviewPage() {
   const locale = useLocale();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  console.log('[ProductOverview] Current locale:', locale);
-  console.log('[ProductOverview] threePillars.title:', t('productOverview.threePillars.title'));
-
   const pillars = [
     {
       icon: Heart,

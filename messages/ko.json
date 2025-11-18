@@ -1712,5 +1712,20 @@
     "title": "아직 준비중입니다!",
     "description": "설치 파일을 준비하고 있습니다. 조금만 기다려주세요!",
     "close": "닫기"
+  },
+  "keyFeatures": {
+    "title": "Eden을 선택해야 하는 이유",
+    "feature1": {
+      "title": "완벽한 프라이버시",
+      "description": "모든 데이터가 로컬에 저장되어 외부로 전송되지 않습니다"
+    },
+    "feature2": {
+      "title": "완전 무료",
+      "description": "숨겨진 비용 없이 모든 기능을 평생 무료로 사용하세요"
+    },
+    "feature3": {
+      "title": "나만의 AI",
+      "description": "6가지 페르소나와 17개 파라미터로 완벽하게 커스터마이징"
+    }
   }
 }

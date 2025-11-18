@@ -32,22 +32,11 @@ export default function Navbar() {
     const segments = pathname.split('/').filter(Boolean);
     const firstSegment = segments[0];
 
-    console.log('[Navbar] pathname:', pathname);
-    console.log('[Navbar] firstSegment:', firstSegment);
-    console.log('[Navbar] nextIntlLocale:', nextIntlLocale);
-
     // Priority: pathname first, then useLocale fallback
-    if (firstSegment === 'ko') {
-      console.log('[Navbar] Detected locale: ko');
-      return 'ko';
-    }
-    if (firstSegment === 'en') {
-      console.log('[Navbar] Detected locale: en');
-      return 'en';
-    }
+    if (firstSegment === 'ko') return 'ko';
+    if (firstSegment === 'en') return 'en';
 
     // Fallback to useLocale
-    console.log('[Navbar] Using fallback locale:', nextIntlLocale);
     return nextIntlLocale || 'en';
   }, [pathname, nextIntlLocale]);
 
