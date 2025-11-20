@@ -1,4 +1,4 @@
-# Eden Proejct - Version Comparison Guide
+# Eden Project - Version Comparison Guide
 
 ## 🎯 Overview
 

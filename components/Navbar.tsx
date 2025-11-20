@@ -29,15 +29,15 @@ export default function Navbar() {
 
   // Extract locale from pathname - pathname is source of truth for static export
   const locale = React.useMemo(() => {
-    const segments = pathname.split('/').filter(Boolean);
+    const segments = pathname.split("/").filter(Boolean);
     const firstSegment = segments[0];
 
     // Priority: pathname first, then useLocale fallback
-    if (firstSegment === 'ko') return 'ko';
-    if (firstSegment === 'en') return 'en';
+    if (firstSegment === "ko") return "ko";
+    if (firstSegment === "en") return "en";
 
     // Fallback to useLocale
-    return nextIntlLocale || 'en';
+    return nextIntlLocale || "en";
   }, [pathname, nextIntlLocale]);
 
   // 메뉴 항목 (다국어 + 드롭다운) - 5개로 간소화
@@ -165,7 +165,7 @@ export default function Navbar() {
             href={`/${locale}`}
             className="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-all"
           >
-            Eden Proejct
+            Eden Project
           </Link>
 
           {/* Desktop Menu */}

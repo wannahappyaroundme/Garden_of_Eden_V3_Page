@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
-            <h3 className="font-bold text-lg mb-4 text-white">Eden Proejct</h3>
+            <h3 className="font-bold text-lg mb-4 text-white">Eden Project</h3>
             <p className="text-gray-400 text-sm">{t("footer.description")}</p>
           </div>
 
@@ -136,7 +136,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-zinc-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
           <p>
-            © {currentYear} Eden Proejct. {t("footer.allRightsReserved")}
+            © {currentYear} Eden Project. {t("footer.allRightsReserved")}
           </p>
           <p>
             {t("footer.madeWith")} <span className="text-white">💜</span>{" "}

@@ -1,4 +1,4 @@
-# 🌳 Eden Proejct
+# 🌳 Eden Project
 
 ## Your Private AI Assistant That Never Leaves Your Computer
 
@@ -25,13 +25,13 @@
 - ✅ Offline capability
 - ✅ Customizable personality
 
-**That's why we built Eden Proejct.**
+**That's why we built Eden Project.**
 
 ---
 
 ## 💡 The Solution
 
-**Eden Proejct is a production-quality, privacy-first desktop AI assistant inspired by Tony Stark's JARVIS.**
+**Eden Project is a production-quality, privacy-first desktop AI assistant inspired by Tony Stark's JARVIS.**
 
 ### Core Promise
 
@@ -51,7 +51,7 @@ Every single byte of your data stays on your machine. No exceptions.
 
 ---
 
-## 🚀 Why Choose Eden Proejct?
+## 🚀 Why Choose Eden Project?
 
 <table>
 <tr>
@@ -197,9 +197,9 @@ Every single byte of your data stays on your machine. No exceptions.
 
 ---
 
-## 📊 Comparison: Eden Proejct vs Alternatives
+## 📊 Comparison: Eden Project vs Alternatives
 
-| Feature             | Eden Proejct      | ChatGPT Plus        | GitHub Copilot         | Claude Pro             |
+| Feature             | Eden Project      | ChatGPT Plus        | GitHub Copilot         | Claude Pro             |
 | ------------------- | ----------------- | ------------------- | ---------------------- | ---------------------- |
 | **Price**           | **Free**          | $20/month           | $10/month              | $20/month              |
 | **Privacy**         | **100% Local**    | Cloud (OpenAI)      | Cloud (Microsoft)      | Cloud (Anthropic)      |
@@ -214,7 +214,7 @@ Every single byte of your data stays on your machine. No exceptions.
 | **Open Source**     | **Yes (MIT)**     | No                  | No                     | No                     |
 | **Data Ownership**  | **100% yours**    | OpenAI trains on it | Microsoft trains on it | Anthropic trains on it |
 
-**Verdict**: If you value **privacy, ownership, and customization** over bleeding-edge performance, Eden Proejct is the clear choice.
+**Verdict**: If you value **privacy, ownership, and customization** over bleeding-edge performance, Eden Project is the clear choice.
 
 ---
 
@@ -321,7 +321,7 @@ Every single byte of your data stays on your machine. No exceptions.
 brew install ollama
 brew services start ollama
 
-# 2. Download Eden Proejct
+# 2. Download Eden Project
 # Visit: https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases/latest
 # Download: Garden-of-Eden-V3-macOS-v3.0.4.dmg
 
@@ -402,7 +402,7 @@ AI: [Transcribes voice and generates organized checklist]
 
 ### How We're Different from Cloud AI
 
-| Aspect                 | Eden Proejct         | Cloud AI (ChatGPT, Claude, etc.) |
+| Aspect                 | Eden Project         | Cloud AI (ChatGPT, Claude, etc.) |
 | ---------------------- | -------------------- | -------------------------------- |
 | **Data location**      | Your Mac only        | Company servers                  |
 | **Data usage**         | Never leaves machine | Used for training                |
@@ -417,7 +417,7 @@ AI: [Transcribes voice and generates organized checklist]
 
 ### Why is it free?
 
-**Eden Proejct is free because:**
+**Eden Project is free because:**
 
 1. **Open Source Philosophy** - Knowledge should be accessible
 2. **No Cloud Costs** - We don't pay for servers (you do the computing)

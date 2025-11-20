@@ -27,7 +27,7 @@
     "jarvisDescription": "An AI that truly understands and supports you"
   },
   "problemSolution": {
-    "title": "Why Eden Proejct?",
+    "title": "Why Eden Project?",
     "problems": {
       "title": "Problems with Cloud AI",
       "noEmotional": "No Emotional Support:",
@@ -464,7 +464,7 @@
   "faq": {
     "badge": "FAQ",
     "title": "Frequently Asked Questions",
-    "subtitle": "Find answers to common questions about Eden Proejct",
+    "subtitle": "Find answers to common questions about Eden Project",
     "categories": {
       "general": "General Questions",
       "technical": "Technical Questions",
@@ -499,7 +499,7 @@
   },
   "team": {
     "title": "Team",
-    "description": "Eden Proejct is built by a passionate open-source community of developers working together.",
+    "description": "Eden Project is built by a passionate open-source community of developers working together.",
     "developers": "Development Team",
     "developersDesc": "Meet the contributors building Eden together on GitHub. Open to everyone.",
     "community": "Community",
@@ -508,15 +508,15 @@
   },
   "finalCta": {
     "title": "Find Your AI Companion Today",
-    "subtitle": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Eden Proejct.",
+    "subtitle": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Eden Project.",
     "downloadButton": "Download Now - It's Free!",
     "githubButton": "Star on GitHub",
     "badge": "100% Private • $0 Forever • MIT License • Friend-Like Companion"
   },
   "finalCTA": {
     "title": "Find Your AI Companion Today",
-    "subtitle": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Eden Proejct.",
-    "description": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Eden Proejct.",
+    "subtitle": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Eden Project.",
+    "description": "Eliminate loneliness. Enhance productivity. Protect your privacy. Join thousands of developers who've found their perfect AI companion in Eden Project.",
     "downloadButton": "Download Now - It's Free!",
     "githubButton": "Star on GitHub",
     "badge": "100% Private • $0 Forever • MIT License • Friend-Like Companion"
@@ -539,14 +539,14 @@
     "allRightsReserved": "All rights reserved.",
     "madeWith": "Made with",
     "forPrivacy": "for privacy",
-    "title": "Eden Proejct",
+    "title": "Eden Project",
     "tagline": "Your Private AI Companion",
     "version": "Version 1.0.0-beta • 85% Complete • Phase 8: Launch",
     "licenseDesc": "Free Forever, No Restrictions",
     "inspiration": "Inspired by JARVIS from Marvel's Iron Man",
     "builtWith": "Built with ❤️ to eliminate loneliness and enhance productivity",
     "poweredBy": "Powered by Qwen 2.5 14B (HumanEval: 80.5%), Whisper Large V3 (99 langs), and LLaVA 7B",
-    "copyright": "© 2025 Eden Proejct. All rights reserved.",
+    "copyright": "© 2025 Eden Project. All rights reserved.",
     "pricing": "Pricing",
     "company": "Company",
     "about": "About",
@@ -713,23 +713,23 @@
   },
   "whyEdenComparison": {
     "badge": "Comparison",
-    "title": "Eden Proejct vs",
+    "title": "Eden Project vs",
     "subtitle": "Cloud AI Services",
     "description": "See how we compare to ChatGPT Plus, GitHub Copilot, and Claude Pro",
     "table": {
       "title": "Main Comparison Table",
       "feature": "Feature",
-      "eden": "Eden Proejct",
+      "eden": "Eden Project",
       "free": "Free"
     },
     "savings": {
-      "title": "Cost Savings with Eden Proejct",
+      "title": "Cost Savings with Eden Project",
       "subtitle": "Save hundreds of dollars per year",
       "monthly": "Monthly:",
       "annual": "Annual:",
       "threeYear": "3-Year Total:",
       "save": "Save ${amount} with Eden",
-      "edenFree": "Eden Proejct: $0 Forever",
+      "edenFree": "Eden Project: $0 Forever",
       "mit": "MIT License • Open Source • No Hidden Costs"
     },
     "privacy": {
@@ -740,7 +740,7 @@
       "description1": "If you value",
       "highlight": "privacy, ownership, and customization",
       "description2": "over bleeding-edge performance,",
-      "conclusion": "Eden Proejct is the clear choice.",
+      "conclusion": "Eden Project is the clear choice.",
       "cloudAI": {
         "title": "Choose Cloud AI If:",
         "item1": "You need the absolute best performance",
@@ -749,7 +749,7 @@
         "item4": "You have reliable internet always"
       },
       "eden": {
-        "title": "Choose Eden Proejct If:",
+        "title": "Choose Eden Project If:",
         "item1": "Privacy and data ownership matter",
         "item2": "You want zero ongoing costs",
         "item3": "You work offline or in secure environments",
@@ -758,7 +758,7 @@
     },
     "cta": {
       "title": "Ready to Save Money and Protect Your Privacy?",
-      "description": "Download Eden Proejct now - free forever, private forever",
+      "description": "Download Eden Project now - free forever, private forever",
       "download": "Download Now",
       "features": "View All Features"
     }
@@ -797,12 +797,12 @@
     },
     "philosophy": {
       "title": "Our Privacy Philosophy",
-      "description": "Privacy is not a feature - it's a fundamental right. We built Eden Proejct on the principle that your data belongs to you, and only you."
+      "description": "Privacy is not a feature - it's a fundamental right. We built Eden Project on the principle that your data belongs to you, and only you."
     }
   },
   "resourcesDocumentation": {
     "title": "Documentation",
-    "subtitle": "Everything you need to know about Eden Proejct"
+    "subtitle": "Everything you need to know about Eden Project"
   },
   "resourcesCommunity": {
     "badge": "Community",
@@ -862,7 +862,7 @@
     },
     "cta": {
       "title": "Ready to Get Started?",
-      "description": "Download Eden Proejct now and join our growing community of users",
+      "description": "Download Eden Project now and join our growing community of users",
       "github": "Visit GitHub",
       "faq": "Read FAQ"
     }
@@ -872,7 +872,7 @@
       "badge": "Privacy Policy",
       "title": "Privacy Policy",
       "lastUpdated": "Last Updated: January 2025",
-      "intro": "Eden Proejct is built on a fundamental principle: your data never leaves your machine. This privacy policy explains how we achieve 100% local privacy.",
+      "intro": "Eden Project is built on a fundamental principle: your data never leaves your machine. This privacy policy explains how we achieve 100% local privacy.",
       "philosophy": {
         "title": "Our Core Privacy Philosophy",
         "description": "We believe privacy is a fundamental right, not a premium feature. Everything runs locally on your machine.",
@@ -882,7 +882,7 @@
       },
       "section1": {
         "title": "Information We Do NOT Collect",
-        "content": "Eden Proejct collects zero data. We have no servers, no analytics, no telemetry, and no tracking of any kind.",
+        "content": "Eden Project collects zero data. We have no servers, no analytics, no telemetry, and no tracking of any kind.",
         "point1": "No conversation logs or chat history",
         "point2": "No usage statistics or analytics",
         "point3": "No personal information or identifiers"
@@ -904,7 +904,7 @@
       },
       "section5": {
         "title": "Third-Party Services",
-        "content": "Eden Proejct uses Ollama for local AI processing. Ollama runs entirely on your machine and does not send data to external servers. No other third-party services are used."
+        "content": "Eden Project uses Ollama for local AI processing. Ollama runs entirely on your machine and does not send data to external servers. No other third-party services are used."
       },
       "section6": {
         "title": "Open Source Transparency",
@@ -912,7 +912,7 @@
       },
       "notice": {
         "title": "Important Notice",
-        "content": "Since Eden Proejct runs entirely on your machine, you have complete control over your data. You can delete, export, or modify your data at any time by accessing the local database files.",
+        "content": "Since Eden Project runs entirely on your machine, you have complete control over your data. You can delete, export, or modify your data at any time by accessing the local database files.",
         "contact": "If you have any questions about this privacy policy, please contact us on GitHub."
       },
       "contact": {
@@ -926,7 +926,7 @@
       "badge": "Terms of Service",
       "title": "Terms of Service",
       "lastUpdated": "Last Updated: January 2025",
-      "intro": "Welcome to Eden Proejct. These terms govern your use of our open-source AI companion software.",
+      "intro": "Welcome to Eden Project. These terms govern your use of our open-source AI companion software.",
       "keyPoints": {
         "title": "Key Points",
         "point1": {
@@ -944,18 +944,18 @@
       },
       "section1": {
         "title": "Acceptance of Terms",
-        "content": "By downloading, installing, or using Eden Proejct, you agree to these terms of service. If you do not agree, do not use the software.",
+        "content": "By downloading, installing, or using Eden Project, you agree to these terms of service. If you do not agree, do not use the software.",
         "point1": "You are responsible for your use of the software",
         "point2": "You acknowledge this is open-source software provided free of charge",
         "point3": "You understand all processing happens locally on your machine"
       },
       "section2": {
         "title": "License Grant (MIT License)",
-        "content": "Eden Proejct is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions in the LICENSE file."
+        "content": "Eden Project is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions in the LICENSE file."
       },
       "section3": {
         "title": "User Responsibilities",
-        "content": "When using Eden Proejct, you agree to:",
+        "content": "When using Eden Project, you agree to:",
         "point1": "Use the software in compliance with applicable laws",
         "point2": "Not use it for illegal or harmful purposes",
         "point3": "Take responsibility for securing your local data and backups"
@@ -966,11 +966,11 @@
       },
       "section5": {
         "title": "Updates & Modifications",
-        "content": "We may release updates to Eden Proejct. Updates are optional, and you are not required to install them. We reserve the right to modify these terms at any time."
+        "content": "We may release updates to Eden Project. Updates are optional, and you are not required to install them. We reserve the right to modify these terms at any time."
       },
       "section6": {
         "title": "Prohibited Uses",
-        "content": "You may not use Eden Proejct to:",
+        "content": "You may not use Eden Project to:",
         "point1": "Violate any laws or regulations",
         "point2": "Infringe on intellectual property rights",
         "point3": "Generate illegal or harmful content",
@@ -978,11 +978,11 @@
       },
       "section7": {
         "title": "Disclaimer of Warranties",
-        "content": "Eden Proejct is provided 'as-is' without warranties of any kind, express or implied. We do not guarantee the software will be error-free, secure, or meet your requirements."
+        "content": "Eden Project is provided 'as-is' without warranties of any kind, express or implied. We do not guarantee the software will be error-free, secure, or meet your requirements."
       },
       "disclaimer": {
         "title": "Important Disclaimers",
-        "content": "Eden Proejct is experimental software. Use at your own risk.",
+        "content": "Eden Project is experimental software. Use at your own risk.",
         "warranty": {
           "title": "No Warranty",
           "description": "Software provided 'as-is' with no guarantees of performance or reliability"
@@ -1002,7 +1002,7 @@
     "license": {
       "badge": "Open Source",
       "title": "MIT License",
-      "intro": "Eden Proejct is open source software, released under the permissive MIT License. This means you're free to use, modify, and distribute it for any purpose.",
+      "intro": "Eden Project is open source software, released under the permissive MIT License. This means you're free to use, modify, and distribute it for any purpose.",
       "licenseType": "License Type: MIT License",
       "licenseDescription": "One of the most permissive open source licenses. Use it freely, commercially or personally, with minimal restrictions.",
       "philosophy": {
@@ -1017,7 +1017,7 @@
         "subtitle": "The MIT License grants you extensive permissions:",
         "permission1": {
           "title": "Commercial Use",
-          "description": "Use Eden Proejct in commercial products and services without paying fees or royalties"
+          "description": "Use Eden Project in commercial products and services without paying fees or royalties"
         },
         "permission2": {
           "title": "Modification",
@@ -1047,13 +1047,13 @@
       "fullText": {
         "title": "Full MIT License Text",
         "mitTitle": "MIT License",
-        "copyright": "Copyright (c) 2025 Eden Proejct",
+        "copyright": "Copyright (c) 2025 Eden Project",
         "permissionText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
         "warrantyText": "THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
       },
       "cta": {
         "title": "Contribute to the Project",
-        "description": "Eden Proejct is built by the community, for the community. We welcome your contributions!",
+        "description": "Eden Project is built by the community, for the community. We welcome your contributions!",
         "viewSource": "View Source Code",
         "documentation": "Read Documentation"
       }

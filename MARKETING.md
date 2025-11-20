@@ -1,6 +1,6 @@
 # Marketing Materials
 
-Marketing copy, launch announcements, and promotional content for Eden Proejct.
+Marketing copy, launch announcements, and promotional content for Eden Project.
 
 ---
 
@@ -22,13 +22,13 @@ Marketing copy, launch announcements, and promotional content for Eden Proejct.
 
 ### 30-Second Pitch
 
-"Eden Proejct is a free, open-source AI assistant that runs 100% on your Mac. Unlike ChatGPT or Claude, all AI processing happens locally - your data never leaves your machine. It's powered by qwen2.5:7b via Ollama, features 10 customizable personality parameters, and works completely offline. Think Tony Stark's JARVIS, but private and free forever."
+"Eden Project is a free, open-source AI assistant that runs 100% on your Mac. Unlike ChatGPT or Claude, all AI processing happens locally - your data never leaves your machine. It's powered by qwen2.5:7b via Ollama, features 10 customizable personality parameters, and works completely offline. Think Tony Stark's JARVIS, but private and free forever."
 
 ### 60-Second Pitch
 
 "ChatGPT costs $20/month and uploads your conversations to OpenAI servers. GitHub Copilot costs $10/month and sends your code to Microsoft. Every cloud AI service forces you to choose between power and privacy.
 
-Eden Proejct changes that. It's a production-quality desktop AI assistant that runs 100% locally via Ollama. All processing happens on your Mac using the qwen2.5:7b model - no data ever leaves your machine. You get:
+Eden Project changes that. It's a production-quality desktop AI assistant that runs 100% locally via Ollama. All processing happens on your Mac using the qwen2.5:7b model - no data ever leaves your machine. You get:
 
 - Complete privacy (works offline)
 - Zero subscription fees (free forever, MIT license)
@@ -43,7 +43,7 @@ It's open source, it's fast (2-4 second responses), and it respects your privacy
 
 "The AI revolution has a dark side: every powerful AI assistant requires you to upload your data to the cloud. ChatGPT, Claude, Gemini - they all train on your conversations. Your private thoughts, your code, your creative work - all processed on someone else's servers.
 
-Eden Proejct was built to solve this problem. It's a privacy-first desktop AI assistant inspired by Tony Stark's JARVIS, but designed for everyone.
+Eden Project was built to solve this problem. It's a privacy-first desktop AI assistant inspired by Tony Stark's JARVIS, but designed for everyone.
 
 **Here's how it works:**
 
@@ -62,7 +62,7 @@ Fourth, it's free forever. No subscriptions, no trials, no paid tiers. MIT licen
 - Professionals handling sensitive data (legal, medical, financial)
 - Anyone tired of big tech surveillance
 
-Eden Proejct proves you don't have to sacrifice privacy for AI power. Download it today and experience AI on your terms."
+Eden Project proves you don't have to sacrifice privacy for AI power. Download it today and experience AI on your terms."
 
 ---
 
@@ -113,22 +113,22 @@ Eden Proejct proves you don't have to sacrifice privacy for AI power. Download i
 
 **vs ChatGPT Plus ($20/month)**
 
-- Eden Proejct: Free, private, offline
+- Eden Project: Free, private, offline
 - ChatGPT: Paid, cloud-only, always online
 
 **vs GitHub Copilot ($10/month)**
 
-- Eden Proejct: Free, general-purpose, private
+- Eden Project: Free, general-purpose, private
 - Copilot: Paid, code-only, sends code to Microsoft
 
 **vs Claude Pro ($20/month)**
 
-- Eden Proejct: Free, customizable personality, local
+- Eden Project: Free, customizable personality, local
 - Claude: Paid, fixed personality, cloud-only
 
 **vs Local LLaMA/Ollama CLI**
 
-- Eden Proejct: Full GUI, voice, screen context, persona
+- Eden Project: Full GUI, voice, screen context, persona
 - LLaMA CLI: Command line only, no GUI
 
 ---
@@ -139,17 +139,17 @@ Eden Proejct proves you don't have to sacrifice privacy for AI power. Download i
 
 | Service          | Annual Cost | Total 3-Year Cost |
 | ---------------- | ----------- | ----------------- |
-| **Eden Proejct** | **$0**      | **$0**            |
+| **Eden Project** | **$0**      | **$0**            |
 | ChatGPT Plus     | $240        | $720              |
 | GitHub Copilot   | $120        | $360              |
 | Claude Pro       | $240        | $720              |
 | Gemini Advanced  | $240        | $720              |
 
-**Savings with Eden Proejct**: **$720 over 3 years** (vs ChatGPT Plus)
+**Savings with Eden Project**: **$720 over 3 years** (vs ChatGPT Plus)
 
 ### Privacy Comparison
 
-| Feature                   | Eden Proejct       | ChatGPT        | Copilot           | Claude            |
+| Feature                   | Eden Project       | ChatGPT        | Copilot           | Claude            |
 | ------------------------- | ------------------ | -------------- | ----------------- | ----------------- |
 | **Data Storage**          | Your Mac only      | OpenAI servers | Microsoft servers | Anthropic servers |
 | **Training on Your Data** | Never              | Yes            | Yes               | No (claimed)      |
@@ -160,7 +160,7 @@ Eden Proejct proves you don't have to sacrifice privacy for AI power. Download i
 
 ### Feature Comparison
 
-| Feature                  | Eden Proejct  | ChatGPT Plus | GitHub Copilot | Claude Pro  |
+| Feature                  | Eden Project  | ChatGPT Plus | GitHub Copilot | Claude Pro  |
 | ------------------------ | ------------- | ------------ | -------------- | ----------- |
 | **Price**                | Free          | $20/mo       | $10/mo         | $20/mo      |
 | **Privacy**              | 100% local    | Cloud        | Cloud          | Cloud       |
@@ -180,13 +180,13 @@ Eden Proejct proves you don't have to sacrifice privacy for AI power. Download i
 
 ### FOR IMMEDIATE RELEASE
 
-**Eden Proejct: Open-Source, Privacy-First AI Assistant Launches - No Cloud, No Subscriptions, No Compromises**
+**Eden Project: Open-Source, Privacy-First AI Assistant Launches - No Cloud, No Subscriptions, No Compromises**
 
 _Free Desktop Application Brings JARVIS-like AI to Everyone While Keeping Data 100% Local_
 
-**Seoul, South Korea - January 16, 2025** - Today marks the launch of Eden Proejct, a production-quality desktop AI assistant that runs entirely on users' computers. Unlike cloud-based alternatives like ChatGPT, Claude, or Gemini, Eden Proejct processes all data locally, ensuring complete privacy while eliminating subscription fees.
+**Seoul, South Korea - January 16, 2025** - Today marks the launch of Eden Project, a production-quality desktop AI assistant that runs entirely on users' computers. Unlike cloud-based alternatives like ChatGPT, Claude, or Gemini, Eden Project processes all data locally, ensuring complete privacy while eliminating subscription fees.
 
-"The AI industry has conditioned users to accept a false choice between power and privacy," says Matthew, creator of Eden Proejct. "We built this to prove you can have both. Your conversations, your code, your creative work - it all stays on your machine, forever."
+"The AI industry has conditioned users to accept a false choice between power and privacy," says Matthew, creator of Eden Project. "We built this to prove you can have both. Your conversations, your code, your creative work - it all stays on your machine, forever."
 
 **Key Features:**
 
@@ -201,13 +201,13 @@ _Free Desktop Application Brings JARVIS-like AI to Everyone While Keeping Data 1
 
 **Technical Specifications:**
 
-Eden Proejct is built with Tauri 2.9 (Rust + React), producing a lightweight 7.1MB application - 97% smaller than equivalent Electron builds. The qwen2.5:7b language model provides responses in 2-4 seconds on Apple Silicon Macs with Metal acceleration.
+Eden Project is built with Tauri 2.9 (Rust + React), producing a lightweight 7.1MB application - 97% smaller than equivalent Electron builds. The qwen2.5:7b language model provides responses in 2-4 seconds on Apple Silicon Macs with Metal acceleration.
 
 The application includes a unique 10-parameter persona system, allowing users to customize formality, verbosity, humor, emoji usage, and six other behavioral traits. A gradient-based learning system optimizes these parameters based on user feedback, all processed locally.
 
 **Availability:**
 
-Eden Proejct is available now for macOS (Intel and Apple Silicon) as a free download from GitHub. Windows support is planned for Q2 2025. The application requires macOS 11 or later, 16GB RAM minimum (24GB recommended), and 20GB free disk space for AI models.
+Eden Project is available now for macOS (Intel and Apple Silicon) as a free download from GitHub. Windows support is planned for Q2 2025. The application requires macOS 11 or later, 16GB RAM minimum (24GB recommended), and 20GB free disk space for AI models.
 
 **System Requirements:**
 
@@ -224,7 +224,7 @@ https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases
 
 **About the Project:**
 
-Eden Proejct was created to address growing privacy concerns around cloud-based AI services. Inspired by Tony Stark's JARVIS, the project aims to bring powerful AI assistance to everyone while maintaining absolute privacy and zero cost.
+Eden Project was created to address growing privacy concerns around cloud-based AI services. Inspired by Tony Stark's JARVIS, the project aims to bring powerful AI assistance to everyone while maintaining absolute privacy and zero cost.
 
 "사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다" ("Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity")
 
@@ -250,7 +250,7 @@ GitHub: @wannahappyaroundme
 #### Launch Tweet (280 characters)
 
 ```
-🚀 Eden Proejct is LIVE!
+🚀 Eden Project is LIVE!
 
 Your private AI assistant:
 ✅ 100% local (no cloud)
@@ -273,7 +273,7 @@ Download: [link]
 ```
 Stop uploading your conversations to cloud AI.
 
-Eden Proejct runs 100% on your Mac:
+Eden Project runs 100% on your Mac:
 • qwen2.5:7b via Ollama
 • 2-4s responses
 • Works offline
@@ -292,7 +292,7 @@ ChatGPT Plus: $20/month = $720 over 3 years
 GitHub Copilot: $10/month = $360 over 3 years
 Claude Pro: $20/month = $720 over 3 years
 
-Eden Proejct: $0 forever
+Eden Project: $0 forever
 
 Same AI power. Zero cost. Complete privacy.
 
@@ -304,7 +304,7 @@ Same AI power. Zero cost. Complete privacy.
 ```
 Tired of AI that talks the same to everyone?
 
-Eden Proejct has 10 personality sliders:
+Eden Project has 10 personality sliders:
 • Formality
 • Verbosity
 • Humor
@@ -321,7 +321,7 @@ AI that matches YOUR style.
 
 #### r/LocalLLaMA Post
 
-**Title**: [Release] Eden Proejct - Privacy-first desktop AI with GUI, voice, and 10-parameter persona system
+**Title**: [Release] Eden Project - Privacy-first desktop AI with GUI, voice, and 10-parameter persona system
 
 **Body**:
 
@@ -330,7 +330,7 @@ Hey r/LocalLLaMA! I built a production-quality desktop AI assistant that I think
 
 ## What is it?
 
-Eden Proejct is a Tauri-based (Rust + React) desktop app that brings a ChatGPT-like experience, but 100% local via Ollama.
+Eden Project is a Tauri-based (Rust + React) desktop app that brings a ChatGPT-like experience, but 100% local via Ollama.
 
 ## Key Features
 
@@ -385,7 +385,7 @@ Feedback welcome! Let me know if you hit any issues.
 
 #### r/MacApps Post
 
-**Title**: Eden Proejct - Free, privacy-first AI assistant for Mac (like JARVIS)
+**Title**: Eden Project - Free, privacy-first AI assistant for Mac (like JARVIS)
 
 **Body**:
 
@@ -422,14 +422,14 @@ Inspired by Tony Stark's JARVIS but built for privacy and freedom.
 
 #### r/PrivacyGuides Post
 
-**Title**: Finally, an AI assistant that doesn't upload your data (Eden Proejct)
+**Title**: Finally, an AI assistant that doesn't upload your data (Eden Project)
 
 **Body**:
 
 ```markdown
 Sick of ChatGPT analyzing your conversations? Tired of $20/month for Claude?
 
-Eden Proejct is a desktop AI assistant that runs 100% locally:
+Eden Project is a desktop AI assistant that runs 100% locally:
 
 **Privacy features:**
 
@@ -460,7 +460,7 @@ Your data never leaves your machine. No compromises.
 
 ### Hacker News
 
-**Title**: Eden Proejct – Privacy-first AI assistant (100% local, free, open source)
+**Title**: Eden Project – Privacy-first AI assistant (100% local, free, open source)
 
 **Body**:
 
@@ -487,14 +487,14 @@ Feedback welcome!
 
 ### Blog Post / GitHub Discussion
 
-**Title**: Introducing Eden Proejct: Your Private AI Assistant
+**Title**: Introducing Eden Project: Your Private AI Assistant
 
 **Body**:
 
 ```markdown
-# Introducing Eden Proejct: Your Private AI Assistant
+# Introducing Eden Project: Your Private AI Assistant
 
-Today, I'm excited to announce the release of Eden Proejct - a production-quality, privacy-first desktop AI assistant.
+Today, I'm excited to announce the release of Eden Project - a production-quality, privacy-first desktop AI assistant.
 
 ## The Problem
 
@@ -508,7 +508,7 @@ For many of us, this isn't acceptable. We want AI assistance, but not at the cos
 
 ## The Solution
 
-Eden Proejct changes this equation. It's a desktop application that runs AI completely on your Mac using Ollama and the qwen2.5:7b model.
+Eden Project changes this equation. It's a desktop application that runs AI completely on your Mac using Ollama and the qwen2.5:7b model.
 
 **Your data never leaves your machine.**
 
@@ -607,7 +607,7 @@ Thank you for supporting privacy-first AI! 🌳
 ---
 
 **Matthew**
-Creator, Eden Proejct
+Creator, Eden Project
 ```
 
 ---
@@ -616,7 +616,7 @@ Creator, Eden Proejct
 
 ### Email Template for Tech Bloggers
 
-**Subject**: New privacy-first AI assistant - Eden Proejct (100% local, free)
+**Subject**: New privacy-first AI assistant - Eden Project (100% local, free)
 
 **Body**:
 
@@ -625,7 +625,7 @@ Hi [Name],
 
 I wanted to share a project I've been working on that I think would interest [Publication] readers.
 
-Eden Proejct is a desktop AI assistant that runs 100% locally - no cloud, no subscriptions, completely private.
+Eden Project is a desktop AI assistant that runs 100% locally - no cloud, no subscriptions, completely private.
 
 Unlike ChatGPT or Claude:
 - All AI processing happens on the user's Mac (via Ollama + qwen2.5:7b)
@@ -676,7 +676,7 @@ A: 7.1MB vs 285MB builds. Rust security. Better performance. Modern architecture
 A: Q2 2025. macOS first because that's where our users are (developers, creatives).
 
 **Q: Can you really customize AI personality?**
-A: Yes, 10 sliders control formality, verbosity, humor, etc. Learning system optimizes based on feedback. Unique to Eden Proejct.
+A: Yes, 10 sliders control formality, verbosity, humor, etc. Learning system optimizes based on feedback. Unique to Eden Project.
 
 ---
 

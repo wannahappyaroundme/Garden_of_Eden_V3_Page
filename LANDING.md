@@ -1,4 +1,4 @@
-# Eden Proejct - Landing Page Specification
+# Eden Project - Landing Page Specification
 
 **Last Updated:** 2025-01-14
 **Version:** 1.0.0-beta
@@ -8,7 +8,7 @@
 
 ## 📋 Document Purpose
 
-This document provides comprehensive specifications for creating the **Eden Proejct landing page**. It includes all latest features (Phase 1-5 + Week 2), technical specifications, system requirements, performance metrics, and competitive advantages.
+This document provides comprehensive specifications for creating the **Eden Project landing page**. It includes all latest features (Phase 1-5 + Week 2), technical specifications, system requirements, performance metrics, and competitive advantages.
 
 ---
 
@@ -385,7 +385,7 @@ _Creating JARVIS that eliminates loneliness, supports you like a friend, comfort
 
 ### vs. Cloud AI (ChatGPT, Claude, Gemini)
 
-| Feature                | Eden Proejct                       | Cloud AI                       |
+| Feature                | Eden Project                       | Cloud AI                       |
 | ---------------------- | ---------------------------------- | ------------------------------ |
 | **Privacy**            | 100% local - no data sent anywhere | All data sent to cloud servers |
 | **Cost**               | $0 forever (after hardware)        | $20/month or per-token         |
@@ -400,12 +400,12 @@ _Creating JARVIS that eliminates loneliness, supports you like a friend, comfort
 **Cost Comparison:**
 
 - **ChatGPT Plus:** $20/month × 12 = $240/year × 5 years = **$1,200**
-- **Eden Proejct:** M3 MAX Mac Mini (32GB) ≈ $800 one-time + **$0/year**
+- **Eden Project:** M3 MAX Mac Mini (32GB) ≈ $800 one-time + **$0/year**
 - **Break-even:** 4 months
 
 ### vs. Local AI (Ollama, LM Studio, Jan)
 
-| Feature                     | Eden Proejct                       | Ollama/LM Studio        |
+| Feature                     | Eden Project                       | Ollama/LM Studio        |
 | --------------------------- | ---------------------------------- | ----------------------- |
 | **UI/UX**                   | Production-quality KakaoTalk-style | Basic chat interface    |
 | **Persona System**          | 28 parameters + adaptive learning  | Prompt engineering only |
@@ -427,7 +427,7 @@ _Creating JARVIS that eliminates loneliness, supports you like a friend, comfort
 
 ### vs. Traditional AI Assistants (Siri, Google Assistant)
 
-| Feature             | Eden Proejct                   | Siri/Google             |
+| Feature             | Eden Project                   | Siri/Google             |
 | ------------------- | ------------------------------ | ----------------------- |
 | **Privacy**         | 100% local                     | Cloud-dependent         |
 | **Customization**   | 28 persona parameters          | None                    |
@@ -588,7 +588,7 @@ Dark Mode:
 
 **Solution:**
 
-- Eden Proejct runs 100% locally
+- Eden Project runs 100% locally
 - Free forever after one-time hardware cost
 - Works completely offline
 - 28 persona parameters + adaptive learning
@@ -837,7 +837,7 @@ Dark Mode:
 
 ### General
 
-**Q: Is Eden Proejct really 100% local?**
+**Q: Is Eden Project really 100% local?**
 A: Yes. All AI processing happens on your computer. No data is ever sent to any server. You can verify this by checking your network traffic or reviewing the open-source code.
 
 **Q: Does it work offline?**
@@ -886,7 +886,7 @@ A: Qwen 2.5 14B supports 29+ languages, but the UI is only Korean/English. Futur
 
 ## 🎁 Bonus: Comparison Table for Landing Page
 
-| Feature             | Eden Proejct    | ChatGPT Plus    | Ollama    | GitHub Copilot  |
+| Feature             | Eden Project    | ChatGPT Plus    | Ollama    | GitHub Copilot  |
 | ------------------- | --------------- | --------------- | --------- | --------------- |
 | **Privacy**         | 100% Local      | Cloud           | Local     | Cloud           |
 | **Cost**            | Free forever    | $20/month       | Free      | $10/month       |
@@ -930,7 +930,7 @@ A: Qwen 2.5 14B supports 29+ languages, but the UI is only Korean/English. Futur
 
 ### SEO & Meta Tags
 
-- [ ] Title: "Eden Proejct - Private AI Assistant"
+- [ ] Title: "Eden Project - Private AI Assistant"
 - [ ] Description: "100% local AI assistant with Qwen 2.5 14B. Free forever, works offline. Deep system integration for macOS and Windows."
 - [ ] Keywords: "local AI, private AI, offline AI, Qwen 2.5, JARVIS, productivity assistant"
 - [ ] og:image: 1200×630 screenshot

@@ -1,8 +1,8 @@
-# Eden Proejct - Marketing Website
+# Eden Project - Marketing Website
 
 > AI 동반자 서비스 공식 웹사이트 - 완벽한 프라이버시를 보장하는 로컬 AI
 
-Next.js 15 App Router 기반 마케팅 웹사이트로, Eden Proejct AI 동반자 서비스를 소개합니다.
+Next.js 15 App Router 기반 마케팅 웹사이트로, Eden Project AI 동반자 서비스를 소개합니다.
 
 ## 🎨 디자인 철학
 
@@ -233,7 +233,7 @@ xl:       1280px+   (데스크톱)
 
 ## 🔗 관련 링크
 
-- **데스크톱 앱**: [Eden Proejct](https://github.com/wannahappyaroundme/Garden_of_Eden_V3)
+- **데스크톱 앱**: [Eden Project](https://github.com/wannahappyaroundme/Garden_of_Eden_V3)
 - **프로젝트 스펙**: [PROJECT_EDEN_V3_MASTER_SPEC.md](PROJECT_EDEN_V3_MASTER_SPEC.md)
 
 ## 📄 라이선스
@@ -255,4 +255,4 @@ MIT License - 자유롭게 사용, 수정, 배포 가능
 **상태**: ✅ Production Ready (검은색 테마 완료)
 **빌드**: 27 정적 페이지 성공
 
-💜 Eden Proejct와 함께 완벽한 프라이버시를 경험하세요
+💜 Eden Project와 함께 완벽한 프라이버시를 경험하세요
