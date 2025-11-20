@@ -2,12 +2,27 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <title>Eden Project - Private AI Companion</title>
+    <meta
+      name="description"
+      content="100% 오프라인, 0% 데이터 유출. 완벽한 프라이버시를 보장하는 로컬 AI"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wannahappyaroundme.github.io/" />
+    <meta property="og:title" content="Eden Project" />
+    <meta
+      property="og:description"
+      content="완벽한 프라이버시를 보장하는 로컬 AI 동반자"
+    />
+    <meta property="og:image" content="/Opengraph.png" />
+    <link rel="icon" href="/favicon.png" />
+
     <meta http-equiv="refresh" content="0; url=/en/" />
-    <title>Redirecting...</title>
     <script>
-      // Detect browser language and redirect
       const userLang = navigator.language || navigator.userLanguage;
-      if (userLang.startsWith("ko")) {
+      // ko-KR, ko 등 한국어 계열이면 /ko/로 이동
+      if (userLang && userLang.startsWith("ko")) {
         window.location.href = "/ko/";
       } else {
         window.location.href = "/en/";
@@ -15,7 +30,7 @@
     </script>
   </head>
   <body>
-    <p>Redirecting to Eden Proejct...</p>
+    <p>Redirecting to Eden Project...</p>
     <p>If not redirected, <a href="/en/">click here</a>.</p>
   </body>
 </html>
