@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import Footer from "@/components/Footer";
+import "./globals.css";
 
 // ✅ 1. 지원하는 언어 정의 (이 부분이 빠져서 에러가 났습니다)
 const locales = ["en", "ko"];
