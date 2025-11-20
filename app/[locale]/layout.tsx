@@ -1,27 +1,30 @@
 import type { Metadata, Viewport } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+
+// ✅ 1. 지원하는 언어 정의 (이 부분이 빠져서 에러가 났습니다)
+const locales = ["en", "ko"];
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://garden-of-eden-v3-page.pages.dev"), // ✅ 실제 도메인
+  metadataBase: new URL("https://garden-of-eden-v3-page.pages.dev"),
 
   title: {
-    template: "%s | Eden", // 페이지별 제목 설정 시 "페이지명 | Eden"로 자동 완성
-    default: "Eden - 나만의 프라이빗 AI", // 기본 제목
+    template: "%s | Eden",
+    default: "Eden - 나만의 프라이빗 AI",
   },
 
   description:
     "당신을 위한 하나 뿐인 AI. 100% 로컬 구동으로 완벽한 프라이버시를 보장합니다.",
 
-  // ✅ 1. 키워드 추가 (일부 검색 엔진에 도움됨)
   keywords: ["AI", "Local AI", "Privacy", "Offline AI", "Eden", "인공지능"],
 
-  // ✅ 2. 검색 로봇 제어 (확실하게 긁어가라고 명시)
   robots: {
     index: true,
     follow: true,
   },
 
-  // ✅ 3. 다국어 설정 (가장 중요!!)
-  // 검색 엔진에게 "영어 버전은 /en에 있고, 한국어는 /ko에 있어"라고 알려줍니다.
   alternates: {
     canonical: "/",
     languages: {
@@ -37,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "Eden",
     images: [
       {
-        url: "/Opengraph.png", // ✅ public 폴더의 이미지
+        url: "/Opengraph.png",
         width: 1200,
         height: 630,
         alt: "Eden Preview",
@@ -49,20 +52,21 @@ export const metadata: Metadata = {
 
   icons: {
     icon: "/favicon.png",
-    apple: "/favicon.png", // 아이폰용 아이콘도 같이 설정하면 좋습니다
+    apple: "/favicon.png",
   },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  // 모바일에서 테마 컬러 지정 (브라우저 상단바 색상) - 디자인에 맞게 검은색 추천
   themeColor: "#000000",
 };
 
+// ✅ 정적 파라미터 생성 (빌드 시점)
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
+
 export default async function LocaleLayout({
   children,
   params,
@@ -73,8 +77,14 @@ export default async function LocaleLayout({
   const resolvedParams = await params;
   const locale = resolvedParams.locale;
 
-  // 메시지를 직접 import
-  const messages = (await import(`@/messages/${locale}.json`)).default;
+  // 메시지 로드 (유효한 언어인지 확인 후 로드하는 것이 안전하지만, 여기서는 간단히 처리)
+  let messages;
+  try {
+    messages = (await import(`@/messages/${locale}.json`)).default;
+  } catch (error) {
+    // 만약 잘못된 로케일이 들어오면 기본값(영어) 로드 혹은 에러 처리
+    messages = (await import(`@/messages/en.json`)).default;
+  }
 
   return (
     <html lang={locale}>
