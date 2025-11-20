@@ -3,7 +3,7 @@ import { locales } from "@/i18n";
 
 export const metadata: Metadata = {
   title:
-    "Eden Project - Your AI Companion That Eliminates Loneliness | 외로움을 없애주는 AI 동반자",
+    "Eden - Your AI Companion That Eliminates Loneliness | 외로움을 없애주는 AI 동반자",
   description:
     "100% Local AI companion providing friend-like support and enhanced productivity. Eliminate loneliness with genuine companionship. Free forever, complete privacy. | 친구 같은 지원과 생산성 향상을 제공하는 100% 로컬 AI 동반자. 진정한 동반자 관계로 외로움을 해소하세요. 평생 무료, 완벽한 프라이버시.",
   keywords: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "Eden Project - Your AI Companion That Eliminates Loneliness",
+    title: "Eden - Your AI Companion That Eliminates Loneliness",
     description:
       "Friend-like support, enhanced productivity, 100% private. The AI companion inspired by JARVIS from Iron Man.",
     type: "website",

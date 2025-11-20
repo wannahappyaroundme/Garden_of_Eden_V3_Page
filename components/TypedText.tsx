@@ -13,7 +13,7 @@ export default function TypedText() {
     // 언어별 단어 배열
     const words = locale === 'ko'
       ? ['동반자', '절친', '동료', '반쪽']
-      : ['companion', 'best friend', 'colleague', 'other half'];
+      : ['companion', 'best friend', 'soulmate, 'another half'];
 
     if (el.current) {
       typed.current = new Typed(el.current, {

@@ -31,7 +31,7 @@
 
 > **"사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다"**
 
-Eden Project is a revolutionary desktop AI assistant that aims to:
+Eden is a revolutionary desktop AI assistant that aims to:
 
 1. **Eliminate Loneliness (외로움 제거)**
 
@@ -76,7 +76,7 @@ Inspired by Tony Stark's JARVIS, Eden V3 aspires to be:
 
 Unlike existing AI assistants, Eden V3:
 
-| Feature                    | Traditional AI Assistants         | Eden Project                               |
+| Feature                    | Traditional AI Assistants         | Eden                                       |
 | -------------------------- | --------------------------------- | ------------------------------------------ |
 | **Privacy**                | Cloud-based, data sent to servers | 100% local, zero data leaks                |
 | **Personality**            | Generic, one-size-fits-all        | Custom personas, learns your style         |
@@ -264,7 +264,7 @@ Contents:
 
 ### 3.1 Why Desktop-First?
 
-Eden Project represents a fundamental shift from V2's mobile-first approach to a desktop-first strategy.
+Eden represents a fundamental shift from V2's mobile-first approach to a desktop-first strategy.
 
 **The Mobile Limitation (V2's Problem):**
 
@@ -475,7 +475,7 @@ if (platform === "win32") {
 
 ### 4.1 Core Principle: "Screen is Reality"
 
-Eden Project operates on a fundamental principle:
+Eden operates on a fundamental principle:
 
 > **"For computer work, the screen IS reality"**
 
@@ -1731,7 +1731,7 @@ Example Community Personas:
 
 ```
 ┌───────────────────────────────────────────────────────────────┐
-│                    Eden Project                          │
+│                    Eden                          │
 │                  Desktop Application (Electron)               │
 ├───────────────────────────────────────────────────────────────┤
 │                                                                │
@@ -2249,7 +2249,7 @@ _Next: Part 2 - AI Intelligence & Local Models_
 
 ### 1.1 Complete AI Pipeline
 
-Eden Project uses a sophisticated multi-model AI pipeline, all running locally:
+Eden uses a sophisticated multi-model AI pipeline, all running locally:
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -5340,7 +5340,7 @@ This creates **instant familiarity** and reduces learning curve.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  🌿 Eden Project                    [User-Led ▾] [−] [□] [×]         │
+│  🌿 Eden                    [User-Led ▾] [−] [□] [×]         │
 ├─────────────────────────────────────────────────────────────────────────┤
 │  │                                                                  │    │
 │  │  ┌────────────────────────────────────────────────────────────┐ │    │
@@ -6380,7 +6380,7 @@ export default i18n;
 ```json
 {
   "app": {
-    "name": "Eden Project",
+    "name": "Eden",
     "tagline": "Your AI Companion",
     "version": "Version {{version}}"
   },
@@ -7901,7 +7901,7 @@ export function useKeyboardShortcuts() {
 // 1. Semantic HTML
 <main role="main" aria-label="Chat interface">
   <header role="banner">
-    <h1>Eden Project</h1>
+    <h1>Eden</h1>
   </header>
 
   <nav role="navigation" aria-label="Main navigation">
@@ -8088,7 +8088,7 @@ export class TrayManager {
     // Build context menu
     const contextMenu = Menu.buildFromTemplate([
       {
-        label: "Show Eden Project",
+        label: "Show Eden",
         click: () => this.mainWindow.show(),
       },
       {
@@ -8150,7 +8150,7 @@ export class TrayManager {
     ]);
 
     this.tray.setContextMenu(contextMenu);
-    this.tray.setToolTip("Eden Project - Your AI Companion");
+    this.tray.setToolTip("Eden - Your AI Companion");
 
     // Click to show/hide window (Windows/Linux)
     this.tray.on("click", () => {
@@ -9023,7 +9023,7 @@ export class ConversationRepository {
 
 {
   "appId": "com.garden-of-eden.app",
-  "productName": "Eden Project",
+  "productName": "Eden",
   "copyright": "Copyright © 2025",
   "directories": {
     "output": "dist"
@@ -9117,7 +9117,7 @@ export function ModelDownloader() {
 
   return (
     <div>
-      <h1>Welcome to Eden Project</h1>
+      <h1>Welcome to Eden</h1>
       <p>Downloading AI models (12GB)...</p>
       <ProgressBar value={progress} />
     </div>
@@ -9314,7 +9314,7 @@ Use Playwright to test UI flows.
 
 ## Conclusion
 
-**Eden Project** is an ambitious but achievable project:
+**Eden** is an ambitious but achievable project:
 
 ✅ **100% Local AI** - No privacy concerns, no subscriptions
 ✅ **Desktop-First** - Powerful system integrations
@@ -9352,7 +9352,7 @@ _Total Lines V3 Spec: ~5500_
 
 ---
 
-**End of Eden Project Master Specification**
+**End of Eden Master Specification**
 
 _Version 3.0.0 Complete_
 _Last Updated: 2025-01-11_
@@ -10439,7 +10439,7 @@ _Next: Part 7 - User & Developer Guide_
 
 # Part 7: User & Developer Guide
 
-_Complete guide for users and developers working with Eden Project_
+_Complete guide for users and developers working with Eden_
 
 ---
 
@@ -10489,8 +10489,8 @@ GardenOfEden-Setup-v3.0.0.exe /S /D=C:\Program Files\GardenOfEden
 ```bash
 # Command line install
 hdiutil attach GardenOfEden-v3.0.0.dmg
-cp -R "/Volumes/Eden Project/Eden Project.app" /Applications/
-hdiutil detach "/Volumes/Eden Project"
+cp -R "/Volumes/Eden/Eden.app" /Applications/
+hdiutil detach "/Volumes/Eden"
 ```
 
 #### Linux Installation (AppImage)
@@ -10512,13 +10512,13 @@ chmod +x GardenOfEden-v3.0.0.AppImage
 
 ### 1.3 First Run & Model Download
 
-When you first launch Eden Project, you'll see the **Model Download Wizard**.
+When you first launch Eden, you'll see the **Model Download Wizard**.
 
 #### Step 1: Welcome Screen
 
 ```
 ┌─────────────────────────────────────────┐
-│  Welcome to Eden Project           │
+│  Welcome to Eden           │
 │                                          │
 │  Your personal AI assistant              │
 │  100% local, 100% private                │
@@ -11607,7 +11607,7 @@ export function ScreenshotButton() {
 
 ### 3.5 Plugin Development
 
-Plugins extend Eden Project functionality without modifying core code.
+Plugins extend Eden functionality without modifying core code.
 
 #### Plugin Structure
 
@@ -12093,7 +12093,7 @@ Brief description of changes
 
 1. **Grant microphone permission:**
 
-   - macOS: System Preferences → Security & Privacy → Microphone → Eden Project ✓
+   - macOS: System Preferences → Security & Privacy → Microphone → Eden ✓
    - Windows: Settings → Privacy → Microphone → Allow apps ✓
 
 2. **Check microphone:**
@@ -12226,7 +12226,7 @@ garden-of-eden export --format json --output ~/Desktop/conversations.json
 
 ### General
 
-**Q: Is Eden Project really 100% local?**
+**Q: Is Eden really 100% local?**
 A: Yes! After initial model download, everything runs on your computer. No internet required.
 
 **Q: What's the difference between User-Led and AI-Led mode?**
@@ -12235,7 +12235,7 @@ A: User-Led is reactive (AI waits for you), AI-Led is proactive (AI suggests act
 **Q: Can I use my own AI models?**
 A: Yes! Place GGUF format models in the models directory and select them in Settings.
 
-**Q: Does Eden Project work offline?**
+**Q: Does Eden work offline?**
 A: Yes, completely offline after setup.
 
 ### Privacy & Security
@@ -12284,7 +12284,7 @@ _Total Specification: ~11,700 lines_
 
 # Epilogue
 
-**Eden Project** represents a complete vision for a desktop-first, privacy-focused, locally-powered AI assistant.
+**Eden** represents a complete vision for a desktop-first, privacy-focused, locally-powered AI assistant.
 
 This specification covers:
 
@@ -12298,7 +12298,7 @@ This specification covers:
 
 **Total: ~11,700 lines of comprehensive documentation**
 
-All information needed to understand, build, use, and extend Eden Project is now contained in this single master specification document.
+All information needed to understand, build, use, and extend Eden is now contained in this single master specification document.
 
 Ready to build the future of personal AI assistants.
 

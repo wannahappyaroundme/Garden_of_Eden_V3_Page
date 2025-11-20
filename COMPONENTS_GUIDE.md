@@ -39,6 +39,7 @@ import { FADE_IN_UP, SECTION_HEADING, STAGGER_CONTAINER } from '@/lib/animations
 ```
 
 **사용 가능한 애니메이션:**
+
 - `FADE_IN_UP` - 기본 fade in + 위로 슬라이드 (y: 20)
 - `FADE_IN_UP_LARGE` - 큰 fade in + 위로 슬라이드 (y: 60)
 - `FADE_IN_SCALE` - Fade in + scale 애니메이션
@@ -76,6 +77,7 @@ import { PrimaryButton, SecondaryButton, CTAButton } from '@/components/Button';
 ```
 
 **Props:**
+
 - `children`: React.ReactNode
 - `onClick?`: () => void
 - `href?`: string (링크로 사용 시)
@@ -125,6 +127,7 @@ import { GlassCard, FeatureCard, StatCard, IconCard } from '@/components/Card';
 ```
 
 **GlassCard Props:**
+
 - `children`: React.ReactNode
 - `className?`: string
 - `padding?`: 'sm' | 'md' | 'lg' (기본값: 'md')
@@ -132,6 +135,7 @@ import { GlassCard, FeatureCard, StatCard, IconCard } from '@/components/Card';
 - `delay?`: number (애니메이션 딜레이)
 
 **FeatureCard Props:**
+
 - `icon`: string (이모지 또는 아이콘)
 - `title`: string
 - `description`: string
@@ -140,6 +144,7 @@ import { GlassCard, FeatureCard, StatCard, IconCard } from '@/components/Card';
 - `delay?`: number
 
 **StatCard Props:**
+
 - `number`: string (통계 숫자)
 - `label`: string (레이블)
 - `delay?`: number
@@ -161,7 +166,7 @@ import SectionHeading, { HeroHeading, SectionSubtitle } from '@/components/Secti
 
 // 히어로 헤딩 (더 큰 크기)
 <HeroHeading>
-  Eden Project
+  Eden
 </HeroHeading>
 
 // 섹션 서브타이틀
@@ -171,6 +176,7 @@ import SectionHeading, { HeroHeading, SectionSubtitle } from '@/components/Secti
 ```
 
 **SectionHeading Props:**
+
 - `children`: React.ReactNode
 - `className?`: string
 - `size?`: 'sm' | 'md' | 'lg' | 'xl' (기본값: 'lg')
@@ -186,17 +192,15 @@ import SectionHeading, { HeroHeading, SectionSubtitle } from '@/components/Secti
 모달 상태 관리를 간소화하는 커스텀 훅
 
 ```tsx
-import { useComingSoonModal } from '@/hooks/useComingSoonModal';
-import ComingSoonModal from '@/components/ComingSoonModal';
+import { useComingSoonModal } from "@/hooks/useComingSoonModal";
+import ComingSoonModal from "@/components/ComingSoonModal";
 
 function MyPage() {
   const { isModalOpen, openModal, closeModal } = useComingSoonModal();
 
   return (
     <>
-      <button onClick={openModal}>
-        다운로드
-      </button>
+      <button onClick={openModal}>다운로드</button>
 
       <ComingSoonModal isOpen={isModalOpen} onClose={closeModal} />
     </>
@@ -205,6 +209,7 @@ function MyPage() {
 ```
 
 **반환값:**
+
 - `isModalOpen`: boolean
 - `openModal`: () => void
 - `closeModal`: () => void
@@ -270,6 +275,7 @@ function MyPage() {
 ### 배경 클래스
 
 이미 정의된 배경 클래스들:
+
 - `bg-radial-white` - 기본 흰색 + 미세한 보라색 그라디언트
 - `bg-radial-white-purple` - 상단에 보라색 그라디언트
 - `bg-radial-white-center` - 중앙에 보라색 그라디언트

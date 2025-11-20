@@ -1,6 +1,6 @@
 {
   "productOverview": {
-    "badge": "Eden Project",
+    "badge": "Eden",
     "title": "Your Private AI Assistant",
     "subtitle": "That Never Leaves Your Computer",
     "vision": "Creating JARVIS that eliminates loneliness, supports you like a friend, comforts you, and enhances your productivity",
@@ -393,7 +393,7 @@
           "status": "in-progress",
           "quarter": "Q2 2025",
           "title": "Windows Support",
-          "description": "Bring Eden Project to Windows users",
+          "description": "Bring Eden to Windows users",
           "features": [
             "Windows 10/11 build (MSI installer)",
             "Windows-specific screen capture",
@@ -551,13 +551,13 @@
   },
   "whyEdenComparison": {
     "badge": "Comparison",
-    "title": "Eden Project vs",
+    "title": "Eden vs",
     "subtitle": "Cloud AI Services",
     "description": "See how we compare to ChatGPT Plus, GitHub Copilot, and Claude Pro",
     "table": {
       "title": "Main Comparison Table",
       "feature": "Feature",
-      "eden": "Eden Project",
+      "eden": "Eden",
       "free": "Free",
       "chatgpt": "ChatGPT Plus",
       "copilot": "GitHub Copilot",
@@ -756,13 +756,13 @@
       ]
     },
     "savings": {
-      "title": "Cost Savings with Eden Project",
+      "title": "Cost Savings with Eden",
       "subtitle": "Save hundreds of dollars per year",
       "monthly": "Monthly:",
       "annual": "Annual:",
       "threeYear": "3-Year Total:",
       "save": "Save ${amount} with Eden",
-      "edenFree": "Eden Project: $0 Forever",
+      "edenFree": "Eden: $0 Forever",
       "mit": "MIT License • Open Source • No Hidden Costs",
       "services": [
         {
@@ -825,7 +825,7 @@
       "description1": "If you value",
       "highlight": "privacy, ownership, and customization",
       "description2": "over bleeding-edge performance,",
-      "conclusion": "Eden Project is the clear choice.",
+      "conclusion": "Eden is the clear choice.",
       "cloudAI": {
         "title": "Choose Cloud AI If:",
         "items": [
@@ -836,7 +836,7 @@
         ]
       },
       "eden": {
-        "title": "Choose Eden Project If:",
+        "title": "Choose Eden If:",
         "items": [
           "Privacy and data ownership matter",
           "You want zero ongoing costs",
@@ -847,7 +847,7 @@
     },
     "cta": {
       "title": "Ready to Save Money and Protect Your Privacy?",
-      "description": "Download Eden Project now - free forever, private forever",
+      "description": "Download Eden now - free forever, private forever",
       "download": "Download Now",
       "features": "View All Features"
     }
@@ -900,16 +900,16 @@
     },
     "philosophy": {
       "title": "Our Privacy Philosophy",
-      "description": "Privacy is not a feature - it's a fundamental right. We built Eden Project on the principle that your data belongs to you, and only you."
+      "description": "Privacy is not a feature - it's a fundamental right. We built Eden on the principle that your data belongs to you, and only you."
     }
   },
   "resourcesDocumentation": {
     "title": "Documentation",
-    "subtitle": "Everything you need to know about Eden Project",
+    "subtitle": "Everything you need to know about Eden",
     "resources": [
       {
         "title": "User Guide",
-        "description": "Complete guide to using Eden Project",
+        "description": "Complete guide to using Eden",
         "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki"
       },
       {

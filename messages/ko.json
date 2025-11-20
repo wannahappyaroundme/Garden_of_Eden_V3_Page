@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Eden Project",
+    "title": "Eden",
     "subtitle": "Eden은 ",
     "description": "세상 하나뿐인 당신만의 AI",
     "tagline": "진실된 절친 • 생산성 향상 • 100% 보안",
@@ -27,7 +27,7 @@
     "jarvisDescription": "당신을 100% 진정으로 이해하고 지원하는 AI"
   },
   "problemSolution": {
-    "title": "왜 Eden Project인가?",
+    "title": "왜 Eden인가?",
     "problems": {
       "title": "클라우드 AI의 문제점",
       "noEmotional": "정서적 지원 부재:",
@@ -44,7 +44,7 @@
       "limitedDesc": "워크플로우와 분리됨"
     },
     "solutions": {
-      "title": "Eden Project 솔루션",
+      "title": "Eden 솔루션",
       "emotional": "감성 지능:",
       "emotionalDesc": "진정한 동반자 관계와 지원",
       "privacy": "100% 프라이버시:",
@@ -64,13 +64,13 @@
     }
   },
   "stats": {
-    "title": "숫자로 보는 Eden Project",
+    "title": "숫자로 보는 Eden",
     "privacy": "프라이버시 보장",
     "cost": "평생 무료",
     "response": "응답 시간",
     "models": "로컬 AI 모델",
     "parameters": "페르소나 파라미터",
-    "complete": "완성도"
+    "humanEval": "인간다움"
   },
   "dualMode": {
     "title": "듀얼 모드 인텔리전스",
@@ -229,7 +229,7 @@
   "comparison": {
     "title": "경쟁사 비교",
     "feature": "기능",
-    "edenV3": "Eden Project",
+    "edenV3": "Eden",
     "chatgptPlus": "ChatGPT Plus",
     "claudePro": "Claude Pro",
     "githubCopilot": "GitHub Copilot",
@@ -464,7 +464,7 @@
   "faq": {
     "badge": "자주 묻는 질문",
     "title": "자주 묻는 질문",
-    "subtitle": "Eden Project에 대한 일반적인 질문에 대한 답변을 찾아보세요",
+    "subtitle": "Eden에 대한 일반적인 질문에 대한 답변을 찾아보세요",
     "categories": {
       "general": "일반 질문",
       "technical": "기술적 질문",
@@ -473,13 +473,13 @@
     "q1": "데이터가 정말 100% 프라이빗한가요?",
     "a1": "네! 모든 AI 처리는 기기에서 로컬로 발생합니다. 데이터가 컴퓨터를 벗어나지 않습니다. 데이터베이스에 AES-256 암호화를 사용하며, 코드는 오픈소스(MIT 라이선스)이므로 직접 확인할 수 있습니다. 원격 측정 없음, 추적 없음, 클라우드 업로드 없음.",
     "q2": "어떻게 영구적으로 무료일 수 있나요?",
-    "a2": "Eden Project는 MIT 라이선스를 가진 열정 프로젝트로 구축되었습니다. 모든 것이 로컬에서 실행되므로 서버 비용이 없습니다. AI 동반자 관계와 지원은 구독 장벽이나 프라이버시 타협 없이 모두에게 접근 가능해야 한다고 믿습니다.",
+    "a2": "Eden은 MIT 라이선스를 가진 열정 프로젝트로 구축되었습니다. 모든 것이 로컬에서 실행되므로 서버 비용이 없습니다. AI 동반자 관계와 지원은 구독 장벽이나 프라이버시 타협 없이 모두에게 접근 가능해야 한다고 믿습니다.",
     "q3": "Eden은 ChatGPT나 Claude와 무엇이 다른가요?",
     "a3": "Eden은 생산성뿐만 아니라 정서적 동반자 관계를 위해 설계되었습니다. 친구 같은 지원으로 혼자 일하는 개발자의 외로움을 해소합니다. 게다가: 100% 프라이버시, 오프라인 작동, 스타일 학습(17개 페르소나 파라미터), 깊은 시스템 통합, 완전 무료. 품질 면에서는 HumanEval에서 80.5% 점수(GPT-4: 85%, Claude: 88% 대비) - 클라우드 의존성 없는 엔터프라이즈급 AI입니다.",
     "q4": "어떤 언어를 지원하나요?",
     "a4": "인터페이스는 한국어 경어(경어, 존칭)를 포함한 완전한 문화적 현지화와 함께 한국어와 영어를 지원합니다. AI는 Whisper Large V3와 Llama 3.1의 다국어 기능 덕분에 99개 언어로 이해하고 응답합니다. 언어 간 코드 스위칭도 자연스럽게 처리합니다.",
     "q5": "오프라인에서 사용할 수 있나요?",
-    "a5": "물론입니다! 초기 모델 다운로드(~16.5GB) 후, Eden Project는 완전히 오프라인으로 작동합니다. 일상적인 사용에 인터넷 연결이 필요하지 않습니다. 기밀 작업, 여행 또는 불안정한 인터넷 연결에 완벽합니다.",
+    "a5": "물론입니다! 초기 모델 다운로드(~16.5GB) 후, Eden은 완전히 오프라인으로 작동합니다. 일상적인 사용에 인터넷 연결이 필요하지 않습니다. 기밀 작업, 여행 또는 불안정한 인터넷 연결에 완벽합니다.",
     "q6": "AI의 성격을 어떻게 커스터마이징하나요?",
     "a6": "설정 > 페르소나로 이동하여 격식, 유머, 말의 장황함, 이모지 사용, 공감 등 17개 파라미터를 조정하세요. 6개의 사전 구축 페르소나(Eden, 엄격한 멘토, 쾌활한 친구, 전문 어시스턴트, 코딩 선생님, 커스텀) 중에서 선택하거나 직접 만드세요. 좋아요/싫어요 피드백을 사용하여 경사 하강 최적화를 통해 선호도에 맞게 훈련하세요.",
     "q7": "RAG 메모리란 무엇이며 어떻게 작동하나요?",
@@ -499,7 +499,7 @@
   },
   "team": {
     "title": "팀",
-    "description": "Eden Project는 열정적인 개발자들의 오픈소스 커뮤니티가 함께 만들어가고 있습니다.",
+    "description": "Eden은 열정적인 개발자들의 오픈소스 커뮤니티가 함께 만들어가고 있습니다.",
     "developers": "개발 팀",
     "developersDesc": "GitHub에서 함께 개발하고 계신 기여자분들을 만나보세요. 모두에게 열려있는 프로젝트입니다.",
     "community": "커뮤니티",
@@ -508,21 +508,21 @@
   },
   "finalCta": {
     "title": "나를 위한 AI 만나보세요",
-    "subtitle": "외로움 해소. 생산성 향상. 프라이버시 보호. Eden Project에서 완벽한 AI 동반자를 찾은 수천 명의 개발자와 함께하세요.",
+    "subtitle": "외로움 해소. 생산성 향상. 프라이버시 보호. Eden에서 완벽한 AI 동반자를 찾은 수천 명의 개발자와 함께하세요.",
     "downloadButton": "지금 다운로드 - 무료입니다!",
     "githubButton": "GitHub 스타",
     "badge": "100% 프라이빗 • 영구 무료 • MIT 라이선스 • 친구 같은 동반자"
   },
   "finalCTA": {
     "title": "나를 위한 AI 만나보세요",
-    "subtitle": "외로움 해소. 생산성 향상. 프라이버시 보호. Eden Project에서 완벽한 AI 동반자를 찾은 수천 명의 개발자와 함께하세요.",
-    "description": "외로움 해소. 생산성 향상. 프라이버시 보호. Eden Project에서 완벽한 AI 동반자를 찾은 수천 명의 개발자와 함께하세요.",
+    "subtitle": "외로움 해소. 생산성 향상. 프라이버시 보호. Eden에서 완벽한 AI 동반자를 찾은 수천 명의 개발자와 함께하세요.",
+    "description": "외로움 해소. 생산성 향상. 프라이버시 보호. Eden에서 완벽한 AI 동반자를 찾은 수천 명의 개발자와 함께하세요.",
     "downloadButton": "지금 다운로드 - 무료입니다!",
     "githubButton": "GitHub 스타",
     "badge": "100% 프라이빗 • 영구 무료 • MIT 라이선스 • 친구 같은 동반자"
   },
   "footer": {
-    "title": "Eden Project",
+    "title": "Eden",
     "tagline": "당신의 프라이빗 AI 동반자",
     "version": "버전 3.0.1 • 85% 완성 • 8단계: 출시",
     "license": "MIT 라이선스",
@@ -530,7 +530,7 @@
     "inspiration": "마블 아이언맨의 자비스에서 영감을 받음",
     "builtWith": "외로움 해소와 생산성 향상을 위해 제작됨",
     "poweredBy": "Qwen 2.5 14B (HumanEval: 80.5%), Whisper Large V3 (99개 언어), LLaVA 7B로 구동",
-    "copyright": "© 2025 Eden Project by Matthew. 모든 권리 보유.",
+    "copyright": "© 2025 Eden by Matthew. 모든 권리 보유.",
     "product": "제품",
     "features": "기능",
     "pricing": "가격",
@@ -541,7 +541,7 @@
     "openSource": "오픈 소스 (MIT)"
   },
   "productOverview": {
-    "badge": "Eden Project",
+    "badge": "Eden",
     "title": "컴퓨터를 절대 떠나지 않는",
     "subtitle": "프라이빗 AI 어시스턴트",
     "vision": "사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다",
@@ -883,7 +883,7 @@
           "status": "in-progress",
           "quarter": "Q2 2025",
           "title": "Windows 지원",
-          "description": "Windows 사용자를 위한 Eden Project 출시",
+          "description": "Windows 사용자를 위한 Eden 출시",
           "features": [
             "Windows 10/11 빌드 (MSI 설치 프로그램)",
             "Windows 전용 화면 캡처",
@@ -1041,13 +1041,13 @@
   },
   "whyEdenComparison": {
     "badge": "비교",
-    "title": "Eden Project vs",
+    "title": "Eden vs",
     "subtitle": "클라우드 AI 서비스",
     "description": "ChatGPT Plus, GitHub Copilot, Claude Pro와 비교해보세요",
     "table": {
       "title": "주요 비교표",
       "feature": "기능",
-      "eden": "Eden Project",
+      "eden": "Eden",
       "free": "무료",
       "chatgpt": "ChatGPT Plus",
       "copilot": "GitHub Copilot",
@@ -1246,13 +1246,13 @@
       ]
     },
     "savings": {
-      "title": "Eden Project으로 비용 절감",
+      "title": "Eden으로 비용 절감",
       "subtitle": "연간 수백 달러 절약",
       "monthly": "월간:",
       "annual": "연간:",
       "threeYear": "3년 합계:",
       "save": "Eden으로 ${amount} 절약",
-      "edenFree": "Eden Project: 영원히 $0",
+      "edenFree": "Eden: 영원히 $0",
       "mit": "MIT 라이선스 • 오픈 소스 • 숨은 비용 없음",
       "services": [
         {
@@ -1315,7 +1315,7 @@
       "description1": "만약 당신이",
       "highlight": "프라이버시, 소유권, 커스터마이징을",
       "description2": "최첨단 성능보다 중요하게 생각한다면,",
-      "conclusion": "Eden Project이 확실한 선택입니다.",
+      "conclusion": "Eden이 확실한 선택입니다.",
       "cloudAI": {
         "title": "클라우드 AI를 선택하세요:",
         "items": [
@@ -1326,7 +1326,7 @@
         ]
       },
       "eden": {
-        "title": "Eden Project을 선택하세요:",
+        "title": "Eden을 선택하세요:",
         "items": [
           "프라이버시와 데이터 소유권이 중요함",
           "지속적인 비용이 없기를 원함",
@@ -1337,7 +1337,7 @@
     },
     "cta": {
       "title": "비용 절감과 프라이버시 보호 준비되셨나요?",
-      "description": "지금 Eden Project 다운로드 - 영원히 무료, 영원히 프라이빗",
+      "description": "지금 Eden 다운로드 - 영원히 무료, 영원히 프라이빗",
       "download": "지금 다운로드",
       "features": "모든 기능 보기"
     }
@@ -1376,16 +1376,16 @@
     },
     "philosophy": {
       "title": "우리의 프라이버시 철학",
-      "description": "프라이버시는 기능이 아닌 기본권입니다. 우리는 당신의 데이터가 오직 당신에게만 속한다는 원칙으로 Eden Project을 만들었습니다."
+      "description": "프라이버시는 기능이 아닌 기본권입니다. 우리는 당신의 데이터가 오직 당신에게만 속한다는 원칙으로 Eden을 만들었습니다."
     }
   },
   "resourcesDocumentation": {
     "title": "문서",
-    "subtitle": "Eden Project에 대해 알아야 할 모든 것",
+    "subtitle": "Eden에 대해 알아야 할 모든 것",
     "resources": [
       {
         "title": "사용자 가이드",
-        "description": "Eden Project 사용 완벽 가이드",
+        "description": "Eden 사용 완벽 가이드",
         "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki"
       },
       {
@@ -1495,7 +1495,7 @@
     },
     "cta": {
       "title": "시작할 준비가 되셨나요?",
-      "description": "지금 Eden Project를 다운로드하고 성장하는 커뮤니티에 참여하세요",
+      "description": "지금 Eden를 다운로드하고 성장하는 커뮤니티에 참여하세요",
       "github": "GitHub 방문",
       "faq": "FAQ 읽기"
     }
@@ -1505,7 +1505,7 @@
       "badge": "개인정보 처리방침",
       "title": "개인정보 처리방침",
       "lastUpdated": "최종 업데이트: 2025년 1월",
-      "intro": "Eden Project는 근본적인 원칙을 기반으로 구축되었습니다: 귀하의 데이터는 절대 기기를 떠나지 않습니다. 이 개인정보 처리방침은 우리가 어떻게 100% 로컬 프라이버시를 달성하는지 설명합니다.",
+      "intro": "Eden은 근본적인 원칙을 기반으로 구축되었습니다: 귀하의 데이터는 절대 기기를 떠나지 않습니다. 이 개인정보 처리방침은 우리가 어떻게 100% 로컬 프라이버시를 달성하는지 설명합니다.",
       "philosophy": {
         "title": "우리의 핵심 프라이버시 철학",
         "description": "우리는 프라이버시가 프리미엄 기능이 아닌 기본적인 권리라고 믿습니다. 모든 것이 귀하의 기기에서 로컬로 실행됩니다.",
@@ -1515,7 +1515,7 @@
       },
       "section1": {
         "title": "수집하지 않는 정보",
-        "content": "Eden Project는 데이터를 전혀 수집하지 않습니다. 서버도, 분석도, 원격 측정도, 그 어떤 종류의 추적도 없습니다.",
+        "content": "Eden은 데이터를 전혀 수집하지 않습니다. 서버도, 분석도, 원격 측정도, 그 어떤 종류의 추적도 없습니다.",
         "point1": "대화 로그 또는 채팅 기록 없음",
         "point2": "사용 통계 또는 분석 없음",
         "point3": "개인 정보 또는 식별자 없음"
@@ -1537,7 +1537,7 @@
       },
       "section5": {
         "title": "타사 서비스",
-        "content": "Eden Project는 로컬 AI 처리를 위해 Ollama를 사용합니다. Ollama는 전적으로 귀하의 기기에서 실행되며 외부 서버로 데이터를 전송하지 않습니다. 다른 타사 서비스는 사용되지 않습니다."
+        "content": "Eden은 로컬 AI 처리를 위해 Ollama를 사용합니다. Ollama는 전적으로 귀하의 기기에서 실행되며 외부 서버로 데이터를 전송하지 않습니다. 다른 타사 서비스는 사용되지 않습니다."
       },
       "section6": {
         "title": "오픈 소스 투명성",
@@ -1545,7 +1545,7 @@
       },
       "notice": {
         "title": "중요 공지",
-        "content": "Eden Project는 전적으로 귀하의 기기에서 실행되므로 귀하는 데이터를 완전히 제어할 수 있습니다. 로컬 데이터베이스 파일에 액세스하여 언제든지 데이터를 삭제, 내보내기 또는 수정할 수 있습니다.",
+        "content": "Eden은 전적으로 귀하의 기기에서 실행되므로 귀하는 데이터를 완전히 제어할 수 있습니다. 로컬 데이터베이스 파일에 액세스하여 언제든지 데이터를 삭제, 내보내기 또는 수정할 수 있습니다.",
         "contact": "이 개인정보 처리방침에 대해 질문이 있으시면 GitHub에서 문의해 주세요."
       },
       "contact": {
@@ -1559,7 +1559,7 @@
       "badge": "이용 약관",
       "title": "이용 약관",
       "lastUpdated": "최종 업데이트: 2025년 1월",
-      "intro": "Eden Project에 오신 것을 환영합니다. 이 약관은 우리의 오픈 소스 AI 동반자 소프트웨어 사용을 규율합니다.",
+      "intro": "Eden에 오신 것을 환영합니다. 이 약관은 우리의 오픈 소스 AI 동반자 소프트웨어 사용을 규율합니다.",
       "keyPoints": {
         "title": "주요 사항",
         "point1": {
@@ -1577,18 +1577,18 @@
       },
       "section1": {
         "title": "약관 동의",
-        "content": "Eden Project를 다운로드, 설치 또는 사용함으로써 귀하는 이 이용 약관에 동의합니다. 동의하지 않는 경우 소프트웨어를 사용하지 마십시오.",
+        "content": "Eden를 다운로드, 설치 또는 사용함으로써 귀하는 이 이용 약관에 동의합니다. 동의하지 않는 경우 소프트웨어를 사용하지 마십시오.",
         "point1": "귀하는 소프트웨어 사용에 대한 책임이 있습니다",
         "point2": "이것이 무료로 제공되는 오픈 소스 소프트웨어임을 인정합니다",
         "point3": "모든 처리가 귀하의 기기에서 로컬로 이루어짐을 이해합니다"
       },
       "section2": {
         "title": "라이선스 부여 (MIT 라이선스)",
-        "content": "Eden Project는 MIT 라이선스에 따라 라이선스가 부여됩니다. LICENSE 파일의 조건에 따라 소프트웨어를 자유롭게 사용, 복사, 수정, 병합, 게시, 배포, 재라이선스 및/또는 판매할 수 있습니다."
+        "content": "Eden은 MIT 라이선스에 따라 라이선스가 부여됩니다. LICENSE 파일의 조건에 따라 소프트웨어를 자유롭게 사용, 복사, 수정, 병합, 게시, 배포, 재라이선스 및/또는 판매할 수 있습니다."
       },
       "section3": {
         "title": "사용자 책임",
-        "content": "Eden Project를 사용할 때 다음에 동의합니다:",
+        "content": "Eden를 사용할 때 다음에 동의합니다:",
         "point1": "해당 법률을 준수하여 소프트웨어 사용",
         "point2": "불법적이거나 유해한 목적으로 사용하지 않음",
         "point3": "로컬 데이터 및 백업 보안에 대한 책임"
@@ -1599,11 +1599,11 @@
       },
       "section5": {
         "title": "업데이트 & 수정",
-        "content": "우리는 Eden Project에 대한 업데이트를 릴리스할 수 있습니다. 업데이트는 선택 사항이며 설치할 필요가 없습니다. 우리는 언제든지 이 약관을 수정할 권리를 보유합니다."
+        "content": "우리는 Eden에 대한 업데이트를 릴리스할 수 있습니다. 업데이트는 선택 사항이며 설치할 필요가 없습니다. 우리는 언제든지 이 약관을 수정할 권리를 보유합니다."
       },
       "section6": {
         "title": "금지된 사용",
-        "content": "다음을 위해 Eden Project를 사용할 수 없습니다:",
+        "content": "다음을 위해 Eden를 사용할 수 없습니다:",
         "point1": "법률 또는 규정 위반",
         "point2": "지적 재산권 침해",
         "point3": "불법적이거나 유해한 콘텐츠 생성",
@@ -1611,11 +1611,11 @@
       },
       "section7": {
         "title": "보증 부인",
-        "content": "Eden Project는 명시적이든 묵시적이든 어떠한 종류의 보증 없이 '있는 그대로' 제공됩니다. 우리는 소프트웨어가 오류 없고 안전하며 귀하의 요구 사항을 충족한다고 보증하지 않습니다."
+        "content": "Eden은 명시적이든 묵시적이든 어떠한 종류의 보증 없이 '있는 그대로' 제공됩니다. 우리는 소프트웨어가 오류 없고 안전하며 귀하의 요구 사항을 충족한다고 보증하지 않습니다."
       },
       "disclaimer": {
         "title": "중요 고지 사항",
-        "content": "Eden Project는 실험적 소프트웨어입니다. 자신의 책임하에 사용하십시오.",
+        "content": "Eden은 실험적 소프트웨어입니다. 자신의 책임하에 사용하십시오.",
         "warranty": {
           "title": "보증 없음",
           "description": "성능 또는 신뢰성에 대한 보증 없이 '있는 그대로' 제공되는 소프트웨어"
@@ -1635,7 +1635,7 @@
     "license": {
       "badge": "오픈 소스",
       "title": "MIT 라이선스",
-      "intro": "Eden Project는 허용적인 MIT 라이선스에 따라 릴리스된 오픈 소스 소프트웨어입니다. 이것은 귀하가 어떤 목적으로든 자유롭게 사용, 수정 및 배포할 수 있음을 의미합니다.",
+      "intro": "Eden은 허용적인 MIT 라이선스에 따라 릴리스된 오픈 소스 소프트웨어입니다. 이것은 귀하가 어떤 목적으로든 자유롭게 사용, 수정 및 배포할 수 있음을 의미합니다.",
       "licenseType": "라이선스 유형: MIT 라이선스",
       "licenseDescription": "가장 허용적인 오픈 소스 라이선스 중 하나입니다. 최소한의 제한으로 상업적 또는 개인적으로 자유롭게 사용하십시오.",
       "philosophy": {
@@ -1650,7 +1650,7 @@
         "subtitle": "MIT 라이선스는 광범위한 권한을 부여합니다:",
         "permission1": {
           "title": "상업적 사용",
-          "description": "수수료나 로열티를 지불하지 않고 상업 제품 및 서비스에서 Eden Project 사용"
+          "description": "수수료나 로열티를 지불하지 않고 상업 제품 및 서비스에서 Eden 사용"
         },
         "permission2": {
           "title": "수정",
@@ -1680,13 +1680,13 @@
       "fullText": {
         "title": "전체 MIT 라이선스 텍스트",
         "mitTitle": "MIT 라이선스",
-        "copyright": "Copyright (c) 2025 Eden Project",
+        "copyright": "Copyright (c) 2025 Eden",
         "permissionText": "이 소프트웨어 및 관련 문서 파일('소프트웨어')의 사본을 얻는 모든 사람에게 무료로 권한이 부여됩니다. 소프트웨어를 제한 없이 거래할 수 있는 권리, 사용, 복사, 수정, 병합, 게시, 배포, 재라이선스 및/또는 판매 권리를 포함하여 소프트웨어를 제공받은 사람에게 그렇게 할 수 있도록 허용합니다. 다음 조건에 따릅니다: 위의 저작권 고지 및 이 권한 고지는 소프트웨어의 모든 사본 또는 상당 부분에 포함되어야 합니다.",
         "warrantyText": "소프트웨어는 상품성, 특정 목적에의 적합성 및 비침해에 대한 보증을 포함하되 이에 국한되지 않고 명시적이든 묵시적이든 어떠한 종류의 보증 없이 '있는 그대로' 제공됩니다. 저자 또는 저작권 보유자는 계약, 불법 행위 또는 기타 방식으로 소프트웨어 또는 소프트웨어의 사용 또는 기타 거래에서 발생하는 모든 청구, 손해 또는 기타 책임에 대해 책임을 지지 않습니다."
       },
       "cta": {
         "title": "프로젝트에 기여하기",
-        "description": "Eden Project는 커뮤니티에 의해, 커뮤니티를 위해 구축되었습니다. 귀하의 기여를 환영합니다!",
+        "description": "Eden은 커뮤니티에 의해, 커뮤니티를 위해 구축되었습니다. 귀하의 기여를 환영합니다!",
         "viewSource": "소스 코드 보기",
         "documentation": "문서 읽기"
       }
@@ -1707,7 +1707,7 @@
       "termsOfService": "이용약관",
       "license": "오픈소스 라이선스",
       "allRightsReserved": "All rights reserved.",
-      "madeWith": "Made with",
+      "madeWith": "Made with Matthew",
       "forPrivacy": "for privacy"
     }
   },

@@ -1,6 +1,6 @@
 {
   "productOverview": {
-    "badge": "Eden Project",
+    "badge": "Eden",
     "title": "당신의 프라이빗 AI 어시스턴트",
     "subtitle": "절대 컴퓨터를 떠나지 않는",
     "vision": "사람의 외로움을 제거하면서 옆에서 친구처럼 도와주고 위로해주기도하고 나의 생산성을 올려주는 자비스를 만든다",
@@ -393,7 +393,7 @@
           "status": "in-progress",
           "quarter": "2025 Q2",
           "title": "Windows 지원",
-          "description": "Eden Project를 Windows 사용자에게 제공",
+          "description": "Eden를 Windows 사용자에게 제공",
           "features": [
             "Windows 10/11 빌드 (MSI 설치 프로그램)",
             "Windows 전용 화면 캡처",
@@ -551,13 +551,13 @@
   },
   "whyEdenComparison": {
     "badge": "비교",
-    "title": "Eden Project vs",
+    "title": "Eden vs",
     "subtitle": "클라우드 AI 서비스",
     "description": "ChatGPT Plus, GitHub Copilot, Claude Pro와 어떻게 비교되는지 보세요",
     "table": {
       "title": "주요 비교 테이블",
       "feature": "기능",
-      "eden": "Eden Project",
+      "eden": "Eden",
       "free": "무료",
       "chatgpt": "ChatGPT Plus",
       "copilot": "GitHub Copilot",
@@ -756,13 +756,13 @@
       ]
     },
     "savings": {
-      "title": "Eden Project으로 비용 절감",
+      "title": "Eden으로 비용 절감",
       "subtitle": "연간 수백 달러 절약",
       "monthly": "월간:",
       "annual": "연간:",
       "threeYear": "3년 총계:",
       "save": "Eden으로 ${amount} 절약",
-      "edenFree": "Eden Project: 영원히 $0",
+      "edenFree": "Eden: 영원히 $0",
       "mit": "MIT 라이센스 • 오픈 소스 • 숨겨진 비용 없음",
       "services": [
         {
@@ -825,7 +825,7 @@
       "description1": "만약 당신이",
       "highlight": "프라이버시, 소유권, 커스터마이징",
       "description2": "을 최첨단 성능보다 중요하게 생각한다면,",
-      "conclusion": "Eden Project가 확실한 선택입니다.",
+      "conclusion": "Eden가 확실한 선택입니다.",
       "cloudAI": {
         "title": "클라우드 AI를 선택하세요:",
         "items": [
@@ -836,7 +836,7 @@
         ]
       },
       "eden": {
-        "title": "Eden Project을 선택하세요:",
+        "title": "Eden을 선택하세요:",
         "items": [
           "프라이버시와 데이터 소유권이 중요한 경우",
           "지속적인 비용을 원하지 않는 경우",
@@ -847,7 +847,7 @@
     },
     "cta": {
       "title": "비용을 절약하고 프라이버시를 보호할 준비가 되셨나요?",
-      "description": "Eden Project를 지금 다운로드하세요 - 영원히 무료, 영원히 프라이빗",
+      "description": "Eden를 지금 다운로드하세요 - 영원히 무료, 영원히 프라이빗",
       "download": "지금 다운로드",
       "features": "모든 기능 보기"
     }
@@ -900,16 +900,16 @@
     },
     "philosophy": {
       "title": "우리의 프라이버시 철학",
-      "description": "프라이버시는 기능이 아닙니다 - 기본권입니다. 우리는 당신의 데이터가 당신에게만 속한다는 원칙으로 Eden Project를 구축했습니다."
+      "description": "프라이버시는 기능이 아닙니다 - 기본권입니다. 우리는 당신의 데이터가 당신에게만 속한다는 원칙으로 Eden를 구축했습니다."
     }
   },
   "resourcesDocumentation": {
     "title": "문서",
-    "subtitle": "Eden Project에 대해 알아야 할 모든 것",
+    "subtitle": "Eden에 대해 알아야 할 모든 것",
     "resources": [
       {
         "title": "사용자 가이드",
-        "description": "Eden Project 사용 완전 가이드",
+        "description": "Eden 사용 완전 가이드",
         "link": "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki"
       },
       {

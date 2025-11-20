@@ -1,6 +1,6 @@
-# Eden Project - Product Roadmap
+# Eden - Product Roadmap
 
-Vision, milestones, and future plans for Eden Project.
+Vision, milestones, and future plans for Eden.
 
 ---
 
@@ -114,7 +114,7 @@ Build the world's best **privacy-first, local-first AI assistant** that matches 
 
 ### v3.1.0 - Windows Support (Q2 2025)
 
-**Goal**: Bring Eden Project to Windows users
+**Goal**: Bring Eden to Windows users
 
 **Features**:
 
@@ -463,7 +463,7 @@ A: Test, report bugs, suggest features, contribute code, share with others, writ
 
 <div align="center">
 
-**Made with ❤️ by the Eden Project Community**
+**Made with Matthew by the Eden Community**
 
 **Your feedback shapes the future!**
 

@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://garden-of-eden-v3-page.pages.dev"), // ✅ 실제 도메인
 
   title: {
-    template: "%s | Eden", // 페이지별 제목 설정 시 "페이지명 | Eden Project"로 자동 완성
+    template: "%s | Eden", // 페이지별 제목 설정 시 "페이지명 | Eden"로 자동 완성
     default: "Eden - 나만의 프라이빗 AI", // 기본 제목
   },
 
@@ -12,14 +12,7 @@ export const metadata: Metadata = {
     "당신을 위한 하나 뿐인 AI. 100% 로컬 구동으로 완벽한 프라이버시를 보장합니다.",
 
   // ✅ 1. 키워드 추가 (일부 검색 엔진에 도움됨)
-  keywords: [
-    "AI",
-    "Local AI",
-    "Privacy",
-    "Offline AI",
-    "Eden Project",
-    "인공지능",
-  ],
+  keywords: ["AI", "Local AI", "Privacy", "Offline AI", "Eden", "인공지능"],
 
   // ✅ 2. 검색 로봇 제어 (확실하게 긁어가라고 명시)
   robots: {
@@ -38,16 +31,16 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Eden Project",
+    title: "Eden",
     description: "당신을 위한 하나 뿐인 AI",
     url: "/",
-    siteName: "Eden Project",
+    siteName: "Eden",
     images: [
       {
         url: "/Opengraph.png", // ✅ public 폴더의 이미지
         width: 1200,
         height: 630,
-        alt: "Eden Project Preview",
+        alt: "Eden Preview",
       },
     ],
     locale: "ko_KR",

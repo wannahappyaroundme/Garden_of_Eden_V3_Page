@@ -165,7 +165,7 @@ export default function Navbar() {
             href={`/${locale}`}
             className="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-all"
           >
-            Eden Project
+            Eden
           </Link>
 
           {/* Desktop Menu */}

@@ -1,6 +1,6 @@
 # Deployment Guide
 
-Complete guide to deploying Eden Project to production.
+Complete guide to deploying Eden to production.
 
 ---
 
@@ -22,7 +22,7 @@ Complete guide to deploying Eden Project to production.
 
 ### Build Architecture
 
-Eden Project uses:
+Eden uses:
 
 - **Framework**: Tauri 2.9
 - **Build System**: Tauri CLI + cargo
@@ -124,7 +124,7 @@ export CSC_IDENTITY_AUTO_DISCOVERY=false  # Disable auto signing (we'll sign man
 npm run build:mac
 ```
 
-**Output**: `src-tauri/target/release/bundle/dmg/Eden Project_[version]_aarch64.dmg`
+**Output**: `src-tauri/target/release/bundle/dmg/Eden_[version]_aarch64.dmg`
 
 ### 4. Build for Windows (Future)
 
@@ -133,7 +133,7 @@ npm run build:mac
 npm run build:win
 ```
 
-**Output**: `src-tauri/target/release/bundle/msi/Eden Project_[version]_x64.msi`
+**Output**: `src-tauri/target/release/bundle/msi/Eden_[version]_x64.msi`
 
 ---
 
@@ -161,7 +161,7 @@ security find-identity -v -p codesigning
 
 ```bash
 # Define variables
-DMG_PATH="src-tauri/target/release/bundle/dmg/Eden Project_3.0.4_aarch64.dmg"
+DMG_PATH="src-tauri/target/release/bundle/dmg/Eden_3.0.4_aarch64.dmg"
 IDENTITY="Developer ID Application: Your Name (TEAM_ID)"
 
 # Sign the DMG
@@ -216,7 +216,7 @@ spctl --assess --type open --context context:primary-signature "$DMG_PATH"
 
 ```bash
 # Use SignTool from Windows SDK
-signtool sign /f certificate.pfx /p password /t http://timestamp.digicert.com "Eden Project.msi"
+signtool sign /f certificate.pfx /p password /t http://timestamp.digicert.com "Eden.msi"
 ```
 
 ---
@@ -255,7 +255,7 @@ git push origin v3.0.4
 ```bash
 # Create release
 gh release create v3.0.4 \
-  --title "Eden Project - v3.0.4" \
+  --title "Eden - v3.0.4" \
   --notes "$(cat RELEASE_NOTES.md)" \
   release/v3.0.4/*.dmg \
   release/v3.0.4/SHA256SUMS.txt
@@ -266,7 +266,7 @@ gh release create v3.0.4 \
 1. Go to https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases
 2. Click "Draft a new release"
 3. Tag: `v3.0.4`
-4. Title: `Eden Project - v3.0.4`
+4. Title: `Eden - v3.0.4`
 5. Description: Paste from `RELEASE_NOTES.md`
 6. Upload files:
    - `Garden-of-Eden-V3-macOS-v3.0.4.dmg`
@@ -277,7 +277,7 @@ gh release create v3.0.4 \
 ### 4. Release Notes Template
 
 ```markdown
-# 🌳 Eden Project - v3.0.4
+# 🌳 Eden - v3.0.4
 
 ## 🎉 What's New
 
@@ -318,7 +318,7 @@ gh release create v3.0.4 \
 
 1. Download DMG file
 2. Open DMG
-3. Drag "Eden Project" to Applications
+3. Drag "Eden" to Applications
 4. Launch and follow onboarding
 
 ### Verification
@@ -378,11 +378,11 @@ cask "garden-of-eden" do
   sha256 "abc123..."
 
   url "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/releases/download/v#{version}/Garden-of-Eden-V3-macOS-v#{version}.dmg"
-  name "Eden Project"
+  name "Eden"
   desc "100% local, privacy-first AI assistant"
   homepage "https://github.com/wannahappyaroundme/Garden_of_Eden_V3"
 
-  app "Eden Project.app"
+  app "Eden.app"
 end
 ```
 
@@ -415,10 +415,10 @@ hdiutil attach test.dmg
 
 # Copy to Applications (in test folder)
 mkdir -p ~/Desktop/TestInstall
-cp -R "/Volumes/Eden Project/Eden Project.app" ~/Desktop/TestInstall/
+cp -R "/Volumes/Eden/Eden.app" ~/Desktop/TestInstall/
 
 # Unmount
-hdiutil detach "/Volumes/Eden Project"
+hdiutil detach "/Volumes/Eden"
 
 # Launch
 open ~/Desktop/TestInstall/Garden\ of\ Eden\ V3.app

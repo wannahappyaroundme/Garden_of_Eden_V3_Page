@@ -1,6 +1,6 @@
 # Translation Structures Analysis Report
 
-## Eden Project Website - 7 New Pages
+## Eden Website - 7 New Pages
 
 **Date**: 2025-11-17
 **Files Analyzed**:

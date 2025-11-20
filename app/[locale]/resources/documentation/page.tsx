@@ -15,7 +15,7 @@ export default function DocumentationPage() {
     {
       icon: Book,
       title: "User Guide",
-      description: "Complete guide to using Eden Project",
+      description: "Complete guide to using Eden",
       link: "https://github.com/wannahappyaroundme/Garden_of_Eden_V3/wiki",
       color: "from-white to-gray-100",
     },

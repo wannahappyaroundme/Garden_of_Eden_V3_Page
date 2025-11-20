@@ -1,6 +1,6 @@
 # 콘텐츠 수정 가이드 (Content Editing Guide)
 
-Eden Project 웹사이트의 콘텐츠를 수정하는 방법을 안내합니다.
+Eden 웹사이트의 콘텐츠를 수정하는 방법을 안내합니다.
 
 ---
 
@@ -41,7 +41,7 @@ Eden Project 웹사이트의 콘텐츠를 수정하는 방법을 안내합니다
   "hero": {
     "title": "완전한 프라이버시를 가진 AI", // ← 이 부분을 수정
     "subtitle": "당신의",
-    "description": "Eden Project는 100% 로컬에서 작동하는 AI 어시스턴트입니다."
+    "description": "Eden은 100% 로컬에서 작동하는 AI 어시스턴트입니다."
   }
 }
 ```
@@ -53,7 +53,7 @@ Eden Project 웹사이트의 콘텐츠를 수정하는 방법을 안내합니다
   "hero": {
     "title": "AI with Complete Privacy", // ← 이 부분을 수정
     "subtitle": "Your",
-    "description": "Eden Project is an AI assistant that runs 100% locally."
+    "description": "Eden is an AI assistant that runs 100% locally."
   }
 }
 ```
@@ -89,7 +89,7 @@ Eden Project 웹사이트의 콘텐츠를 수정하는 방법을 안내합니다
 const words =
   locale === "ko"
     ? ["동반자", "절친", "동료", "반쪽"] // ← 한국어 단어 수정
-    : ["companion", "best friend", "colleague", "other half"]; // ← 영어 단어 수정
+    : ["companion", "best friend", "soulmate", "another half"]; // ← 영어 단어 수정
 ```
 
 ### 예시: 단어 추가/변경
@@ -257,4 +257,4 @@ npm run start
 ---
 
 **마지막 업데이트**: 2025년 1월
-**버전**: Eden Project Website 2.0
+**버전**: Eden Website 2.0
