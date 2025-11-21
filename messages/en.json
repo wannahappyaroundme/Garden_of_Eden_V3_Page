@@ -273,7 +273,7 @@
     "stat4": "Complete",
     "benchmarks": {
       "title": "AI Benchmark Scores",
-      "humanEval": "HumanEval (Coding):",
+      "humaneval": "HumanEval (Coding):",
       "humanEvalComparison": "vs Claude 3.5: 88%, GPT-4: 85%",
       "mmlu": "MMLU (General Knowledge):",
       "quantization": "Q4_K_M Quantization:",

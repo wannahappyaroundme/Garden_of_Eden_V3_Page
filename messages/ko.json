@@ -70,7 +70,7 @@
     "response": "응답 시간",
     "models": "로컬 AI 모델",
     "parameters": "페르소나 파라미터",
-    "humanEval": "인간다움"
+    "humaneval": "인간다움"
   },
   "dualMode": {
     "title": "듀얼 모드 인텔리전스",
@@ -273,7 +273,7 @@
     "stat4": "완성도",
     "benchmarks": {
       "title": "AI 벤치마크 점수",
-      "humanEval": "HumanEval (코딩):",
+      "humaneval": "HumanEval (코딩):",
       "humanEvalComparison": "vs Claude 3.5: 88%, GPT-4: 85%",
       "mmlu": "MMLU (일반 지식):",
       "quantization": "Q4_K_M 양자화:",

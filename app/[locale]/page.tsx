@@ -228,7 +228,7 @@ export default function Home() {
               { num: "2-4s", label: t("stats.response") },
               { num: "3", label: t("stats.models") },
               { num: "17", label: t("stats.parameters") },
-              { num: "85%", label: t("stats.complete") },
+              { num: "85%", label: t("stats.humaneval") },
             ].map((stat, idx) => (
               <motion.div
                 key={idx}
@@ -288,7 +288,10 @@ export default function Home() {
       </section>
 
       {/* Coming Soon Modal */}
-      <ComingSoonModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <ComingSoonModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </main>
   );
 }
