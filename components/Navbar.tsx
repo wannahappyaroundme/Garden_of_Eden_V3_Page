@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
@@ -163,9 +164,16 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href={`/${locale}`}
-            className="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-all"
+            className="flex items-center hover:opacity-80 transition-opacity"
           >
-            Eden
+            <Image
+              src="/logo.png"
+              alt="Eden Logo"
+              width={120}
+              height={40}
+              className="h-10 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Menu */}
