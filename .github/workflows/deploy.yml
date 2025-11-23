@@ -33,10 +33,15 @@ jobs:
       - name: Clean build cache
         run: rm -rf .next
 
-      - name: Verify src/i18n/request.ts exists
+      - name: Verify i18n files exist
         run: |
+          echo "=== Checking src/i18n/request.ts ==="
           ls -la src/i18n/
           cat src/i18n/request.ts
+          echo ""
+          echo "=== Checking middleware.ts ==="
+          ls -la middleware.ts
+          cat middleware.ts
 
       - name: Build with Next.js
         run: npm run build
