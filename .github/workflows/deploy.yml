@@ -35,13 +35,12 @@ jobs:
 
       - name: Verify i18n files exist
         run: |
-          echo "=== Checking src/i18n/request.ts ==="
-          ls -la src/i18n/
-          cat src/i18n/request.ts
+          echo "=== Checking src/i18n.ts ==="
+          ls -la src/
+          cat src/i18n.ts
           echo ""
-          echo "=== Checking middleware.ts ==="
-          ls -la middleware.ts
-          cat middleware.ts
+          echo "=== Checking next.config.mjs ==="
+          cat next.config.mjs
 
       - name: Build with Next.js
         run: npm run build
