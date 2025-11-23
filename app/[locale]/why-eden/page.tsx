@@ -1,3 +1,5 @@
+"use client";
+
 import { useTranslations } from 'next-intl';
 import { Shield, Lock, Eye, Server, Database, Key } from 'lucide-react';
 
