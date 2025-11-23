@@ -167,7 +167,7 @@ export default function Navbar() {
             className="flex items-center hover:opacity-80 transition-opacity"
           >
             <Image
-              src="/logo.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/logo.png`}
               alt="Eden Logo"
               width={120}
               height={40}
