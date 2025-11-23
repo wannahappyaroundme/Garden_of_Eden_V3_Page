@@ -25,11 +25,6 @@ yarn-error.log*
 # local env files
 .env*.local
 
-# cloudflare
-.open-next/
-.worker-next/
-.wrangler/
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts
