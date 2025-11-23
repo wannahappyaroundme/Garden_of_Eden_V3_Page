@@ -33,6 +33,11 @@ jobs:
       - name: Clean build cache
         run: rm -rf .next
 
+      - name: Verify src/i18n/request.ts exists
+        run: |
+          ls -la src/i18n/
+          cat src/i18n/request.ts
+
       - name: Build with Next.js
         run: npm run build
         env:
