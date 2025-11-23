@@ -8,6 +8,9 @@ import "./globals.css";
 // ✅ 1. 지원하는 언어 정의 (이 부분이 빠져서 에러가 났습니다)
 const locales = ["en", "ko"];
 
+// Force static generation for all pages
+export const dynamic = 'force-static';
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://garden-of-eden-v3-page.pages.dev"),
 

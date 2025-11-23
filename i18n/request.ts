@@ -1,15 +1,18 @@
 import { getRequestConfig } from 'next-intl/server';
-import { locales } from '../i18n';
 
-export default getRequestConfig(async ({ locale }) => {
-  // Validate that the incoming `locale` parameter is valid
-  let validLocale: string = locale || 'en';
-  if (!locales.includes(validLocale as any)) {
-    validLocale = 'en';
+export const locales = ['en', 'ko'] as const;
+
+export default getRequestConfig(async ({ requestLocale }) => {
+  // This typically corresponds to the `[locale]` segment
+  let locale = await requestLocale;
+
+  // Ensure that a valid locale is used
+  if (!locale || !locales.includes(locale as any)) {
+    locale = 'en';
   }
 
   return {
-    locale: validLocale,
-    messages: (await import(`../messages/${validLocale}.json`)).default
+    locale,
+    messages: (await import(`../messages/${locale}.json`)).default
   };
 });
