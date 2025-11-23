@@ -33,15 +33,6 @@ jobs:
       - name: Clean build cache
         run: rm -rf .next
 
-      - name: Verify i18n files exist
-        run: |
-          echo "=== Checking src/i18n.ts ==="
-          ls -la src/
-          cat src/i18n.ts
-          echo ""
-          echo "=== Checking next.config.mjs ==="
-          cat next.config.mjs
-
       - name: Build with Next.js
         run: npm run build
         env:
