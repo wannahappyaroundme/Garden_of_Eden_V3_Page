@@ -9,6 +9,10 @@
 # next.js
 /.next/
 /out/
+.open-next/
+.worker-next/
+.wrangler/
+.vercel/
 
 # production
 /build
